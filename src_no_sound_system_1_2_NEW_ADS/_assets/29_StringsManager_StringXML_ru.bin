@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+	
+	<string name="newline" value="&#10;"/>
+	
+	<string name="tutorial_0"  value="коснитесь слева или справа, чтобы идти."/>
+	<string name="tutorial_1"  value="соберите все колокольчики, спрятанные на уровне."/>
+	<string name="tutorial_2"  value="наступите на шахматную клетку, чтобы завершить уровень."/>
+	<string name="tutorial_3"  value="идите прямо в стену, чтобы начать карабкаться."/>
+	<string name="tutorial_4"  value="дважды коснитесь и удерживайте слева или справа, чтобы бежать."/>
+	<string name="tutorial_5"  value="коснитесь с противоположной стороны, когда карабкаетесь, чтоб прыгнуть со стены."/>
+	<string name="tutorial_6"  value="бегите прямо в скалу, чтобы прыгнуть."/>
+	<string name="tutorial_7"  value="когда вы врезаетесь в миньонов, они вас оглушают - осторожней!"/>
+	<string name="tutorial_8"  value="бегите прямо в стену, чтобы сделать удар головой."/>
+	<string name="tutorial_9"  value="найдите ключ, чтобы открыть двери."/>
+	<string name="tutorial_10" value="коснитесь слева или справа, чтобы всплыть."/>
+	<string name="tutorial_11" value="нажмите котокнопку, чтобы сменить кота."/>
+	<string name="tutorial_12" value="бегите прямо в кирпичную стену, чтобы разрушить ее."/>
+	<string name="tutorial_14" value="пробираться в небольшие щели."/>
+	<string name="tutorial_15" value="нельзя бегать по высокой траве."/>
+	<string name="tutorial_16" value="столкнуться с врагами, чтобы нокаутировать их."/>
+	<string name="tutorial_17" value="залезьте в пушку и коснитесь, чтобы взлететь."/>
+	<string name="tutorial_18" value="встаньте напротив двери, чтобы войти."/>
+	<string name="tutorial_19" value="бегите по дорожке, чтобы сдвинуть препятствия."/>
+	<string name="tutorial_20" value="атакуйте врагов в воздухе, чтобы сделать двойной прыжок."/>
+	
+	
+	<string name="tutorial_fishing_1" value="коснитесь экрана, чтобы забросить приманку."/>
+	<string name="tutorial_fishing_2" value="дайте приманке уйти под воду или коснитесь экрана, чтобы ее вытащить."/>
+	<string name="tutorial_fishing_3" value="наведите приманку на рыбу."/>
+	<string name="tutorial_fishing_4" value="коснитесь и удерживайте направление стрелки."/>
+	
+	<string name="level_world"  value="мир" />
+	<string name="best_time"    value="лучшее время"/> 
+	<string name="level_clear"  value="уровень пройден"/>
+	<string name="secret_exit"  value="секретный выход"/>
+	<string name="time"         value="время"/>
+	<string name="perfect"      value="идеально"/>
+	<string name="best"         value="лучшее"/>
+	<string name="fishing_points" value="места ловли"/> 
+	<string name="continue"     value="коснитесь, чтобы продолжить."/>
+	<string name="level_up"     value="новый уровень!"/>
+	<string name="cat_name_1"   value="алекс"/>
+	<string name="cat_name_2"   value="макмяу"/>
+	<string name="cat_name_3"   value="шинджи"/>
+	<string name="cat_name_4"   value="куро"/>
+	<string name="cat_name_5"   value="эми"/>
+	<string name="cat_name_6"   value="олли"/>
+	<string name="cat_joins"    value="в команде"/>
+	<string name="boss_desc_0"  value="свирепая ящерица"/> 
+	<string name="boss_desc_1"  value="громадная рыбина"/> 
+	
+	<string name="level_name_251" value="пыльцевая паника"/>
+	<string name="level_name_252" value="песчаные водопады"/>
+	<string name="level_name_253" value="подводная пещера"/>
+	
+	<string name="level_name_10000" value="место ловли 1"/>
+	<string name="level_name_10001" value="место ловли 2"/>
+	<string name="level_name_10002" value="место ловли 3"/>
+	
+  	<string name="level_name_1" value="новая миссия"/>
+	<string name="level_name_2" value="радиостанция"/>
+	<string name="level_name_3" value="цветущий холм"/>
+	<string name="level_name_4" value="пчелиный улей"/>
+	<string name="level_name_5" value="база p.a.w.s."/> 
+	<string name="level_name_6" value="кактусовые равнины"/>
+	<string name="level_name_7" value="падающие камни"/>
+	<string name="level_name_8" value="лесная крепость"/>
+	<string name="level_name_9" value="песчаный берег"/>
+	<string name="level_name_10" value="руины храма"/>
+	<string name="level_name_11" value="висячие веревки"/>
+	<string name="level_name_12" value="крабовый маяк"/>
+	<string name="level_name_13" value="портобелло"/> 
+	<string name="level_name_14" value="затонувший корабль"/>
+	<string name="level_name_15" value="пылающий айсберг"/>
+	<string name="level_name_16" value="ледяная крепость"/>
+	
+	
+	<string name="intro_cutscene1_1" value="[hor_wave] [red] роуз [/red] [backspace] , ты меня слышишь? [/hor_wave]"/> 
+	<string name="intro_cutscene1_2" value="слышу хорошо."/>
+	<string name="intro_cutscene1_3" value="[shake] ой! [/shake]"/>
+	<string name="intro_cutscene1_4" value="едва пронесло.."/>
+	<string name="intro_cutscene1_5" value="я доберусь до [red] радиостанции [/red] сам."/>
+	<string name="intro_cutscene1_6" value="возьми, нужно передать эти коды на базу."/>
+	<string name="intro_cutscene1_7" value="удачи, [red] паскаль [/red] [backspace] ."/>
+	
+	<string name="world_0_cutscene1_1" value="[red] радиостанция [/red] [backspace] !"/> 
+	<string name="world_0_cutscene1_2" value="..как раз то, что мне нужно."/>
+	<string name="world_0_cutscene1_3" value="[shake] эй! [/shake] отдай!"/>
+	
+	<string name="world_0_cutscene2_1" value="с тобой все в порядке?"/> 
+	<string name="world_0_cutscene2_2" value="[wave] ээ.. [/wave] не совсем."/>
+	<string name="world_0_cutscene2_3" value="нельзя терять времени — побежали!"/>
+	<string name="world_0_cutscene2_4" value="помни, я могу протиснуться в узкий проход."/>
+	
+	<string name="npc_helmet_tomo_1" value="добро пожаловать на [red] базу p.a.w.s. [/red] [backspace]"/>
+	<string name="npc_pig_1"         value="я отвечаю за припасы. у меня ничего не пропадает.. почти!"/>
+	<string name="npc_wombat_1"      value="земля сухая."/>
+	<string name="npc_helmet_tomo_2" value="иди к своим друзьям, они внутри."/>
+	<string name="npc_helmet_tomo_3" value="удачи в следующей миссии!"/>
+	<string name="npc_wombat_2"      value="моя еда застряла."/>
+	<string name="npc_scientist_1"   value="этот маленький робот – наш первый прототип."/>
+	<string name="npc_kit_1" 		 value="эй, у тебя есть диск с данными?"/>
+	<string name="npc_green_tomo_1"  value="встань на желтую платформу, чтобы подняться на верхний этаж."/>
+	<string name="npc_acorn_1"       value="как дела с выполнением [red] ежедневных заданий [/red] ?"/>
+	<string name="npc_acorn_2"       value="удалось найти секретный вход на озеро?"/>
+	<string name="npc_acorn_3"       value="тебе нравится мой помощник?"/>
+	<string name="npc_zak_1"        value="я настрою грузовик для следующей миссии."/>
+	<string name="npc_olli_1"        value="интересно, почему этот диск такой важный.."/>
+	<string name="npc_olli_2" value="сможешь ли ты найти все 10 скрытых тыкв? награда ждет!"/>
+	<string name="npc_black_duck_1"  value="заезжай в деревни почаще, чтобы знать, что происходит."/>
+	<string name="npc_worker_1"      value="я работаю в городском совете хикари."/>
+	<string name="npc_mole_1"        value="эти трубы собирают воду на большой глубине."/>
+	<string name="npc_white_mouse_1" value="я хочу мороженого."/>
+	<string name="npc_white_mouse_2" value="что? у тебя есть мороженое..?"/>
+	<string name="npc_white_mouse_3" value="[shake] давай сюда!! [/shake]"/>
+	<string name="npc_white_mouse_4" value="[wave] ням-ням! [/wave] вот, возьми.. [pause] мне все равно не нужно."/>
+	<!--<string name="npc_tomo_punk_1"   value="я доделываю аркаду. пойди поиграй!"/>-->
+	<string name="npc_tomo_punk_1" value="привет! посмотри на новый автомат с гачапонами."/>
+	<string name="npc_mole_2"        value="хочешь прокатиться на лифте?"/>
+	<string name="npc_mole_3"        value="отлично. едем вверх!"/>
+	<string name="npc_mole_4"        value="мы строим метеорологическую станцию."/>
+	<string name="npc_acorn_6"       value="здесь цветы не растут. может, дело в почве.."/>
+	<string name="npc_acorn_7"       value="прекрасные цветы, спасибо за помощь."/>
+	<string name="npc_acorn_8"       value="вот тебе награда!"/>
+	<string name="npc_vending_1"     value="купишь конфету?"/>
+	<string name="npc_vending_2"     value="[hor_wave] недостаточно монет. [/hor_wave]"/>
+	
+	<string name="npc_zak_2" value="говорят, что кошки приносят удачу на хэллоуин."/>
+	<string name="npc_tomo_punk_2" value="попробуйте flappy bat, я добавил его как раз к хэллоуину!"/>
+	<string name="npc_zombie_1" value="гееееньки... [pause] я имею в виду, угощения!"/>
+	<string name="npc_wombat_3" value="уже нашли тыквы?"/>
+	<string name="npc_pig_3" value="сладость или гадость? а как насчет обоих? [hor_wave] хаха! [/hor_wave]."/>
+
+	<string name="halloween_cutscene_0_0" value="ну, ну, ну, посмотрите кто вернулся! вы действительно нашли все 10 тыкв, не так ли?"/>
+	<string name="halloween_cutscene_0_1" value="давайте посмотрим, 1, [pause] 2, [pause] 3... [pause] и все 10! [hor_wave] молодец! [/hor_wave]"/>
+	<string name="halloween_cutscene_0_2" value="вот ваша награда. 500 блестящих монет!"/>
+	
+	<string name="play_arcade_1" value="сыграть в mega pang?"/> 
+	<string name="play_gacha_1" value="купить гачапон?"/>
+	<string name="play_arcade_2" value="сыграть в flappy bat?"/>
+
+
+	
+	
+	<string name="world_0_cutscene4_1" value="мы опаздываем."/> 
+	<string name="world_0_cutscene4_2" value="я знаю, [red] профессор двенадцать [/red] [backspace] .."/>
+	<string name="world_0_cutscene4_3" value="..но мы пока не можем использовать роботов."/>
+	<string name="world_0_cutscene4_4" value="никаких отговорок, [red] макмяу [/red] [backspace] ."/>
+	<string name="world_0_cutscene4_4_0" value="выполнять!"/>
+	<string name="world_0_cutscene4_5" value="слушай сюда."/>
+	<string name="world_0_cutscene4_6" value="нужно достать диск с данными.."/>
+	<string name="npc_mcmeow_1" value="говорят, бандитов видели в каньоне."/>
+	<string name="npc_mcmeow_2" value="похоже, бандиты до сих пор в бегах."/>
+	<string name="world_0_cutscene4_8" value="понятно!"/>
+	<string name="world_0_cutscene4_9" value="возьми ключ и за дело!"/>
+	
+	<string name="world_0_cutscene5_1" value="[red] паскаль [/red] [backspace] ."/> 
+	<string name="world_0_cutscene5_2" value="[red] роуз [/red] [backspace] ."/> 
+	<string name="world_0_cutscene5_3" value="все говорят про твой провал."/>
+	<string name="world_0_cutscene5_4" value="сержант хочет тебя видеть."/>
+	<string name="world_0_cutscene5_5" value="отправляйся к нему на верхний этаж.."/>
+	<string name="world_0_cutscene5_6" value="..если хоть это тебе по силам. [hor_wave] п-ф-ф! [/hor_wave]"/>
+	
+	<string name="world_0_cutscene6_1" value="[wave] мх.. [/wave]"/>
+	<string name="world_0_cutscene6_2" value="кажется, вход в каньон заперт."/>
+	<string name="world_0_cutscene6_3" value="лучше вернуться на [red] базу p.a.w.s. [/red] и найти ключ."/>
+	
+	<string name="shop_cutscene1_0" value="привет! добро пожаловать в магазин!"/> 
+	<string name="shop_cutscene1_1" value="добро пожаловать в магазин!"/>
+	<string name="shop_cutscene1_2" value="у меня есть чумовые прикиды и полезные помощники для твоей ячейки."/>
+	<string name="shop_cutscene1_3" value="..помощники для ячейки?"/>
+	<string name="shop_cutscene1_4" value="все верно!"/>
+	<string name="shop_cutscene1_5" value="ячейка помощника находится в верхнем левом углу экрана. смотри!"/>
+	<string name="shop_cutscene1_6" value="коснись ее и выбери помощников, нужных тебе в путешествии, или загляни в сумку."/>
+	<string name="shop_cutscene1_7" value="давай покажу товары!"/>
+	<string name="shop_cutscene1_8" value="нажми ячейку, чтобы в любой момент попасть в магазин и выбрать себе помощников."/>
+	<string name="shop_cutscene1_9" value="спасибо! приходи еще!"/>
+	
+	<string name="world_0_cutscene7_1" value="[red] ригз [/red] [backspace] ! наша цель прячется в верхней башне."/> 
+	<string name="world_0_cutscene7_2" value="иди вперед, а я срежу путь!"/>
+	
+	<string name="world_0_cutscene8_1" value="[hor_wave] опять ты?! [/hor_wave]"/>  
+	<string name="world_0_cutscene8_2" value="похоже, на обед у нас кошатина.. [shake] ха-ха-ха [/shake]"/>
+	
+	<string name="world_0_cutscene9_0" value="[hor_wave] диск с данными! [/hor_wave]"/>
+	<string name="world_0_cutscene9_1" value="[wave] привет, милаха [/wave]"/>
+	<string name="world_0_cutscene9_2" value="[wave] ооо, какая прелесть [/wave]"/>
+	<string name="world_0_cutscene9_3" value="это я возьму с собой, если ты не возражаешь."/>
+	
+	<string name="world_0_fishing_0" value="привет! я [red] терье [/red] , рыбак."/> 
+	<string name="world_0_fishing_1" value="обзаведись удочкой и приходи — я тебе покажу пару трюков."/>
+	<string name="world_0_fishing_2" value="эй, ты мне всю рыбу распугаешь."/>
+	<string name="world_0_fishing_3" value="[hor_wave] кыш! [/hor_wave]"/>
+	<string name="world_0_fishing_4" value="вижу, у тебя славная удочка, [pause] не хочешь порыбачить?"/> 
+	<string name="world_0_fishing_5" value="это просто, только выполняй инструкции на экране."/>
+	<string name="world_0_fishing_6" value="когда что-нибудь поймаешь, приходи ко мне в [red] портобелло [/red] ."/>
+	<string name="world_0_fishing_7" value="[hor_wave] развлекайся! [/hor_wave]"/>
+
+	
+	<string name="world_2_cutscene0_1" value="ситуация хуже, чем мы думали."/> 
+	<string name="world_2_cutscene0_2" value="эти бандиты.. [pause] они не шутят!"/>
+	<string name="world_2_cutscene0_3" value="вы должны их остановить."/>
+	<string name="world_2_cutscene0_4" value="вас понял, сержант. я разберусь."/>
+	<string name="world_2_cutscene0_5" value="я имел в виду всех троих."/>
+	<string name="world_2_cutscene0_6" value="[hor_wave] но.. [/hor_wave]"/>
+	<string name="world_2_cutscene0_7" value="никаких но! отправляйтесь в деревню [red] портобелло [/red] [backspace] ."/>
+	<string name="world_2_cutscene0_8" value="удачи, [red] p.a.w.s. [/red]"/>
+	<string name="world_2_cutscene0_9" value="эй! ты куда?"/>
+	<string name="world_2_cutscene0_10" value="[red] макмяу [/red] сказал работать вместе!"/>
+	<string name="world_2_cutscene0_11" value="[hor_wave] ох.. [/hor_wave] ну ладно."/>
+	<string name="world_2_cutscene0_12" value="помни, я могу делать двойной прыжок, атакуя врагов."/>
+	
+	<string name="npc_lobster_1" value="добро пожаловать в [red] портобелло [/red] [backspace] !"/>
+	<string name="npc_lobster_2" value="ветер тут бывает холодным. подозреваю, это из-за айсберга."/>
+	<string name="npc_lobster_3" value="до скорой встречи!"/>
+	<string name="npc_lobster_4" value="места ловли меняются в зависимости от часового пояса."/>
+	<string name="npc_sailor_tomo_1" value="вижу гигантский айсберг на горизонте."/>
+	<string name="npc_sailor_tomo_2" value="тебе когда-нибудь попадалась редкая рыба? или золотая?"/>
+	<string name="npc_sailor_tomo_3" value="здесь так тихо.."/>
+	<string name="npc_pig_2"          value="одни рыбы ловятся ночью, другие — днем."/>
+	<string name="npc_black_duck_2"  value="выполняй [red] ежедневные задания [/red] каждый день, чтобы получать больше монет."/>
+	<string name="npc_beach_1" value="это мой любимый пляж."/>
+	<string name="npc_beach_2" value="я король пляжа, [hor_wave] ха-ха! [/hor_wave]"/>
+	<string name="npc_beach_3" value="мне нельзя плавать на глубине."/>
+	<string name="npc_beach_4" value="сегодня солнечно!"/>
+	<string name="npc_beach_5" value="хочешь со мной посоревноваться?"/>
+	<string name="npc_beach_6" value="[hor_wave] еще как!! [/hor_wave]"/>
+	<string name="npc_beach_7" value="покажи, сколько раз ты сможешь отбить мяч."/>
+	<string name="npc_beach_8" value="приготовься.. [pause] [shake] давай!! [/shake]"/>
+	<string name="npc_beach_bad" value="чувак.. ты отстой! [hor_wave] ха-ха [/hor_wave]"/>
+	<string name="npc_beach_normal" value="[hor_wave] неплохо! [/hor_wave]"/>
+	<string name="npc_beach_good" value="дружище.. [hor_wave] это было круто! [/hor_wave]"/>
+	<string name="npc_guy_1" value="хочешь сплавать на отшельничий остров?"/>
+	<string name="npc_guy_2" value="[hor_wave] все на борт! [/hor_wave]"/>
+	<string name="npc_guy_3" value="я слышал, на отшельничьем острове кто-то живет."/>
+	<string name="npc_guy_4" value="отшельничий остров — отличное место для рыбалки."/>
+	<string name="npc_guy_5" value="я видел в этих водах акул, будь начеку."/>
+	<string name="npc_guy_11" value="наслаждайся островом, мон ами!"/>
+	<string name="npc_guy_12" value="я готовлю лодку к плаванию. приходи попозже!"/>
+	<string name="npc_shop_fish_1" value="[hor_wave] рыба, рыба!! [/hor_wave] я покупаю рыбу!"/>
+	<string name="npc_shop_fish_2" value="хочешь продать мне рыбу за"/>
+	<string name="npc_shop_fish_3" value="приноси еще рыбы."/>
+	<string name="npc_shop_inn_1" value="тебе нужна комната?"/>
+	<string name="npc_shop_inn_2" value="приятного отдыха."/>
+	<string name="npc_rose_1" value="хочешь покататься?"/>
+	<string name="npc_rose_2" value="супер, чур я за рулем!"/>
+	<string name="npc_rose_1_0" value="[red] паскаль [/red] [backspace] , почему ты такой стеснительный?"/>
+	<string name="npc_rose_1_2" value="эй.."/>
+	<string name="npc_rose_1_3" value="а [red] ригз [/red] симпатичный."/>
+	<string name="npc_mara_2" value="говорят, рыбацкая шапка помогает находить редкую и золотую рыбу."/>
+	<string name="npc_tomo_chef_1" value="я люблю готовить. какое твое любимое блюдо?"/>
+	<string name="npc_tomo_chef_2" value="спасибо за рыбу, вот твоя награда!"/>
+	<string name="npc_tomo_chef_3" value="я хочу приготовить рыбу. принеси мне 1 красную кефаль, и я тебя отблагодарю."/> 
+	<string name="npc_tomo_chef_4" value="я хочу приготовить кальмаров. принеси мне 3 штуки, и я тебя отблагодарю."/> 
+	<string name="npc_tomo_chef_5" value="я хочу поджарить осьминога. принеси мне одного, и я тебя отблагодарю."/> 
+	<string name="npc_acorn_4" value="я волнуюсь за дедушку, он тяжело болен."/>
+	<string name="npc_acorn_5" value=". . ."/>
+	<string name="npc_icecream_1" value="хочешь мороженого?"/>
+		
+	<string name="money_answer_cutscene_0" value="[wave] хмм.. [/wave] похоже, у тебя не хватает монет."/>
+	
+	<string name="npc_fisherman_1" value="хочешь улучшить свою удочку?"/>
+	<string name="npc_fisherman_2" value="открой новые места лова, и я улучшу твою удочку."/>
+	<string name="npc_fisherman_3" value="это займет не больше минуты."/>
+	<string name="npc_fisherman_4" value="[hor_wave] готово! [/hor_wave] рыбачь в удовольствие!"/>
+	
+	<string name="world_2_cutscene1_1" value="эй! [pause] ты из команды [red] p.a.w.s. [/red] , да?"/> 
+	<string name="world_2_cutscene1_2_0" value="[wave] э.. [/wave] мы знакомы?"/>
+	<string name="world_2_cutscene1_2_1" value="о, привет.. [pause] я так и не выудила твое имя. [hor_wave] ха-ха.. [/hor_wave]"/>
+	<string name="world_2_cutscene1_2_2" value="что? я тебя не знаю."/>
+	<string name="world_2_cutscene1_3" value="зови меня [red] мара [/red] [backspace] ."/>
+	<string name="world_2_cutscene1_4" value="нам надо поговорить. встретимся на верхушке колокольни."/>
+	
+	<string name="world_2_cutscene2_1" value="[red] макмяу [/red] сказал, что тебе нужна помощь."/> 
+	<string name="world_2_cutscene2_2" value="я могу провести тебя в [red] ледяную крепость [/red] [backspace] ."/>
+	<string name="world_2_cutscene2_3_0" value="здорово!"/>
+	<string name="world_2_cutscene2_3_1" value="чего мы ждем?"/>
+	<string name="world_2_cutscene2_4" value="не спеши, [hor_wave] ха-ха! [/hor_wave] [pause] не видишь, я рыбачу?"/>
+	<string name="world_2_cutscene2_5" value="[wave] хм.. [/wave] кстати о рыбалке.."/>
+	<string name="world_2_cutscene2_6" value="вижу, ты новичок."/>
+	<string name="world_2_cutscene2_7" value="[hor_wave] держи! [/hor_wave] эта удочка — тебе."/>
+	<string name="npc_mara_1" value="возвращайся, когда поймаешь хоть одну рыбу, и я присоединюсь к вашей команде."/>
+	
+
+	<string name="world_2_cutscene3_1" value="рыбалка — это весело, правда?"/> 
+	<string name="world_2_cutscene3_2_0" value="конечно! но мне надо немного подучиться.."/>
+	<string name="world_2_cutscene3_2_1" value="да уж, но водить грузовик [red] p.a.w.s. [/red] еще лучше!"/>
+	<string name="world_2_cutscene3_2_2" value="знаешь, что еще веселее? [pause] идти в [red] ледяную крепость [/red] [backspace] ."/>
+	<string name="world_2_cutscene3_3" value="я готова!"/>
+	<string name="world_2_cutscene3_4" value="помни, я могу плыть против сильного течения."/>
+	
+	<string name="world_2_cutscene4_0" value="[wave] привет, котик. [/wave]"/> 
+	<string name="world_2_cutscene4_1" value="ты как раз вовремя, чтобы познакомиться с моей подружкой.."/>
+	<string name="world_2_cutscene4_2" value="это тот негодяй, о котором я тебе рассказывала.."/>
+	<string name="world_2_cutscene4_3" value="[hor_wave] ты!! [/hor_wave] [pause] как ты смеешь грубить моему дорогому [red] месе [/red] [backspace] !"/>
+	<string name="world_2_cutscene4_4_0" value="эй, постой-ка!"/>
+	<string name="world_2_cutscene4_4_4" value="[wave] э-э.. [/wave]"/>
+	<string name="world_2_cutscene4_4_2" value="так что там?"/>
+	<string name="world_2_cutscene4_4_3" value="я не знаю, о чем ты, сестренка."/>
+	<string name="world_2_cutscene4_5" value="[hor_wave] р-р-р.. [/hor_wave] [pause] ну, погоди!"/>
+	<string name="world_2_cutscene4_6" value="[hor_wave] ха-ха! [/hor_wave] [pause] развлекайся!"/>
+	
+	<string name="world_2_cutscene5_0" value="не ждал меня увидеть?"/>  
+	<string name="world_2_cutscene5_1_0" value="ох.. это было похоже на землетрясение!"/>
+	<string name="world_2_cutscene5_1_4" value="..не совсем. готовься драться!"/>
+	<string name="world_2_cutscene5_1_2" value="сколько можно, [hor_wave] сдавайся уже! [hor_wave]"/>
+	<string name="world_2_cutscene5_1_3" value="[hor_wave] ха! [/hor_wave] ты — мелкая рыбешка, сестренка."/>
+	
+	<string name="world_2_cutscene5_2" value="[hor_wave] г-р-р.. [/hor_wave] [pause] я тебя в порошок сотру!"/> 
+	<string name="world_2_cutscene5_3" value="[shake] ты меня толстой назвал?! [/shake]"/>
+	<string name="world_2_cutscene5_4" value="[hor_wave] ура! [/hor_wave] у нас получилось!"/>
+	<string name="world_2_cutscene5_5" value="босс."/>
+	<string name="world_2_cutscene5_6" value="в чем дело?"/>
+	<string name="world_2_cutscene5_7" value="они расправились с [red] хлои [/red] [backspace] ."/>
+	<string name="world_2_cutscene5_8" value="что ж.."/>
+	<string name="world_2_cutscene5_9" value="мое проклятье никуда не денется."/>
+	<string name="world_2_cutscene5_10" value="пора мне вмешаться."/>
+	
+	<string name="world_2_cutscene6_0" value="эй, я вижу землю."/>
+	<string name="world_2_cutscene6_1" value="причаливаем."/>
+	
+	<string name="world_2_cutscene7_0" value="[hor_wave] прошу прощения. [/hor_wave]"/>
+	<string name="world_2_cutscene7_1" value="комнаты только для постояльцев."/> 
+				
+	
+	<string name="panel_pause" value="пауза"/>
+	<string name="panel_shop"  value="магазин"/>
+	<string name="panel_buy"   value="купить"/>
+	<string name="panel_equip" value="использовать"/>
+	<string name="panel_remove" value="убрать"/> 
+	<string name="panel_premium_title" value="премиум"/>
+	<string name="panel_premium_vip_title" value="вип премиум"/>
+	<string name="panel_premium_text" value="убрать рекламу из игры?"/>
+	<string name="panel_premium_text_1" value="убрать рекламу"/>
+	<string name="panel_premium_text_2" value="цены -50 %"/>
+	<string name="panel_premium_text_3" value="экскл. одежда"/>
+	<string name="panel_unlock_gate_title" value="ворота"/>
+	<string name="panel_unlock_gate_text" value="недостаточно колокольчиков. купить билет, чтобы открыть ворота?"/>
+	<string name="panel_game_over_title" value="ой!"/>
+	<string name="panel_game_over_text" value="цель близка! посмотреть рекламу и продолжить?"/>
+	
+	<string name="panel_shop_add_coins" value="монет"/>
+	<string name="panel_shop_premium" value="больше монет"/>
+	<string name="panel_shop_items" value="предметы"/>
+	<string name="panel_shop_helpers" value="помощники"/>
+	<string name="panel_shop_coins" value="монеты"/>
+	<string name="panel_shop_inventory" value="сумка"/> 
+	<string name="panel_shop_apparel" value="одежда"/>
+	<string name="panel_shop_level_up" value="ур{"/> 
+	<string name="panel_shop_level_1" value="ур 1"/>
+	<string name="panel_shop_level_2" value="ур 2"/>
+	<string name="panel_shop_level_3" value="ур 3"/>
+	<string name="panel_shop_sold" value="продано"/>
+	<string name="panel_tap_to_play" value="коснитесь, чтобы играть"/>
+	<string name="panel_purchase_ok" value="покупка успешна."/>
+	<string name="panel_purchase_bad_1" value="недостаточно монет."/>
+	<string name="panel_purchase_bad_2" value="ошибка покупки."/>
+	<string name="panel_purchase_equip" value="предмет используется."/>
+	<string name="item_action_obtained" value="получен"/> 
+	<string name="item_action_lost" value="потеряно"/>
+	
+	<string name="fishing_record" value="новый рекорд!!"/>
+	<string name="fishing_result_1" value="хорошо!!"/>
+	<string name="fishing_result_2" value="отлично!!"/>
+	<string name="fishing_result_3" value="замечательно!!"/>
+	<string name="fish_size" value="размер:"/>
+	<string name="fish_type" value="тип:"/>
+	<string name="fish_type_common" value="обычная"/>
+	<string name="fish_type_rare" value="редкая"/>
+	<string name="fish_type_golden" value="золотая"/>
+	<string name="fish_record" value="рекордный размер:"/>
+	<string name="fish_points" value="очки:"/>
+	<string name="fishing_rod_level" value="уровень:"/>
+	
+	<string name="shop_title_4" value="монета"/>
+	<string name="shop_title_4_plural" value="монеты"/>
+	
+	
+	<string name="shop_title_0" value="колокольчик"/>
+	<string name="shop_description_0" value="на каждом уровне спрятано 3 колокольчика. найдите их все."/>
+	<string name="shop_title_1" value="ключ"/>
+	<string name="shop_description_1" value="пригодится, чтобы открывать двери. обычно его дают в награду персонажи."/>
+	<string name="shop_title_8" value="мантия олли"/>
+	<string name="shop_description_8" value="позволяет парить в воздухе и долетать до дальних платформ."/>
+	<string name="shop_title_9" value="щит"/>
+	<string name="shop_description_9" value="защищает от пуль, летящих спереди."/>
+	<string name="shop_title_10" value="маска ныряльщика"/>
+	<string name="shop_description_10" value="защищает от мелких врагов под водой."/>
+	<string name="shop_title_11" value="лопата"/>
+	<string name="shop_description_11" value="позволяет раскапывать кочки и находить клады."/>
+	<string name="shop_title_12" value="вечная искра"/>
+	<string name="shop_description_12" value="растапливает лед и защищает от воздействия лавы."/>
+	<string name="shop_title_13" value="фруктовый лед"/>
+	<string name="shop_description_13" value="позволяет взбираться по льду и не скользить."/>
+	<string name="shop_title_14" value="лампа джинна"/>
+	<string name="shop_description_14" value="удваивает собранные монеты."/>
+	<string name="shop_title_15" value="волшебная флейта"/>
+	<string name="shop_description_15" value="будит спящих персонажей вокруг вас"/>
+	<string name="shop_title_16" value="пластырь"/>
+	<string name="shop_description_16" value="сокращает время оглушения на 25%."/>
+	<string name="shop_title_43" value="ключ пик"/>
+	<string name="shop_description_43" value="особый ключ в форме пики."/>
+	<string name="shop_title_46" value="яйцо"/>
+	<string name="shop_description_46" value="загадочное яйцо. кажется, из него вот-вот кто-то вылупится."/>
+	
+	<string name="shop_title_22" value="диск с данными"/>
+	<string name="shop_description_22" value="диск с секретными кодами."/>
+	<string name="shop_title_23" value="конфета"/>
+	<string name="shop_description_23" value="сладкая, со вкусом клубники."/>
+	<string name="shop_title_41" value="мороженое"/>
+	<string name="shop_description_41" value="мягкое мороженое, лучшее в портобелло."/>
+	<string name="shop_title_29" value="удочка"/>
+	<string name="shop_description_29" value="можно рыбачить на месте ловли. улучшить можно в портобелло."/>
+	
+	<string name="shop_title_24" value="зеленый карп"/>
+	<string name="shop_description_24" value="обычная рыба, встречается почти везде."/>
+	<string name="shop_title_25" value="улитка"/>
+	<string name="shop_description_25" value="живет на дне пресноводных водоемов. несет на себе ценную раковину."/>
+	<string name="shop_title_26" value="сом"/>
+	<string name="shop_description_26" value="рыба с длинными усами, как у кота."/>
+	<string name="shop_title_27" value="золотая рыбка"/>
+	<string name="shop_description_27" value="круглая, мягкая. золотых рыбок часто держат дома."/>
+	<string name="shop_title_28" value="головастик"/>
+	<string name="shop_description_28" value="будущая лягушка или жаба. живет на мелководье."/>
+	<string name="shop_title_30" value="кальмар"/>
+	<string name="shop_description_30" value="моряки из прибрежных деревень собирают их чернила."/>
+	<string name="shop_title_31" value="краб"/>
+	<string name="shop_description_31" value="любит прятаться между камней и щипать неосторожных пловцов."/>
+	<string name="shop_title_32" value="красная кефаль"/>
+	<string name="shop_description_32" value="в погоне за добычей часто выпрыгивает из воды."/>
+	<string name="shop_title_33" value="иглобрюх"/>
+	<string name="shop_description_33" value="покрыт шипами. может раздувать брюхо, чтобы напугать врага."/>
+	<string name="shop_title_34" value="акула"/>
+	<string name="shop_description_34" value="один из крупнейших хищников на острове. зубы острые как бритва!"/>
+	<string name="shop_title_35" value="саламандра"/>
+	<string name="shop_description_35" value="на сушу выходит только в дождь. говорят, она обладает магическими свойствами."/>
+	<string name="shop_title_36" value="черепаха"/>
+	<string name="shop_description_36" value="прочный панцирь защищает ее от хищников."/>
+	<string name="shop_title_37" value="лягушка"/>
+	<string name="shop_description_37" value="взрослый головастик. высоко прыгает на суше."/>
+	<string name="shop_title_38" value="скат"/>
+	<string name="shop_description_38" value="плоская рыба, живущая в соленой воде. длинный хвост ядовит."/>
+	<string name="shop_title_39" value="осьминог"/>
+	<string name="shop_description_39" value="жители портобелло считают его щупальца деликатесом."/>
+	<string name="shop_title_40" value="медуза"/>
+	<string name="shop_description_40" value="чаще всего их можно наблюдать ночью, большими группами."/>
+	
+	<!-- these are all hat items -->
+	<string name="shop_title_18" value="желтая кепка"/>
+	<string name="shop_description_18" value="желтая, защищает от яркого солнца."/>
+	<string name="shop_title_19" value="кепка из 80-х"/>
+	<string name="shop_description_19" value="яркие цвета — сон наяву."/>
+	<string name="shop_title_20" value="красная кепка"/>
+	<string name="shop_description_20" value="красная, носить задом наперед. для самый крутых парней!"/>
+	<string name="shop_title_21" value="зеленая кепка"/>
+	<string name="shop_description_21" value="подойдет любителям зеленого."/>
+	<string name="shop_title_47" value="черная шапка"/>
+	<string name="shop_description_47" value="дешево и сердито."/>
+	<string name="shop_title_48" value="розовая зимняя шапка"/>
+	<string name="shop_description_48" value="розовая вязаная шапка не даст голове замерзнуть."/>
+	<string name="shop_title_49" value="синяя зимняя шапка"/>
+	<string name="shop_description_49" value="синяя вязаная шапка не даст голове замерзнуть."/>
+	<string name="shop_title_50" value="цилиндр"/>
+	<string name="shop_description_50" value="для торжественных событий."/>
+	<string name="shop_title_51" value="изысканный цилиндр"/>
+	<string name="shop_description_51" value="уникальный цилиндр с зеленым пером, всем на зависть."/>
+	<string name="shop_title_52" value="зеленый цилиндр"/>
+	<string name="shop_description_52" value="о нем ходят легенды. говорят, он приносит удачу."/>
+	<string name="shop_title_53" value="розовый цилиндр"/>
+	<string name="shop_description_53" value="розовый, с большим красным сердцем в комплекте."/>
+	<string name="shop_title_54" value="ковбойская шляпа"/>
+	<string name="shop_description_54" value="для странника в поисках свободы."/>
+	<string name="shop_title_55" value="пиратская шляпа"/>
+	<string name="shop_description_55" value="пиратская шляпа с большим красным пером. для грозы всех морей!"/>
+	<string name="shop_title_56" value="красная пиратская бандана"/>
+	<string name="shop_description_56" value="красная бандана в белый горошек."/>
+	<string name="shop_title_57" value="черная пиратская бандана"/>
+	<string name="shop_description_57" value="черная бандана с черепом посредине."/>
+	<string name="shop_title_58" value="белая шляпа от солнца"/>
+	<string name="shop_description_58" value="элегантная шляпа с розовой ленточкой."/>
+	<string name="shop_title_59" value="розовая шляпа от солнца"/>
+	<string name="shop_description_59" value="стильная шляпа с белой ленточкой."/>
+	<string name="shop_title_60" value="шляпа с полями"/>
+	<string name="shop_description_60" value="большая элегантная шляпа в классическом стиле."/>
+	<string name="shop_title_61" value="кепка газетчика"/>
+	<string name="shop_description_61" value="головной убор с шармом прошлого. разносить газеты не обязательно!"/>
+	<string name="shop_title_62" value="берет с помпоном"/>
+	<string name="shop_description_62" value="теплый и уютный, с большим белым помпоном сверху."/>
+	<string name="shop_title_63" value="соломенная шляпа"/>
+	<string name="shop_description_63" value="легкая соломка отлично защищает в солнечные дни."/>
+	<string name="shop_title_64" value="капитанская фуражка"/>
+	<string name="shop_description_64" value="пусть все знают, кто здесь главный!"/>
+	<string name="shop_title_65" value="рыбацкая шапка"/>
+	<string name="shop_description_65" value="лучший выбор для рыбалки."/>
+	<string name="shop_title_66" value="поварской колпак"/>
+	<string name="shop_description_66" value="в таком головном уборе можно сойти за лучшего шеф-повара в мире."/>
+	<string name="shop_title_67" value="синяя шляпа волшебника"/>
+	<string name="shop_description_67" value="волшебная шляпа тео из drop wizard."/>
+	<string name="shop_title_68" value="красная шляпа волшебника"/>
+	<string name="shop_description_68" value="волшебная шляпа мии из drop wizard."/>
+	<string name="shop_title_69" value="шапка-желудь"/>
+	<string name="shop_description_69" value="такие шапки носят жители деревни торотоки."/>
+	<string name="shop_title_70" value="шляпа звездочета"/>
+	<string name="shop_description_70" value="загадочная шляпа с большим глазом по центру."/>
+	<string name="shop_title_71" value="шахтерская каска"/>
+	<string name="shop_description_71" value="у куро такая же. 10 из 10 шахтеров рекомендуют!"/>
+	<string name="shop_title_72" value="шлем летчика"/>
+	<string name="shop_description_72" value="кожаный шлем в стиле ретро."/>
+	<string name="shop_title_73" value="желтый шлем"/>
+	<string name="shop_description_73" value="похоже, многие не прочь заполучить такой в коллекцию."/>
+	<string name="shop_title_74" value="коробка"/>
+	<string name="shop_description_74" value="если захочется уединиться."/>
+	<string name="shop_title_75" value="золотая корона"/>
+	<string name="shop_description_75" value="роскошная корона из золота с красными самоцветами."/>
+	<string name="shop_title_76" value="корона властелина"/>
+	<string name="shop_description_76" value="очень редкая корона из белого золота со сверкающими камнями."/>
+	<string name="shop_title_77" value="сомбреро"/>
+	<string name="shop_description_77" value="широкий шляпа с красивыми украшениями."/><!-- доступно только на ограниченное время!"/>-->
+	<string name="shop_title_78" value="арбузная кепка"/>
+	<string name="shop_description_78" value="крутая кепка на лето."/>
+	<string name="shop_title_79" value="шапка акулы"/>
+	<string name="shop_description_79" value="шапка в стиле акулы с красивым спинным плавником."/>
+	<string name="shop_title_80" value="шапка-парасолька"/>
+	<string name="shop_description_80" value="шапка или зонтик. почему бы и нет?"/>
+	<string name="shop_title_81" value="люксовая кепка"/>
+	<string name="shop_description_81" value="редкая стильная кепка. доступна только для VIP!"/>
+	<string name="shop_title_82" value="кепка с единорогом"/>
+	<string name="shop_description_82" value="волшебная кепка с рогом единорога. доступна только для VIP!"/>
+	<string name="shop_title_83" value="шляпа лягушки"/>
+	<string name="shop_description_83" value="милая, зеленая и защищает от дождя. доступна только для VIP!"/>
+	<string name="shop_title_84" value="игровая шляпа"/>
+	<string name="shop_description_84" value="let's-a go! это замечательная красная шляпа. доступна только для VIP!"/>
+	<string name="shop_title_85" value="шляпа шинджи"/>
+	<string name="shop_description_85" value="шляпа в стиле моряка и любимая шинджи. доступна только для VIP!"/>
+	<string name="shop_title_86" value="шляпа из темной материи"/>
+	<string name="shop_description_86" value="шляпа из темной материи, будьте осторожны. доступна только для VIP!"/>
+	<string name="shop_title_87" value="шутовская шляпа"/>
+	<string name="shop_description_87" value="шляпа с металлическими колокольчиками на конце. доступна только для VIP!"/>
+	<string name="shop_title_88" value="викингская шляпа"/>
+	<string name="shop_description_88" value="рогатая шляпа из дерева и металла. доступна только для VIP!"/>
+	<string name="shop_title_89" value="нейтронизированная корона"/>
+	<string name="shop_description_89" value="только самые преданные игроки носят эту корону. доступна только для VIP!"/>
+	<string name="shop_title_91" value="тыквенная маска"/>
+	<string name="shop_description_91" value="сладость или гадость? давайте узнаем! доступно только на ограниченное время!"/>
+	<string name="shop_title_92" value="маска монстра"/>
+	<string name="shop_description_92" value="развейте электрифицирующий хэллоуинский ужас. доступно только на ограниченное время!"/>
+	<string name="shop_title_93" value="маска черепа"/>
+	<string name="shop_description_93" value="идеально подходит для забавной маскировки. доступна только для VIP!"/>
+	<string name="shop_title_94" value="вуду-шляпа"/>
+	<string name="shop_description_94" value="колдуйте вуду-заклинаниями с стилем! доступно только на ограниченное время!"/>
+	
+	<string name="shop_title_90" value="гачапон"/>
+	
+
+	
+	<string name="shop_title_400" value="кокос"/>
+	<string name="shop_description_400_1" value="подходит для врагов, которые движутся по горизонтали. из семян вырастает дерево."/>
+	<string name="shop_description_400_2" value="подходит для врагов, которые движутся по горизонтали. повышает скорость атаки."/>
+	<string name="shop_description_400_3" value="подходит для врагов, которые движутся по горизонтали. из семян вырастает высокая лиана."/>
+	<string name="shop_title_401" value="мистер туча"/> 
+	<string name="shop_description_401_1" value="эксперт по молниям, подходит для врагов, которые движутся по вертикали."/>
+	<string name="shop_description_401_2" value="подходит для врагов, которые движутся по вертикали. повышает скорость атаки."/>
+	<string name="shop_description_401_3" value="подходит для врагов, которые движутся по вертикали. может вырабатывать электричество."/>
+	<string name="shop_title_402" value="медуза"/>
+	<string name="shop_description_402_1" value="лучший помощник в воде, подходит и для летающих врагов. "/>
+	<string name="shop_description_402_2" value="лучший помощник в воде, повышает скорость атаки."/>
+	<string name="shop_description_402_3" value="подходит для водных врагов. защищает кота пузырем."/>
+	<string name="shop_title_403" value="купидон"/>
+	<string name="shop_description_403_1" value="сокращает время оглушения на 10%. хорошая поддержка для кота."/>
+	<string name="shop_description_403_2" value="сокращает время оглушения на 20%. подходит для сложных уровней."/>
+	<string name="shop_description_403_3" value="сокращает время оглушения на 50% и атакует врага стрелами."/>
+	<string name="shop_title_404" value="золотая летучая мышь"/>
+	<string name="shop_description_404_1" value="собирает монеты поблизости за вас."/>
+	<string name="shop_description_404_2" value="собирает монеты поблизости и умножает их на 1,25. можно подзаработать!"/>
+	<string name="shop_description_404_3" value="собирает монеты поблизости и умножает их на 1,5. куро одобряет!"/>
+	<string name="shop_title_405" value="рокко"/>
+	<string name="shop_description_405_1" value="разрушает блоки 1х1 и находит секретные проходы."/>
+	<string name="shop_description_405_2" value="разрушает блоки 2х2 и находит секретные проходы."/>
+	<string name="shop_description_405_3" value="разрушает блоки 3х3 и находит секретные проходы."/>
+	
+	<string name="panel_double_coins_title"     value="2x монеты"/>
+	<string name="panel_double_coins_text"      value="посмотреть рекламу, чтобы удвоить собираемые монеты?"/>
+		
+	<string name="panel_settings" value="титры"/>
+	<string name="panel_reset"    value="перезапустить игру"/>
+	<string name="reset_line_0"   value="вы уверены?"/>
+	<string name="reset_line_1"   value="при перезапуске ваш прогресс исчезнет навсегда"/>
+	
+	<string name="panel_options" value="настройки"/>
+	<string name="panel_options_gfx" value="качество"/>
+	<string name="panel_options_normal" value="обычное"/>
+	<string name="panel_options_low" value="низкое"/>
+	<string name="panel_options_quick_start" value="пропуск вступл"/>
+	<string name="panel_options_cloud_save" value="облако сохр."/>
+
+	
+	<string name="game_ending_continue" value="продолжение следует.."/>
+	
+	<string name="yes" value="да"/>
+	<string name="no" value="нет"/>
+	<string name="exit" value="выйти"/>
+	<string name="rate_now" value="оценить сейчас!"/>
+	<string name="rate_thanks" value="спасибо за оценку super cat tales paws!"/>
+	<string name="npc_rate" value="не забудьте оценить игру!"/>	
+	<string name="rate_android_1" value="получите 50 бесплатных монет."/>
+	<string name="rate_android_2" value="хорошо!"/>
+	<string name="rate_android_3" value="пожалуйста, оцените игру"/>
+	<string name="rate_android_4" value="выберите число звездочек:"/>
+	<string name="rate_android_5" value="оценить сейчас!"/>
+	
+	<string name="continue_1" value="продолжить?"/>
+	<string name="question_dialog_1" value="ок!"/>
+
+	<string name="credits_line_0" value="версия"/>
+	<string name="credits_line_1" value="издатель:"/>
+	<string name="credits_line_2" value="создатель:"/>
+	<string name="credits_line_3" value="идея, программирование и графика"/>
+	<string name="credits_line_4" value="дополнительная графика"/>
+	<string name="credits_line_5" value="музыка"/>
+	<string name="credits_line_14" value="особая благодарность"/>
+	
+	<string name="quest_title" value="ежедневное задание"/>
+	<string name="quest_completed" value="ежедневное задание выполнено!"/>
+	<string name="quest_next_quest" value="следующее задание через"/>
+	<string name="quest_win_streak" value="серия заданий:"/>
+	<string name="quest_done" value="(выполнено)"/>
+	
+		<string name="quest_0" value="пройдите 5 обычных уровней, не одолев ни одного врага."/>			
+	<string name="quest_1" value="одолейте 20 древесных жуков с любым котом."/>			
+	<string name="quest_2" value="соберите 200 монет с любым котом."/>			
+	<string name="quest_3" value="одолейте 40 врагов с помощником-кокосом."/>			
+	<string name="quest_4" value="поймайте 25 рыб на удочку."/>			
+	<string name="quest_5" value="пройдите 10 обычных уровней, не погибнув."/>			
+	<string name="quest_6" value="одолейте 20 врагов из песчаного замка с любым котом."/>			
+	<string name="quest_7" value="соберите 15 колокольчиков с ригзом."/>			
+	<string name="quest_8" value="одолейте 40 врагов с помощником-медузой."/>			
+	<string name="quest_9" value="поймайте 10 красных кефалей на удочку."/>			
+	<string name="quest_10" value="пройдите 5 обычных уровней с паскалем."/>			
+	<string name="quest_11" value="одолейте 5 минибоссов с любым котом."/>			
+	<string name="quest_12" value="соберите 200 монет с паскалем."/>			
+	<string name="quest_13" value="разрушьте 50 маленьких блоков с помощником-камнем."/>			
+	<string name="quest_14" value="поймайте 10 зеленых карпов на удочку."/>			
+	<string name="quest_15" value="пройдите 5 обычных уровней, не получив урона."/>			
+	<string name="quest_16" value="одолейте 20 летучих мышей с любым котом."/>			
+	<string name="quest_17" value="соберите 15 колокольчиков с любым котом."/>			
+	<string name="quest_18" value="исцелитесь 40 раз с помощью купидона."/>			
+	<string name="quest_19" value="продайте 20 рыб в рыбной лавке портобелло."/>			
+	<string name="quest_20" value="пройдите 5 обычных уровней с роуз."/>			
+	<string name="quest_21" value="одолейте 20 кальмаров с любым котом."/>			
+	<string name="quest_22" value="соберите 200 монет с роуз."/>
+	<string name="quest_23" value="посадите 10 семян с помощником-кокосом."/>			
+	<string name="quest_24" value="поймайте 10 золотых рыбок на удочку."/>			
+	<string name="quest_25" value="пройдите 5 обычных уровней без единого прыжка."/>			
+	<string name="quest_26" value="одолейте 50 врагов с любым котом."/>			
+	<string name="quest_27" value="соберите 200 монет с любым котом."/>			
+	<string name="quest_28" value="одолейте 40 врагов с помощником-тучей."/>			
+	<string name="quest_29" value="поймайте 10 иглобрюхов на удочку."/>			
+	<string name="quest_30" value="пройдите 5 обычных уровней, не заработав ни одной монеты."/>			
+	<string name="quest_31" value="одолейте 5 боссов с любым котом."/>			
+	<string name="quest_32" value="соберите 15 колокольчиков с роуз."/>			
+	<string name="quest_33" value="соберите 100 монет с золотой летучей мышью."/>
+	<string name="quest_34" value="поймайте 10 крабов на удочку."/>
+	<string name="quest_35" value="пройдите 5 обычных уровней, не найдя ни одного колокольчика."/>
+	<string name="quest_36" value="одолейте 20 кабанов с любым котом."/>
+	<string name="quest_37" value="соберите 200 монет с ригзом."/>
+	<string name="quest_38" value="поймайте 10 кальмаров на удочку."/>
+	<string name="quest_39" value="пройдите 5 обычных уровней, не меняя кота."/>
+	<string name="quest_40" value="одолейте 50 врагов с роуз."/>
+	<string name="quest_41" value="соберите 15 колокольчиков с паскалем."/>
+	<string name="quest_42" value="пройдите 5 деревенских уровней с любым котом."/>
+	<string name="quest_43" value="одолейте 50 врагов с ригзом."/>
+	<string name="quest_44" value="соберите 200 монет с любым котом."/>
+	<string name="quest_45" value="одолейте 20 желтых слизняков с любым котом."/>
+	<string name="quest_46" value="поймайте 25 рыб на удочку."/>
+	<string name="quest_47" value="пройдите 5 обычных уровней за 60 секунд или меньше."/>
+	<string name="quest_48" value="одолейте 50 врагов с любым котом."/>
+	<string name="quest_49" value="соберите 15 колокольчиков с любым котом."/>
+	<string name="quest_50" value="поймайте 10 сомов на удочку."/>
+	<string name="quest_51" value="пройдите 5 обычных уровней с ригзом."/>
+	<string name="quest_52" value="одолейте 5 минибоссов с любым котом."/>
+	<string name="quest_53" value="соберите 200 монет с роуз."/>
+	<string name="quest_54" value="посадите 10 семян с помощником-кокосом."/>
+	<string name="quest_55" value="продайте 20 рыб в рыбной лавке портобелло."/>
+	
+	
+</strings>

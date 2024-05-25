@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d3f80d4ee7d497191d83f67aae0435fa:8bb2075c8f7afb89fb5e04aa5c06a971:8fbd6d55108a049adbf37bfd1fe0d45c$ -->
+<TextureAtlas imagePath="group_1.png" width="2048" height="2048">
+    <SubTexture name="air_balloon_1" x="148" y="388" width="52" height="28"/>
+    <SubTexture name="air_balloon_2" x="770" y="658" width="14" height="14"/>
+    <SubTexture name="air_balloon_3" x="919" y="437" width="9" height="14"/>
+    <SubTexture name="arcade_banner_anim_a" x="526" y="436" width="113" height="24"/>
+    <SubTexture name="arcade_banner_anim_b" x="526" y="466" width="113" height="24"/>
+    <SubTexture name="aurora" x="1251" y="929" width="12" height="1"/>
+    <SubTexture name="background_black_1" x="243" y="1241" width="8" height="8"/>
+    <SubTexture name="background_city_1" x="1072" y="871" width="17" height="16"/>
+    <SubTexture name="background_city_2" x="148" y="476" width="48" height="38"/>
+    <SubTexture name="background_city_3" x="1073" y="808" width="18" height="11"/>
+    <SubTexture name="background_city_4" x="764" y="884" width="17" height="11"/>
+    <SubTexture name="background_city_5" x="1072" y="893" width="17" height="16"/>
+    <SubTexture name="background_city_6" x="584" y="918" width="64" height="16"/>
+    <SubTexture name="background_city_7" x="4" y="305" width="149" height="21"/>
+    <SubTexture name="background_city_8" x="1326" y="798" width="24" height="64"/>
+    <SubTexture name="background_city_9" x="1073" y="825" width="18" height="11"/>
+    <SubTexture name="background_city_10" x="764" y="867" width="17" height="11"/>
+    <SubTexture name="background_city_11" x="111" y="1184" width="8" height="8"/>
+    <SubTexture name="background_city_12" x="759" y="1024" width="16" height="16"/>
+    <SubTexture name="background_city_13" x="664" y="914" width="64" height="21" frameX="0" frameY="-3" frameWidth="64" frameHeight="24"/>
+    <SubTexture name="background_city_14" x="353" y="1068" width="32" height="29" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="background_city_15" x="604" y="166" width="43" height="46" frameX="-7" frameY="-6" frameWidth="58" frameHeight="52"/>
+    <SubTexture name="background_city_canyon_1" x="656" y="70" width="288" height="20" frameX="0" frameY="-4" frameWidth="288" frameHeight="24"/>
+    <SubTexture name="background_city_canyon_2" x="1497" y="686" width="96" height="20" frameX="0" frameY="-4" frameWidth="96" frameHeight="24"/>
+    <SubTexture name="background_city_canyon_3" x="1005" y="622" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="background_city_canyon_4" x="1215" y="893" width="12" height="12"/>
+    <SubTexture name="background_city_canyon_5" x="147" y="1212" width="8" height="8"/>
+    <SubTexture name="background_city_night_1" x="1070" y="915" width="17" height="16"/>
+    <SubTexture name="background_city_night_2" x="876" y="712" width="32" height="32"/>
+    <SubTexture name="background_city_night_3" x="1073" y="842" width="18" height="11"/>
+    <SubTexture name="background_city_night_4" x="764" y="901" width="17" height="11"/>
+    <SubTexture name="background_city_night_5" x="1070" y="937" width="17" height="16"/>
+    <SubTexture name="background_city_night_6" x="505" y="926" width="64" height="16"/>
+    <SubTexture name="background_city_night_7" x="372" y="220" width="149" height="21"/>
+    <SubTexture name="background_city_night_8" x="241" y="1255" width="8" height="8"/>
+    <SubTexture name="background_city_night_9" x="607" y="1075" width="16" height="16"/>
+    <SubTexture name="background_city_night_10" x="111" y="1198" width="8" height="8"/>
+    <SubTexture name="background_city_night_11" x="471" y="1013" width="16" height="16"/>
+    <SubTexture name="background_city_night_12" x="1790" y="756" width="96" height="16"/>
+    <SubTexture name="background_city_night_13" x="1497" y="712" width="96" height="16"/>
+    <SubTexture name="background_city_night_14" x="111" y="1212" width="8" height="8"/>
+    <SubTexture name="background_city_night_15" x="147" y="1226" width="8" height="8"/>
+    <SubTexture name="background_city_night_16" x="1284" y="815" width="32" height="32"/>
+    <SubTexture name="background_city_night_17" x="1284" y="853" width="32" height="32"/>
+    <SubTexture name="background_city_night_18" x="764" y="918" width="16" height="32"/>
+    <SubTexture name="background_city_night_19" x="513" y="526" width="7" height="7"/>
+    <SubTexture name="background_city_night_20" x="147" y="1240" width="8" height="8"/>
+    <SubTexture name="background_city_night_21" x="471" y="1035" width="16" height="16"/>
+    <SubTexture name="background_city_night_26" x="686" y="674" width="6" height="16" frameX="-5" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_city_night_27" x="148" y="362" width="14" height="16" frameX="-1" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_city_night_28" x="1791" y="596" width="196" height="128"/>
+    <SubTexture name="background_city_night_29" x="4" y="100" width="196" height="128"/>
+    <SubTexture name="background_city_night_30" x="205" y="1245" width="8" height="8"/>
+    <SubTexture name="background_city_night_31" x="205" y="1259" width="8" height="8"/>
+    <SubTexture name="background_clouds_temple_1" x="429" y="1148" width="32" height="16"/>
+    <SubTexture name="background_clouds_temple_2" x="193" y="1105" width="32" height="16"/>
+    <SubTexture name="background_clouds_temple_3" x="231" y="1105" width="32" height="16"/>
+    <SubTexture name="background_clouds_temple_4" x="876" y="634" width="34" height="20"/>
+    <SubTexture name="background_clouds_temple_5" x="876" y="660" width="34" height="20"/>
+    <SubTexture name="background_clouds_temple_6" x="269" y="1121" width="32" height="16"/>
+    <SubTexture name="background_clouds_temple_7" x="193" y="1127" width="32" height="16"/>
+    <SubTexture name="background_clouds_temple_8" x="231" y="1127" width="32" height="16"/>
+    <SubTexture name="background_clouds_temple_9" x="876" y="686" width="34" height="20"/>
+    <SubTexture name="background_clouds_temple_10" x="1748" y="799" width="34" height="20"/>
+    <SubTexture name="background_factory_1" x="1748" y="761" width="34" height="32"/>
+    <SubTexture name="background_factory_2" x="1240" y="733" width="80" height="32"/>
+    <SubTexture name="background_factory_3" x="70" y="1248" width="13" height="13" frameX="-3" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_factory_4" x="629" y="1079" width="16" height="16"/>
+    <SubTexture name="background_factory_5" x="444" y="861" width="64" height="48"/>
+    <SubTexture name="background_flying_ship_1" x="1097" y="818" width="64" height="64"/>
+    <SubTexture name="background_flying_ship_2" x="421" y="1170" width="32" height="12"/>
+    <SubTexture name="background_flying_ship_3" x="1392" y="908" width="12" height="32"/>
+    <SubTexture name="background_flying_ship_4" x="868" y="750" width="32" height="32"/>
+    <SubTexture name="background_flying_ship_5" x="48" y="1303" width="16" height="8"/>
+    <SubTexture name="background_flying_ship_6" x="241" y="1269" width="8" height="8" frameX="-4" frameY="-4" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_flying_ship_7" x="793" y="296" width="40" height="40"/>
+    <SubTexture name="background_flying_ship_8" x="866" y="788" width="32" height="32"/>
+    <SubTexture name="background_flying_ship_9" x="866" y="826" width="32" height="32"/>
+    <SubTexture name="background_flying_ship_11" x="607" y="1097" width="16" height="16"/>
+    <SubTexture name="background_flying_ship_12" x="623" y="426" width="16" height="4" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_flying_ship_13" x="516" y="430" width="4" height="16" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_halloween_moon_1" x="1954" y="4" width="90" height="90"/>
+    <SubTexture name="background_hive_1" x="1749" y="721" width="35" height="34"/>
+    <SubTexture name="background_hive_2" x="1993" y="650" width="50" height="50"/>
+    <SubTexture name="background_hive_3" x="526" y="324" width="65" height="106"/>
+    <SubTexture name="background_hive_4" x="819" y="1008" width="31" height="30"/>
+    <SubTexture name="background_hive_5" x="225" y="1177" width="31" height="21"/>
+    <SubTexture name="background_hive_6" x="475" y="706" width="16" height="14"/>
+    <SubTexture name="background_hive_7" x="1791" y="524" width="200" height="66"/>
+    <SubTexture name="background_hive_8" x="1500" y="48" width="333" height="112"/>
+    <SubTexture name="background_moon_1" x="1952" y="100" width="90" height="90"/>
+    <SubTexture name="background_new_canyon_1" x="241" y="1283" width="8" height="8"/>
+    <SubTexture name="background_new_canyon_2" x="205" y="1273" width="8" height="8"/>
+    <SubTexture name="background_new_canyon_3" x="950" y="70" width="288" height="20" frameX="0" frameY="-4" frameWidth="288" frameHeight="24"/>
+    <SubTexture name="background_new_canyon_4" x="1599" y="686" width="96" height="20" frameX="0" frameY="-4" frameWidth="96" frameHeight="24"/>
+    <SubTexture name="background_new_canyon_5" x="1167" y="858" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="background_new_canyon_6" x="793" y="437" width="120" height="87" frameX="0" frameY="-9" frameWidth="120" frameHeight="96"/>
+    <SubTexture name="background_new_canyon_7" x="1233" y="893" width="12" height="12"/>
+    <SubTexture name="background_new_canyon_8" x="205" y="1287" width="8" height="8"/>
+    <SubTexture name="background_new_canyon_9" x="168" y="234" width="32" height="71" frameX="0" frameY="-9" frameWidth="32" frameHeight="80"/>
+    <SubTexture name="background_new_canyon_10" x="1599" y="712" width="96" height="16"/>
+    <SubTexture name="background_purple_1" x="111" y="1226" width="8" height="8"/>
+    <SubTexture name="background_purple_2" x="111" y="1240" width="8" height="8"/>
+    <SubTexture name="background_purple_3" x="1753" y="403" width="33" height="32"/>
+    <SubTexture name="background_sea_1" x="290" y="652" width="72" height="72"/>
+    <SubTexture name="background_sea_2" x="1701" y="711" width="42" height="42"/>
+    <SubTexture name="background_sea_3" x="1191" y="164" width="44" height="70"/>
+    <SubTexture name="background_sea_4" x="1191" y="240" width="44" height="46"/>
+    <SubTexture name="background_sea_5" x="1058" y="612" width="10" height="42"/>
+    <SubTexture name="background_snow_1" x="1240" y="771" width="80" height="16"/>
+    <SubTexture name="background_snow_2" x="147" y="1254" width="8" height="8"/>
+    <SubTexture name="background_snow_3" x="111" y="1254" width="8" height="8"/>
+    <SubTexture name="background_snow_4" x="860" y="940" width="32" height="32"/>
+    <SubTexture name="background_snow_5" x="148" y="708" width="48" height="16"/>
+    <SubTexture name="background_snow_6" x="147" y="1268" width="8" height="8"/>
+    <SubTexture name="background_snow_7" x="205" y="1301" width="8" height="8"/>
+    <SubTexture name="background_snow_8" x="474" y="604" width="32" height="68"/>
+    <SubTexture name="background_snow_9" x="1359" y="726" width="96" height="16"/>
+    <SubTexture name="background_snow_10" x="860" y="864" width="32" height="32"/>
+    <SubTexture name="background_snow_11" x="469" y="1057" width="16" height="16"/>
+    <SubTexture name="background_snow_12" x="860" y="902" width="32" height="32"/>
+    <SubTexture name="background_snow_13" x="148" y="686" width="48" height="16"/>
+    <SubTexture name="background_snow_14" x="125" y="1307" width="16" height="10" frameX="0" frameY="-3" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_snow_15" x="469" y="1079" width="16" height="16"/>
+    <SubTexture name="background_snow_16" x="1191" y="990" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="background_snow_17" x="193" y="1149" width="32" height="12"/>
+    <SubTexture name="background_snow_smoke" x="1140" y="971" width="8" height="1"/>
+    <SubTexture name="background_starry_night_1" x="1240" y="793" width="80" height="16"/>
+    <SubTexture name="background_starry_night_2" x="1461" y="775" width="26" height="12"/>
+    <SubTexture name="background_starry_night_3" x="148" y="628" width="48" height="24"/>
+    <SubTexture name="background_starry_night_4" x="467" y="1101" width="16" height="16"/>
+    <SubTexture name="background_starry_night_5" x="148" y="332" width="14" height="24" frameX="-1" frameY="0" frameWidth="16" frameHeight="24"/>
+    <SubTexture name="background_starry_night_6" x="111" y="1282" width="8" height="8"/>
+    <SubTexture name="background_starry_night_7" x="147" y="1296" width="8" height="8"/>
+    <SubTexture name="background_starry_night_8" x="505" y="964" width="32" height="32"/>
+    <SubTexture name="background_starry_night_9" x="148" y="730" width="48" height="16"/>
+    <SubTexture name="background_starry_night_10" x="147" y="1282" width="8" height="8"/>
+    <SubTexture name="background_starry_night_11" x="111" y="1268" width="8" height="8"/>
+    <SubTexture name="background_starry_night_12" x="125" y="1323" width="16" height="10" frameX="0" frameY="-3" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_starry_night_13" x="171" y="1077" width="16" height="16"/>
+    <SubTexture name="background_starry_night_14" x="998" y="964" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="background_starry_night_15" x="1497" y="734" width="96" height="16"/>
+    <SubTexture name="background_starry_night_16" x="856" y="978" width="32" height="32"/>
+    <SubTexture name="background_starry_night_17" x="171" y="1099" width="16" height="16"/>
+    <SubTexture name="background_turnip_day_1" x="664" y="786" width="24" height="24"/>
+    <SubTexture name="background_turnip_day_2" x="144" y="752" width="48" height="8"/>
+    <SubTexture name="background_turnip_day_3" x="1374" y="939" width="12" height="16" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_turnip_day_4" x="664" y="816" width="24" height="24"/>
+    <SubTexture name="background_turnip_day_5" x="1410" y="908" width="12" height="16" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_turnip_day_6" x="664" y="846" width="24" height="24"/>
+    <SubTexture name="background_turnip_day_7" x="1197" y="893" width="12" height="16" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_turnip_day_8" x="686" y="721" width="6" height="6" frameX="-2" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="background_turnip_day_9" x="982" y="968" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="background_turnip_day_10" x="686" y="709" width="6" height="6" frameX="-2" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="background_turnip_day_11" x="968" y="968" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="background_white" x="111" y="1296" width="8" height="8"/>
+    <SubTexture name="background_wind_1" x="1359" y="583" width="106" height="8"/>
+    <SubTexture name="background_wind_2" x="161" y="1319" width="16" height="10"/>
+    <SubTexture name="background_wind_3" x="4" y="1288" width="16" height="10"/>
+    <SubTexture name="background_wind_4" x="698" y="540" width="26" height="40"/>
+    <SubTexture name="background_wind_5" x="111" y="1310" width="8" height="8"/>
+    <SubTexture name="background_wind_6" x="497" y="706" width="8" height="12"/>
+    <SubTexture name="background_wind_7" x="26" y="1288" width="16" height="10" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="background_wind_8" x="307" y="1172" width="32" height="6" frameX="0" frameY="0" frameWidth="32" frameHeight="16"/>
+    <SubTexture name="background_wood_hole_1" x="435" y="969" width="32" height="32"/>
+    <SubTexture name="background_wood_hole_2" x="503" y="1002" width="32" height="32"/>
+    <SubTexture name="background_wood_hole_3" x="1993" y="706" width="48" height="48"/>
+    <SubTexture name="background_wood_hole_4" x="1095" y="888" width="64" height="64"/>
+    <SubTexture name="background_wood_hole_5" x="1359" y="597" width="96" height="96"/>
+    <SubTexture name="background_wood_hole_6" x="1100" y="390" width="128" height="128"/>
+    <SubTexture name="background_wood_vein_1" x="147" y="1310" width="8" height="8"/>
+    <SubTexture name="background_wood_vein_2" x="147" y="1324" width="8" height="8"/>
+    <SubTexture name="backgroundThunderParticleSpriteAnim_a" x="1932" y="220" width="12" height="40"/>
+    <SubTexture name="backgroundThunderParticleSpriteAnim_b" x="1392" y="864" width="12" height="38" frameX="0" frameY="-1" frameWidth="12" frameHeight="40"/>
+    <SubTexture name="backgroundThunderParticleSpriteAnim_c" x="1374" y="864" width="12" height="40"/>
+    <SubTexture name="backgroundThunderParticleSpriteAnim_d" x="1410" y="864" width="12" height="38" frameX="0" frameY="-1" frameWidth="12" frameHeight="40"/>
+    <SubTexture name="beach_night_bg_1" x="70" y="1320" width="16" height="5"/>
+    <SubTexture name="beach_night_bg_2" x="505" y="948" width="64" height="2"/>
+    <SubTexture name="beach_night_bg_3" x="505" y="956" width="64" height="2"/>
+    <SubTexture name="beach_night_bg_4" x="435" y="961" width="64" height="2"/>
+    <SubTexture name="beach_night_bg_5" x="664" y="941" width="64" height="2"/>
+    <SubTexture name="beach_night_bg_6" x="664" y="949" width="64" height="2"/>
+    <SubTexture name="beach_night_bg_7" x="136" y="946" width="59" height="125"/>
+    <SubTexture name="beach_night_bg_8" x="664" y="957" width="59" height="90"/>
+    <SubTexture name="beach_night_bg_9" x="48" y="1317" width="16" height="7"/>
+    <SubTexture name="beach_night_bg_10" x="1792" y="220" width="64" height="40"/>
+    <SubTexture name="beach_night_bg_11" x="1862" y="220" width="64" height="40"/>
+    <SubTexture name="bell_background_1" x="790" y="751" width="70" height="71"/>
+    <SubTexture name="bg_aurora" x="1374" y="910" width="12" height="23" frameX="0" frameY="-1" frameWidth="12" frameHeight="24"/>
+    <SubTexture name="bg_aurora_2" x="640" y="1018" width="16" height="26" frameX="-4" frameY="-12" frameWidth="24" frameHeight="48"/>
+    <SubTexture name="bg_sky_color_1" x="467" y="1123" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_2" x="345" y="1214" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_3" x="262" y="1201" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_4" x="284" y="1201" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_5" x="306" y="1206" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_6" x="1479" y="905" width="8" height="8"/>
+    <SubTexture name="bg_sky_color_7" x="1340" y="868" width="8" height="8"/>
+    <SubTexture name="bg_sky_color_8" x="571" y="1031" width="32" height="32"/>
+    <SubTexture name="bg_sky_color_9" x="419" y="1188" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_10" x="467" y="1145" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_11" x="467" y="1167" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_12" x="171" y="1121" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_13" x="171" y="1143" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_14" x="166" y="1165" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_15" x="262" y="1179" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_16" x="284" y="1179" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_17" x="306" y="1184" width="16" height="16"/>
+    <SubTexture name="bg_sky_color_18" x="1479" y="793" width="8" height="8"/>
+    <SubTexture name="bg_sky_color_19" x="1479" y="807" width="8" height="8"/>
+    <SubTexture name="bg_sky_color_20" x="1479" y="821" width="8" height="8"/>
+    <SubTexture name="bg_sky_color_21" x="1479" y="835" width="8" height="8"/>
+    <SubTexture name="bg_sky_color_22" x="1479" y="849" width="8" height="8"/>
+    <SubTexture name="bg_sky_color_23" x="1479" y="863" width="8" height="8"/>
+    <SubTexture name="bg_sky_color_24" x="1479" y="877" width="8" height="8"/>
+    <SubTexture name="bg_sky_color_25" x="1479" y="891" width="8" height="8"/>
+    <SubTexture name="bush_1" x="372" y="247" width="147" height="36"/>
+    <SubTexture name="bush_2" x="441" y="1188" width="16" height="16"/>
+    <SubTexture name="bush_3" x="454" y="727" width="64" height="128"/>
+    <SubTexture name="bush_dawn_1" x="1497" y="659" width="96" height="21" frameX="0" frameY="-3" frameWidth="96" frameHeight="24"/>
+    <SubTexture name="bush_dawn_2" x="391" y="1068" width="32" height="29" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="bush_dawn_3" x="4" y="1134" width="16" height="16"/>
+    <SubTexture name="bush_dawn_4" x="1340" y="882" width="8" height="8"/>
+    <SubTexture name="bush_dawn_5" x="26" y="1134" width="16" height="16"/>
+    <SubTexture name="bush_dusk_1" x="1359" y="699" width="96" height="21" frameX="0" frameY="-3" frameWidth="96" frameHeight="24"/>
+    <SubTexture name="bush_dusk_2" x="429" y="1083" width="32" height="29" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="bush_dusk_3" x="489" y="1116" width="32" height="29" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="bush_dusk_4" x="786" y="954" width="64" height="21" frameX="0" frameY="-3" frameWidth="64" frameHeight="24"/>
+    <SubTexture name="bush_night_1" x="1599" y="659" width="96" height="21" frameX="0" frameY="-3" frameWidth="96" frameHeight="24"/>
+    <SubTexture name="bush_night_2" x="527" y="1136" width="32" height="29" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="bush_night_3" x="48" y="1134" width="16" height="16"/>
+    <SubTexture name="bush_night_4" x="277" y="1086" width="32" height="29" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="bush_night_5" x="786" y="981" width="64" height="21" frameX="0" frameY="-3" frameWidth="64" frameHeight="24"/>
+    <SubTexture name="canyon_background_11" x="543" y="994" width="24" height="16"/>
+    <SubTexture name="canyon_background_12" x="288" y="730" width="72" height="72"/>
+    <SubTexture name="canyon_background_13" x="1700" y="759" width="42" height="42"/>
+    <SubTexture name="canyon_background_14" x="288" y="808" width="72" height="72"/>
+    <SubTexture name="canyon_background_15" x="90" y="768" width="42" height="42"/>
+    <SubTexture name="canyon_background_16" x="366" y="814" width="72" height="72"/>
+    <SubTexture name="canyon_background_17" x="90" y="816" width="42" height="42"/>
+    <SubTexture name="canyon_background_18" x="1790" y="730" width="96" height="20" frameX="0" frameY="-4" frameWidth="96" frameHeight="24"/>
+    <SubTexture name="canyon_background_19" x="968" y="930" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="canyon_background_20" x="168" y="311" width="32" height="71" frameX="0" frameY="-9" frameWidth="32" frameHeight="80"/>
+    <SubTexture name="canyon_background_21" x="1599" y="734" width="96" height="16"/>
+    <SubTexture name="canyon_background_22" x="473" y="969" width="24" height="16"/>
+    <SubTexture name="canyon_background_23" x="1340" y="910" width="8" height="8"/>
+    <SubTexture name="canyon_background_24" x="1340" y="924" width="8" height="8"/>
+    <SubTexture name="canyon_background_25" x="287" y="886" width="72" height="72"/>
+    <SubTexture name="canyon_background_26" x="90" y="864" width="42" height="42"/>
+    <SubTexture name="canyon_mountain_6" x="1461" y="609" width="30" height="54"/>
+    <SubTexture name="canyon_mountain_8" x="315" y="1120" width="32" height="24"/>
+    <SubTexture name="canyon_mountain_9" x="1992" y="760" width="48" height="24"/>
+    <SubTexture name="canyon_mountains_1" x="650" y="220" width="184" height="32"/>
+    <SubTexture name="canyon_mountains_2" x="1340" y="938" width="8" height="8"/>
+    <SubTexture name="canyon_mountains_3" x="650" y="258" width="184" height="32"/>
+    <SubTexture name="canyon_sun_background" x="371" y="549" width="82" height="82"/>
+    <SubTexture name="canyonGlitter1BackgroundSpriteAnim_a" x="1340" y="896" width="8" height="8"/>
+    <SubTexture name="canyonGlitter1BackgroundSpriteAnim_b" x="686" y="769" width="6" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="canyonGlitter2BackgroundSpriteAnim_a" x="686" y="769" width="6" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="canyonGlitter2BackgroundSpriteAnim_b" x="1340" y="896" width="8" height="8"/>
+    <SubTexture name="castle_background_1" x="1340" y="952" width="8" height="8"/>
+    <SubTexture name="castle_background_2" x="1340" y="994" width="8" height="8"/>
+    <SubTexture name="castle_background_3" x="1202" y="761" width="32" height="48"/>
+    <SubTexture name="castle_background_4" x="1073" y="724" width="18" height="16"/>
+    <SubTexture name="castle_background_5" x="127" y="1175" width="16" height="16"/>
+    <SubTexture name="castle_background_6" x="70" y="1134" width="14" height="8"/>
+    <SubTexture name="castle_background_7" x="201" y="959" width="72" height="64"/>
+    <SubTexture name="castle_background_8" x="1073" y="746" width="18" height="16"/>
+    <SubTexture name="castle_background_9" x="165" y="1187" width="16" height="16"/>
+    <SubTexture name="castle_background_10" x="1340" y="966" width="8" height="8"/>
+    <SubTexture name="castle_background_11" x="575" y="940" width="64" height="16"/>
+    <SubTexture name="castle_background_12" x="1792" y="166" width="32" height="48"/>
+    <SubTexture name="castle_background_13" x="768" y="794" width="16" height="48"/>
+    <SubTexture name="castle_background_14" x="1340" y="980" width="8" height="8"/>
+    <SubTexture name="castle_background_15" x="770" y="678" width="14" height="8" frameX="0" frameY="0" frameWidth="16" frameHeight="8"/>
+    <SubTexture name="castle_background_16" x="898" y="913" width="64" height="64"/>
+    <SubTexture name="castle_background_17" x="459" y="605" width="8" height="32"/>
+    <SubTexture name="castle_background_18" x="128" y="1153" width="32" height="16"/>
+    <SubTexture name="castle_background_19" x="89" y="1154" width="16" height="16"/>
+    <SubTexture name="castleTorchBackgroundSpriteAnim_a" x="1165" y="896" width="12" height="16"/>
+    <SubTexture name="castleTorchBackgroundSpriteAnim_b" x="1165" y="918" width="12" height="16"/>
+    <SubTexture name="cityFanBackgroundSpriteAnim_a" x="734" y="876" width="24" height="24"/>
+    <SubTexture name="cityFanBackgroundSpriteAnim_b" x="734" y="906" width="24" height="24"/>
+    <SubTexture name="cityNightSnowBackgroundParticleSpriteAnim_a" x="516" y="468" width="4" height="4"/>
+    <SubTexture name="cityNightSnowBackgroundParticleSpriteAnim_b" x="516" y="478" width="4" height="4"/>
+    <SubTexture name="cityNightSnowBackgroundParticleSpriteAnim_c" x="1830" y="166" width="3" height="3" frameX="0" frameY="0" frameWidth="4" frameHeight="4"/>
+    <SubTexture name="cityNightSnowBackgroundParticleSpriteAnim_d" x="1830" y="175" width="3" height="3" frameX="0" frameY="0" frameWidth="4" frameHeight="4"/>
+    <SubTexture name="cruiseBackgroundSpriteAnim_a" x="1359" y="748" width="80" height="32"/>
+    <SubTexture name="dark_matter_cloud_body_0" x="187" y="1201" width="16" height="16"/>
+    <SubTexture name="dark_matter_cloud_body_1" x="163" y="1209" width="16" height="16"/>
+    <SubTexture name="dark_matter_cloud_body_2" x="223" y="1204" width="16" height="16"/>
+    <SubTexture name="dark_matter_cloud_layer_0" x="4" y="4" width="384" height="16"/>
+    <SubTexture name="dark_matter_cloud_layer_1" x="394" y="4" width="384" height="16"/>
+    <SubTexture name="dark_matter_cloud_layer_2" x="784" y="4" width="384" height="16"/>
+    <SubTexture name="dark_matter_cloud_layer_3" x="4" y="48" width="368" height="16"/>
+    <SubTexture name="dark_matter_gear_1" x="454" y="706" width="15" height="15"/>
+    <SubTexture name="dark_matter_gear_2" x="976" y="902" width="22" height="22"/>
+    <SubTexture name="darkMatterDustIntroParticleSpriteAnim_a" x="1830" y="184" width="3" height="3"/>
+    <SubTexture name="darkMatterDustIntroParticleSpriteAnim_b" x="1830" y="193" width="3" height="3"/>
+    <SubTexture name="desert_bg_1" x="92" y="1324" width="16" height="5"/>
+    <SubTexture name="desert_bg_2" x="345" y="1214" width="16" height="16"/>
+    <SubTexture name="desert_bg_3" x="4" y="234" width="158" height="65" frameX="-1" frameY="0" frameWidth="160" frameHeight="72"/>
+    <SubTexture name="desert_bg_4" x="206" y="248" width="138" height="194"/>
+    <SubTexture name="desert_bg_5" x="623" y="374" width="20" height="20"/>
+    <SubTexture name="desert_bg_6" x="1251" y="893" width="12" height="12"/>
+    <SubTexture name="desert_bg_7" x="1183" y="910" width="8" height="8"/>
+    <SubTexture name="desert_bg_8" x="406" y="100" width="194" height="32"/>
+    <SubTexture name="desert_bg_9" x="206" y="138" width="194" height="32"/>
+    <SubTexture name="desert_bg_10" x="90" y="1075" width="37" height="35"/>
+    <SubTexture name="desert_bg_11" x="516" y="452" width="4" height="10" frameX="-12" frameY="-3" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="desert_bg_12" x="1072" y="859" width="18" height="6"/>
+    <SubTexture name="desert_bg_13" x="1160" y="334" width="24" height="12"/>
+    <SubTexture name="desert_bg_14" x="185" y="1223" width="16" height="16"/>
+    <SubTexture name="desert_bg_15" x="269" y="1143" width="32" height="16"/>
+    <SubTexture name="desert_bg_16" x="1183" y="896" width="8" height="8"/>
+    <SubTexture name="desert_bg_17" x="90" y="1031" width="38" height="38"/>
+    <SubTexture name="desert_bg_18" x="781" y="1008" width="32" height="32"/>
+    <SubTexture name="desert_bg_19" x="1197" y="933" width="12" height="9"/>
+    <SubTexture name="desert_bg_20" x="527" y="220" width="68" height="98"/>
+    <SubTexture name="desert_bg_21" x="206" y="100" width="194" height="32"/>
+    <SubTexture name="desert_bg_22" x="1839" y="48" width="107" height="53"/>
+    <SubTexture name="desert_bg_23" x="734" y="936" width="24" height="24"/>
+    <SubTexture name="desert_bg_24" x="1224" y="593" width="11" height="11"/>
+    <SubTexture name="desert_bg_25" x="516" y="488" width="4" height="4"/>
+    <SubTexture name="desert_bg_26" x="764" y="848" width="17" height="13"/>
+    <SubTexture name="desert_bg_27" x="70" y="1306" width="16" height="8"/>
+    <SubTexture name="desert_house_background_1" x="259" y="1223" width="16" height="16"/>
+    <SubTexture name="desert_house_background_2" x="281" y="1223" width="16" height="16"/>
+    <SubTexture name="desert_house_background_3" x="1191" y="118" width="46" height="9"/>
+    <SubTexture name="desert_house_background_4" x="1191" y="96" width="46" height="16"/>
+    <SubTexture name="desert_house_background_5" x="1269" y="893" width="8" height="8"/>
+    <SubTexture name="desert_house_background_6" x="70" y="1267" width="13" height="13" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="desert_house_background_7" x="661" y="1053" width="32" height="32"/>
+    <SubTexture name="desertLightBackgroundSpriteAnim_a" x="594" y="802" width="64" height="52"/>
+    <SubTexture name="desertLightBackgroundSpriteAnim_b" x="594" y="860" width="64" height="52"/>
+    <SubTexture name="desertStarBackgroundBlueBigStarAnim_a" x="840" y="220" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundBlueBigStarAnim_b" x="1428" y="864" width="7" height="7" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundBlueBigStarAnim_c" x="840" y="220" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundBlueBigStarAnim_d" x="1830" y="202" width="3" height="3" frameX="-2" frameY="-2" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundBlueSmallStarAnim_a" x="1830" y="202" width="3" height="3" frameX="-2" frameY="-2" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundBlueSmallStarAnim_b" x="840" y="231" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundPurpleBigStarAnim_a" x="840" y="242" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundPurpleBigStarAnim_b" x="1428" y="877" width="7" height="7" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundPurpleBigStarAnim_c" x="840" y="242" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundPurpleBigStarAnim_d" x="1830" y="211" width="3" height="3" frameX="-2" frameY="-2" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundPurpleSmallStarAnim_a" x="1830" y="211" width="3" height="3" frameX="-2" frameY="-2" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="desertStarBackgroundPurpleSmallStarAnim_b" x="840" y="253" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="dragonBackgroundDesertSpriteAnim_a" x="345" y="1180" width="31" height="28" frameX="-1" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dragonBackgroundDesertSpriteAnim_b" x="382" y="1185" width="31" height="28" frameX="-1" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dragonBackgroundDesertSpriteAnim_c" x="188" y="1167" width="31" height="28" frameX="-1" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_sky_0" x="345" y="1214" width="16" height="16"/>
+    <SubTexture name="factoryLightBackgroundSpriteAnim_a" x="934" y="472" width="118" height="80"/>
+    <SubTexture name="factoryLightBackgroundSpriteAnim_b" x="1100" y="524" width="118" height="80"/>
+    <SubTexture name="fireplaceBackgroundSpriteAnim_a" x="729" y="1044" width="22" height="9"/>
+    <SubTexture name="fireplaceBackgroundSpriteAnim_b" x="699" y="1053" width="22" height="9"/>
+    <SubTexture name="fishing_rod_background_1" x="1993" y="612" width="51" height="32"/>
+    <SubTexture name="fishing_rod_background_2" x="159" y="305" width="3" height="3"/>
+    <SubTexture name="flower_background_1" x="895" y="562" width="18" height="18" frameX="-1" frameY="-1" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="flower_background_2" x="458" y="643" width="10" height="10" frameX="-5" frameY="-5" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="flower_background_3" x="346" y="628" width="18" height="18" frameX="-1" frameY="-1" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="flower_background_4" x="458" y="659" width="10" height="10" frameX="-5" frameY="-5" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="flower_background_5" x="895" y="586" width="18" height="18" frameX="-1" frameY="-1" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="flower_background_6" x="1186" y="684" width="10" height="10" frameX="-5" frameY="-5" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="flower_background_7" x="1428" y="890" width="7" height="7" frameX="-6" frameY="-6" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="flower_background_8" x="1428" y="903" width="7" height="7" frameX="-6" frameY="-6" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="flower_background_9" x="1428" y="916" width="7" height="7" frameX="-6" frameY="-6" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="flyingBoatBlueWindEngineBackgroundSpriteAnim_a" x="346" y="542" width="19" height="22" frameX="0" frameY="-1" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="flyingBoatBlueWindEngineBackgroundSpriteAnim_b" x="346" y="570" width="19" height="18" frameX="0" frameY="-3" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="flyingBoatBlueWindEngineBackgroundSpriteAnim_c" x="346" y="594" width="19" height="14" frameX="0" frameY="-5" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="flyingBoatBlueWindEngineBackgroundSpriteAnim_d" x="346" y="614" width="19" height="8" frameX="0" frameY="-8" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="flyingBoatBlueWindEngineBackgroundSpriteAnim_e" x="346" y="594" width="19" height="14" frameX="0" frameY="-5" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="flyingBoatBlueWindEngineBackgroundSpriteAnim_f" x="346" y="570" width="19" height="18" frameX="0" frameY="-3" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="foreground_beach_1" x="1100" y="352" width="135" height="32"/>
+    <SubTexture name="foreground_beach_2" x="1269" y="907" width="8" height="8"/>
+    <SubTexture name="foreground_beach_3" x="793" y="346" width="135" height="32"/>
+    <SubTexture name="foreground_beach_4" x="1183" y="924" width="8" height="8"/>
+    <SubTexture name="foreground_beach_5" x="372" y="489" width="135" height="32"/>
+    <SubTexture name="foreground_bush_1" x="1496" y="756" width="96" height="16"/>
+    <SubTexture name="foreground_bush_2" x="441" y="1188" width="16" height="16"/>
+    <SubTexture name="foreground_bush_3" x="1788" y="800" width="96" height="16"/>
+    <SubTexture name="foreground_bush_4" x="301" y="1250" width="16" height="16"/>
+    <SubTexture name="foreground_bush_5" x="531" y="1060" width="32" height="32"/>
+    <SubTexture name="foreground_bush_6" x="569" y="1069" width="32" height="32"/>
+    <SubTexture name="foreground_bush_7" x="1890" y="800" width="96" height="16"/>
+    <SubTexture name="foreground_bush_8" x="4" y="1156" width="16" height="16"/>
+    <SubTexture name="foreground_bush_9" x="1788" y="822" width="96" height="16"/>
+    <SubTexture name="foreground_bush_10" x="259" y="1223" width="16" height="16"/>
+    <SubTexture name="foreground_bush_11" x="357" y="992" width="32" height="32"/>
+    <SubTexture name="foreground_bush_12" x="395" y="992" width="32" height="32"/>
+    <SubTexture name="foreground_bush_13" x="1005" y="608" width="25" height="8"/>
+    <SubTexture name="foreground_bush_14" x="303" y="1228" width="16" height="16"/>
+    <SubTexture name="foreground_bush_15" x="221" y="1226" width="16" height="16"/>
+    <SubTexture name="foreground_bush_16" x="1598" y="756" width="96" height="16"/>
+    <SubTexture name="foreground_bush_17" x="433" y="1007" width="32" height="32"/>
+    <SubTexture name="foreground_bush_18" x="257" y="1245" width="16" height="16"/>
+    <SubTexture name="foreground_bush_19" x="1100" y="610" width="96" height="24" frameX="0" frameY="-8" frameWidth="96" frameHeight="32"/>
+    <SubTexture name="foreground_bush_20" x="391" y="1103" width="32" height="24" frameX="0" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="foreground_bush_21" x="1788" y="778" width="96" height="16"/>
+    <SubTexture name="foreground_bush_22" x="493" y="1040" width="32" height="32"/>
+    <SubTexture name="foreground_bush_23" x="279" y="1245" width="16" height="16"/>
+    <SubTexture name="foreground_bush_night_1" x="1890" y="822" width="96" height="16"/>
+    <SubTexture name="foreground_bush_night_2" x="279" y="1010" width="32" height="32"/>
+    <SubTexture name="foreground_bush_night_3" x="48" y="1134" width="16" height="16"/>
+    <SubTexture name="foreground_canyon_1" x="206" y="176" width="192" height="16"/>
+    <SubTexture name="foreground_canyon_2" x="541" y="1016" width="24" height="16"/>
+    <SubTexture name="foreground_canyon_3" x="1269" y="935" width="8" height="8"/>
+    <SubTexture name="foreground_canyon_4" x="541" y="1038" width="24" height="16"/>
+    <SubTexture name="foreground_canyon_5" x="206" y="198" width="192" height="16"/>
+    <SubTexture name="foreground_canyon_6" x="241" y="1283" width="8" height="8"/>
+    <SubTexture name="foreground_canyon_7" x="474" y="527" width="32" height="71" frameX="0" frameY="-9" frameWidth="32" frameHeight="80"/>
+    <SubTexture name="foreground_canyon_8" x="404" y="198" width="192" height="16"/>
+    <SubTexture name="foreground_canyon_9" x="609" y="1031" width="24" height="16"/>
+    <SubTexture name="foreground_canyon_10" x="1269" y="921" width="8" height="8"/>
+    <SubTexture name="foreground_canyon_11" x="1202" y="610" width="32" height="71" frameX="0" frameY="-9" frameWidth="32" frameHeight="80"/>
+    <SubTexture name="foreground_canyon_12" x="473" y="991" width="24" height="16"/>
+    <SubTexture name="foreground_canyon_13" x="653" y="198" width="192" height="16"/>
+    <SubTexture name="foreground_canyon_14" x="1183" y="938" width="8" height="8"/>
+    <SubTexture name="foreground_castle_1" x="26" y="1156" width="16" height="16"/>
+    <SubTexture name="foreground_castle_2" x="48" y="1156" width="16" height="16"/>
+    <SubTexture name="foreground_castle_3" x="89" y="1176" width="16" height="16"/>
+    <SubTexture name="foreground_castle_4" x="1340" y="994" width="8" height="8"/>
+    <SubTexture name="foreground_castle_5" x="307" y="1150" width="32" height="16"/>
+    <SubTexture name="foreground_castle_6" x="90" y="732" width="48" height="16"/>
+    <SubTexture name="foreground_castle_7" x="664" y="732" width="16" height="48"/>
+    <SubTexture name="foreground_lift" x="1839" y="107" width="106" height="107"/>
+    <SubTexture name="foreground_snow_1" x="526" y="496" width="96" height="16"/>
+    <SubTexture name="foreground_snow_2" x="1251" y="936" width="8" height="8"/>
+    <SubTexture name="foreground_snow_3" x="1202" y="687" width="32" height="68"/>
+    <SubTexture name="foreground_snow_4" x="664" y="876" width="64" height="32"/>
+    <SubTexture name="foreground_snow_5" x="628" y="496" width="96" height="16"/>
+    <SubTexture name="foreground_snow_6" x="1233" y="943" width="8" height="8"/>
+    <SubTexture name="foreground_snow_7" x="317" y="1010" width="32" height="32"/>
+    <SubTexture name="foreground_snow_8" x="125" y="1197" width="16" height="16"/>
+    <SubTexture name="foreground_snow_9" x="4" y="1178" width="16" height="16"/>
+    <SubTexture name="frozenSnowBackgroundParticleSpriteAnim_a" x="1461" y="597" width="4" height="4"/>
+    <SubTexture name="frozenSnowBackgroundParticleSpriteAnim_b" x="444" y="814" width="4" height="4"/>
+    <SubTexture name="frozenSnowBackgroundParticleSpriteAnim_c" x="444" y="824" width="4" height="4"/>
+    <SubTexture name="frozenSnowBackgroundParticleSpriteAnim_d" x="159" y="314" width="3" height="3" frameX="0" frameY="0" frameWidth="4" frameHeight="4"/>
+    <SubTexture name="giantFishBodyCollisionSpriteAnim_a" x="1004" y="901" width="60" height="57"/>
+    <SubTexture name="giantFishMouthCollisionSpriteAnim_a" x="353" y="1103" width="32" height="25" frameX="0" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="giantFishMouthCollisionSpriteAnim_b" x="355" y="1030" width="32" height="32"/>
+    <SubTexture name="greenLeafBackgroundSpriteDarkAnim_a" x="513" y="498" width="7" height="8" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteDarkAnim_b" x="1215" y="947" width="8" height="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteDarkAnim_c" x="1291" y="1039" width="8" height="7" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteDarkAnim_d" x="1197" y="948" width="8" height="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteDarkAnim_e" x="159" y="323" width="3" height="3" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteDarkAnim_f" x="1197" y="948" width="8" height="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteLightAnim_a" x="513" y="498" width="7" height="8" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteLightAnim_b" x="1215" y="947" width="8" height="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteLightAnim_c" x="1305" y="1039" width="8" height="7" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteLightAnim_d" x="1183" y="952" width="8" height="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteLightAnim_e" x="159" y="323" width="3" height="3" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="greenLeafBackgroundSpriteLightAnim_f" x="1183" y="952" width="8" height="8"/>
+    <SubTexture name="grey_splash_cloud_body_0" x="26" y="1178" width="16" height="16"/>
+    <SubTexture name="grey_splash_cloud_body_1" x="48" y="1178" width="16" height="16"/>
+    <SubTexture name="grey_splash_cloud_body_2" x="89" y="1198" width="16" height="16"/>
+    <SubTexture name="grey_splash_cloud_layer_0" x="1174" y="4" width="384" height="16"/>
+    <SubTexture name="grey_splash_cloud_layer_1" x="1564" y="4" width="384" height="16"/>
+    <SubTexture name="grey_splash_cloud_layer_2" x="4" y="26" width="384" height="16"/>
+    <SubTexture name="grey_splash_cloud_layer_3" x="378" y="48" width="368" height="16"/>
+    <SubTexture name="helicopter" x="1892" y="730" width="94" height="64"/>
+    <SubTexture name="helicopter_fan" x="639" y="1050" width="16" height="23"/>
+    <SubTexture name="helicopter_screw" x="1271" y="977" width="7" height="7"/>
+    <SubTexture name="helicopterBack1" x="315" y="1086" width="32" height="28"/>
+    <SubTexture name="hill_background_1" x="934" y="334" width="160" height="22"/>
+    <SubTexture name="ice_background_1" x="393" y="1030" width="32" height="32"/>
+    <SubTexture name="ice_background_2" x="431" y="1045" width="32" height="32"/>
+    <SubTexture name="ice_background_3" x="1191" y="292" width="44" height="32"/>
+    <SubTexture name="ice_background_4" x="526" y="674" width="76" height="52"/>
+    <SubTexture name="jungle_2" x="1005" y="660" width="62" height="112"/>
+    <SubTexture name="jungle_3" x="125" y="1219" width="16" height="16"/>
+    <SubTexture name="jungle_4" x="1224" y="524" width="11" height="25"/>
+    <SubTexture name="jungle_5" x="919" y="551" width="9" height="9"/>
+    <SubTexture name="jungle_6" x="92" y="1286" width="13" height="13"/>
+    <SubTexture name="jungle_8" x="516" y="376" width="4" height="48"/>
+    <SubTexture name="jungle_10" x="516" y="322" width="4" height="48"/>
+    <SubTexture name="jungle_11" x="914" y="736" width="71" height="23"/>
+    <SubTexture name="kitty_house_background_1" x="524" y="732" width="64" height="64"/>
+    <SubTexture name="kitty_house_background_2" x="594" y="732" width="64" height="64"/>
+    <SubTexture name="kitty_house_background_3" x="1073" y="768" width="18" height="16"/>
+    <SubTexture name="kitty_house_background_4" x="895" y="610" width="18" height="18"/>
+    <SubTexture name="kitty_house_background_5" x="698" y="586" width="26" height="26"/>
+    <SubTexture name="kitty_house_background_6" x="698" y="650" width="26" height="24"/>
+    <SubTexture name="kitty_house_background_7" x="1165" y="954" width="8" height="8"/>
+    <SubTexture name="kitty_house_background_8" x="1992" y="790" width="48" height="24"/>
+    <SubTexture name="kitty_house_background_9" x="161" y="1231" width="16" height="16"/>
+    <SubTexture name="kitty_house_frame_1" x="602" y="218" width="42" height="46"/>
+    <SubTexture name="kitty_house_frame_2" x="601" y="270" width="42" height="46"/>
+    <SubTexture name="kitty_house_frame_3" x="601" y="322" width="42" height="46"/>
+    <SubTexture name="kitty_house_frame_4" x="1701" y="659" width="42" height="46"/>
+    <SubTexture name="light_1" x="1500" y="166" width="286" height="231"/>
+    <SubTexture name="light_2" x="934" y="96" width="251" height="232"/>
+    <SubTexture name="light_green_quad" x="1265" y="949" width="8" height="8"/>
+    <SubTexture name="light_pole" x="597" y="374" width="20" height="56"/>
+    <SubTexture name="light_pole_light" x="1005" y="845" width="61" height="50"/>
+    <SubTexture name="lighthouseBackgroundSpriteAnim_a" x="1326" y="766" width="27" height="26" frameX="-2" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="lighthouseBackgroundSpriteAnim_b" x="1461" y="742" width="29" height="27" frameX="-1" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="maya_temple_1" x="90" y="943" width="40" height="16"/>
+    <SubTexture name="maya_temple_2" x="90" y="965" width="40" height="16"/>
+    <SubTexture name="maya_temple_3" x="1191" y="330" width="44" height="16"/>
+    <SubTexture name="maya_temple_4" x="90" y="987" width="40" height="16"/>
+    <SubTexture name="maya_temple_5" x="90" y="1009" width="40" height="16"/>
+    <SubTexture name="maya_temple_6" x="1997" y="524" width="44" height="16"/>
+    <SubTexture name="maya_temple_7" x="694" y="806" width="64" height="64"/>
+    <SubTexture name="maya_temple_8" x="524" y="802" width="64" height="64"/>
+    <SubTexture name="neon1BackgroundAnim_a" x="1271" y="990" width="7" height="7"/>
+    <SubTexture name="neon1BackgroundAnim_b" x="1140" y="978" width="7" height="7"/>
+    <SubTexture name="neon2BackgroundAnim_a" x="183" y="1245" width="16" height="16"/>
+    <SubTexture name="neon2BackgroundAnim_b" x="161" y="1253" width="16" height="16"/>
+    <SubTexture name="neon3BackgroundAnim_a" x="976" y="805" width="23" height="23"/>
+    <SubTexture name="neon3BackgroundAnim_b" x="976" y="834" width="23" height="23"/>
+    <SubTexture name="palm_dusk_tree_1" x="372" y="289" width="138" height="194"/>
+    <SubTexture name="palm_dusk_tree_4" x="623" y="400" width="20" height="20"/>
+    <SubTexture name="palm_dusk_tree_5" x="1215" y="911" width="12" height="12"/>
+    <SubTexture name="palm_dusk_tree_6" x="608" y="674" width="72" height="23"/>
+    <SubTexture name="palm_dusk_tree_7" x="4" y="332" width="138" height="194"/>
+    <SubTexture name="palm_dusk_tree_8" x="346" y="516" width="20" height="20"/>
+    <SubTexture name="palm_dusk_tree_9" x="1197" y="915" width="12" height="12"/>
+    <SubTexture name="palm_dusk_tree_10" x="435" y="915" width="64" height="40"/>
+    <SubTexture name="palm_night_tree_1" x="202" y="448" width="138" height="194"/>
+    <SubTexture name="palm_night_tree_2" x="1074" y="362" width="20" height="20"/>
+    <SubTexture name="palm_night_tree_3" x="1233" y="911" width="12" height="12"/>
+    <SubTexture name="palm_night_tree_4" x="608" y="703" width="72" height="23"/>
+    <SubTexture name="palm_tree_1" x="4" y="532" width="138" height="194"/>
+    <SubTexture name="palm_tree_2" x="365" y="946" width="64" height="40"/>
+    <SubTexture name="palm_tree_3" x="287" y="964" width="64" height="40"/>
+    <SubTexture name="palm_tree_4" x="1074" y="388" width="20" height="20"/>
+    <SubTexture name="palm_tree_5" x="1251" y="911" width="12" height="12"/>
+    <SubTexture name="palm_tree_6" x="790" y="708" width="72" height="23"/>
+    <SubTexture name="palm_tree_7" x="649" y="296" width="138" height="194"/>
+    <SubTexture name="palm_tree_8" x="1074" y="414" width="20" height="20"/>
+    <SubTexture name="palm_tree_9" x="1215" y="929" width="12" height="12"/>
+    <SubTexture name="palm_tree_10" x="1753" y="441" width="33" height="12"/>
+    <SubTexture name="palm_tree_11" x="26" y="1318" width="15" height="8"/>
+    <SubTexture name="palm_tree_12" x="4" y="1318" width="16" height="5"/>
+    <SubTexture name="palm_tree_13" x="976" y="863" width="22" height="33"/>
+    <SubTexture name="pollenBackgroundSpriteAnim_a" x="919" y="457" width="9" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="pollenBackgroundSpriteAnim_b" x="919" y="497" width="9" height="13" frameX="-3" frameY="-2" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="pollenIntroBackgroundSpriteAnim_a" x="919" y="477" width="9" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="pollenIntroBackgroundSpriteAnim_b" x="919" y="516" width="9" height="13" frameX="-3" frameY="-2" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="portobello_background_1" x="934" y="362" width="134" height="104"/>
+    <SubTexture name="portobello_background_2" x="729" y="1026" width="24" height="12"/>
+    <SubTexture name="portobello_background_3" x="1073" y="790" width="18" height="12"/>
+    <SubTexture name="pyramid_bg_1" x="793" y="415" width="128" height="16"/>
+    <SubTexture name="pyramid_bg_2" x="729" y="966" width="24" height="24"/>
+    <SubTexture name="pyramid_bg_3" x="729" y="996" width="24" height="24"/>
+    <SubTexture name="pyramid_bg_4" x="543" y="964" width="24" height="24"/>
+    <SubTexture name="pyramid_bg_5" x="1073" y="700" width="18" height="18"/>
+    <SubTexture name="pyramid_bg_6" x="730" y="658" width="34" height="16"/>
+    <SubTexture name="pyramid_bg_7" x="345" y="1158" width="32" height="16"/>
+    <SubTexture name="pyramid_bg_8" x="383" y="1163" width="32" height="16"/>
+    <SubTexture name="pyramid_bg_9" x="491" y="1078" width="32" height="32"/>
+    <SubTexture name="rain_fence" x="148" y="520" width="48" height="38"/>
+    <SubTexture name="rain_fence_2" x="148" y="422" width="48" height="48"/>
+    <SubTexture name="rain_tree_1" x="202" y="691" width="80" height="128"/>
+    <SubTexture name="rain_tree_2" x="368" y="680" width="80" height="128"/>
+    <SubTexture name="rain_tree_3" x="262" y="1179" width="16" height="16"/>
+    <SubTexture name="rain_tree_4" x="26" y="1178" width="16" height="16"/>
+    <SubTexture name="rain_tree_5" x="529" y="1098" width="32" height="32"/>
+    <SubTexture name="rain_tree_6" x="567" y="1107" width="32" height="32"/>
+    <SubTexture name="rain_tree_7" x="793" y="530" width="96" height="16"/>
+    <SubTexture name="rain_tree_8" x="793" y="552" width="96" height="16"/>
+    <SubTexture name="rain_tree_9" x="876" y="594" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="rain_tree_10" x="876" y="574" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="rain_tree_11" x="219" y="1248" width="16" height="16"/>
+    <SubTexture name="rain_tree_12" x="183" y="1267" width="16" height="16"/>
+    <SubTexture name="rain_tree_13" x="1247" y="950" width="8" height="8"/>
+    <SubTexture name="rain_tree_14" x="255" y="1267" width="16" height="16"/>
+    <SubTexture name="rain_tree_15" x="1074" y="440" width="20" height="20"/>
+    <SubTexture name="rain_tree_16" x="1229" y="957" width="8" height="8"/>
+    <SubTexture name="rain_tree_17" x="219" y="1270" width="16" height="16"/>
+    <SubTexture name="rain_tree_18" x="1074" y="466" width="20" height="20"/>
+    <SubTexture name="rain_tree_19" x="1012" y="964" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="rain_tree_20" x="1216" y="1026" width="7" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="rain_tree_21" x="1026" y="964" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="rain_tree_22" x="1082" y="983" width="7" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="rain_tree_23" x="231" y="1149" width="32" height="8"/>
+    <SubTexture name="rain_tree_24" x="219" y="1292" width="16" height="16"/>
+    <SubTexture name="rainStormBackgroundParticleSpriteAnim_a - Copy" x="851" y="198" width="76" height="72"/>
+    <SubTexture name="rainStormBackgroundParticleSpriteAnim_a" x="1359" y="786" width="76" height="72"/>
+    <SubTexture name="rainStormBackgroundParticleSpriteAnim_b" x="1202" y="815" width="76" height="72"/>
+    <SubTexture name="river_background_1" x="793" y="384" width="128" height="25" frameX="0" frameY="-4" frameWidth="128" frameHeight="32"/>
+    <SubTexture name="river_background_2" x="1461" y="669" width="30" height="25" frameX="-1" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="river_background_3" x="1191" y="133" width="45" height="25" frameX="0" frameY="-4" frameWidth="48" frameHeight="32"/>
+    <SubTexture name="river_background_4" x="1251" y="936" width="8" height="8"/>
+    <SubTexture name="river_background_5" x="934" y="558" width="96" height="16"/>
+    <SubTexture name="river_background_6" x="201" y="1029" width="32" height="32"/>
+    <SubTexture name="river_background_7" x="1211" y="961" width="8" height="8"/>
+    <SubTexture name="river_background_8" x="640" y="980" width="16" height="32"/>
+    <SubTexture name="river_background_9" x="1233" y="929" width="12" height="8" frameX="-2" frameY="0" frameWidth="16" frameHeight="8"/>
+    <SubTexture name="river_background_10" x="764" y="956" width="16" height="32"/>
+    <SubTexture name="river_background_11" x="1165" y="940" width="12" height="8" frameX="-2" frameY="0" frameWidth="16" frameHeight="8"/>
+    <SubTexture name="river_cloud_1 - Copy" x="730" y="636" width="54" height="16"/>
+    <SubTexture name="river_cloud_1" x="1100" y="334" width="54" height="12"/>
+    <SubTexture name="river_cloud_2 - Copy" x="231" y="1163" width="32" height="8"/>
+    <SubTexture name="river_cloud_2" x="269" y="1165" width="32" height="8"/>
+    <SubTexture name="river_snow_background_1" x="1197" y="962" width="8" height="8"/>
+    <SubTexture name="river_snow_background_2" x="1479" y="863" width="8" height="8"/>
+    <SubTexture name="rockBackgroundSpriteAnim_a" x="1179" y="966" width="8" height="8"/>
+    <SubTexture name="rockBackgroundSpriteAnim_b" x="1261" y="963" width="8" height="8"/>
+    <SubTexture name="sand_wind_1" x="4" y="70" width="320" height="24"/>
+    <SubTexture name="sand_wind_2" x="350" y="248" width="16" height="128"/>
+    <SubTexture name="sandBackgroundSpriteAnim_a" x="982" y="780" width="17" height="19" frameX="-1" frameY="0" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="sandBackgroundSpriteAnim_b" x="1224" y="555" width="11" height="13" frameX="-4" frameY="-3" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="sandBeachBackgroundSpriteAnim_a" x="1291" y="1052" width="8" height="7" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="sandBeachBackgroundSpriteAnim_b" x="1305" y="1052" width="8" height="7" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="sandWindBeachBackgroundSpriteAnim_a" x="1291" y="1052" width="8" height="7" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="sandWindBeachBackgroundSpriteAnim_b" x="1093" y="958" width="8" height="7" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="sea_cloud_1" x="730" y="564" width="54" height="30"/>
+    <SubTexture name="sea_cloud_2" x="353" y="1134" width="32" height="18"/>
+    <SubTexture name="seaDawnReflectionBackgroundSpriteAnim_a" x="279" y="959" width="2" height="1"/>
+    <SubTexture name="seaDawnReflectionBackgroundSpriteAnim_b" x="868" y="708" width="2" height="1"/>
+    <SubTexture name="seaDawnReflectionBackgroundSpriteAnim_c" x="868" y="715" width="2" height="1"/>
+    <SubTexture name="seaDawnReflectionBackgroundSpriteAnim_d" x="868" y="708" width="2" height="1"/>
+    <SubTexture name="seaDawnReflectionBackgroundSpriteAnim_e" x="279" y="959" width="2" height="1"/>
+    <SubTexture name="seaNightReflectionBackgroundSpriteAnim_a" x="868" y="722" width="2" height="1"/>
+    <SubTexture name="seaNightReflectionBackgroundSpriteAnim_b" x="868" y="729" width="2" height="1"/>
+    <SubTexture name="seaNightReflectionBackgroundSpriteAnim_c" x="868" y="736" width="2" height="1"/>
+    <SubTexture name="seaNightReflectionBackgroundSpriteAnim_d" x="868" y="729" width="2" height="1"/>
+    <SubTexture name="seaNightReflectionBackgroundSpriteAnim_e" x="868" y="722" width="2" height="1"/>
+    <SubTexture name="seaReflectionBackgroundSpriteAnim_a" x="868" y="743" width="2" height="1"/>
+    <SubTexture name="seaReflectionBackgroundSpriteAnim_b" x="906" y="750" width="2" height="1"/>
+    <SubTexture name="seaReflectionBackgroundSpriteAnim_c" x="906" y="757" width="2" height="1"/>
+    <SubTexture name="seaReflectionBackgroundSpriteAnim_d" x="906" y="750" width="2" height="1"/>
+    <SubTexture name="seaReflectionBackgroundSpriteAnim_e" x="868" y="743" width="2" height="1"/>
+    <SubTexture name="shadow_1" x="759" y="994" width="16" height="24"/>
+    <SubTexture name="shadow_2" x="70" y="1286" width="16" height="14"/>
+    <SubTexture name="shootStarBackgroundSpriteAnim_a" x="277" y="1267" width="16" height="16" frameX="0" frameY="0" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="shootStarBackgroundSpriteAnim_b" x="1074" y="648" width="20" height="19" frameX="-6" frameY="-6" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="shootStarBackgroundSpriteAnim_c" x="698" y="618" width="26" height="26" frameX="-12" frameY="-12" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="shootStarBackgroundSpriteAnim_d" x="1326" y="733" width="27" height="27" frameX="-24" frameY="-24" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="shootStarBackgroundSpriteAnim_e" x="239" y="1029" width="32" height="32" frameX="-29" frameY="-29" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="shootStarBackgroundSpriteAnim_f" x="1073" y="673" width="21" height="21" frameX="-41" frameY="-41" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="shootStarBackgroundSpriteAnim_g" x="92" y="1305" width="13" height="13" frameX="-51" frameY="-51" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="shootStarBackgroundSpriteAnim_h" x="1186" y="700" width="10" height="10" frameX="-53" frameY="-53" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="sky_fade_1" x="512" y="539" width="8" height="160"/>
+    <SubTexture name="snow_anim_a" x="1241" y="327" width="250" height="250" frameX="-4" frameY="-3" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="snow_anim_b" x="1497" y="403" width="250" height="250" frameX="-3" frameY="-2" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="snow_anim_c" x="1792" y="266" width="251" height="252" frameX="-3" frameY="-1" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="snow_anim_d" x="1244" y="70" width="250" height="251" frameX="-3" frameY="-2" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="snow_hill_background_1" x="206" y="220" width="160" height="22"/>
+    <SubTexture name="snow_hill_background_2" x="906" y="765" width="70" height="16"/>
+    <SubTexture name="snowBackgroundParticleSprite1Anim_a" x="686" y="733" width="6" height="6" frameX="-3" frameY="-3" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite1Anim_b" x="1095" y="983" width="7" height="6" frameX="-2" frameY="-3" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite1Anim_c" x="686" y="733" width="6" height="6" frameX="-4" frameY="-4" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite1Anim_d" x="686" y="696" width="6" height="7" frameX="-3" frameY="-2" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite2Anim_a" x="1445" y="780" width="10" height="9" frameX="-1" frameY="-1" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite2Anim_b" x="1186" y="828" width="10" height="9" frameX="0" frameY="-2" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite2Anim_c" x="1186" y="843" width="10" height="9" frameX="-2" frameY="-1" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite2Anim_d" x="919" y="535" width="9" height="10" frameX="-1" frameY="-1" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite3Anim_a" x="919" y="566" width="9" height="8" frameX="-1" frameY="-2" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite3Anim_b" x="1070" y="959" width="8" height="7" frameX="-2" frameY="-3" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite3Anim_c" x="243" y="1226" width="8" height="9" frameX="-3" frameY="-2" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSprite3Anim_d" x="513" y="512" width="7" height="8" frameX="-3" frameY="-3" frameWidth="12" frameHeight="12"/>
+    <SubTexture name="snowBackgroundParticleSpriteAnim_a" x="1005" y="778" width="62" height="61" frameX="-2" frameY="-2" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="snowBackgroundParticleSpriteAnim_b" x="575" y="962" width="59" height="63" frameX="-4" frameY="0" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="snowBackgroundParticleSpriteAnim_c" x="138" y="780" width="57" height="58" frameX="-5" frameY="-2" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="snowBackgroundParticleSpriteAnim_d" x="730" y="496" width="57" height="62" frameX="-6" frameY="-1" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="splash_cloud_body_dusk_0" x="4" y="1200" width="16" height="16"/>
+    <SubTexture name="splash_cloud_body_dusk_1" x="467" y="1123" width="16" height="16"/>
+    <SubTexture name="splash_cloud_body_dusk_2" x="26" y="1200" width="16" height="16"/>
+    <SubTexture name="splash_cloud_layer_dusk_0" x="394" y="26" width="384" height="16"/>
+    <SubTexture name="splash_cloud_layer_dusk_1" x="784" y="26" width="384" height="16"/>
+    <SubTexture name="splash_cloud_layer_dusk_2" x="1174" y="26" width="384" height="16"/>
+    <SubTexture name="starBackgroundBlueBigStarAnim_a" x="840" y="264" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundBlueBigStarAnim_b" x="1153" y="981" width="7" height="7" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundBlueBigStarAnim_c" x="840" y="264" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundBlueBigStarAnim_d" x="444" y="834" width="3" height="3" frameX="-2" frameY="-2" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundBlueSmallStarAnim_a" x="444" y="834" width="3" height="3" frameX="-2" frameY="-2" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundBlueSmallStarAnim_b" x="516" y="289" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundPurpleBigStarAnim_a" x="516" y="300" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundPurpleBigStarAnim_b" x="1166" y="993" width="7" height="7" frameX="0" frameY="0" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundPurpleBigStarAnim_c" x="516" y="300" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundPurpleBigStarAnim_d" x="1830" y="166" width="3" height="3" frameX="-2" frameY="-2" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundPurpleSmallStarAnim_a" x="1830" y="166" width="3" height="3" frameX="-2" frameY="-2" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundPurpleSmallStarAnim_b" x="516" y="311" width="5" height="5" frameX="-1" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="starBackgroundSpriteAnim1_a" x="42" y="1349" width="13" height="12" frameX="0" frameY="0" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim1_b" x="4" y="1329" width="13" height="13"/>
+    <SubTexture name="starBackgroundSpriteAnim2_a" x="23" y="1351" width="13" height="12" frameX="0" frameY="0" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim2_b" x="42" y="1367" width="13" height="11" frameX="0" frameY="0" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim3_a" x="111" y="1154" width="10" height="9" frameX="-1" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim3_b" x="1021" y="580" width="9" height="8" frameX="-1" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim4_a" x="1186" y="716" width="10" height="10" frameX="-1" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim4_b" x="328" y="1184" width="11" height="11" frameX="-2" frameY="-1" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim5_a" x="1186" y="732" width="10" height="10" frameX="-2" frameY="-1" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim5_b" x="1186" y="748" width="10" height="10" frameX="-2" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim6_a" x="1107" y="958" width="8" height="7" frameX="-3" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim6_b" x="1179" y="1002" width="7" height="7" frameX="-4" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim7_a" x="1192" y="1002" width="7" height="7" frameX="-4" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim7_b" x="1205" y="1003" width="7" height="7" frameX="-3" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim8_a" x="1218" y="1013" width="7" height="7" frameX="-4" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim8_b" x="1021" y="594" width="9" height="8" frameX="-2" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim9_a" x="1121" y="958" width="8" height="7" frameX="-3" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starBackgroundSpriteAnim9_b" x="1231" y="1020" width="7" height="7" frameX="-4" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_1_a" x="4" y="1367" width="13" height="12" frameX="0" frameY="0" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_1_b" x="47" y="1330" width="13" height="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_2_a" x="85" y="1335" width="13" height="12" frameX="0" frameY="0" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_2_b" x="23" y="1369" width="13" height="11" frameX="0" frameY="0" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_3_a" x="111" y="1169" width="10" height="9" frameX="-1" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_3_b" x="459" y="549" width="9" height="8" frameX="-1" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_4_a" x="1186" y="764" width="10" height="10" frameX="-1" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_4_b" x="328" y="1201" width="11" height="11" frameX="-2" frameY="-1" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_5_a" x="1186" y="780" width="10" height="10" frameX="-2" frameY="-1" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_5_b" x="1186" y="796" width="10" height="10" frameX="-2" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_6_a" x="1135" y="958" width="8" height="7" frameX="-3" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_6_b" x="1112" y="982" width="7" height="7" frameX="-4" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_7_a" x="1125" y="982" width="7" height="7" frameX="-4" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_7_b" x="1138" y="991" width="7" height="7" frameX="-3" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_8_a" x="1112" y="982" width="7" height="7" frameX="-4" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_8_b" x="459" y="563" width="9" height="8" frameX="-2" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_9_a" x="1149" y="958" width="8" height="7" frameX="-3" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starDuskBackgroundSpriteAnim_9_b" x="1151" y="994" width="7" height="7" frameX="-4" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_1_a" x="104" y="1335" width="13" height="12" frameX="0" frameY="0" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_1_b" x="23" y="1332" width="13" height="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_2_a" x="61" y="1350" width="13" height="12" frameX="0" frameY="0" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_2_b" x="4" y="1385" width="13" height="11" frameX="0" frameY="0" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_3_a" x="149" y="1175" width="10" height="9" frameX="-1" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_3_b" x="459" y="577" width="9" height="8" frameX="-1" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_4_a" x="1186" y="812" width="10" height="10" frameX="-1" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_4_b" x="328" y="1218" width="11" height="11" frameX="-2" frameY="-1" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_5_a" x="1445" y="748" width="10" height="10" frameX="-2" frameY="-1" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_5_b" x="1445" y="764" width="10" height="10" frameX="-2" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_6_a" x="1163" y="968" width="8" height="7" frameX="-3" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_6_b" x="1164" y="1006" width="7" height="7" frameX="-4" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_7_a" x="1177" y="1015" width="7" height="7" frameX="-4" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_7_b" x="1190" y="1015" width="7" height="7" frameX="-3" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_8_a" x="1164" y="1006" width="7" height="7" frameX="-4" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_8_b" x="459" y="591" width="9" height="8" frameX="-2" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_9_a" x="1177" y="980" width="8" height="7" frameX="-3" frameY="-3" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starHalloweenBackgroundSpriteAnim_9_b" x="1203" y="1016" width="7" height="7" frameX="-4" frameY="-2" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="starry_night_cloud_body_0" x="187" y="1201" width="16" height="16"/>
+    <SubTexture name="starry_night_cloud_body_1" x="48" y="1134" width="16" height="16"/>
+    <SubTexture name="starry_night_cloud_body_2" x="467" y="1167" width="16" height="16"/>
+    <SubTexture name="starry_night_cloud_body_3" x="48" y="1200" width="16" height="16"/>
+    <SubTexture name="starry_night_cloud_layer_0" x="4" y="4" width="384" height="16"/>
+    <SubTexture name="starry_night_cloud_layer_1" x="1564" y="26" width="384" height="16"/>
+    <SubTexture name="starry_night_cloud_layer_2" x="752" y="48" width="368" height="16"/>
+    <SubTexture name="starry_night_cloud_layer_3" x="1126" y="48" width="368" height="16"/>
+    <SubTexture name="steam_wind_1" x="330" y="70" width="320" height="24"/>
+    <SubTexture name="steam_wind_2" x="350" y="382" width="16" height="128"/>
+    <SubTexture name="temple_background_1" x="406" y="138" width="192" height="24" frameX="0" frameY="-8" frameWidth="192" frameHeight="32"/>
+    <SubTexture name="temple_background_2" x="429" y="1118" width="32" height="24" frameX="0" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="temple_background_3" x="1257" y="977" width="8" height="8"/>
+    <SubTexture name="temple_background_4" x="1058" y="472" width="10" height="64"/>
+    <SubTexture name="temple_background_5" x="202" y="648" width="82" height="37"/>
+    <SubTexture name="temple_background_6" x="406" y="168" width="192" height="24" frameX="0" frameY="-8" frameWidth="192" frameHeight="32"/>
+    <SubTexture name="temple_background_7" x="391" y="1133" width="32" height="24" frameX="0" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="temple_background_8" x="1239" y="978" width="8" height="8"/>
+    <SubTexture name="temple_background_9" x="1058" y="542" width="10" height="64"/>
+    <SubTexture name="temple_background_10" x="370" y="637" width="82" height="37"/>
+    <SubTexture name="temple_background_11" x="1461" y="700" width="30" height="8" frameX="-1" frameY="0" frameWidth="32" frameHeight="8"/>
+    <SubTexture name="temple_background_12" x="1461" y="714" width="30" height="8" frameX="-1" frameY="0" frameWidth="32" frameHeight="8"/>
+    <SubTexture name="temple_background_13" x="1461" y="728" width="30" height="8" frameX="-1" frameY="0" frameWidth="32" frameHeight="8"/>
+    <SubTexture name="temple_background_14" x="1243" y="964" width="8" height="8"/>
+    <SubTexture name="temple_background_15" x="1225" y="971" width="8" height="8"/>
+    <SubTexture name="temple_background_16" x="1211" y="975" width="8" height="8"/>
+    <SubTexture name="temple_background_17" x="1193" y="976" width="8" height="8"/>
+    <SubTexture name="temple_background_18" x="1241" y="583" width="112" height="144"/>
+    <SubTexture name="temple_waterfall_1" x="1753" y="459" width="32" height="256"/>
+    <SubTexture name="tree_dawn_1" x="4" y="732" width="80" height="128"/>
+    <SubTexture name="tree_dawn_2" x="876" y="614" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_dawn_3" x="4" y="1222" width="16" height="16"/>
+    <SubTexture name="tree_dawn_4" x="26" y="1222" width="16" height="16"/>
+    <SubTexture name="tree_dawn_5" x="1054" y="964" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="tree_dawn_6" x="1242" y="1033" width="7" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="tree_dawn_7" x="201" y="825" width="80" height="128"/>
+    <SubTexture name="tree_dawn_8" x="1167" y="818" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_dawn_9" x="48" y="1222" width="16" height="16"/>
+    <SubTexture name="tree_dawn_10" x="1040" y="964" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="tree_dawn_11" x="1229" y="1033" width="7" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="tree_dawn_14" x="138" y="844" width="56" height="96"/>
+    <SubTexture name="tree_dawn_15" x="790" y="737" width="72" height="8"/>
+    <SubTexture name="tree_dawn_16" x="4" y="1304" width="16" height="8"/>
+    <SubTexture name="tree_dawn_17" x="89" y="1220" width="16" height="16"/>
+    <SubTexture name="tree_dawn_18" x="125" y="1241" width="16" height="16"/>
+    <SubTexture name="tree_dawn_19" x="656" y="96" width="272" height="96"/>
+    <SubTexture name="tree_day_1" x="4" y="866" width="80" height="128"/>
+    <SubTexture name="tree_day_2" x="1997" y="546" width="44" height="16"/>
+    <SubTexture name="tree_day_3" x="526" y="540" width="80" height="128"/>
+    <SubTexture name="tree_day_4" x="1997" y="568" width="44" height="16"/>
+    <SubTexture name="tree_day_5" x="1239" y="992" width="8" height="8"/>
+    <SubTexture name="tree_day_6" x="161" y="1275" width="16" height="16"/>
+    <SubTexture name="tree_day_7" x="1074" y="518" width="20" height="20"/>
+    <SubTexture name="tree_day_8" x="645" y="960" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_day_9" x="1267" y="1003" width="8" height="8"/>
+    <SubTexture name="tree_day_10" x="89" y="1242" width="16" height="16"/>
+    <SubTexture name="tree_day_11" x="1074" y="492" width="20" height="20"/>
+    <SubTexture name="tree_day_12" x="1167" y="838" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_day_13" x="1100" y="640" width="96" height="16"/>
+    <SubTexture name="tree_day_14" x="1100" y="662" width="96" height="16"/>
+    <SubTexture name="tree_day_15" x="1225" y="985" width="8" height="8"/>
+    <SubTexture name="tree_day_16" x="1253" y="991" width="8" height="8"/>
+    <SubTexture name="tree_day_17" x="277" y="1048" width="32" height="32"/>
+    <SubTexture name="tree_day_18" x="315" y="1048" width="32" height="32"/>
+    <SubTexture name="tree_day_19" x="1036" y="558" width="16" height="96"/>
+    <SubTexture name="tree_day_20" x="768" y="692" width="16" height="96"/>
+    <SubTexture name="tree_day_21" x="4" y="1000" width="80" height="128"/>
+    <SubTexture name="tree_day_22" x="645" y="940" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_day_23" x="125" y="1263" width="16" height="16"/>
+    <SubTexture name="tree_dusk_1" x="612" y="540" width="80" height="128"/>
+    <SubTexture name="tree_dusk_1_seasonal" x="698" y="680" width="64" height="120"/>
+    <SubTexture name="tree_dusk_2" x="1997" y="590" width="44" height="16"/>
+    <SubTexture name="tree_dusk_2_seasonal" x="606" y="100" width="44" height="16"/>
+    <SubTexture name="tree_dusk_3" x="790" y="574" width="80" height="128"/>
+    <SubTexture name="tree_dusk_3_seasonal" x="906" y="787" width="64" height="120"/>
+    <SubTexture name="tree_dusk_4" x="606" y="122" width="44" height="16"/>
+    <SubTexture name="tree_dusk_4_seasonal" x="604" y="144" width="44" height="16"/>
+    <SubTexture name="tree_dusk_5" x="1253" y="1005" width="8" height="8"/>
+    <SubTexture name="tree_dusk_5_seasonal" x="1267" y="1017" width="8" height="8"/>
+    <SubTexture name="tree_dusk_6" x="26" y="1244" width="16" height="16"/>
+    <SubTexture name="tree_dusk_6_seasonal" x="48" y="1244" width="16" height="16"/>
+    <SubTexture name="tree_dusk_7" x="1074" y="596" width="20" height="20"/>
+    <SubTexture name="tree_dusk_7_seasonal" x="1471" y="583" width="20" height="20"/>
+    <SubTexture name="tree_dusk_8" x="70" y="1168" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_dusk_8_seasonal" x="70" y="1188" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_dusk_9" x="1207" y="989" width="8" height="8"/>
+    <SubTexture name="tree_dusk_9_seasonal" x="1221" y="999" width="8" height="8"/>
+    <SubTexture name="tree_dusk_10" x="183" y="1289" width="16" height="16"/>
+    <SubTexture name="tree_dusk_10_seasonal" x="4" y="1244" width="16" height="16"/>
+    <SubTexture name="tree_dusk_11" x="1074" y="544" width="20" height="20"/>
+    <SubTexture name="tree_dusk_11_seasonal" x="1074" y="570" width="20" height="20"/>
+    <SubTexture name="tree_dusk_12" x="70" y="1148" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_dusk_12_seasonal" x="325" y="1235" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_dusk_13" x="686" y="745" width="6" height="6" frameX="-2" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="tree_dusk_14" x="1084" y="971" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="tree_night_1" x="919" y="602" width="80" height="128"/>
+    <SubTexture name="tree_night_1b" x="790" y="828" width="64" height="120"/>
+    <SubTexture name="tree_night_2" x="1249" y="1019" width="8" height="8"/>
+    <SubTexture name="tree_night_3" x="183" y="1311" width="16" height="16"/>
+    <SubTexture name="tree_night_4" x="1074" y="622" width="20" height="20"/>
+    <SubTexture name="tree_night_5" x="70" y="1208" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_night_6" x="686" y="757" width="6" height="6" frameX="-2" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="tree_night_7" x="1098" y="971" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="tree_night_8" x="1100" y="684" width="80" height="128"/>
+    <SubTexture name="tree_night_9" x="70" y="1228" width="13" height="14" frameX="-3" frameY="-1" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tree_night_10" x="89" y="1264" width="16" height="16"/>
+    <SubTexture name="tree_night_11" x="125" y="1285" width="16" height="16"/>
+    <SubTexture name="tree_night_12" x="1068" y="972" width="8" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="tree_night_13" x="996" y="976" width="7" height="6" frameX="0" frameY="-1" frameWidth="8" frameHeight="8"/>
+    <SubTexture name="tree_night_14" x="161" y="1297" width="16" height="16"/>
+    <SubTexture name="tree_night_15" x="1235" y="1006" width="8" height="8"/>
+    <SubTexture name="trees_dawn_1" x="919" y="580" width="96" height="16"/>
+    <SubTexture name="trees_dawn_1_seasonal" x="526" y="518" width="96" height="16"/>
+    <SubTexture name="trees_dawn_2" x="628" y="518" width="96" height="16"/>
+    <SubTexture name="trees_dawn_2_seasonal" x="372" y="527" width="96" height="16"/>
+    <SubTexture name="trees_dawn_3" x="1340" y="868" width="8" height="8"/>
+    <SubTexture name="trees_dawn_3_seasonal" x="1281" y="1025" width="8" height="8"/>
+    <SubTexture name="trees_dawn_4" x="1340" y="910" width="8" height="8"/>
+    <SubTexture name="trees_dawn_4_seasonal" x="1263" y="1031" width="8" height="8"/>
+    <SubTexture name="trees_dawn_5" x="1951" y="196" width="88" height="64"/>
+    <SubTexture name="trees_dawn_5_seasonal" x="840" y="276" width="88" height="64"/>
+    <SubTexture name="trees_dawn_6" x="365" y="892" width="64" height="48"/>
+    <SubTexture name="trees_dawn_6_seasonal" x="514" y="872" width="64" height="48"/>
+    <SubTexture name="trees_dawn_7" x="148" y="564" width="48" height="26"/>
+    <SubTexture name="trees_dawn_7_seasonal" x="148" y="596" width="48" height="26"/>
+    <SubTexture name="trees_dawn_8" x="90" y="754" width="48" height="8"/>
+    <SubTexture name="trees_dawn_8_seasonal" x="144" y="766" width="48" height="8"/>
+    <SubTexture name="trees_dawn_9" x="458" y="678" width="48" height="22"/>
+    <SubTexture name="trees_dawn_9_seasonal" x="148" y="658" width="48" height="22"/>
+    <SubTexture name="trees_dawn_10" x="201" y="1067" width="32" height="32"/>
+    <SubTexture name="trees_dawn_10_seasonal" x="239" y="1067" width="32" height="32"/>
+    <SubTexture name="trees_dawn_11" x="133" y="1077" width="32" height="32"/>
+    <SubTexture name="trees_dawn_11_seasonal" x="133" y="1115" width="32" height="32"/>
+    <SubTexture name="wall_background_1" x="4" y="1266" width="16" height="16"/>
+    <SubTexture name="wall_background_2" x="259" y="1223" width="16" height="16"/>
+    <SubTexture name="wall_background_3" x="26" y="1266" width="16" height="16"/>
+    <SubTexture name="wall_background_4" x="26" y="1304" width="16" height="8"/>
+    <SubTexture name="wall_background_5" x="609" y="1053" width="24" height="16"/>
+    <SubTexture name="wall_background_6" x="1992" y="820" width="48" height="24"/>
+    <SubTexture name="wall_background_7" x="48" y="1266" width="16" height="16"/>
+    <SubTexture name="wall_background_8" x="66" y="1331" width="13" height="13" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="wall_background_9" x="90" y="1116" width="32" height="32"/>
+    <SubTexture name="wall_background_10" x="90" y="912" width="40" height="25"/>
+    <SubTexture name="wall_background_11" x="1224" y="574" width="11" height="13"/>
+    <SubTexture name="wall_background_12" x="895" y="530" width="18" height="26"/>
+    <SubTexture name="wall_background_13" x="1295" y="1025" width="8" height="8"/>
+    <SubTexture name="wall_background_14" x="1277" y="1039" width="8" height="8"/>
+    <SubTexture name="wall_background_15" x="4" y="1348" width="13" height="13" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="waterfall_dawn_1" x="1112" y="971" width="8" height="5"/>
+    <SubTexture name="waterfall_dawn_1_seasonal" x="1126" y="971" width="8" height="5"/>
+    <SubTexture name="waterfallBackgroundSpriteAnim_a" x="1493" y="778" width="12" height="128"/>
+    <SubTexture name="waterfallBackgroundSpriteAnim_b" x="1461" y="793" width="12" height="128"/>
+    <SubTexture name="waterfallBackgroundSpriteAnim_c" x="1441" y="795" width="12" height="128"/>
+    <SubTexture name="waterfallBackgroundSpriteAnim_d" x="1356" y="864" width="12" height="128"/>
+    <SubTexture name="waterfallBackgroundSpriteAnim_e" x="1322" y="868" width="12" height="128"/>
+    <SubTexture name="waterfallBackgroundSpriteAnim_f" x="1284" y="891" width="12" height="128"/>
+    <SubTexture name="waterfallBackgroundSpriteAnim_g" x="1302" y="891" width="12" height="128"/>
+    <SubTexture name="waterfallBackgroundSpriteAnim_h" x="1320" y="1002" width="12" height="128"/>
+    <SubTexture name="waterfallBackgroundSpriteSeasonalAnim_a" x="512" y="705" width="8" height="16"/>
+    <SubTexture name="waterfallBackgroundSpriteSeasonalAnim_b" x="991" y="736" width="8" height="16"/>
+    <SubTexture name="waterfallBackgroundSpriteSeasonalAnim_c" x="991" y="758" width="8" height="16"/>
+    <SubTexture name="waterfallBackgroundSpriteSeasonalAnim_d" x="367" y="1214" width="8" height="16"/>
+    <SubTexture name="waterfallLavaBackgroundSpriteAnim_a" x="149" y="1190" width="8" height="16"/>
+    <SubTexture name="waterfallLavaBackgroundSpriteAnim_b" x="209" y="1201" width="8" height="16"/>
+    <SubTexture name="waterfallLavaBackgroundSpriteAnim_c" x="245" y="1204" width="8" height="16"/>
+    <SubTexture name="waterfallLavaBackgroundSpriteAnim_d" x="207" y="1223" width="8" height="16"/>
+    <SubTexture name="windDustIntroParticleSpriteAnim_a" x="444" y="843" width="3" height="3"/>
+    <SubTexture name="windDustIntroParticleSpriteAnim_b" x="444" y="852" width="3" height="3"/>
+    <SubTexture name="yellow_cloud_1" x="730" y="600" width="54" height="30"/>
+    <SubTexture name="yellow_cloud_2" x="489" y="1151" width="32" height="18"/>
+    <SubTexture name="yellow_cloud_3" x="48" y="1288" width="16" height="9"/>
+</TextureAtlas>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:937285c8cb66c796a933c3d2db3748c0:c2bd5f210a9f52f8007210acaf1bd680:824060b2e6b99f40eecd2a954a2817a9$ -->
+<TextureAtlas imagePath="intro_texture.png" width="1024" height="1024">
+    <SubTexture name="cat_unlock_band_dx" x="417" y="4" width="64" height="67"/>
+    <SubTexture name="cat_unlock_band_sx" x="417" y="77" width="64" height="67"/>
+    <SubTexture name="intro_black_color_1" x="395" y="58" width="16" height="16"/>
+    <SubTexture name="intro_boss_0" x="4" y="548" width="234" height="209"/>
+    <SubTexture name="intro_boss_1" x="210" y="763" width="201" height="196"/>
+    <SubTexture name="intro_boss_name_0" x="192" y="492" width="108" height="48"/>
+    <SubTexture name="intro_boss_name_1" x="306" y="492" width="108" height="48"/>
+    <SubTexture name="intro_cat_0" x="192" y="314" width="188" height="172"/>
+    <SubTexture name="intro_cat_1" x="386" y="314" width="186" height="156"/>
+    <SubTexture name="intro_cat_2" x="192" y="58" width="197" height="173"/>
+    <SubTexture name="intro_cat_3" x="4" y="763" width="200" height="200"/>
+    <SubTexture name="intro_cat_4" x="495" y="151" width="226" height="148"/>
+    <SubTexture name="intro_cat_5" x="740" y="4" width="227" height="150"/>
+    <SubTexture name="intro_cat_6" x="244" y="546" width="190" height="156"/>
+    <SubTexture name="intro_cat_7" x="495" y="4" width="239" height="141"/>
+    <SubTexture name="intro_cat_8" x="440" y="530" width="102" height="153"/>
+    <SubTexture name="intro_cat_name_0" x="174" y="969" width="155" height="48"/>
+    <SubTexture name="intro_cat_name_1" x="244" y="4" width="150" height="48"/>
+    <SubTexture name="intro_cat_name_2" x="244" y="708" width="107" height="48"/>
+    <SubTexture name="intro_cat_name_3" x="357" y="708" width="107" height="48"/>
+    <SubTexture name="intro_cat_name_4" x="533" y="476" width="106" height="48"/>
+    <SubTexture name="intro_cat_name_5" x="417" y="762" width="106" height="48"/>
+    <SubTexture name="intro_cat_name_6" x="420" y="476" width="107" height="48"/>
+    <SubTexture name="intro_cat_name_7" x="335" y="965" width="154" height="48"/>
+    <SubTexture name="intro_cat_name_8" x="4" y="969" width="164" height="48"/>
+    <SubTexture name="intro_grey_color_1" x="395" y="80" width="16" height="16"/>
+    <SubTexture name="intro_stone_light" x="192" y="4" width="22" height="30"/>
+    <SubTexture name="intro_white_color_1" x="395" y="102" width="16" height="16"/>
+    <SubTexture name="light_reflex_intro" x="578" y="305" width="115" height="121"/>
+    <SubTexture name="neutronizedLogo" x="4" y="4" width="182" height="266"/>
+    <SubTexture name="neutronizedLogoShadow" x="4" y="276" width="182" height="266"/>
+    <SubTexture name="premium_addon" x="244" y="237" width="143" height="71"/>
+    <SubTexture name="purple_grey_quad" x="400" y="4" width="8" height="8"/>
+    <SubTexture name="stunnedCatIntroSpriteAnim_a" x="417" y="150" width="64" height="32"/>
+    <SubTexture name="stunnedCatIntroSpriteAnim_b" x="417" y="188" width="64" height="32"/>
+    <SubTexture name="stunnedCatIntroSpriteAnim_c" x="417" y="226" width="64" height="32"/>
+    <SubTexture name="stunnedCatIntroSpriteAnim_d" x="417" y="264" width="64" height="32"/>
+</TextureAtlas>

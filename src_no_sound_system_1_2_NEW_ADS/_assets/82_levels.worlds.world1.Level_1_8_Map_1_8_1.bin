@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <tiles>
+    <obj name="rock_tile_4" back="0" x="624" y="224" w="64" h="112" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="576" y="224" w="48" h="64" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_2" back="0" x="336" y="320" w="48" h="32" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_2" back="0" x="16" y="416" w="240" h="64" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_2" back="0" x="208" y="384" w="48" h="32" f_x="0" f_y="0"/>
+    <obj name="wood_tile_11" back="0" x="480" y="288" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_11" back="0" x="496" y="288" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_10" back="0" x="560" y="288" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="wood_tile_11" back="0" x="512" y="288" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_11" back="0" x="528" y="288" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_5" back="0" x="465" y="288" w="17" h="16" f_x="1" f_y="0"/>
+    <obj name="canyon_tile_4" back="0" x="464" y="304" w="16" h="176" f_x="1" f_y="0"/>
+    <obj name="canyon_tile_1" back="0" x="384" y="288" w="64" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="560" y="368" w="16" h="112" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="576" y="368" w="112" h="112" f_x="0" f_y="0"/>
+    <obj name="wood_tile_10" back="0" x="464" y="288" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="576" y="160" w="112" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="560" y="160" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="544" y="160" w="144" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_3" back="0" x="528" y="96" w="16" h="48" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="544" y="96" w="144" h="48" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_17" back="0" x="560" y="160" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_31" back="0" x="528" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="castle_tile_1" back="0" x="576" y="176" w="32" h="48" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="608" y="176" w="32" h="48" f_x="0" f_y="0"/>
+    <obj name="castle_tile_1" back="0" x="640" y="176" w="32" h="48" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="672" y="176" w="16" h="48" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_6" back="0" x="304" y="320" w="32" h="32" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_6" back="0" x="352" y="288" w="32" h="32" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_8" back="0" x="336" y="304" w="17" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_7" back="0" x="335" y="319" w="17" h="17" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_1" back="0" x="16" y="400" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_5" back="0" x="271" y="336" w="17" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_4" back="0" x="272" y="352" w="16" h="128" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_5" back="0" x="273" y="352" w="17" h="16" f_x="1" f_y="0"/>
+    <obj name="canyon_tile_4" back="0" x="272" y="368" w="16" h="112" f_x="1" f_y="0"/>
+    <obj name="canyon_tile_6" back="0" x="176" y="384" w="32" h="32" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_6" back="0" x="224" y="352" w="32" h="32" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_8" back="0" x="208" y="368" w="17" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_7" back="0" x="207" y="383" w="17" h="17" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_1" back="0" x="288" y="336" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_2" back="0" x="288" y="352" w="160" h="128" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_2" back="0" x="384" y="304" w="64" h="48" f_x="0" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="560" y="80" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="560" y="96" w="128" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="528" y="80" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_15" back="0" x="544" y="112" w="17" h="17" f_x="0" f_y="1"/>
+    <obj name="castle_tile_4" back="0" x="584" y="218" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="castle_tile_6" back="0" x="584" y="234" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="castle_tile_4" back="0" x="648" y="218" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="castle_tile_6" back="0" x="648" y="234" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="608" y="320" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="608" y="352" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="rock_tile_1" back="0" x="608" y="304" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="560" y="352" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_1" back="0" x="560" y="304" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="576" y="352" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_2" back="0" x="576" y="304" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="560" y="320" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="576" y="320" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="608" y="352" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_3" back="0" x="608" y="304" w="16" h="32" f_x="0" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="560" y="304" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_2" back="0" x="576" y="304" w="32" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_15" back="0" x="624" y="288" w="17" h="17" f_x="1" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="560" y="176" w="16" h="112" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="576" y="352" w="112" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="560" y="352" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="624" y="352" w="64" h="16" f_x="0" f_y="1"/>
+    <obj name="wood_tile_45" back="0" x="414" y="272" w="18" h="17" f_x="0" f_y="0"/>
+    <obj name="wood_tile_45" back="0" x="450" y="272" w="18" h="17" f_x="1" f_y="0"/>
+  </tiles>
+  <tiles_front/>
+  <collisions>
+    <obj type="0" x="16" y="400" w="543.9" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="208" y="384" w="128" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="224" y="368" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="256" y="352" w="16" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="272" y="336" w="64" h="48" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="336" y="320" w="48" h="48" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="352" y="304" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="384" y="288" w="304" h="48" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="560" y="224" w="128" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="416" y="272" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="7" x="352" y="288" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="5" x="208" y="368" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="7" x="304" y="320" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="7" x="224" y="352" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="7" x="176" y="384" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="5" x="336" y="304" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="560" y="96" w="128" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="14" x="560" y="240" w="0" h="0" rot="1" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="12" x="111" y="399" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="13" x="48" y="384" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </collisions>
+  <decorations>
+    <obj type="111" x="538" y="123" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="545" y="131" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="631" y="107" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="625" y="115" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="569" y="315" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="577" y="323" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="610" y="227" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="617" y="235" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="624" y="227" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="98" y="418" w="0" h="0" rot="0" ai="64" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="276" y="326" w="0" h="0" rot="0" ai="73" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="276" y="316" w="0" h="0" rot="0" ai="72" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="276" y="306" w="0" h="0" rot="0" ai="73" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="250" y="370" w="0" h="0" rot="0" ai="63" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="442" y="314" w="0" h="0" rot="0" ai="64" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="418" y="298" w="0" h="0" rot="0" ai="65" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="156" y="390" w="0" h="0" rot="0" ai="73" val_1="0" val_2="0" val_3="0"/>
+  </decorations>
+  <enemies/>
+  <items/>
+  <npcs/>
+  <data>
+    <obj _class="LevelStartScript" x="0" y="0"/>
+    <obj _class="LevelEndScript" x="688" y="480"/>
+    <obj _class="CameraLeftMargin" x="48"/>
+    <obj _class="CameraRightMargin" x="656"/>
+    <obj _class="StartPosition" x="128" y="384" dir="1" type="1"/>
+    <obj _class="NumberScript0" x="136" y="392" w="0"/>
+    <obj _class="NumberScript0" x="57" y="392" w="0"/>
+    <obj _class="StartPosition" x="496" y="272" dir="0" type="1"/>
+    <obj _class="NumberScript1" x="504" y="280" w="1"/>
+    <obj _class="NumberScript1" x="554" y="272" w="1"/>
+  </data>
+  <layer_0>
+    <tiles>
+      <obj name="canyon_background_18" x="0" y="104" w="96" h="24" f_x="0" f_y="0"/>
+      <obj name="canyon_background_19" x="24" y="80" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="trees_dawn_3" x="0" y="128" w="576" h="80" f_x="0" f_y="0"/>
+      <obj name="canyon_background_19" x="56" y="96" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="canyon_background_19" x="104" y="88" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="canyon_background_19" x="320" y="80" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="canyon_background_19" x="368" y="64" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="canyon_background_18" x="96" y="104" w="96" h="24" f_x="0" f_y="0"/>
+      <obj name="canyon_background_18" x="192" y="104" w="96" h="24" f_x="0" f_y="0"/>
+      <obj name="canyon_background_18" x="288" y="104" w="96" h="24" f_x="0" f_y="0"/>
+      <obj name="canyon_background_18" x="336" y="88" w="96" h="24" f_x="0" f_y="0"/>
+      <obj name="canyon_background_18" x="432" y="88" w="96" h="24" f_x="0" f_y="0"/>
+      <obj name="canyon_background_18" x="480" y="104" w="96" h="24" f_x="0" f_y="0"/>
+      <obj name="trees_dawn_3" x="336" y="109" w="179" h="21" f_x="0" f_y="0"/>
+      <obj name="canyon_background_24" x="117" y="88" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="canyon_background_24" x="339" y="80" w="8" h="8" f_x="0" f_y="0"/>
+    </tiles>
+    <elements>
+      <obj _class="BackgroundCanyonGlitter1" x="119" y="94" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="63" y="102" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter1" x="70" y="111" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="111" y="102" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter1" x="147" y="114" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="41" y="83" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter1" x="31" y="91" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="468" y="108" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter1" x="337" y="89" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="262" y="116" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter1" x="208" y="124" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="328" y="97" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter1" x="460" y="100" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="252" y="132" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter1" x="236" y="113" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="396" y="100" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="360" y="108" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter1" x="380" y="68" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="120" y="116" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter1" x="316" y="116" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="37" y="115" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter2" x="492" y="100" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCanyonGlitter1" x="540" y="116" f_x="0" f_y="0"/>
+    </elements>
+  </layer_0>
+  <layer_1>
+    <tiles>
+      <obj name="canyon_background_21" x="16" y="232" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_22" x="112" y="216" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_23" x="112" y="232" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_21" x="160" y="200" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_21" x="304" y="168" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_22" x="136" y="200" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_22" x="256" y="184" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_22" x="280" y="168" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_21" x="-80" y="232" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_21" x="448" y="136" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_22" x="400" y="152" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_22" x="424" y="136" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_21" x="544" y="136" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_23" x="256" y="200" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_23" x="400" y="168" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="canyon_background_23" x="-80" y="248" w="216" h="128" f_x="0" f_y="0"/>
+      <obj name="canyon_background_23" x="136" y="216" w="144" h="160" f_x="0" f_y="0"/>
+      <obj name="canyon_background_23" x="280" y="184" w="144" h="192" f_x="0" f_y="0"/>
+      <obj name="canyon_background_23" x="424" y="152" w="216" h="224" f_x="0" f_y="0"/>
+      <obj name="canyon_background_20" x="48" y="176" w="32" h="80" f_x="0" f_y="0"/>
+      <obj name="canyon_background_20" x="80" y="192" w="32" h="80" f_x="0" f_y="0"/>
+      <obj name="canyon_background_20" x="216" y="168" w="32" h="80" f_x="0" f_y="0"/>
+      <obj name="canyon_background_20" x="312" y="120" w="32" h="80" f_x="0" f_y="0"/>
+      <obj name="canyon_background_20" x="-24" y="200" w="32" h="80" f_x="0" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_1>
+  <layer_2>
+    <tiles>
+      <obj name="castle_background_1" x="576" y="160" w="98" h="112" f_x="0" f_y="0"/>
+      <obj name="castle_background_19" x="576" y="80" w="16" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_19" x="544" y="80" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_2" x="560" y="82" w="2" h="22" f_x="0" f_y="0"/>
+      <obj name="castle_background_19" x="592" y="80" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_19" x="624" y="80" w="16" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_19" x="640" y="80" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_19" x="672" y="80" w="16" h="16" f_x="1" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_2>
+  <layer_sky>
+    <tiles/>
+    <elements/>
+  </layer_sky>
+  <layer_foreground>
+    <tiles>
+      <obj name="foreground_canyon_8" x="816" y="312" w="192" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="-48" y="424" w="288" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_8" x="624" y="312" w="192" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_8" x="528" y="312" w="192" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="504" y="312" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="480" y="328" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="456" y="344" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_8" x="384" y="344" w="192" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="360" y="344" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="336" y="360" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_8" x="288" y="376" w="192" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="264" y="376" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_8" x="48" y="408" w="192" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_8" x="-48" y="408" w="192" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="240" y="408" w="24" h="112" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="264" y="464" w="48" h="56" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="352" y="360" w="129" h="160" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="480" y="392" w="20" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="240" y="392" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="284" y="448" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="308" y="432" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="332" y="416" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_9" x="332" y="416" w="24" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_canyon_9" x="332" y="416" w="24" h="16" f_x="1" f_y="1"/>
+      <obj name="foreground_canyon_9" x="308" y="432" w="24" h="16" f_x="1" f_y="1"/>
+      <obj name="foreground_canyon_9" x="284" y="448" w="24" h="16" f_x="1" f_y="1"/>
+      <obj name="foreground_canyon_9" x="284" y="448" w="24" h="16" f_x="1" f_y="0"/>
+      <obj name="foreground_canyon_9" x="548" y="408" w="24" h="16" f_x="1" f_y="0"/>
+      <obj name="foreground_canyon_9" x="524" y="392" w="24" h="16" f_x="1" f_y="0"/>
+      <obj name="foreground_canyon_9" x="500" y="376" w="24" h="16" f_x="1" f_y="0"/>
+      <obj name="foreground_canyon_9" x="500" y="376" w="24" h="16" f_x="1" f_y="1"/>
+      <obj name="foreground_canyon_9" x="500" y="376" w="24" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_canyon_9" x="524" y="392" w="24" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_canyon_9" x="548" y="408" w="24" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_canyon_9" x="548" y="408" w="24" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="264" y="408" w="24" h="24" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="260" y="392" w="52" h="24" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="304" y="448" w="48" h="72" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="328" y="432" w="28" h="88" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="332" y="376" w="28" h="13" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="478" y="408" w="48" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="488" y="344" w="48" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="504" y="328" w="73" h="29" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="480" y="424" w="92" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="568" y="328" w="442" h="193" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="520" y="360" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="548" y="376" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_canyon_10" x="312" y="392" w="48" h="8" f_x="0" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_foreground>
+</map>

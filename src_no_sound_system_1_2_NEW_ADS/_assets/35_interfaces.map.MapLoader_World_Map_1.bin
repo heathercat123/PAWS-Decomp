@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <tiles/>
+  <decorations>
+    <obj type="31" x="233" y="190" w="0" h="0" rot="0" val_1="20" val_2="16"/>
+    <obj type="31" x="424" y="158" w="0" h="0" rot="0" val_1="20" val_2="16"/>
+    <obj type="31" x="617" y="151" w="0" h="0" rot="0" val_1="20" val_2="16"/>
+    <obj type="11" x="856" y="60" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="11" x="848" y="64" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="1000001" x="192" y="135" w="0" h="0" rot="0" val_1="32" val_2="10"/>
+    <obj type="1" x="205" y="118" w="0" h="0" rot="0" val_1="8" val_2="8"/>
+    <obj type="2" x="218" y="116" w="0" h="1" rot="0" val_1="8" val_2="8"/>
+    <obj type="3" x="158" y="114" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="3" x="212" y="153" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="3" x="172" y="164" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="3" x="99" y="119" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="3" x="169" y="110" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="3" x="183" y="168" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="3" x="115" y="158" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="3" x="80" y="155" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="3" x="67" y="158" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="3" x="140" y="170" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="3" x="75" y="135" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="2" x="152" y="165" w="0" h="0" rot="0" val_1="8" val_2="8"/>
+    <obj type="1" x="165" y="163" w="0" h="1" rot="0" val_1="8" val_2="8"/>
+    <obj type="6" x="139" y="100" w="0" h="0" rot="0" val_1="16" val_2="16"/>
+    <obj type="1000000" x="91" y="125" w="0" h="0" rot="0" val_1="32" val_2="32"/>
+    <obj type="1000002" x="261" y="147" w="0" h="0" rot="0" val_1="18" val_2="44"/>
+    <obj type="2" x="300" y="196" w="0" h="0" rot="0" val_1="8" val_2="8"/>
+    <obj type="1" x="313" y="194" w="0" h="1" rot="0" val_1="8" val_2="8"/>
+    <obj type="1" x="345" y="233" w="0" h="0" rot="0" val_1="8" val_2="8"/>
+    <obj type="2" x="358" y="231" w="0" h="1" rot="0" val_1="8" val_2="8"/>
+    <obj type="1000003" x="288" y="215" w="0" h="0" rot="0" val_1="16" val_2="10"/>
+    <obj type="10" x="311" y="76" w="0" h="0" rot="0" val_1="18" val_2="18"/>
+    <obj type="11" x="454" y="198" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="11" x="446" y="202" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="11" x="340" y="275" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="11" x="348" y="279" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="12" x="512" y="176" w="0" h="0" rot="0" val_1="16" val_2="32"/>
+    <obj type="12" x="448" y="176" w="0" h="1" rot="0" val_1="16" val_2="32"/>
+    <obj type="11" x="488" y="201" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="11" x="496" y="205" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="12" x="377" y="249" w="0" h="1" rot="0" val_1="16" val_2="32"/>
+    <obj type="12" x="393" y="249" w="0" h="1" rot="0" val_1="16" val_2="32"/>
+    <obj type="12" x="409" y="249" w="0" h="1" rot="0" val_1="16" val_2="32"/>
+    <obj type="5" x="413" y="239" w="0" h="0" rot="0" val_1="48" val_2="18"/>
+    <obj type="4" x="458" y="253" w="0" h="0" rot="0" val_1="32" val_2="12"/>
+    <obj type="4" x="384" y="73" w="0" h="0" rot="0" val_1="32" val_2="12"/>
+    <obj type="5" x="390" y="85" w="0" h="1" rot="0" val_1="48" val_2="18"/>
+    <obj type="10" x="603" y="216" w="0" h="0" rot="0" val_1="18" val_2="18"/>
+    <obj type="13" x="468" y="152" w="0" h="0" rot="0" val_1="24" val_2="12"/>
+    <obj type="1000004" x="475" y="161" w="0" h="0" rot="0" val_1="10" val_2="13"/>
+    <obj type="1000005" x="496" y="111" w="0" h="0" rot="0" val_1="40" val_2="10"/>
+    <obj type="1000006" x="571" y="132" w="0" h="0" rot="0" val_1="10" val_2="8"/>
+    <obj type="4" x="744" y="208" w="0" h="0" rot="0" val_1="32" val_2="12"/>
+    <obj type="5" x="750" y="220" w="0" h="1" rot="0" val_1="48" val_2="18"/>
+    <obj type="1000007" x="592" y="183" w="0" h="0" rot="0" val_1="13" val_2="10"/>
+    <obj type="17" x="532" y="92" w="0" h="0" rot="0" val_1="5" val_2="38"/>
+    <obj type="12" x="496" y="176" w="0" h="0" rot="0" val_1="16" val_2="32"/>
+    <obj type="11" x="516" y="232" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="11" x="508" y="236" w="0" h="0" rot="0" val_1="8" val_2="4"/>
+    <obj type="2000000" x="507" y="211" w="0" h="0" rot="0" val_1="24" val_2="22"/>
+    <obj type="5000000" x="240" y="215" w="0" h="0" rot="0" val_1="16" val_2="10"/>
+  </decorations>
+  <items>
+    <obj type="0" x="632" y="112" w="8"/>
+    <obj type="0" x="312" y="128" w="4"/>
+    <obj type="0" x="504" y="160" w="6"/>
+  </items>
+  <data>
+    <obj _class="LevelEndScript" x="848"/>
+  </data>
+  <buttons>
+    <obj type="2" x="160" y="124" w="1"/>
+    <obj type="3" x="256" y="100" w="2"/>
+    <obj type="1" x="256" y="204" w="3"/>
+    <obj type="1" x="368" y="204" w="4"/>
+    <obj type="4" x="464" y="100" w="5"/>
+    <obj type="3" x="560" y="100" w="6"/>
+    <obj type="5" x="560" y="171" w="7"/>
+    <obj type="0" x="256" y="204" w="3"/>
+    <obj type="0" x="256" y="100" w="2"/>
+    <obj type="0" x="160" y="124" w="1"/>
+    <obj type="0" x="560" y="100" w="6"/>
+    <obj type="0" x="560" y="171" w="7"/>
+    <obj type="0" x="368" y="204" w="4"/>
+    <obj type="0" x="464" y="100" w="5"/>
+    <obj type="0" x="672" y="140" w="8"/>
+    <obj type="14" x="760" y="140" w="0"/>
+    <obj type="0" x="101" y="204" w="251"/>
+    <obj type="100" x="464" y="204" w="802"/>
+  </buttons>
+</map>

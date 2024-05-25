@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <tiles>
+    <obj name="sand_tile_2" back="0" x="224" y="176" w="256" h="16" f_x="0" f_y="0"/>
+    <obj name="sand_tile_4" back="0" x="224" y="192" w="256" h="112" f_x="0" f_y="0"/>
+    <obj name="sand_tile_2" back="0" x="-32" y="176" w="256" h="16" f_x="0" f_y="0"/>
+    <obj name="sand_tile_4" back="0" x="-32" y="192" w="256" h="112" f_x="0" f_y="0"/>
+    <obj name="sand_tile_2" back="0" x="480" y="176" w="256" h="16" f_x="0" f_y="0"/>
+    <obj name="sand_tile_4" back="0" x="480" y="192" w="256" h="112" f_x="0" f_y="0"/>
+  </tiles>
+  <tiles_front/>
+  <collisions>
+    <obj type="0" x="0" y="176" w="336" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="336" y="176" w="336" h="128" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="672" y="176" w="336" h="128" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="0" y="288" w="336" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="13" x="24" y="160" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </collisions>
+  <decorations/>
+  <enemies/>
+  <items/>
+  <npcs/>
+  <data>
+    <obj _class="LevelStartScript" x="0" y="0"/>
+    <obj _class="LevelEndScript" x="720" y="304"/>
+    <obj _class="CameraLeftMargin" x="64"/>
+    <obj _class="CameraRightMargin" x="688"/>
+    <obj _class="StartPosition" x="120" y="272" dir="1" type="0"/>
+    <obj _class="NumberScript7" x="129" y="281" w="7"/>
+    <obj _class="NumberScript7" x="32" y="168" w="7"/>
+    <obj _class="bg_sea_y" y="112"/>
+  </data>
+  <layer_0>
+    <tiles>
+      <obj name="desert_bg_2" x="0" y="112" w="320" h="128" f_x="0" f_y="0"/>
+      <obj name="desert_bg_2" x="320" y="112" w="320" h="128" f_x="0" f_y="0"/>
+      <obj name="desert_bg_1" x="0" y="112" w="640" h="5" f_x="0" f_y="0"/>
+    </tiles>
+    <elements>
+      <obj _class="DesertBackground3" x="192" y="47" f_x="0" f_y="0"/>
+    </elements>
+  </layer_0>
+  <layer_1>
+    <tiles>
+      <obj name="palm_dusk_tree_7" x="0" y="16" w="138" h="194" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_7" x="464" y="16" w="138" h="194" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_8" x="91" y="86" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_9" x="111" y="74" w="12" h="12" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_8" x="555" y="86" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_9" x="575" y="74" w="12" h="12" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_7" x="928" y="16" w="138" h="194" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_8" x="1019" y="86" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_9" x="1039" y="74" w="12" h="12" f_x="0" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_1>
+  <layer_2>
+    <tiles>
+      <obj name="palm_dusk_tree_6" x="37" y="153" w="72" h="23" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_6" x="109" y="153" w="72" h="23" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_6" x="285" y="153" w="72" h="23" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_6" x="357" y="153" w="72" h="23" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_6" x="541" y="153" w="72" h="23" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_6" x="768" y="153" w="72" h="23" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_6" x="840" y="153" w="72" h="23" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_6" x="1016" y="153" w="72" h="23" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_6" x="1088" y="153" w="72" h="23" f_x="0" f_y="0"/>
+      <obj name="palm_dusk_tree_6" x="1272" y="153" w="72" h="23" f_x="0" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_2>
+  <layer_sky>
+    <tiles/>
+    <elements>
+      <obj _class="StarBackgroundScript1" x="130" y="0" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript2" x="330" y="-48" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript3" x="314" y="-32" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript4" x="250" y="-8" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript5" x="106" y="-32" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript6" x="266" y="8" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript7" x="90" y="-24" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript8" x="154" y="8" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript9" x="34" y="8" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript6" x="394" y="-24" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript6" x="10" y="-32" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript9" x="410" y="-32" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript6" x="314" y="40" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript5" x="338" y="24" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript8" x="442" y="0" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript4" x="90" y="48" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript9" x="234" y="16" f_x="0" f_y="0"/>
+    </elements>
+  </layer_sky>
+  <layer_foreground>
+    <tiles/>
+    <elements/>
+  </layer_foreground>
+</map>

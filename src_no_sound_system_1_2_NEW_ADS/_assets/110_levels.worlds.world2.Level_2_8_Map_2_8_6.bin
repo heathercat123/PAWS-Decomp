@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <tiles>
+    <obj name="door_tile_5" back="1" x="264" y="112" w="16" h="8" f_x="0" f_y="0"/>
+    <obj name="door_tile_6" back="1" x="264" y="120" w="16" h="24" f_x="0" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="264" y="112" w="16" h="8" f_x="1" f_y="0"/>
+    <obj name="door_tile_6" back="1" x="264" y="120" w="16" h="24" f_x="1" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="184" y="644" w="16" h="8" f_x="0" f_y="0"/>
+    <obj name="door_tile_6" back="1" x="184" y="652" w="16" h="0.65" f_x="0" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="184" y="644" w="16" h="8" f_x="1" f_y="0"/>
+    <obj name="door_tile_6" back="1" x="184" y="652" w="16" h="4" f_x="1" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="344" y="644" w="16" h="8" f_x="0" f_y="0"/>
+    <obj name="door_tile_6" back="1" x="344" y="652" w="16" h="4" f_x="0" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="344" y="644" w="16" h="8" f_x="1" f_y="0"/>
+    <obj name="door_tile_6" back="1" x="344" y="652" w="16" h="4" f_x="1" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="184" y="748" w="16" h="8" f_x="0" f_y="1"/>
+    <obj name="door_tile_6" back="1" x="184" y="736" w="16" h="4" f_x="0" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="184" y="748" w="16" h="8" f_x="1" f_y="1"/>
+    <obj name="door_tile_6" back="1" x="184" y="736" w="16" h="4" f_x="1" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="344" y="748" w="16" h="8" f_x="0" f_y="1"/>
+    <obj name="door_tile_6" back="1" x="344" y="736" w="16" h="4" f_x="0" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="344" y="748" w="16" h="8" f_x="1" f_y="1"/>
+    <obj name="door_tile_6" back="1" x="344" y="736" w="16" h="4" f_x="1" f_y="0"/>
+    <obj name="door_tile_6" back="1" x="184" y="652" w="16" h="4" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="176" y="-16" w="176" h="32" f_x="0" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="160" y="960" w="16" h="80" f_x="0" f_y="0"/>
+    <obj name="rock_tile_14" back="0" x="176" y="944" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="368" y="960" w="16" h="80" f_x="1" f_y="0"/>
+    <obj name="rock_tile_14" back="0" x="352" y="944" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="castle_tile_2" back="0" x="240" y="943" w="16" h="17" f_x="0" f_y="0"/>
+    <obj name="castle_tile_3" back="0" x="256" y="944" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="castle_tile_2" back="0" x="288" y="943" w="16" h="17" f_x="1" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="176" y="960" w="176" h="80" f_x="0" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="368" y="832" w="16" h="208" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="384" y="832" w="160" h="208" f_x="0" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="160" y="832" w="16" h="208" f_x="1" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="-16" y="832" w="160" h="208" f_x="0" f_y="0"/>
+    <obj name="rock_tile_14" back="0" x="240" y="864" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="castle_tile_2" back="0" x="240" y="863" w="16" h="17" f_x="0" f_y="0"/>
+    <obj name="castle_tile_3" back="0" x="256" y="864" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="castle_tile_2" back="0" x="288" y="863" w="16" h="17" f_x="1" f_y="0"/>
+    <obj name="rock_tile_14" back="0" x="288" y="864" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="240" y="896" w="48" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_1" back="0" x="224" y="896" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_1" back="0" x="304" y="896" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="rock_tile_13" back="0" x="176" y="944" w="64" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_13" back="0" x="288" y="944" w="64" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_21" back="0" x="240" y="784" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="ice_tile_22" back="0" x="240" y="576" w="48" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_21" back="0" x="208" y="784" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="208" y="816" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_2" back="0" x="240" y="608" w="48" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_1" back="0" x="240" y="816" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="rock_tile_2" back="0" x="-16" y="816" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="160" y="816" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="368" y="816" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="384" y="816" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="368" y="816" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_2" back="0" x="384" y="816" w="160" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_3" back="0" x="368" y="752" w="16" h="48" f_x="0" f_y="0"/>
+    <obj name="water_tile_24" back="0" x="384" y="752" w="160" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="368" y="736" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="384" y="736" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="320" y="736" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_2" back="0" x="336" y="736" w="208" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_3" back="0" x="320" y="672" w="16" h="48" f_x="0" f_y="0"/>
+    <obj name="water_tile_24" back="0" x="336" y="672" w="208" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="320" y="656" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="336" y="656" w="208" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="160" y="816" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="ice_tile_3" back="0" x="160" y="752" w="16" h="48" f_x="1" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="816" w="160" h="16" f_x="0" f_y="1"/>
+    <obj name="water_tile_24" back="0" x="-16" y="752" w="160" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_3" back="0" x="208" y="672" w="16" h="48" f_x="1" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="208" y="656" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="water_tile_24" back="0" x="-16" y="672" w="208" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="656" w="208" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_21" back="0" x="320" y="784" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="ice_tile_21" back="0" x="288" y="784" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="288" y="816" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_1" back="0" x="320" y="816" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="ice_tile_1" back="0" x="208" y="736" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="736" w="208" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_1" back="0" x="160" y="736" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="736" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="368" y="656" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_2" back="0" x="384" y="656" w="160" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_3" back="0" x="368" y="592" w="16" h="48" f_x="0" f_y="0"/>
+    <obj name="water_tile_24" back="0" x="384" y="592" w="160" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="368" y="576" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="384" y="576" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="160" y="656" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="ice_tile_3" back="0" x="160" y="592" w="16" h="48" f_x="1" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="656" w="160" h="16" f_x="0" f_y="1"/>
+    <obj name="water_tile_24" back="0" x="-16" y="592" w="160" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="160" y="576" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="576" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="368" y="464" w="16" h="96" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="384" y="464" w="160" h="96" f_x="0" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="368" y="576" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_2" back="0" x="384" y="576" w="160" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_3" back="0" x="160" y="464" w="16" h="96" f_x="1" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="160" y="576" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="rock_tile_4" back="0" x="-16" y="464" w="160" h="96" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="-16" y="576" w="160" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_21" back="0" x="224" y="576" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="224" y="608" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_21" back="0" x="304" y="576" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="304" y="608" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="rope_tile_1" back="1" x="256" y="336" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rope_tile_2" back="1" x="256" y="416" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rope_tile_3" back="1" x="256" y="456" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rope_tile_2" back="1" x="256" y="432" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rope_tile_2" back="1" x="256" y="368" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rope_tile_2" back="1" x="256" y="384" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rope_tile_2" back="1" x="256" y="400" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rope_tile_2" back="1" x="256" y="352" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="-16" y="448" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="160" y="448" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="368" y="448" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="384" y="448" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="208" y="512" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="224" y="512" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="240" y="512" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="256" y="512" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="272" y="512" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="288" y="512" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="304" y="512" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="208" y="496" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="304" y="496" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="320" y="448" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_2" back="0" x="336" y="448" w="208" h="16" f_x="0" f_y="1"/>
+    <obj name="water_tile_24" back="0" x="336" y="384" w="208" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="320" y="368" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="336" y="368" w="208" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="208" y="368" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="water_tile_24" back="0" x="-16" y="384" w="208" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="368" w="208" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="208" y="448" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="448" w="208" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_1" back="0" x="368" y="368" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_2" back="0" x="384" y="368" w="160" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_3" back="0" x="368" y="304" w="16" h="48" f_x="0" f_y="0"/>
+    <obj name="water_tile_24" back="0" x="384" y="304" w="160" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="368" y="288" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="384" y="288" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="160" y="368" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="ice_tile_3" back="0" x="160" y="304" w="16" h="48" f_x="1" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="368" w="160" h="16" f_x="0" f_y="1"/>
+    <obj name="water_tile_24" back="0" x="-16" y="304" w="160" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="160" y="288" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="288" w="160" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="320" y="288" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_2" back="0" x="336" y="288" w="208" h="16" f_x="0" f_y="1"/>
+    <obj name="ice_tile_3" back="0" x="320" y="224" w="16" h="48" f_x="0" f_y="0"/>
+    <obj name="water_tile_24" back="0" x="336" y="224" w="208" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="320" y="208" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="336" y="208" w="208" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_3" back="0" x="208" y="224" w="16" h="48" f_x="1" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="208" y="208" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="water_tile_24" back="0" x="-16" y="224" w="208" h="48" f_x="0" f_y="0"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="208" w="208" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_1" back="0" x="208" y="288" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="ice_tile_2" back="0" x="-16" y="288" w="208" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_3" back="0" x="160" y="-16" w="16" h="64" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="176" y="16" w="128" h="32" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="176" y="64" w="128" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_1" back="0" x="160" y="64" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_3" back="0" x="320" y="16" w="16" h="32" f_x="1" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="320" y="64" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="canyon_tile_17" back="0" x="160" y="80" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="village_tile_17" back="0" x="160" y="64" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="village_tile_17" back="0" x="368" y="64" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="village_tile_9" back="0" x="176" y="64" w="176" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_17" back="0" x="368" y="80" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="368" y="32" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="368" y="64" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="rock_tile_1" back="0" x="368" y="16" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="320" y="64" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_1" back="0" x="320" y="16" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="336" y="64" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_2" back="0" x="336" y="16" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="320" y="32" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_4" back="0" x="336" y="32" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="160" y="-16" w="16" h="208" f_x="1" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="160" y="208" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="rock_tile_4" back="0" x="-16" y="-16" w="160" h="208" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="-16" y="208" w="160" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_2" back="0" x="384" y="208" w="160" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_3" back="0" x="368" y="-16" w="16" h="208" f_x="0" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="368" y="208" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_4" back="0" x="384" y="-16" w="160" h="208" f_x="0" f_y="0"/>
+    <obj name="rock_tile_14" back="0" x="224" y="144" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="castle_tile_2" back="0" x="224" y="143" w="16" h="17" f_x="0" f_y="0"/>
+    <obj name="castle_tile_3" back="0" x="240" y="144" w="48" h="16" f_x="0" f_y="0"/>
+    <obj name="castle_tile_2" back="0" x="304" y="143" w="16" h="17" f_x="1" f_y="0"/>
+    <obj name="rock_tile_14" back="0" x="304" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_2" back="0" x="224" y="176" w="80" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_1" back="0" x="208" y="176" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_1" back="0" x="320" y="176" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="pinkBlockCollision" back="0" x="240" y="320" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="256" y="320" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="272" y="320" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rope_tile_2" back="1" x="256" y="440" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="ice_tile_3" back="0" x="208" y="384" w="16" h="48" f_x="1" f_y="0"/>
+    <obj name="ice_tile_3" back="0" x="320" y="384" w="16" h="48" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="240" y="240" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="256" y="240" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="pinkBlockCollision" back="0" x="272" y="240" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rock_tile_3" back="0" x="368" y="-16" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="rock_tile_1" back="0" x="368" y="16" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="rock_tile_2" back="0" x="320" y="16" w="32" h="16" f_x="0" f_y="1"/>
+    <obj name="rock_tile_15" back="0" x="304" y="0" w="17" h="17" f_x="0" f_y="0"/>
+  </tiles>
+  <tiles_front/>
+  <collisions>
+    <obj type="18" x="160" y="864" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="18" x="304" y="864" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="18" x="160" y="576" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="18" x="304" y="576" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="33" x="336" y="912" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="34" x="304" y="928" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="34" x="320" y="928" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="33" x="160" y="912" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="34" x="160" y="896" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="34" x="192" y="928" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="33" x="160" y="288" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="33" x="336" y="336" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="62" x="232" y="504" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="62" x="296" y="504" w="0" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="48" y="944" w="432" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="160" y="32" w="208" h="48" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="368" y="32" w="48" h="176" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="48" y="816" w="112" h="128" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="368" y="816" w="112" h="128" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="224" y="864" w="16" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="288" y="864" w="16" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="240" y="864" w="48" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="240" y="880" w="48" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="208" y="784" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="288" y="784" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="304" y="800" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="208" y="800" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="223.5" y="800" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="288" y="800" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="48" y="736" w="112" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="368" y="736" w="112" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="336" y="720" w="96" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="96" y="720" w="96" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="84" x="260" y="624" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="240" y="592" w="48" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="368" y="576" w="112" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="48" y="576" w="112" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="224" y="592" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="288" y="592" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="224" y="576" w="80" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="48" y="448" w="112" h="128" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="49" x="256" y="336" w="16" h="128" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="96" y="656" w="112" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="320" y="656" w="112" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="192" y="720" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="320" y="720" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="208" y="496" w="16" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="304" y="496" w="16" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="224" y="512" w="80" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="368" y="448" w="112" h="128" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="96" y="432" w="96" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="336" y="432" w="96" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="320" y="432" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="192" y="432" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="320" y="368" w="112" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="96" y="368" w="112" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="96" y="288" w="64" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="368" y="288" w="64" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="336" y="272" w="96" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="320" y="272" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="96" y="272" w="96" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="192" y="272" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="96" y="208" w="112" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="29" x="320" y="208" w="112" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="112" y="32" w="48" h="176" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="208" y="144" w="16" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="304" y="144" w="16" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="224" y="144" w="80" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="224" y="160" w="80" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="256" y="320" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="240" y="320" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="272" y="320" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="224" y="496" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="288" y="496" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="256" y="240" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="240" y="240" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="272" y="240" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="160" y="304" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="12" x="239" y="143" w="0" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </collisions>
+  <decorations>
+    <obj type="106" x="266" y="584" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="255" y="584" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="168" y="661" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="338" y="661" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="356" y="661" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="164" y="373" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="153" y="373" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="348" y="373" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="397" y="355" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="389" y="347" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="341" y="723" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="148" y="715" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="154" y="723" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="376" y="803" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="121" y="581" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="388" y="635" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="348" y="213" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="337" y="213" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="352" y="267" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="117" y="293" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="102" y="293" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="153" y="275" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="139" y="213" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="157" y="213" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="356" y="435" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="106" x="333" y="435" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="243" y="80" w="0" h="0" rot="0" ai="169" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="335" y="39" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="329" y="47" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="34" x="300" y="175" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="56" x="204" y="66" w="8" h="8" rot="4" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="38" x="176" y="120" w="1" h="0" rot="0" ai="74" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="176" y="47" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="169" y="39" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="38" x="176" y="184" w="1" h="0" rot="0" ai="74" val_1="0" val_2="0" val_3="0"/>
+    <obj type="38" x="336" y="184" w="1" h="0" rot="0" ai="74" val_1="0" val_2="0" val_3="0"/>
+    <obj type="38" x="336" y="120" w="1" h="0" rot="0" ai="74" val_1="0" val_2="0" val_3="0"/>
+    <obj type="34" x="244" y="255" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="34" x="340" y="447" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="34" x="284" y="607" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="34" x="220" y="815" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="34" x="284" y="895" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="384" y="191" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="377" y="183" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="138" y="551" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="132" y="559" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="377" y="899" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="384" y="907" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="131" y="850" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="138" y="842" w="0" h="0" rot="0" ai="88" val_1="0" val_2="0" val_3="0"/>
+  </decorations>
+  <enemies>
+    <obj type="68" x="312" y="392" w="0" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="68" x="216" y="424" w="1" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="40" x="160" y="640" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="40" x="192" y="640" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="40" x="352" y="736" w="1" h="1" rot="180" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="40" x="320" y="736" w="1" h="1" rot="180" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="4" x="248" y="553" w="1" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </enemies>
+  <items>
+    <obj type="3" x="336" y="928" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="352" y="912" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="192" y="928" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="248" y="496" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="264" y="496" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="256" y="480" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="248" y="336" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="264" y="336" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="248" y="224" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="264" y="224" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="256" y="208" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </items>
+  <npcs/>
+  <data>
+    <obj _class="VerPathScript" x="256" y="624" w="16" h="80"/>
+    <obj _class="NumberScript0" x="168" y="648" w="0"/>
+    <obj _class="NumberScript0" x="200" y="648" w="0"/>
+    <obj _class="NumberScript1" x="360" y="744" w="1"/>
+    <obj _class="NumberScript1" x="328" y="744" w="1"/>
+    <obj _class="isDecorationScript" name="DisappearSpotScript1" x="176" y="736" w="16" h="16" scale_x="1" scale_y="1" param_1="0" param_2="0"/>
+    <obj _class="isDecorationScript" name="AppearSpotScript1" x="176" y="640" w="16" h="16" scale_x="1" scale_y="1" param_1="0" param_2="0"/>
+    <obj _class="isDecorationScript" name="AppearSpotScript1" x="336" y="736" w="16" h="16" scale_x="1" scale_y="1" param_1="1" param_2="0"/>
+    <obj _class="isDecorationScript" name="DisappearSpotScript1" x="336" y="640" w="16" h="16" scale_x="1" scale_y="1" param_1="1" param_2="0"/>
+    <obj _class="HorPathScript" x="240" y="544" w="48" h="16"/>
+    <obj _class="GroupScript" type="0" x="144" y="616" w="246" h="159"/>
+    <obj _class="GroupScript" type="0" x="144" y="368" w="246" h="205"/>
+    <obj _class="StartPosition" x="256" y="848" dir="1" type="0"/>
+    <obj _class="LevelStartScript" x="0" y="0"/>
+    <obj _class="LevelEndScript" x="576" y="1040"/>
+    <obj _class="CameraLeftMargin" x="48"/>
+    <obj _class="CameraRightMargin" x="528"/>
+    <obj _class="StartPosition" x="256" y="928" dir="1" type="0"/>
+    <obj _class="NumberScript2" x="263" y="150" w="2"/>
+    <obj _class="NumberScript2" x="264" y="856" w="2"/>
+    <obj _class="NumberScript1" x="264" y="936" w="1"/>
+    <obj _class="bg_sea_y" y="128"/>
+  </data>
+  <layer_0>
+    <tiles>
+      <obj name="castle_background_10" x="232" y="163" w="64" h="507" f_x="0" f_y="0"/>
+      <obj name="castle_background_10" x="328" y="179" w="64" h="491" f_x="0" f_y="0"/>
+      <obj name="castle_background_10" x="424" y="160" w="128" h="534" f_x="0" f_y="0"/>
+      <obj name="castle_background_10" x="72" y="152" w="128" h="534" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="200" y="616" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="296" y="616" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="392" y="616" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_13" x="72" y="664" w="480" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_14" x="72" y="712" w="480" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_10" x="200" y="520" w="224" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="200" y="472" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="296" y="472" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="392" y="472" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_10" x="200" y="376" w="224" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="200" y="328" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="296" y="328" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="392" y="328" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_10" x="200" y="232" w="224" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="200" y="184" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="296" y="184" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_12" x="392" y="184" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_10" x="200" y="88" w="224" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_13" x="72" y="520" w="480" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_13" x="72" y="616" w="480" h="48" f_x="0" f_y="1"/>
+      <obj name="castle_background_13" x="72" y="376" w="480" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_13" x="72" y="472" w="480" h="48" f_x="0" f_y="1"/>
+      <obj name="castle_background_13" x="72" y="232" w="480" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_13" x="72" y="328" w="480" h="48" f_x="0" f_y="1"/>
+      <obj name="castle_background_13" x="72" y="88" w="480" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_13" x="72" y="184" w="480" h="48" f_x="0" f_y="1"/>
+      <obj name="castle_background_15" x="362" y="652" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="369" y="644" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="376" y="652" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="265" y="604" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="272" y="596" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="169" y="644" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="176" y="652" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="362" y="508" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="369" y="500" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="376" y="508" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="265" y="460" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="272" y="452" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="169" y="500" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="176" y="508" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="362" y="364" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="369" y="356" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="376" y="364" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="265" y="316" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="272" y="308" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="169" y="356" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="176" y="364" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="362" y="220" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="369" y="212" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="376" y="220" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="265" y="172" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="272" y="164" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="169" y="212" w="16" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_15" x="176" y="220" w="16" h="8" f_x="0" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_0>
+  <layer_1>
+    <tiles>
+      <obj name="castle_background_7" x="336" y="576" w="72" h="64" f_x="0" f_y="0"/>
+      <obj name="castle_background_2" x="120" y="544" w="576" h="32" f_x="0" f_y="0"/>
+      <obj name="castle_background_7" x="336" y="576" w="72" h="64" f_x="1" f_y="0"/>
+      <obj name="castle_background_7" x="480" y="576" w="72" h="64" f_x="0" f_y="0"/>
+      <obj name="castle_background_7" x="480" y="576" w="72" h="64" f_x="1" f_y="0"/>
+      <obj name="castle_background_7" x="624" y="576" w="72" h="64" f_x="1" f_y="0"/>
+      <obj name="castle_background_7" x="192" y="576" w="72" h="64" f_x="0" f_y="0"/>
+      <obj name="castle_background_8" x="210" y="640" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_9" x="208" y="656" w="16" h="144" f_x="1" f_y="0"/>
+      <obj name="castle_background_8" x="318" y="640" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_9" x="320" y="656" w="16" h="144" f_x="0" f_y="0"/>
+      <obj name="castle_background_8" x="354" y="640" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_9" x="352" y="656" w="16" h="144" f_x="1" f_y="0"/>
+      <obj name="castle_background_8" x="462" y="640" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_9" x="464" y="656" w="16" h="144" f_x="0" f_y="0"/>
+      <obj name="castle_background_8" x="498" y="640" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_9" x="496" y="656" w="16" h="144" f_x="1" f_y="0"/>
+      <obj name="castle_background_8" x="606" y="640" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_9" x="608" y="656" w="16" h="144" f_x="0" f_y="0"/>
+      <obj name="castle_background_7" x="192" y="576" w="72" h="64" f_x="1" f_y="0"/>
+      <obj name="castle_background_8" x="174" y="640" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_9" x="176" y="656" w="16" h="144" f_x="0" f_y="0"/>
+      <obj name="castle_background_7" x="624" y="576" w="72" h="64" f_x="0" f_y="0"/>
+      <obj name="castle_background_8" x="642" y="640" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_9" x="640" y="656" w="16" h="144" f_x="1" f_y="0"/>
+      <obj name="castle_background_7" x="408" y="368" w="72" h="64" f_x="0" f_y="0"/>
+      <obj name="castle_background_2" x="120" y="240" w="640" h="128" f_x="0" f_y="0"/>
+      <obj name="castle_background_7" x="408" y="368" w="72" h="64" f_x="1" f_y="0"/>
+      <obj name="castle_background_7" x="552" y="368" w="72" h="64" f_x="0" f_y="0"/>
+      <obj name="castle_background_7" x="552" y="368" w="72" h="64" f_x="1" f_y="0"/>
+      <obj name="castle_background_7" x="696" y="368" w="72" h="64" f_x="1" f_y="0"/>
+      <obj name="castle_background_7" x="264" y="368" w="72" h="64" f_x="0" f_y="0"/>
+      <obj name="castle_background_8" x="282" y="432" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_9" x="280" y="448" w="16" h="96" f_x="1" f_y="0"/>
+      <obj name="castle_background_8" x="390" y="432" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_9" x="392" y="448" w="16" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_8" x="426" y="432" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_9" x="424" y="448" w="16" h="96" f_x="1" f_y="0"/>
+      <obj name="castle_background_8" x="534" y="432" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_9" x="536" y="448" w="16" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_8" x="570" y="432" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_9" x="568" y="448" w="16" h="96" f_x="1" f_y="0"/>
+      <obj name="castle_background_8" x="678" y="432" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_9" x="680" y="448" w="16" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_7" x="264" y="368" w="72" h="64" f_x="1" f_y="0"/>
+      <obj name="castle_background_8" x="246" y="432" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_9" x="248" y="448" w="16" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_7" x="696" y="368" w="72" h="64" f_x="0" f_y="0"/>
+      <obj name="castle_background_8" x="714" y="432" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_9" x="712" y="448" w="16" h="96" f_x="1" f_y="0"/>
+      <obj name="castle_background_7" x="120" y="368" w="72" h="64" f_x="0" f_y="0"/>
+      <obj name="castle_background_8" x="138" y="432" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_9" x="136" y="448" w="16" h="96" f_x="1" f_y="0"/>
+      <obj name="castle_background_11" x="120" y="544" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="184" y="544" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="248" y="544" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="312" y="544" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="376" y="544" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="440" y="544" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="504" y="544" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="568" y="544" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="632" y="544" w="64" h="16" f_x="0" f_y="0"/>
+    </tiles>
+    <elements>
+      <obj _class="BackgroundCastleTorchScript" x="474" y="664" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCastleTorchScript" x="618" y="664" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCastleTorchScript" x="330" y="664" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCastleTorchScript" x="186" y="664" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCastleTorchScript" x="546" y="456" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCastleTorchScript" x="690" y="456" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCastleTorchScript" x="402" y="456" f_x="0" f_y="0"/>
+      <obj _class="BackgroundCastleTorchScript" x="258" y="456" f_x="0" f_y="0"/>
+    </elements>
+  </layer_1>
+  <layer_2>
+    <tiles>
+      <obj name="castle_background_1" x="144" y="56" w="240" h="218" f_x="0" f_y="0"/>
+      <obj name="castle_background_2" x="143" y="16" w="225" h="66" f_x="0" f_y="0"/>
+      <obj name="castle_background_5" x="328" y="304" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_6" x="217" y="116" w="14" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_5" x="360" y="304" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="castle_background_6" x="210" y="124" w="14" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_6" x="297" y="92" w="14" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_6" x="304" y="100" w="14" h="8" f_x="0" f_y="0"/>
+      <obj name="castle_background_5" x="328" y="96" w="16" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_5" x="360" y="96" w="16" h="96" f_x="1" f_y="0"/>
+      <obj name="castle_background_4" x="326" y="80" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_4" x="362" y="80" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_4" x="326" y="368" w="18" h="16" f_x="0" f_y="1"/>
+      <obj name="castle_background_4" x="362" y="368" w="18" h="16" f_x="1" f_y="1"/>
+      <obj name="castle_background_4" x="326" y="208" w="18" h="16" f_x="0" f_y="1"/>
+      <obj name="castle_background_4" x="362" y="208" w="18" h="16" f_x="1" f_y="1"/>
+      <obj name="castle_background_4" x="326" y="288" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_4" x="362" y="288" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_11" x="168" y="288" w="64" h="16" f_x="0" f_y="1"/>
+      <obj name="castle_background_11" x="232" y="288" w="64" h="16" f_x="0" f_y="1"/>
+      <obj name="castle_background_11" x="296" y="288" w="64" h="16" f_x="0" f_y="1"/>
+      <obj name="castle_background_5" x="168" y="304" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="castle_background_5" x="200" y="304" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="castle_background_4" x="166" y="368" w="18" h="16" f_x="0" f_y="1"/>
+      <obj name="castle_background_4" x="202" y="368" w="18" h="16" f_x="1" f_y="1"/>
+      <obj name="castle_background_2" x="192" y="271" w="147" h="1" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="168" y="208" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="232" y="208" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_11" x="296" y="208" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_2" x="191" y="224" w="147" h="1" f_x="0" f_y="0"/>
+      <obj name="castle_background_5" x="168" y="96" w="16" h="96" f_x="0" f_y="0"/>
+      <obj name="castle_background_5" x="200" y="96" w="16" h="96" f_x="1" f_y="0"/>
+      <obj name="castle_background_4" x="166" y="80" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_4" x="202" y="80" w="18" h="16" f_x="1" f_y="0"/>
+      <obj name="castle_background_4" x="166" y="208" w="18" h="16" f_x="0" f_y="1"/>
+      <obj name="castle_background_4" x="202" y="208" w="18" h="16" f_x="1" f_y="1"/>
+      <obj name="castle_background_2" x="158" y="80" w="4" h="137" f_x="0" f_y="0"/>
+      <obj name="castle_background_2" x="211" y="146" w="110" h="32" f_x="0" f_y="0"/>
+      <obj name="castle_background_2" x="210" y="147" w="112" h="30" f_x="0" f_y="0"/>
+      <obj name="castle_background_2" x="145" y="210" w="64" h="77" f_x="0" f_y="0"/>
+      <obj name="castle_background_2" x="146" y="211" w="64" h="76" f_x="0" f_y="0"/>
+      <obj name="castle_background_4" x="166" y="288" w="18" h="16" f_x="0" f_y="0"/>
+      <obj name="castle_background_4" x="202" y="288" w="18" h="16" f_x="1" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_2>
+  <layer_sky>
+    <tiles/>
+    <elements/>
+  </layer_sky>
+  <layer_foreground>
+    <tiles>
+      <obj name="foreground_castle_4" x="400" y="-16" w="128" h="528" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="752" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="944" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="848" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="464" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="656" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="560" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="272" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="368" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="-16" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="176" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="80" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_4" x="400" y="512" w="128" h="528" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_4" x="0" y="-16" w="128" h="528" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_4" x="0" y="512" w="128" h="528" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="752" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="944" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="848" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="464" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="656" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="560" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="272" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="368" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="-16" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="176" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="80" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_4" x="400" y="1040" w="128" h="240" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_4" x="0" y="1040" w="128" h="240" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="1136" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="384" y="1040" w="16" h="48" f_x="0" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="1136" w="16" h="48" f_x="1" f_y="0"/>
+      <obj name="foreground_castle_7" x="144" y="1040" w="16" h="48" f_x="1" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_foreground>
+</map>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <tiles>
+    <obj name="grass_tile_2" back="0" x="0" y="176" w="480" h="112" f_x="0" f_y="0"/>
+    <obj name="mountain_tile_1" back="0" x="0" y="160" w="480" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_8" back="0" x="496" y="145" w="48" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_50" back="0" x="432" y="128" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_51" back="0" x="432" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_52" back="0" x="448" y="128" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_53" back="0" x="448" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_8" back="0" x="496" y="144" w="48" h="16" f_x="0" f_y="1"/>
+    <obj name="wood_tile_54" back="0" x="544" y="128" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_55" back="0" x="544" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_8" back="0" x="464" y="145" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_8" back="0" x="464" y="144" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="wood_tile_2" back="0" x="464" y="144" w="80" h="2" f_x="0" f_y="0"/>
+    <obj name="wood_tile_50" back="0" x="464" y="128" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_51" back="0" x="464" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_52" back="0" x="480" y="128" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_53" back="0" x="480" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_8" back="0" x="480" y="113" w="48" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_8" back="0" x="480" y="112" w="48" h="16" f_x="0" f_y="1"/>
+    <obj name="wood_tile_54" back="0" x="528" y="96" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_55" back="0" x="528" y="112" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_2" back="0" x="448" y="112" w="80" h="2" f_x="0" f_y="0"/>
+    <obj name="wood_tile_50" back="0" x="448" y="96" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_51" back="0" x="448" y="112" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_52" back="0" x="464" y="96" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_53" back="0" x="464" y="112" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_33" back="0" x="500" y="104" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="grass_tile_2" back="0" x="480" y="176" w="400" h="112" f_x="0" f_y="0"/>
+    <obj name="mountain_tile_1" back="0" x="480" y="160" w="400" h="16" f_x="0" f_y="0"/>
+  </tiles>
+  <tiles_front/>
+  <collisions>
+    <obj type="0" x="16" y="160" w="512" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="0" y="0" w="16" h="240" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="432" y="128" w="128" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="448" y="96" w="96" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="528" y="160" w="256" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </collisions>
+  <decorations>
+    <obj type="56" x="539" y="151" w="8" h="8" rot="5" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="56" x="539" y="156" w="8" h="8" rot="4" ai="0" val_1="0" val_2="1" val_3="0"/>
+    <obj type="111" x="169" y="153" w="1" h="0" rot="0" ai="21" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="156" y="153" w="0" h="0" rot="0" ai="22" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="0" y="153" w="0" h="0" rot="0" ai="21" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="236" y="153" w="1" h="0" rot="0" ai="21" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="308" y="153" w="0" h="0" rot="0" ai="21" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="321" y="153" w="1" h="0" rot="0" ai="22" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="509" y="153" w="1" h="0" rot="0" ai="21" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="496" y="153" w="0" h="0" rot="0" ai="22" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="340" y="153" w="0" h="0" rot="0" ai="21" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="576" y="153" w="1" h="0" rot="0" ai="21" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="648" y="153" w="0" h="0" rot="0" ai="21" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="661" y="153" w="1" h="0" rot="0" ai="22" val_1="0" val_2="0" val_3="0"/>
+    <obj type="56" x="483" y="98" w="8" h="8" rot="4" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="504" y="137" w="0" h="0" rot="0" ai="40" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="525" y="104" w="0" h="0" rot="0" ai="42" val_1="0" val_2="0" val_3="0"/>
+    <obj type="56" x="528" y="136" w="8" h="8" rot="4" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="56" x="528" y="130" w="8" h="8" rot="5" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </decorations>
+  <enemies/>
+  <items/>
+  <npcs/>
+  <data>
+    <obj _class="StartPosition" x="96" y="144" dir="1" type="0"/>
+    <obj _class="StartPosition" x="624" y="144" dir="0" type="1"/>
+    <obj _class="LevelStartScript" x="0" y="0"/>
+    <obj _class="LevelEndScript" x="848" y="240"/>
+    <obj _class="CameraLeftMargin" x="16"/>
+    <obj _class="CameraRightMargin" x="832"/>
+    <obj _class="NumberScript0" x="104" y="152" w="0"/>
+    <obj _class="NumberScript1" x="632" y="152" w="1"/>
+  </data>
+  <layer_0>
+    <tiles>
+      <obj name="rain_tree_2" x="0" y="-16" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="64" y="112" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="rain_tree_2" x="160" y="-16" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_2" x="128" y="-16" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="192" y="112" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="rain_tree_2" x="288" y="-16" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_2" x="256" y="-16" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="320" y="112" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="rain_tree_2" x="416" y="-16" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_2" x="384" y="-16" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="448" y="112" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="rain_tree_2" x="544" y="-16" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_12" x="328" y="128" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_6" x="480" y="128" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="rain_tree_8" x="384" y="128" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_10" x="304" y="128" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_16" x="212" y="84" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_17" x="240" y="80" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_18" x="222" y="62" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="rain_tree_21" x="65" y="124" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_22" x="73" y="124" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_16" x="36" y="84" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_18" x="46" y="62" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="rain_tree_17" x="368" y="80" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_17" x="496" y="80" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_6" x="384" y="128" w="32" h="32" f_x="1" f_y="0"/>
+      <obj name="rain_tree_4" x="384" y="144" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_10" x="176" y="120" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_10" x="112" y="128" w="16" h="16" f_x="1" f_y="0"/>
+      <obj name="rain_tree_22" x="223" y="140" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_21" x="449" y="112" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_22" x="457" y="112" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_22" x="351" y="113" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_21" x="471" y="120" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_22" x="476" y="120" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_2" x="544" y="-16" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="608" y="112" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="rain_tree_2" x="704" y="-16" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_2" x="672" y="-16" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="736" y="112" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="rain_tree_2" x="832" y="-16" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_2" x="800" y="-16" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="864" y="112" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="rain_tree_2" x="960" y="-16" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_2" x="928" y="-16" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="992" y="112" w="32" h="48" f_x="0" f_y="0"/>
+      <obj name="rain_tree_2" x="1088" y="-16" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_12" x="872" y="128" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_6" x="1024" y="128" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="rain_tree_8" x="928" y="128" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_10" x="848" y="128" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_16" x="756" y="84" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_17" x="784" y="80" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_18" x="766" y="62" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="rain_tree_21" x="609" y="124" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_22" x="617" y="124" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_16" x="580" y="84" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_18" x="590" y="62" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="rain_tree_17" x="912" y="80" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_17" x="1040" y="80" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_6" x="928" y="128" w="32" h="32" f_x="1" f_y="0"/>
+      <obj name="rain_tree_4" x="928" y="144" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_10" x="720" y="120" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_10" x="656" y="128" w="16" h="16" f_x="1" f_y="0"/>
+      <obj name="rain_tree_22" x="767" y="140" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_21" x="993" y="112" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_22" x="1001" y="112" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_22" x="895" y="113" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_21" x="1015" y="120" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_22" x="1020" y="120" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_8" x="544" y="128" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_6" x="544" y="128" w="32" h="32" f_x="1" f_y="0"/>
+      <obj name="rain_tree_4" x="544" y="144" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_8" x="0" y="128" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_6" x="0" y="128" w="32" h="32" f_x="1" f_y="0"/>
+      <obj name="rain_tree_4" x="0" y="144" w="64" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="-32" y="160" w="320" h="64" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="288" y="160" w="320" h="64" f_x="0" f_y="0"/>
+      <obj name="rain_tree_4" x="608" y="160" w="448" h="64" f_x="0" f_y="0"/>
+      <obj name="rain_tree_8" x="224" y="144" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_8" x="96" y="144" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_8" x="640" y="144" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_8" x="768" y="144" w="96" h="16" f_x="0" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_0>
+  <layer_1>
+    <tiles/>
+    <elements>
+      <obj _class="BackgroundPoleLightScript" x="84" y="104" f_x="0" f_y="0"/>
+      <obj _class="BackgroundPoleLightScript" x="244" y="104" f_x="1" f_y="0"/>
+      <obj _class="BackgroundPoleLightScript" x="348" y="104" f_x="0" f_y="0"/>
+      <obj _class="BackgroundPoleLightScript" x="508" y="104" f_x="1" f_y="0"/>
+      <obj _class="BackgroundPoleLightScript" x="612" y="104" f_x="0" f_y="0"/>
+      <obj _class="BackgroundPoleLightScript" x="772" y="104" f_x="1" f_y="0"/>
+    </elements>
+  </layer_1>
+  <layer_2>
+    <tiles>
+      <obj name="rain_tree_1" x="1056" y="-32" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="1216" y="-32" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_1" x="800" y="-32" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="960" y="-32" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_1" x="672" y="-32" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="832" y="-32" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_1" x="928" y="-32" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="1088" y="-32" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_23" x="736" y="96" w="32" h="112" f_x="0" f_y="0"/>
+      <obj name="rain_tree_23" x="864" y="96" w="32" h="112" f_x="0" f_y="0"/>
+      <obj name="rain_tree_23" x="992" y="96" w="32" h="112" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="384" y="-32" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="544" y="-32" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_1" x="512" y="-32" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="672" y="-32" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_23" x="448" y="96" w="32" h="112" f_x="0" f_y="0"/>
+      <obj name="rain_fence" x="592" y="138" w="48" h="38" f_x="0" f_y="0"/>
+      <obj name="rain_fence" x="640" y="138" w="48" h="38" f_x="0" f_y="0"/>
+      <obj name="rain_fence" x="688" y="138" w="48" h="38" f_x="0" f_y="0"/>
+      <obj name="rain_tree_23" x="576" y="96" w="32" h="112" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="288" y="-32" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_1" x="128" y="-32" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="256" y="-32" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="416" y="-32" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_23" x="320" y="96" w="32" h="112" f_x="0" f_y="0"/>
+      <obj name="rain_tree_23" x="192" y="96" w="32" h="112" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="0" y="-32" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_9" x="176" y="112" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="160" y="-32" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_11" x="200" y="120" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_9" x="368" y="128" w="16" h="16" f_x="1" f_y="0"/>
+      <obj name="rain_tree_9" x="560" y="112" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_13" x="236" y="44" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="352" y="48" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_15" x="366" y="62" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="240" y="64" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="216" y="56" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="32" y="64" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="496" y="64" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_15" x="558" y="46" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="544" y="64" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_13" x="580" y="68" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_19" x="321" y="116" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="329" y="116" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="351" y="101" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_19" x="65" y="140" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="73" y="140" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="87" y="128" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_19" x="87" y="128" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="351" y="143" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_20" x="223" y="100" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_19" x="193" y="108" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="201" y="108" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_19" x="449" y="130" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="457" y="130" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="479" y="124" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_19" x="577" y="100" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="585" y="100" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="607" y="129" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_fence" x="480" y="138" w="48" h="38" f_x="0" f_y="0"/>
+      <obj name="rain_fence" x="528" y="138" w="48" h="38" f_x="0" f_y="0"/>
+      <obj name="rain_fence" x="-32" y="138" w="48" h="38" f_x="0" f_y="0"/>
+      <obj name="rain_fence" x="16" y="138" w="48" h="38" f_x="0" f_y="0"/>
+      <obj name="rain_tree_5" x="992" y="144" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="rain_tree_7" x="896" y="144" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_9" x="848" y="112" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="1184" y="-32" w="80" h="128" f_x="0" f_y="0"/>
+      <obj name="rain_tree_1" x="1344" y="-32" w="80" h="128" f_x="1" f_y="0"/>
+      <obj name="rain_tree_11" x="872" y="120" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_9" x="1040" y="128" w="16" h="16" f_x="1" f_y="0"/>
+      <obj name="rain_tree_7" x="800" y="144" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_5" x="800" y="144" w="32" h="32" f_x="1" f_y="0"/>
+      <obj name="rain_tree_13" x="908" y="44" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="1024" y="48" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_15" x="1038" y="62" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="912" y="64" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="888" y="56" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="704" y="64" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="1168" y="64" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_15" x="1230" y="46" w="20" h="20" f_x="0" f_y="0"/>
+      <obj name="rain_tree_14" x="1216" y="64" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_13" x="1252" y="68" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_19" x="993" y="116" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="1001" y="116" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="1023" y="101" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_19" x="737" y="140" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="745" y="140" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="759" y="128" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_19" x="759" y="128" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="1023" y="143" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_20" x="895" y="100" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_19" x="865" y="108" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="873" y="108" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_19" x="1121" y="130" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="1129" y="130" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="1151" y="124" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_19" x="1249" y="100" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="1257" y="100" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="1279" y="129" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_fence" x="1152" y="138" w="48" h="38" f_x="0" f_y="0"/>
+      <obj name="rain_fence" x="1200" y="138" w="48" h="38" f_x="0" f_y="0"/>
+      <obj name="rain_fence" x="-80" y="138" w="48" h="38" f_x="0" f_y="0"/>
+      <obj name="rain_tree_23" x="64" y="96" w="32" h="112" f_x="0" f_y="0"/>
+      <obj name="rain_tree_23" x="1120" y="96" w="32" h="112" f_x="0" f_y="0"/>
+      <obj name="rain_tree_23" x="1248" y="96" w="32" h="112" f_x="0" f_y="0"/>
+      <obj name="rain_tree_9" x="1232" y="112" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_24" x="800" y="160" w="192" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_24" x="768" y="176" w="256" h="32" f_x="0" f_y="0"/>
+      <obj name="rain_tree_5" x="1024" y="176" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="rain_tree_5" x="768" y="176" w="32" h="32" f_x="1" f_y="0"/>
+      <obj name="rain_tree_19" x="65" y="105" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="73" y="105" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_20" x="95" y="99" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_20" x="87" y="128" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="rain_tree_19" x="87" y="128" w="8" h="8" f_x="0" f_y="0"/>
+      <obj name="rain_tree_5" x="320" y="144" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="rain_tree_5" x="128" y="144" w="32" h="32" f_x="1" f_y="0"/>
+      <obj name="rain_tree_24" x="128" y="160" w="192" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_24" x="96" y="176" w="256" h="32" f_x="0" f_y="0"/>
+      <obj name="rain_tree_5" x="352" y="176" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="rain_tree_5" x="96" y="176" w="32" h="32" f_x="1" f_y="0"/>
+      <obj name="rain_tree_7" x="224" y="144" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="rain_tree_7" x="128" y="144" w="96" h="16" f_x="0" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_2>
+  <layer_sky>
+    <tiles/>
+    <elements/>
+  </layer_sky>
+  <layer_foreground>
+    <tiles>
+      <obj name="foreground_bush_1" x="0" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="0" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="0" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="0" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="96" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="96" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="192" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="192" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="288" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="288" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="384" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="384" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="480" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="480" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="96" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="96" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="192" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="192" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="288" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="288" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="384" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="384" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="480" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="480" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="576" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="576" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="672" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="672" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="768" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="768" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="576" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="576" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="672" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="672" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="768" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="768" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="864" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="864" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="960" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="960" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="864" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="864" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_2" x="960" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="1248" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="1248" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="1344" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="1344" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_2" x="1056" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_2" x="1152" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="1440" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="1440" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="1536" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="1536" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="1184" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="1248" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="1280" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="1344" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="1632" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="1632" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="1728" y="176" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="1728" y="192" w="96" h="96" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="1376" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="1440" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_1" x="1472" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="1536" y="0" w="96" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_5" x="976" y="64" w="32" h="32" f_x="1" f_y="1"/>
+      <obj name="foreground_bush_1" x="976" y="64" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_1" x="1072" y="64" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_5" x="1168" y="64" w="32" h="32" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_1" x="1568" y="48" w="96" h="16" f_x="0" f_y="1"/>
+      <obj name="foreground_bush_2" x="976" y="32" w="192" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_6" x="1056" y="176" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_6" x="1248" y="176" w="32" h="32" f_x="1" f_y="0"/>
+      <obj name="foreground_bush_3" x="1056" y="192" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_3" x="1152" y="192" w="96" h="16" f_x="0" f_y="0"/>
+      <obj name="foreground_bush_4" x="1056" y="208" w="192" h="80" f_x="0" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_foreground>
+</map>

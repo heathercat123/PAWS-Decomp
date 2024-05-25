@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <tiles>
+    <obj name="wire_tile_1" back="0" x="288" y="81" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="256" y="73" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="224" y="65" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="192" y="57" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="160" y="49" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="128" y="41" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="96" y="33" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="64" y="25" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="384" y="105" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="352" y="97" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="320" y="89" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="480" y="129" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="448" y="121" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="416" y="113" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="512" y="137" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="32" y="17" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="544" y="145" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="576" y="153" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="wire_tile_1" back="0" x="0" y="9" w="32" h="16" f_x="0" f_y="0"/>
+  </tiles>
+  <tiles_front/>
+  <collisions>
+    <obj type="0" x="224" y="176" w="96" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="47" x="224" y="128" w="16" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="56" x="224" y="164" w="96" h="12" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="47" x="304" y="128" w="16" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="13" x="240" y="305" w="4" h="2" rot="0" ai="1" val_1="73" val_2="74" val_3="0"/>
+    <obj type="91" x="219" y="69" w="100" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </collisions>
+  <decorations/>
+  <enemies/>
+  <items/>
+  <npcs/>
+  <data>
+    <obj _class="LevelStartScript" x="0" y="0"/>
+    <obj _class="LevelEndScript" x="624" y="240"/>
+    <obj _class="CameraLeftMargin" x="16"/>
+    <obj _class="CameraRightMargin" x="592"/>
+    <obj _class="StartPosition" x="264" y="146" dir="0" type="0"/>
+    <obj _class="NumberScript2" x="272" y="154" w="2"/>
+    <obj _class="NumberScript1" x="274" y="345" w="1"/>
+  </data>
+  <layer_0>
+    <tiles>
+      <obj name="tree_day_15" x="-288" y="168" w="288" h="96" f_x="0" f_y="0"/>
+      <obj name="tree_day_15" x="0" y="168" w="288" h="96" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_1" x="-288" y="144" w="288" h="24" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_1" x="0" y="144" w="288" h="24" f_x="0" f_y="0"/>
+      <obj name="tree_day_15" x="288" y="168" w="288" h="96" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_1" x="288" y="144" w="288" h="24" f_x="0" f_y="0"/>
+      <obj name="tree_day_15" x="576" y="168" w="288" h="96" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_1" x="576" y="144" w="288" h="24" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="-160" y="128" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_4" x="-155" y="128" w="12" h="12" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="-192" y="144" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="-256" y="128" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_5" x="-243" y="128" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="background_city_canyon_3" x="-32" y="136" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="128" y="128" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_4" x="133" y="128" w="12" h="12" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="96" y="144" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="32" y="128" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_5" x="45" y="128" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="background_city_canyon_3" x="256" y="136" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="416" y="128" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_4" x="421" y="128" w="12" h="12" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="384" y="144" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="320" y="128" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_5" x="333" y="128" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="background_city_canyon_3" x="544" y="136" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="704" y="128" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_4" x="709" y="128" w="12" h="12" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="672" y="144" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_3" x="608" y="128" w="32" h="32" f_x="0" f_y="0"/>
+      <obj name="background_city_canyon_5" x="621" y="128" w="8" h="8" f_x="1" f_y="0"/>
+      <obj name="background_city_canyon_3" x="832" y="136" w="32" h="32" f_x="0" f_y="0"/>
+    </tiles>
+    <elements/>
+  </layer_0>
+  <layer_1>
+    <tiles/>
+    <elements/>
+  </layer_1>
+  <layer_2>
+    <tiles/>
+    <elements/>
+  </layer_2>
+  <layer_sky>
+    <tiles/>
+    <elements/>
+  </layer_sky>
+  <layer_foreground>
+    <tiles/>
+    <elements/>
+  </layer_foreground>
+</map>

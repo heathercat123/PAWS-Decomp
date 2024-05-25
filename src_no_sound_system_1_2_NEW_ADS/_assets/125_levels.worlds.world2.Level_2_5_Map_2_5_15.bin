@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <tiles>
+    <obj name="wood_tile_30" back="1" x="368" y="96" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="352" y="96" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="368" y="80" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="352" y="80" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_41" back="0" x="352" y="80" w="8" h="24" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_9" back="1" x="304" y="152" w="32" h="8" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_3" back="0" x="240" y="64" w="32" h="32" f_x="0" f_y="0"/>
+    <obj name="stairs_tile_1" back="0" x="175" y="128" w="33" h="16" f_x="0" f_y="0"/>
+    <obj name="stairs_tile_2" back="0" x="208" y="128" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="stairs_tile_3" back="0" x="176" y="144" w="32" h="16" f_x="0" f_y="0"/>
+    <obj name="stairs_tile_4" back="0" x="208" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="stairs_tile_2" back="0" x="224" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_17" back="0" x="176" y="80" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rope_tile_1" back="0" x="208" y="80" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="rope_tile_3" back="0" x="208" y="96" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_17" back="0" x="288" y="80" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="village_tile_17" back="0" x="288" y="64" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="village_tile_17" back="0" x="384" y="64" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="village_tile_9" back="0" x="304" y="64" w="64" h="16" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_1" back="0" x="176" y="80" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="dark_house_tile_3" back="0" x="192" y="-16" w="80" h="80" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_2" back="0" x="192" y="80" w="32" h="16" f_x="0" f_y="1"/>
+    <obj name="dark_house_tile_5" back="0" x="192" y="160" w="176" h="16" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_6" back="0" x="223" y="64" w="17" h="32" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_6" back="0" x="239" y="80" w="17" h="32" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_2" back="0" x="256" y="112" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="dark_house_tile_1" back="0" x="288" y="112" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="dark_house_tile_7" back="0" x="176" y="-16" w="16" h="80" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_7" back="0" x="288" y="-16" w="16" h="112" f_x="1" f_y="0"/>
+    <obj name="dark_house_tile_3" back="0" x="-16" y="-16" w="176" h="272" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_7" back="0" x="176" y="-16" w="16" h="272" f_x="1" f_y="0"/>
+    <obj name="dark_house_tile_3" back="0" x="192" y="176" w="176" h="80" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_7" back="0" x="176" y="176" w="16" h="80" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_4" back="0" x="192" y="160" w="17" h="16" f_x="1" f_y="0"/>
+    <obj name="dark_house_tile_2" back="0" x="304" y="64" w="64" h="16" f_x="0" f_y="1"/>
+    <obj name="dark_house_tile_1" back="0" x="384" y="64" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="dark_house_tile_7" back="0" x="384" y="-16" w="16" h="64" f_x="1" f_y="0"/>
+    <obj name="dark_house_tile_1" back="0" x="288" y="64" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="dark_house_tile_7" back="0" x="288" y="-16" w="16" h="64" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_3" back="0" x="304" y="-16" w="64" h="64" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_4" back="0" x="368" y="160" w="17" h="16" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_7" back="0" x="384" y="176" w="16" h="80" f_x="1" f_y="0"/>
+    <obj name="dark_house_tile_3" back="0" x="400" y="-16" w="208" h="272" f_x="0" f_y="0"/>
+    <obj name="dark_house_tile_7" back="0" x="384" y="-16" w="16" h="272" f_x="0" f_y="0"/>
+    <obj name="wood_tile_37" back="0" x="349" y="115" w="11" h="11" f_x="0" f_y="1"/>
+    <obj name="wood_tile_38" back="0" x="360" y="104" w="25" h="8" f_x="0" f_y="0"/>
+    <obj name="wood_tile_40" back="0" x="352" y="104" w="8" h="8" f_x="0" f_y="1"/>
+    <obj name="canyon_tile_17" back="0" x="384" y="80" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="sphere_tile_1" back="1" x="312" y="139" w="16" h="16" f_x="0" f_y="0"/>
+  </tiles>
+  <tiles_front/>
+  <collisions>
+    <obj type="0" x="64" y="160" w="320" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="80" y="0" w="16" h="160" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="96" y="64" w="80" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="288" y="48" w="96" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="96" y="128" w="112.05" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="4" x="208" y="128" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="4" x="224" y="144" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="208" y="144" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="384" y="0" w="64" h="240" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="352" y="80" w="32" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="256" y="48" w="32" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="176" y="64" w="80" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="240" y="80" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="14" x="176" y="96" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </collisions>
+  <decorations>
+    <obj type="58" x="240" y="160" w="48" h="2" rot="3" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="58" x="296" y="160" w="48" h="2" rot="4" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="312" y="80" w="0" h="0" rot="0" ai="158" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="368" y="144" w="0" h="0" rot="0" ai="50" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="363" y="87" w="0" h="0" rot="0" ai="77" val_1="0" val_2="0" val_3="0"/>
+    <obj type="38" x="312" y="96" w="1" h="1" rot="0" ai="74" val_1="0" val_2="0" val_3="0"/>
+    <obj type="38" x="312" y="136" w="1" h="1" rot="0" ai="74" val_1="0" val_2="0" val_3="0"/>
+  </decorations>
+  <enemies>
+    <obj type="25" x="192" y="75" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="25" x="168" y="83" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="25" x="176" y="75" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </enemies>
+  <items/>
+  <npcs>
+    <obj type="56" x="339" y="144" w="0" h="0" rot="0" ai="31" val_1="0" val_2="0" val_3="0"/>
+  </npcs>
+  <data>
+    <obj _class="HorPathScript" x="160" y="56" w="16" h="16"/>
+    <obj _class="LevelStartScript" x="0" y="0"/>
+    <obj _class="LevelEndScript" x="608" y="240"/>
+    <obj _class="CameraLeftMargin" x="16"/>
+    <obj _class="CameraRightMargin" x="560"/>
+    <obj _class="StartPosition" x="240" y="112" dir="1" type="1"/>
+    <obj _class="NumberScript2" x="184" y="112" w="2"/>
+    <obj _class="NumberScript2" x="248" y="120" w="2"/>
+    <obj _class="bg_sea_y" y="140"/>
+  </data>
+  <layer_0>
+    <tiles/>
+    <elements/>
+  </layer_0>
+  <layer_1>
+    <tiles/>
+    <elements/>
+  </layer_1>
+  <layer_2>
+    <tiles>
+      <obj name="desert_house_background_1" x="112" y="48" w="352" h="144" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_2" x="288" y="56" w="192" h="26" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_2" x="176" y="72" w="56" h="10" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_2" x="168" y="72" w="10" h="72" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_2" x="258" y="104" w="31" h="10" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_2" x="288" y="80" w="2" h="33" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_2" x="249" y="95" w="8" h="10" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_3" x="210" y="117" w="46" h="9" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_4" x="210" y="85" w="46" h="16" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_4" x="210" y="101" w="46" h="16" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_4" x="210" y="69" w="46" h="16" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_3" x="194" y="90" w="46" h="9" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_4" x="194" y="74" w="46" h="16" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_6" x="276" y="112" w="16" h="16" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_5" x="268" y="112" w="8" h="48" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_6" x="268" y="112" w="16" h="16" f_x="1" f_y="0"/>
+      <obj name="desert_house_background_5" x="376" y="112" w="8" h="48" f_x="0" f_y="0"/>
+      <obj name="desert_house_background_6" x="376" y="112" w="16" h="16" f_x="1" f_y="0"/>
+    </tiles>
+    <elements>
+      <obj _class="DeserthouseLightBackground1" x="288" y="80" f_x="0" f_y="0"/>
+    </elements>
+  </layer_2>
+  <layer_sky>
+    <tiles/>
+    <elements/>
+  </layer_sky>
+  <layer_foreground>
+    <tiles/>
+    <elements/>
+  </layer_foreground>
+</map>

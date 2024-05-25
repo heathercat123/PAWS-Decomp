@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <tiles>
+    <obj name="dark_back_tile_7" back="1" x="456" y="160" w="48" h="144" f_x="0" f_y="0"/>
+    <obj name="dark_back_tile_1" back="1" x="462" y="160" w="4" h="144" f_x="0" f_y="0"/>
+    <obj name="dark_back_tile_1" back="1" x="464" y="160" w="48" h="3" f_x="0" f_y="0"/>
+    <obj name="stairs_tile_3" back="1" x="456" y="160" w="59" h="1" f_x="0" f_y="0"/>
+    <obj name="dark_back_tile_11" back="1" x="480" y="180" w="16" h="8" f_x="0" f_y="0"/>
+    <obj name="dark_back_tile_11" back="1" x="488" y="188" w="16" h="8" f_x="0" f_y="0"/>
+    <obj name="water_tile_2" back="0" x="384" y="176" w="64" h="128" f_x="0" f_y="0"/>
+    <obj name="water_tile_30" back="0" x="368" y="192" w="32" h="32" f_x="0" f_y="1"/>
+    <obj name="water_tile_30" back="0" x="688" y="192" w="32" h="32" f_x="1" f_y="1"/>
+    <obj name="water_tile_10" back="0" x="400" y="160" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="water_tile_11" back="0" x="400" y="176" w="48" h="16" f_x="0" f_y="1"/>
+    <obj name="water_tile_1" back="0" x="368" y="192" w="16" h="112" f_x="0" f_y="0"/>
+    <obj name="water_tile_1" back="0" x="688" y="192" w="16" h="112" f_x="1" f_y="0"/>
+    <obj name="water_tile_27" back="0" x="399" y="176" w="17" h="17" f_x="0" f_y="1"/>
+    <obj name="water_tile_10" back="0" x="432" y="160" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="water_tile_27" back="0" x="433" y="176" w="17" h="17" f_x="1" f_y="1"/>
+    <obj name="water_tile_10" back="0" x="624" y="160" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="water_tile_27" back="0" x="623" y="176" w="17" h="17" f_x="0" f_y="1"/>
+    <obj name="water_tile_10" back="0" x="656" y="160" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="water_tile_27" back="0" x="657" y="176" w="17" h="17" f_x="1" f_y="1"/>
+    <obj name="water_tile_10" back="0" x="464" y="176" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="water_tile_1" back="0" x="464" y="176" w="16" h="128" f_x="1" f_y="0"/>
+    <obj name="water_tile_10" back="0" x="496" y="176" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="water_tile_1" back="0" x="496" y="176" w="16" h="128" f_x="0" f_y="0"/>
+    <obj name="water_tile_11" back="0" x="512" y="176" w="112" h="16" f_x="0" f_y="1"/>
+    <obj name="water_tile_2" back="0" x="512" y="176" w="160" h="128" f_x="0" f_y="0"/>
+  </tiles>
+  <tiles_front/>
+  <collisions>
+    <obj type="0" x="496" y="160" w="160" h="112" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="400" y="160" w="64" h="112" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="47" x="400" y="64" w="32" h="96" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="47" x="624" y="64" w="32" h="96" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="13" x="464" y="224" w="2" h="2" rot="0" ai="1" val_1="32" val_2="32" val_3="0"/>
+  </collisions>
+  <decorations>
+    <obj type="111" x="568" y="144" w="0" h="0" rot="0" ai="8" val_1="0" val_2="0" val_3="0"/>
+  </decorations>
+  <enemies/>
+  <items>
+    <obj type="8" x="576" y="145" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </items>
+  <npcs/>
+  <data>
+    <obj _class="ParticlesArea" x="432" y="0" w="192" h="16"/>
+    <obj _class="LevelStartScript" x="0" y="0"/>
+    <obj _class="LevelEndScript" x="1088" y="304"/>
+    <obj _class="CameraLeftMargin" x="80"/>
+    <obj _class="CameraRightMargin" x="1056"/>
+    <obj _class="StartPosition" x="512" y="144" dir="1" type="0"/>
+    <obj _class="NumberScript1" x="520" y="152" w="1"/>
+    <obj _class="NumberScript1" x="472" y="232" w="1"/>
+    <obj _class="bg_sea_y" y="144"/>
+  </data>
+  <layer_0>
+    <tiles>
+      <obj name="background_starry_night_6" x="0" y="144" w="640" h="128" f_x="0" f_y="0"/>
+      <obj name="beach_night_bg_1" x="0" y="144" w="640" h="5" f_x="0" f_y="0"/>
+      <obj name="beach_night_bg_9" x="160" y="136" w="16" h="7" f_x="0" f_y="0"/>
+      <obj name="beach_night_bg_9" x="72" y="136" w="16" h="7" f_x="0" f_y="0"/>
+      <obj name="beach_night_bg_9" x="342" y="136" w="16" h="7" f_x="0" f_y="0"/>
+    </tiles>
+    <elements>
+      <obj _class="BeachNightBackground2" x="200" y="144" f_x="0" f_y="0"/>
+    </elements>
+  </layer_0>
+  <layer_1>
+    <tiles/>
+    <elements/>
+  </layer_1>
+  <layer_2>
+    <tiles/>
+    <elements/>
+  </layer_2>
+  <layer_sky>
+    <tiles/>
+    <elements>
+      <obj _class="StarBackgroundScript1" x="130" y="58" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript2" x="330" y="10" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript3" x="314" y="26" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript4" x="250" y="50" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript5" x="106" y="26" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript6" x="266" y="66" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript7" x="90" y="34" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript8" x="154" y="66" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript9" x="34" y="66" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript6" x="394" y="34" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript6" x="10" y="26" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript9" x="410" y="26" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript6" x="314" y="98" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript5" x="338" y="82" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript8" x="442" y="58" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript4" x="90" y="106" f_x="0" f_y="0"/>
+      <obj _class="StarBackgroundScript9" x="234" y="74" f_x="0" f_y="0"/>
+      <obj _class="CityMoonBackground" x="181" y="-45" f_x="0" f_y="0"/>
+    </elements>
+  </layer_sky>
+  <layer_foreground>
+    <tiles/>
+    <elements/>
+  </layer_foreground>
+</map>

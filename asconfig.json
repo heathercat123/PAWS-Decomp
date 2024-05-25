@@ -1,0 +1,26 @@
+{
+    "config": "airmobile",
+    "compilerOptions": {
+        "source-path": [
+            "src_no_sound_system_1_2_NEW_ADS"
+        ],
+        "output": "bin/CatGamePaws_android.swf",
+        "default-frame-rate": 60,
+        "default-size": {
+            "width": 1334,
+            "height": 750
+        }
+    },
+    "mainClass": "src_no_sound_system_1_2_NEW_ADS/Main",
+    "application": "src_no_sound_system_1_2_NEW_ADS/application.xml",
+    "airOptions": {
+        "windows": {
+            "target": "bundle",
+            "output": "bin/CatGamePaws_android",
+            "signingOptions": {
+                "storetype": "pkcs12",
+                "keystore": "You have to specify your own cerftificate. This can help: https://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7f74.html"
+            }
+        },
+    }
+}

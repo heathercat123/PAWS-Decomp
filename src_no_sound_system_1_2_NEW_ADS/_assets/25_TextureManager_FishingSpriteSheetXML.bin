@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8c26af9032e8dc45bf5eb9177924984b:d4c009611cc91c07dab1eb73fe7b65ad:3094b348afb23aab3bf1d2594626ab08$ -->
+<TextureAtlas imagePath="fishing.png" width="509" height="490">
+    <SubTexture name="blowFishJumpAnim_a" x="80" y="352" width="20" height="22" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="blowFishJumpAnim_b" x="292" y="322" width="20" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="blowFishSwimAnim_a" x="347" y="381" width="22" height="20" frameX="-5" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="blowFishSwimAnim_b" x="106" y="274" width="23" height="20" frameX="-5" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="blowFishSwimAnim_c" x="375" y="381" width="22" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="blowFishSwimAnim_d" x="347" y="381" width="22" height="20" frameX="-5" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="blowFishSwimAnim_e" x="164" y="466" width="20" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="blowFishSwimAnim_f" x="172" y="436" width="19" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="blowFishTurnAnim_a" x="171" y="410" width="20" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="catFishJumpAnim_a" x="4" y="283" width="25" height="32" frameX="-8" frameY="-5" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="catFishJumpAnim_b" x="4" y="321" width="25" height="32" frameX="-8" frameY="-3" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="catFishSwimAnim_a" x="236" y="4" width="34" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="catFishSwimAnim_b" x="276" y="4" width="34" height="25" frameX="-3" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="catFishSwimAnim_c" x="232" y="35" width="33" height="25" frameX="-4" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="catFishSwimAnim_d" x="236" y="4" width="34" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="catFishSwimAnim_e" x="46" y="50" width="32" height="25" frameX="-3" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="catFishSwimAnim_f" x="476" y="4" width="28" height="25" frameX="-5" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="catFishTurnAnim_a" x="146" y="151" width="30" height="25" frameX="-5" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="crabFishJumpAnim_a" x="366" y="175" width="15" height="30" frameX="-7" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="crabFishJumpAnim_b" x="123" y="154" width="17" height="32" frameX="-8" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="crabFishSwimAnim_a" x="117" y="96" width="30" height="14" frameX="-1" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="crabFishSwimAnim_b" x="135" y="268" width="30" height="15" frameX="-1" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="crabFishTurnAnim_a" x="117" y="96" width="30" height="14" frameX="-1" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_blowFishSwimAnim_a" x="483" y="122" width="22" height="20" frameX="-5" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_blowFishSwimAnim_b" x="106" y="300" width="23" height="20" frameX="-5" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_blowFishSwimAnim_c" x="483" y="148" width="22" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_blowFishSwimAnim_d" x="483" y="122" width="22" height="20" frameX="-5" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_blowFishSwimAnim_e" x="197" y="396" width="20" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_blowFishSwimAnim_f" x="404" y="407" width="19" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_blowFishTurnAnim_a" x="197" y="422" width="20" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_catFishSwimAnim_a" x="316" y="4" width="34" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_catFishSwimAnim_b" x="356" y="4" width="34" height="25" frameX="-3" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_catFishSwimAnim_c" x="271" y="35" width="33" height="25" frameX="-4" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_catFishSwimAnim_d" x="316" y="4" width="34" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_catFishSwimAnim_e" x="311" y="66" width="32" height="25" frameX="-3" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_catFishSwimAnim_f" x="117" y="65" width="28" height="25" frameX="-5" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_catFishTurnAnim_a" x="182" y="122" width="30" height="25" frameX="-5" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_crabFishSwimAnim_a" x="239" y="273" width="30" height="14" frameX="-1" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_crabFishSwimAnim_b" x="275" y="273" width="30" height="15" frameX="-1" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_crabFishTurnAnim_a" x="239" y="273" width="30" height="14" frameX="-1" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_frogFishSwimAnim_a" x="106" y="326" width="23" height="16" frameX="-4" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_frogFishSwimAnim_b" x="106" y="348" width="23" height="14" frameX="-4" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_frogFishTurnAnim_a" x="483" y="249" width="22" height="16" frameX="-5" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_goldfishSwimAnim_a" x="199" y="313" width="25" height="22" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_goldfishSwimAnim_b" x="148" y="212" width="26" height="22" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_goldfishSwimAnim_c" x="207" y="265" width="26" height="22" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_goldfishSwimAnim_d" x="199" y="313" width="25" height="22" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_goldfishSwimAnim_e" x="318" y="321" width="23" height="22" frameX="-5" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_goldfishSwimAnim_f" x="427" y="159" width="21" height="22" frameX="-6" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_goldfishTurnAnim_a" x="65" y="237" width="24" height="22" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_greenCarpFishSwimAnim_a" x="35" y="239" width="24" height="21" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_greenCarpFishSwimAnim_b" x="135" y="337" width="25" height="21" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_greenCarpFishSwimAnim_c" x="65" y="265" width="24" height="21" frameX="-5" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_greenCarpFishSwimAnim_d" x="35" y="239" width="24" height="21" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_greenCarpFishSwimAnim_e" x="415" y="187" width="22" height="21" frameX="-5" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_greenCarpFishSwimAnim_f" x="443" y="187" width="20" height="21" frameX="-6" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_greenCarpFishTurnAnim_a" x="197" y="369" width="24" height="21" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_jellyfishFishSwimAnim_a" x="483" y="271" width="22" height="16" frameX="-5" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_jellyfishFishSwimAnim_b" x="376" y="427" width="18" height="20" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_jellyfishFishTurnAnim_b" x="341" y="297" width="20" height="18" frameX="-6" frameY="-7" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_octopusFishSwimAnim_a" x="273" y="95" width="32" height="23" frameX="0" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_octopusFishSwimAnim_b" x="311" y="97" width="32" height="22" frameX="0" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_octopusFishSwimAnim_c" x="273" y="95" width="32" height="23" frameX="0" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_octopusFishSwimAnim_d" x="388" y="65" width="32" height="24" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_octopusFishTurnAnim_a" x="273" y="95" width="32" height="23" frameX="0" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_rare_crabFishSwimAnim_a" x="135" y="289" width="30" height="14" frameX="-1" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_rare_crabFishSwimAnim_b" x="171" y="291" width="30" height="15" frameX="-1" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_rare_crabFishTurnAnim_a" x="135" y="289" width="30" height="14" frameX="-1" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_rare_tadpoleFishSwimAnim_a" x="166" y="340" width="25" height="20" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_rare_tadpoleFishSwimAnim_b" x="289" y="348" width="23" height="20" frameX="-5" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_rare_tadpoleFishTurnAnim_a" x="429" y="405" width="16" height="20" frameX="-8" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_rare_turtleFishSwimAnim_a" x="112" y="35" width="34" height="24" frameX="-3" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_rare_turtleFishSwimAnim_b" x="389" y="36" width="34" height="23" frameX="-3" frameY="-8" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_rare_turtleFishSwimAnim_c" x="396" y="4" width="34" height="26" frameX="-3" frameY="-6" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_rare_turtleFishTurnAnim_a" x="148" y="182" width="26" height="24" frameX="-7" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_salamanderFishSwimAnim_a" x="171" y="241" width="32" height="18" frameX="0" frameY="-7" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_salamanderFishSwimAnim_b" x="35" y="450" width="32" height="17" frameX="0" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_salamanderFishTurnAnim_a" x="332" y="203" width="28" height="18" frameX="-2" frameY="-7" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_sharkFishSwimAnim_a" x="154" y="4" width="35" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_sharkFishSwimAnim_b" x="4" y="50" width="36" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_sharkFishSwimAnim_c" x="4" y="50" width="36" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_sharkFishSwimAnim_d" x="154" y="4" width="35" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_sharkFishSwimAnim_e" x="152" y="35" width="34" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_sharkFishSwimAnim_f" x="310" y="35" width="33" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_sharkFishTurnAnim_a" x="182" y="153" width="30" height="25" frameX="-5" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_snailFishSwimAnim_a" x="347" y="276" width="22" height="15" frameX="-6" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_snailFishSwimAnim_b" x="451" y="420" width="22" height="14" frameX="-6" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_snailFishTurnAnim_a" x="375" y="276" width="20" height="15" frameX="-6" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_squidFishSwimAnim_a" x="227" y="369" width="24" height="22" frameX="-4" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_squidFishSwimAnim_b" x="80" y="323" width="20" height="23" frameX="-6" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_squidFishTurnAnim_a" x="227" y="369" width="24" height="22" frameX="-4" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_stingrayFishSwimAnim_a" x="153" y="95" width="34" height="20" frameX="-5" frameY="-10" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_stingrayFishSwimAnim_b" x="294" y="151" width="34" height="18" frameX="-5" frameY="-11" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_stingrayFishSwimAnim_c" x="95" y="230" width="34" height="16" frameX="-5" frameY="-12" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_stingrayFishSwimAnim_d" x="294" y="151" width="34" height="18" frameX="-5" frameY="-11" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_stingrayFishTurnAnim_a" x="330" y="227" width="30" height="20" frameX="-5" frameY="-10" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_tadpoleFishSwimAnim_a" x="230" y="321" width="25" height="15" frameX="-4" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_tadpoleFishSwimAnim_b" x="478" y="393" width="23" height="15" frameX="-5" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_tadpoleFishTurnAnim_a" x="270" y="471" width="16" height="15" frameX="-8" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="dusk_turtleFishSwimAnim_a" x="426" y="65" width="34" height="22" frameX="-3" frameY="-9" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_turtleFishSwimAnim_b" x="193" y="95" width="34" height="21" frameX="-3" frameY="-10" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_turtleFishSwimAnim_c" x="429" y="36" width="34" height="23" frameX="-3" frameY="-9" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="dusk_turtleFishTurnAnim_a" x="243" y="293" width="26" height="22" frameX="-7" frameY="-9" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="fish_hud_24" x="401" y="272" width="22" height="19"/>
+    <SubTexture name="fish_hud_24_golden" x="429" y="272" width="22" height="19"/>
+    <SubTexture name="fish_hud_24_rare" x="483" y="174" width="22" height="19"/>
+    <SubTexture name="fish_hud_25" x="197" y="448" width="20" height="14"/>
+    <SubTexture name="fish_hud_25_golden" x="223" y="449" width="20" height="14"/>
+    <SubTexture name="fish_hud_25_rare" x="249" y="450" width="22" height="15"/>
+    <SubTexture name="fish_hud_26" x="349" y="96" width="32" height="23"/>
+    <SubTexture name="fish_hud_26_golden" x="180" y="184" width="32" height="23"/>
+    <SubTexture name="fish_hud_26_rare" x="218" y="123" width="32" height="23"/>
+    <SubTexture name="fish_hud_27" x="318" y="349" width="23" height="20"/>
+    <SubTexture name="fish_hud_27_golden" x="478" y="315" width="23" height="20"/>
+    <SubTexture name="fish_hud_27_rare" x="478" y="341" width="23" height="20"/>
+    <SubTexture name="fish_hud_28" x="106" y="473" width="23" height="13"/>
+    <SubTexture name="fish_hud_28_golden" x="135" y="473" width="23" height="13"/>
+    <SubTexture name="fish_hud_28_rare" x="367" y="297" width="23" height="18"/>
+    <SubTexture name="fish_hud_30" x="223" y="397" width="20" height="20"/>
+    <SubTexture name="fish_hud_30_golden" x="223" y="423" width="20" height="20"/>
+    <SubTexture name="fish_hud_30_rare" x="249" y="398" width="20" height="20"/>
+    <SubTexture name="fish_hud_31" x="4" y="473" width="28" height="13"/>
+    <SubTexture name="fish_hud_31_golden" x="38" y="473" width="28" height="13"/>
+    <SubTexture name="fish_hud_31_rare" x="72" y="473" width="28" height="13"/>
+    <SubTexture name="fish_hud_32" x="483" y="199" width="22" height="19"/>
+    <SubTexture name="fish_hud_32_golden" x="429" y="272" width="22" height="19"/>
+    <SubTexture name="fish_hud_32_rare" x="483" y="224" width="22" height="19"/>
+    <SubTexture name="fish_hud_33" x="396" y="297" width="20" height="18"/>
+    <SubTexture name="fish_hud_33_golden" x="422" y="297" width="20" height="18"/>
+    <SubTexture name="fish_hud_33_rare" x="448" y="297" width="20" height="18"/>
+    <SubTexture name="fish_hud_34" x="218" y="152" width="32" height="23"/>
+    <SubTexture name="fish_hud_34_golden" x="151" y="66" width="34" height="23"/>
+    <SubTexture name="fish_hud_34_rare" x="191" y="66" width="34" height="23"/>
+    <SubTexture name="fish_hud_35" x="256" y="205" width="32" height="16"/>
+    <SubTexture name="fish_hud_35_golden" x="254" y="227" width="32" height="16"/>
+    <SubTexture name="fish_hud_35_rare" x="292" y="227" width="32" height="16"/>
+    <SubTexture name="fish_hud_36" x="256" y="179" width="32" height="20"/>
+    <SubTexture name="fish_hud_36_golden" x="336" y="125" width="32" height="20"/>
+    <SubTexture name="fish_hud_36_rare" x="180" y="213" width="32" height="22"/>
+    <SubTexture name="fish_hud_37" x="451" y="402" width="21" height="12"/>
+    <SubTexture name="fish_hud_37_golden" x="143" y="394" width="21" height="12"/>
+    <SubTexture name="fish_hud_37_rare" x="170" y="392" width="21" height="12"/>
+    <SubTexture name="fish_hud_38" x="209" y="241" width="32" height="18"/>
+    <SubTexture name="fish_hud_38_golden" x="294" y="203" width="32" height="18"/>
+    <SubTexture name="fish_hud_38_rare" x="247" y="249" width="32" height="18"/>
+    <SubTexture name="fish_hud_39" x="294" y="175" width="30" height="22"/>
+    <SubTexture name="fish_hud_39_golden" x="330" y="175" width="30" height="22"/>
+    <SubTexture name="fish_hud_39_rare" x="135" y="240" width="30" height="22"/>
+    <SubTexture name="fish_hud_40" x="314" y="468" width="18" height="16"/>
+    <SubTexture name="fish_hud_40_golden" x="400" y="433" width="20" height="14"/>
+    <SubTexture name="fish_hud_40_rare" x="451" y="440" width="20" height="14"/>
+    <SubTexture name="fish_panel_1" x="4" y="4" width="40" height="40"/>
+    <SubTexture name="frogFishJumpAnim_a" x="101" y="444" width="16" height="23" frameX="-8" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="frogFishJumpAnim_b" x="429" y="321" width="16" height="22" frameX="-8" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="frogFishSwimAnim_a" x="454" y="124" width="23" height="16" frameX="-4" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="frogFishSwimAnim_b" x="454" y="167" width="23" height="14" frameX="-4" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="frogFishTurnAnim_a" x="483" y="293" width="22" height="16" frameX="-5" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_blowFishJumpAnim_a" x="442" y="214" width="20" height="22" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_blowFishJumpAnim_b" x="249" y="424" width="20" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_catFishJumpAnim_a" x="4" y="359" width="25" height="32" frameX="-8" frameY="-5" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="golden_catFishJumpAnim_b" x="4" y="397" width="25" height="32" frameX="-8" frameY="-3" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="golden_crabFishJumpAnim_a" x="366" y="211" width="15" height="30" frameX="-7" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_crabFishJumpAnim_b" x="125" y="192" width="17" height="32" frameX="-8" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_frogFishJumpAnim_a" x="123" y="444" width="16" height="23" frameX="-8" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_frogFishJumpAnim_b" x="429" y="349" width="16" height="22" frameX="-8" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_goldfishJumpAnim_a" x="84" y="46" width="22" height="26" frameX="-7" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_goldfishJumpAnim_b" x="73" y="444" width="22" height="23" frameX="-7" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_greenCarpFishJumpAnim_a" x="420" y="95" width="21" height="24" frameX="-7" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_greenCarpFishJumpAnim_b" x="451" y="321" width="21" height="21" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_jellyfishFishJumpAnim_a" x="275" y="427" width="22" height="16" frameX="-5" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_jellyfishFishJumpAnim_b" x="380" y="453" width="18" height="20" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_octopusFishJumpAnim_a" x="35" y="201" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_octopusFishJumpAnim_b" x="63" y="161" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_redJumperFishJumpAnim_a" x="420" y="95" width="21" height="24" frameX="-7" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_redJumperFishJumpAnim_b" x="451" y="321" width="21" height="21" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_salamanderFishJumpAnim_a" x="120" y="116" width="18" height="32" frameX="-7" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_salamanderFishJumpAnim_b" x="397" y="125" width="18" height="28" frameX="-7" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_sharkFishJumpAnim_a" x="50" y="4" width="25" height="36" frameX="-8" frameY="-2" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="golden_sharkFishJumpAnim_b" x="4" y="123" width="25" height="34" frameX="-8" frameY="-2" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="golden_snailFishJumpAnim_a" x="429" y="377" width="16" height="22" frameX="-8" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_snailFishJumpAnim_b" x="404" y="453" width="16" height="20" frameX="-8" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_squidFishJumpAnim_a" x="401" y="350" width="22" height="22" frameX="-5" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_squidFishJumpAnim_b" x="469" y="36" width="20" height="23" frameX="-6" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_stingrayFishJumpAnim_a" x="35" y="81" width="20" height="34" frameX="-10" frameY="-5" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="golden_stingrayFishJumpAnim_b" x="35" y="266" width="20" height="30" frameX="-10" frameY="-5" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="golden_tadpoleFishJumpAnim_a" x="59" y="338" width="15" height="25" frameX="-9" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_tadpoleFishJumpAnim_b" x="338" y="468" width="15" height="16" frameX="-9" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="golden_turtleFishJumpAnim_a" x="35" y="121" width="22" height="34" frameX="-9" frameY="-3" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="golden_turtleFishJumpAnim_b" x="61" y="412" width="22" height="26" frameX="-9" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="goldfishJumpAnim_a" x="91" y="380" width="22" height="26" frameX="-7" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="goldfishJumpAnim_b" x="468" y="93" width="22" height="23" frameX="-7" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="goldfishSwimAnim_a" x="197" y="341" width="25" height="22" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="goldfishSwimAnim_b" x="275" y="294" width="26" height="22" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="goldfishSwimAnim_c" x="135" y="309" width="26" height="22" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="goldfishSwimAnim_d" x="197" y="341" width="25" height="22" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="goldfishSwimAnim_e" x="466" y="65" width="23" height="22" frameX="-5" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="goldfishSwimAnim_f" x="415" y="214" width="21" height="22" frameX="-6" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="goldfishTurnAnim_a" x="259" y="343" width="24" height="22" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="greenCarpFishJumpAnim_a" x="347" y="321" width="21" height="24" frameX="-7" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="greenCarpFishJumpAnim_b" x="451" y="348" width="21" height="21" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="greenCarpFishSwimAnim_a" x="257" y="371" width="24" height="21" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="greenCarpFishSwimAnim_b" x="228" y="342" width="25" height="21" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="greenCarpFishSwimAnim_c" x="287" y="374" width="24" height="21" frameX="-5" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="greenCarpFishSwimAnim_d" x="257" y="371" width="24" height="21" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="greenCarpFishSwimAnim_e" x="440" y="242" width="22" height="21" frameX="-5" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="greenCarpFishSwimAnim_f" x="145" y="412" width="20" height="21" frameX="-6" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="greenCarpFishTurnAnim_a" x="317" y="375" width="24" height="21" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="jellyfishFishJumpAnim_a" x="277" y="449" width="22" height="16" frameX="-5" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="jellyfishFishJumpAnim_b" x="426" y="457" width="18" height="20" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="jellyfishFishSwimAnim_a" x="301" y="402" width="22" height="16" frameX="-5" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="jellyfishFishSwimAnim_b" x="450" y="460" width="18" height="20" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="jellyfishFishTurnAnim_b" x="190" y="468" width="20" height="18" frameX="-6" frameY="-7" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="octopusFishJumpAnim_a" x="65" y="199" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="octopusFishJumpAnim_b" x="87" y="78" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="octopusFishSwimAnim_a" x="218" y="181" width="32" height="23" frameX="0" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="octopusFishSwimAnim_b" x="256" y="151" width="32" height="22" frameX="0" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="octopusFishSwimAnim_c" x="218" y="181" width="32" height="23" frameX="0" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="octopusFishSwimAnim_d" x="144" y="121" width="32" height="24" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="octopusFishTurnAnim_a" x="218" y="181" width="32" height="23" frameX="0" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_blowFishJumpAnim_a" x="457" y="269" width="20" height="22" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_blowFishJumpAnim_b" x="275" y="401" width="20" height="20" frameX="-6" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_catFishJumpAnim_a" x="4" y="435" width="25" height="32" frameX="-8" frameY="-5" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_catFishJumpAnim_b" x="89" y="116" width="25" height="32" frameX="-8" frameY="-3" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_crabFishJumpAnim_a" x="59" y="302" width="15" height="30" frameX="-7" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_crabFishJumpAnim_b" x="374" y="125" width="17" height="32" frameX="-8" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_crabFishSwimAnim_a" x="207" y="293" width="30" height="14" frameX="-1" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_crabFishSwimAnim_b" x="311" y="276" width="30" height="15" frameX="-1" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_crabFishTurnAnim_a" x="207" y="293" width="30" height="14" frameX="-1" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_frogFishJumpAnim_a" x="366" y="247" width="16" height="23" frameX="-8" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_frogFishJumpAnim_b" x="332" y="440" width="16" height="22" frameX="-8" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_goldfishJumpAnim_a" x="89" y="412" width="22" height="26" frameX="-7" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_goldfishJumpAnim_b" x="401" y="321" width="22" height="23" frameX="-7" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_greenCarpFishJumpAnim_a" x="347" y="351" width="21" height="24" frameX="-7" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_greenCarpFishJumpAnim_b" x="451" y="375" width="21" height="21" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_jellyfishFishJumpAnim_a" x="303" y="424" width="22" height="16" frameX="-5" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_jellyfishFishJumpAnim_b" x="477" y="441" width="18" height="20" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_octopusFishJumpAnim_a" x="93" y="154" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_octopusFishJumpAnim_b" x="95" y="192" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_redJumperFishJumpAnim_a" x="374" y="321" width="21" height="24" frameX="-7" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_redJumperFishJumpAnim_b" x="479" y="414" width="21" height="21" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_salamanderFishJumpAnim_a" x="35" y="302" width="18" height="32" frameX="-7" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_salamanderFishJumpAnim_b" x="119" y="368" width="18" height="28" frameX="-7" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_sharkFishJumpAnim_a" x="4" y="81" width="25" height="36" frameX="-8" frameY="-2" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_sharkFishJumpAnim_b" x="4" y="163" width="25" height="34" frameX="-8" frameY="-2" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_snailFishJumpAnim_a" x="143" y="364" width="17" height="24" frameX="-8" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_snailFishJumpAnim_b" x="331" y="407" width="17" height="20" frameX="-8" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_squidFishJumpAnim_a" x="387" y="187" width="22" height="22" frameX="-5" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_squidFishJumpAnim_b" x="403" y="378" width="20" height="23" frameX="-6" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_stingrayFishJumpAnim_a" x="61" y="81" width="20" height="34" frameX="-10" frameY="-5" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_stingrayFishJumpAnim_b" x="35" y="378" width="20" height="30" frameX="-10" frameY="-5" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_tadpoleFishJumpAnim_a" x="80" y="292" width="20" height="25" frameX="-9" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_tadpoleFishJumpAnim_b" x="305" y="446" width="21" height="16" frameX="-9" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_tadpoleFishSwimAnim_a" x="166" y="366" width="25" height="20" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_tadpoleFishSwimAnim_b" x="478" y="367" width="23" height="20" frameX="-5" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_tadpoleFishTurnAnim_a" x="429" y="431" width="16" height="20" frameX="-8" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="rare_turtleFishJumpAnim_a" x="4" y="243" width="24" height="34" frameX="-9" frameY="-3" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_turtleFishJumpAnim_b" x="61" y="380" width="24" height="26" frameX="-9" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_turtleFishSwimAnim_a" x="349" y="35" width="34" height="24" frameX="-3" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_turtleFishSwimAnim_b" x="231" y="66" width="34" height="23" frameX="-3" frameY="-8" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_turtleFishSwimAnim_c" x="436" y="4" width="34" height="26" frameX="-3" frameY="-6" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="rare_turtleFishTurnAnim_a" x="388" y="95" width="26" height="24" frameX="-7" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="redJumperFishJumpAnim_a" x="374" y="351" width="21" height="24" frameX="-7" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="redJumperFishJumpAnim_b" x="145" y="439" width="21" height="21" frameX="-7" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="salamanderFishJumpAnim_a" x="35" y="340" width="18" height="32" frameX="-7" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="salamanderFishJumpAnim_b" x="421" y="125" width="18" height="28" frameX="-7" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="salamanderFishSwimAnim_a" x="285" y="249" width="32" height="18" frameX="0" frameY="-7" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="salamanderFishSwimAnim_b" x="323" y="253" width="32" height="17" frameX="0" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="salamanderFishTurnAnim_a" x="307" y="297" width="28" height="18" frameX="-2" frameY="-7" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="sharkFishJumpAnim_a" x="81" y="4" width="25" height="36" frameX="-8" frameY="-2" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="sharkFishJumpAnim_b" x="4" y="203" width="25" height="34" frameX="-8" frameY="-2" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="sharkFishSwimAnim_a" x="195" y="4" width="35" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="sharkFishSwimAnim_b" x="112" y="4" width="36" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="sharkFishSwimAnim_c" x="112" y="4" width="36" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="sharkFishSwimAnim_d" x="195" y="4" width="35" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="sharkFishSwimAnim_e" x="192" y="35" width="34" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="sharkFishSwimAnim_f" x="349" y="65" width="33" height="25" frameX="-2" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="sharkFishTurnAnim_a" x="218" y="210" width="30" height="25" frameX="-5" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="snailFishJumpAnim_a" x="354" y="440" width="16" height="22" frameX="-8" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="snailFishJumpAnim_b" x="354" y="407" width="16" height="20" frameX="-8" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="snailFishSwimAnim_a" x="216" y="471" width="22" height="15" frameX="-6" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="snailFishSwimAnim_b" x="376" y="407" width="22" height="14" frameX="-6" frameY="-9" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="snailFishTurnAnim_a" x="244" y="471" width="20" height="15" frameX="-6" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="squidFishJumpAnim_a" x="387" y="215" width="22" height="22" frameX="-5" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="squidFishJumpAnim_b" x="388" y="243" width="20" height="23" frameX="-6" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="squidFishSwimAnim_a" x="397" y="159" width="24" height="22" frameX="-4" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="squidFishSwimAnim_b" x="414" y="243" width="20" height="23" frameX="-6" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="squidFishTurnAnim_a" x="397" y="159" width="24" height="22" frameX="-4" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="stingrayFishJumpAnim_a" x="63" y="121" width="20" height="34" frameX="-10" frameY="-5" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="stingrayFishJumpAnim_b" x="35" y="414" width="20" height="30" frameX="-10" frameY="-5" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="stingrayFishSwimAnim_a" x="296" y="125" width="34" height="20" frameX="-5" frameY="-10" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="stingrayFishSwimAnim_b" x="334" y="151" width="34" height="18" frameX="-5" frameY="-11" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="stingrayFishSwimAnim_c" x="95" y="252" width="34" height="16" frameX="-5" frameY="-12" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="stingrayFishSwimAnim_d" x="334" y="151" width="34" height="18" frameX="-5" frameY="-11" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="stingrayFishTurnAnim_a" x="171" y="265" width="30" height="20" frameX="-5" frameY="-10" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="tadpoleFishJumpAnim_a" x="447" y="93" width="15" height="25" frameX="-9" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="tadpoleFishJumpAnim_b" x="359" y="468" width="15" height="16" frameX="-9" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="tadpoleFishSwimAnim_a" x="261" y="322" width="25" height="15" frameX="-4" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="tadpoleFishSwimAnim_b" x="454" y="146" width="23" height="15" frameX="-5" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="tadpoleFishTurnAnim_a" x="292" y="471" width="16" height="15" frameX="-8" frameY="-8" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="turtleFishJumpAnim_a" x="35" y="161" width="22" height="34" frameX="-9" frameY="-3" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="turtleFishJumpAnim_b" x="117" y="412" width="22" height="26" frameX="-9" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="turtleFishSwimAnim_a" x="233" y="95" width="34" height="22" frameX="-3" frameY="-9" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="turtleFishSwimAnim_b" x="256" y="124" width="34" height="21" frameX="-3" frameY="-10" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="turtleFishSwimAnim_c" x="271" y="66" width="34" height="23" frameX="-3" frameY="-9" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="turtleFishTurnAnim_a" x="167" y="312" width="26" height="22" frameX="-7" frameY="-9" frameWidth="40" frameHeight="40"/>
+</TextureAtlas>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:79f17da457b811c5993e25e23d736c37:73eed0f95d38c189a8784fe5143ba621:355be77f7ed3ec4e6c67b3223b2b9985$ -->
+<TextureAtlas imagePath="minigames.png" width="176" height="349">
+    <SubTexture name="action_button_down" x="18" y="168" width="39" height="39" frameX="-52" frameY="-52" frameWidth="144" frameHeight="144"/>
+    <SubTexture name="action_button_up" x="88" y="90" width="39" height="39" frameX="-52" frameY="-52" frameWidth="144" frameHeight="144"/>
+    <SubTexture name="arrow_button_a" x="18" y="213" width="31" height="39" frameX="-8" frameY="-4" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="arrow_button_b" x="63" y="168" width="31" height="39" frameX="-8" frameY="-4" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="bat_mountains" x="18" y="146" width="96" height="16"/>
+    <SubTexture name="bat_sky" x="18" y="4" width="153" height="66"/>
+    <SubTexture name="bat_tower_1" x="100" y="196" width="32" height="8"/>
+    <SubTexture name="bat_tower_2" x="56" y="313" width="32" height="8"/>
+    <SubTexture name="bat_tower_3" x="145" y="141" width="16" height="16"/>
+    <SubTexture name="bat_tower_4" x="114" y="298" width="8" height="8"/>
+    <SubTexture name="batHeroSpriteFlapAnim_a" x="120" y="144" width="19" height="18" frameX="-2" frameY="-3" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="batHeroSpriteGameOverAnim_a" x="86" y="291" width="22" height="16" frameX="-1" frameY="-3" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="batHeroSpriteGameOverAnim_b" x="100" y="168" width="16" height="22" frameX="-5" frameY="-1" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="batHeroSpriteGameOverAnim_c" x="94" y="313" width="22" height="16" frameX="-1" frameY="-5" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="batHeroSpriteGameOverAnim_d" x="122" y="168" width="16" height="22" frameX="-3" frameY="-1" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="batHeroSpriteStandAnim_a" x="56" y="291" width="24" height="16" frameX="0" frameY="-4" frameWidth="24" frameHeight="24"/>
+    <SubTexture name="bubble_blue_big" x="133" y="90" width="32" height="32"/>
+    <SubTexture name="bubble_blue_medium" x="95" y="213" width="16" height="16"/>
+    <SubTexture name="bubble_blue_small" x="128" y="298" width="8" height="8"/>
+    <SubTexture name="bubble_bonus" x="95" y="235" width="16" height="16"/>
+    <SubTexture name="bubble_explosion_big" x="55" y="213" width="34" height="34"/>
+    <SubTexture name="bubble_explosion_medium" x="60" y="327" width="18" height="18"/>
+    <SubTexture name="bubble_explosion_small" x="84" y="335" width="10" height="10"/>
+    <SubTexture name="bubble_green_big" x="18" y="258" width="32" height="32"/>
+    <SubTexture name="bubble_green_medium" x="94" y="257" width="16" height="16"/>
+    <SubTexture name="bubble_green_small" x="122" y="312" width="8" height="8"/>
+    <SubTexture name="bubble_red_big" x="18" y="296" width="32" height="32"/>
+    <SubTexture name="bubble_red_medium" x="117" y="210" width="16" height="16"/>
+    <SubTexture name="bubble_red_small" x="122" y="326" width="8" height="8"/>
+    <SubTexture name="bubble_yellow_big" x="56" y="253" width="32" height="32"/>
+    <SubTexture name="bubble_yellow_medium" x="117" y="232" width="16" height="16"/>
+    <SubTexture name="bubble_yellow_small" x="142" y="295" width="8" height="8"/>
+    <SubTexture name="cabinet_decoration_1" x="88" y="135" width="48" height="3"/>
+    <SubTexture name="cabinet_image_1" x="136" y="312" width="8" height="8"/>
+    <SubTexture name="cabinet_image_2" x="136" y="326" width="8" height="8"/>
+    <SubTexture name="dark_blue_quad" x="161" y="207" width="8" height="8"/>
+    <SubTexture name="gacha_bg" x="18" y="76" width="64" height="64"/>
+    <SubTexture name="megapang_bullet" x="94" y="279" width="6" height="6"/>
+    <SubTexture name="megapangHeroSpriteGameOverAnim_a" x="145" y="163" width="16" height="16"/>
+    <SubTexture name="megapangHeroSpriteGameOverAnim_b" x="144" y="185" width="16" height="16"/>
+    <SubTexture name="megapangHeroSpriteGameOverAnim_c" x="139" y="207" width="16" height="16"/>
+    <SubTexture name="megapangHeroSpriteGameOverAnim_d" x="139" y="229" width="16" height="16"/>
+    <SubTexture name="megapangHeroSpriteWalkAnim_a" x="117" y="254" width="16" height="16"/>
+    <SubTexture name="megapangHeroSpriteWalkAnim_b" x="139" y="251" width="16" height="16"/>
+    <SubTexture name="minigame_digits_0" x="161" y="221" width="8" height="8"/>
+    <SubTexture name="minigame_digits_1" x="161" y="235" width="8" height="8"/>
+    <SubTexture name="minigame_digits_2" x="161" y="249" width="8" height="8"/>
+    <SubTexture name="minigame_digits_3" x="161" y="263" width="8" height="8"/>
+    <SubTexture name="minigame_digits_4" x="161" y="277" width="8" height="8"/>
+    <SubTexture name="minigame_digits_5" x="156" y="295" width="8" height="8"/>
+    <SubTexture name="minigame_digits_6" x="150" y="309" width="8" height="8"/>
+    <SubTexture name="minigame_digits_7" x="150" y="323" width="8" height="8"/>
+    <SubTexture name="minigame_digits_8" x="150" y="337" width="8" height="8"/>
+    <SubTexture name="minigame_digits_9" x="164" y="309" width="8" height="8"/>
+    <SubTexture name="pitch_black_quad" x="164" y="323" width="8" height="8"/>
+    <SubTexture name="scanlines" x="4" y="4" width="8" height="320"/>
+    <SubTexture name="text_game_over" x="88" y="76" width="78" height="8"/>
+    <SubTexture name="text_go" x="142" y="128" width="22" height="7"/>
+    <SubTexture name="text_ready" x="4" y="334" width="50" height="7"/>
+    <SubTexture name="tile_1" x="100" y="335" width="16" height="9" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="tile_2" x="139" y="273" width="16" height="16"/>
+    <SubTexture name="tile_3" x="116" y="276" width="16" height="16"/>
+    <SubTexture name="white_quad" x="164" y="337" width="8" height="8"/>
+</TextureAtlas>

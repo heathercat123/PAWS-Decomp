@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+
+	<string name="newline" value="&#10;"/>
+	
+	<!-- 
+	
+	"text [nervous] text"        = emoticon action
+	"[red] text text [/red]"     = color
+	"[shake] text text [/shake]" = animation
+	"text [br] text"          = paragraph
+	"text [backspace] ."      = "text."
+	
+	EMOTICONS: nervous, 
+	COLORS: red, cyan, yellow, green
+	
+	ANIMATIONS: shake,
+				wave,
+				hor_wave,
+				radio // like hor_wave but just for a limited time
+	
+	PARAGRAPH: br   = forces new paragraph
+			   line = forces new line
+			   
+	CHARS: & = cat symbol
+	-->
+	
+	
+	<string name="tutorial_0"  value="tocca a sinistra o destra per muoverti."/>
+	<string name="tutorial_1"  value="colleziona tutte le campanelle nascoste nel livello."/>
+	<string name="tutorial_2"  value="cammina sulla griglia per completare il livello."/>
+	<string name="tutorial_3"  value="cammina su un muro per salire."/>
+	<string name="tutorial_4"  value="tocca due volte a sinistra o destra e tieni premuto per correre."/>
+	<string name="tutorial_5"  value="tocca la direzione opposta mentri sali un muro per saltare."/>
+	<string name="tutorial_6"  value="corri verso un dirupo per saltare."/>
+	<string name="tutorial_7"  value="colpire i nemici con gli spuntoni ti stordisce!"/>
+	<string name="tutorial_8"  value="corri verso un muro per dare una testata."/>
+	<string name="tutorial_9"  value="trova la chiave per aprire la porta."/>
+	<string name="tutorial_10" value="tocca e sinistra o destra per nuotare."/>
+	<string name="tutorial_11" value="premi il bottone & per cambiare gatto."/>
+	<string name="tutorial_12" value="colpisci i mattoncini correndo per distruggerli."/>
+	<string name="tutorial_14" value="passa attraverso i piccoli passaggi."/>
+	<string name="tutorial_15" value="non puoi correre nell'erba alta."/>
+	<string name="tutorial_16" value="corri verso i nemici per metterli ko."/>
+	<string name="tutorial_17" value="entra nel cannone e tocca lo schermo per lanciarti."/>
+	<string name="tutorial_18" value="stai fermo di fronte ad una porta per entrare."/>
+	<string name="tutorial_19" value="corri sul tapis roulant per muovere gli ostacoli."/>
+	<string name="tutorial_20" value="attacca i nemici in volo [line] per fare un doppio salto."/>
+	
+	
+	<string name="tutorial_fishing_1" value="tocca lo schermo per lanciare l'esca."/>
+	<string name="tutorial_fishing_2" value="lascia scendere l'esca o tocca lo schermo per tirarla."/>
+	<string name="tutorial_fishing_3" value="centra l'esca sul pesce."/>
+	<string name="tutorial_fishing_4" value="tieni premuta la stessa direzione della freccia."/>
+	
+	
+	<string name="level_world"  value="mondo" />
+	<string name="best_time"    value="miglior tempo"/> 
+	<string name="level_clear"  value="livello completato"/>
+	<string name="secret_exit"  value="uscita segreta"/>
+	<string name="time"         value="tempo"/>
+	<string name="perfect"      value="perfetto"/>
+	<string name="best"         value="migliore"/>
+	<string name="fishing_points" value="punti pesca"/> 
+	<string name="continue"     value="tocca per continuare.."/>
+	<string name="level_up"     value="level up!"/>
+	<string name="cat_name_1"   value="pascal"/>
+	<string name="cat_name_2"   value="mcmeow"/>
+	<string name="cat_name_3"   value="shinji"/>
+	<string name="cat_name_4"   value="kuro"/>
+	<string name="cat_name_5"   value="rose"/>
+	<string name="cat_name_6"   value="olli"/>
+	<string name="cat_joins"    value="si unisce al team"/>
+	<string name="boss_desc_0"  value="lucertola selvaggia"/>
+	<string name="boss_desc_1"  value="pesce gigante"/>
+	
+	<string name="level_name_251" value="panico da polline"/>
+	<string name="level_name_252" value="cascate di sabbia"/>
+	<string name="level_name_253" value="grotta sott'acqua"/>
+	
+	<string name="level_name_10000" value="punto pesca 1"/>
+	<string name="level_name_10001" value="punto pesca 2"/>
+	<string name="level_name_10002" value="punto pesca 3"/>
+	
+  	<string name="level_name_1" value="una nuova missione"/>
+	<string name="level_name_2" value="stazione radio"/>
+	<string name="level_name_3" value="collina in fiore"/>
+	<string name="level_name_4" value="alveare mieloso"/>
+	<string name="level_name_5" value="base p.a.w.s."/>
+	<string name="level_name_6" value="pianure cactus"/>
+	<string name="level_name_7" value="caduta massi"/>
+	<string name="level_name_8" value="fortezza di legno"/>
+	<string name="level_name_9" value="spiaggia parasole"/>
+	<string name="level_name_10" value="rovine del tempio"/>
+	<string name="level_name_11" value="corde rischiose"/>
+	<string name="level_name_12" value="faro del granchio"/>
+	<string name="level_name_13" value="portobello"/>
+	<string name="level_name_14" value="galeone affondato"/>
+	<string name="level_name_15" value="iceberg scotta scotta"/>
+	<string name="level_name_16" value="fortezza di ghiaccio"/>
+	
+	
+	<string name="intro_cutscene1_1" value="[hor_wave] mi senti, [red] rose [/red] [backspace] ? [/hor_wave]"/>
+	<string name="intro_cutscene1_2" value="forte e chiaro."/>
+	<string name="intro_cutscene1_3" value="[shake] eeek!! [/shake]"/>
+	<string name="intro_cutscene1_4" value="ci mancava poco.."/>
+	<string name="intro_cutscene1_5" value="raggiungeró la [red] stazione radio [/red] da solo."/>
+	<string name="intro_cutscene1_6" value="prendi questo, dobbiamo trasmettere i codici alla base."/>
+	<string name="intro_cutscene1_7" value="buona fortuna, [red] pascal [/red] [backspace] ."/>
+	
+	<string name="world_0_cutscene1_1" value="la [red] stazione radio [/red] [backspace] !"/>
+	<string name="world_0_cutscene1_2" value="..proprio quello che cercavo."/>
+	<string name="world_0_cutscene1_3" value="[shake] hey! [/shake] ridammela!"/>
+	
+	<string name="world_0_cutscene2_1" value="hey, tutto ok?"/>
+	<string name="world_0_cutscene2_2" value="[wave] eeh.. [/wave] veramente no."/>
+	<string name="world_0_cutscene2_3" value="non perdiamo tempo, andiamo!"/>
+	<string name="world_0_cutscene2_4" value="ricorda, posso entrare nei passaggi piccoli."/>
+	
+	<string name="npc_helmet_tomo_1" value="benvenuto alla [line] [red] base p.a.w.s. [/red] [backspace] ."/>
+	<string name="npc_pig_1"         value="mi occupo del magazzino, non sparisce nulla.. o quasi!"/>
+	<string name="npc_wombat_1"      value="il terreno è molto secco."/>
+	<string name="npc_helmet_tomo_2" value="vai a trovare i tuoi amici, sono dentro."/>
+	<string name="npc_helmet_tomo_3" value="in bocca al lupo per la prossima missione!"/>
+	<string name="npc_wombat_2"      value="il mio snack si è bloccato.."/>
+	<string name="npc_scientist_1"   value="questo piccolo robot è il nostro primo prototipo."/>
+	<string name="npc_kit_1" 		 value="hey, hai il data drive?"/>
+	<string name="npc_green_tomo_1"  value="rimani fermo sulla piattaforma gialla per salire."/>
+	<string name="npc_acorn_1"       value="hai completato qualche [red] quest del giorno [/red] di già?"/>
+	<string name="npc_acorn_2"       value="hai trovato l'entrata segreta per il lago?"/>
+	<string name="npc_acorn_3"       value="ti piace il mio aiutante?"/>
+	<string name="npc_zak_1"        value="sto preparando il camion per la prossima missione."/>
+	<string name="npc_olli_1"        value="mi chiedo perchè questo data drive sia cosí importante.."/>
+	<string name="npc_olli_2" value="trova 10 zucche nascoste. una ricompensa ti aspetta!"/>
+	<string name="npc_black_duck_1"  value="visita spesso i villaggi per scoprire cosa succede."/>
+	<string name="npc_worker_1"      value="lavoro nel consiglio di hikari city."/>
+	<string name="npc_mole_1"        value="questi tubi raccolgono la poca acqua rimasta."/>
+	<string name="npc_white_mouse_1" value="voglio del gelato."/>
+	<string name="npc_white_mouse_2" value="cosa? sento odore di gelato..!"/>
+	<string name="npc_white_mouse_3" value="[shake] dammelo [/shake]"/>
+	<string name="npc_white_mouse_4" value="[wave] gnamgnam! [/wave] prendi.. [pause] tanto non mi serve."/>
+	<!--<string name="npc_tomo_punk_1"   value="sto ancora allestendo la sala. prova qualche gioco!"/>-->
+	<string name="npc_tomo_punk_1" value="yo! dai un'occhiata alla nuova macchina gachapon."/>
+	<string name="npc_mole_2"        value="vuoi usare l'ovovia?"/>
+	<string name="npc_mole_3"        value="ok, si sale!"/>
+	<string name="npc_mole_4"        value="stiamo costruendo una stazione meteo."/>
+	<string name="npc_acorn_6"       value="non riesco a far crescere nulla. mi chiedo se sia il terreno.."/>
+	<string name="npc_acorn_7"       value="questi fiori sono meravigliosi, grazie dell'aiuto."/>
+	<string name="npc_acorn_8"       value="ecco una ricompensa!"/>
+	<string name="npc_vending_1"     value="compra caramella?"/>
+	<string name="npc_vending_2"     value="[hor_wave] non abbastanza monete. [/hor_wave]"/>
+	
+	<string name="npc_zak_2" value="si dice che i gatti portino fortuna a halloween."/>
+	<string name="npc_tomo_punk_2" value="prova flappy bat, l'ho aggiunto appena in tempo per halloween!"/>
+	<string name="npc_zombie_1" value="cervello... [pause] intendo, dolcetti!"/>
+	<string name="npc_wombat_3" value="hai trovato delle zucche finora?"/>
+	<string name="npc_pig_3" value="dolcetto o scherzetto? perché non entrambi? [hor_wave] ahaha! [/hor_wave]."/>
+
+	<string name="halloween_cutscene_0_0" value="ecco chi è tornato! hai effettivamente trovato tutte e 10 le zucche, vero?"/>
+	<string name="halloween_cutscene_0_1" value="vediamo, 1, [pause] 2, [pause] 3... [pause] e tutte e 10! [hor_wave] ben fatto! [/hor_wave]"/>
+	<string name="halloween_cutscene_0_2" value="ecco la tua ricompensa. 500 monete lucenti!"/>
+	
+	<string name="play_arcade_1" value="gioca a mega pang?"/>
+	<string name="play_gacha_1" value="compra gachapon?"/>
+	<string name="play_arcade_2" value="gioca a flappy bat?"/>
+
+	
+	
+	
+	
+	<string name ="world_0_cutscene4_1" value="siamo in ritardo."/>
+	<string name ="world_0_cutscene4_2" value="lo so, [red] professor twelve [/red] [backspace] .."/>
+	<string name ="world_0_cutscene4_3" value="..ma non possiamo ancora usare i robot."/>
+	<string name ="world_0_cutscene4_4" value="niente scuse, [red] mcmeow [/red] [backspace] ."/>
+	<string name ="world_0_cutscene4_4_0" value="permesso!"/>
+	<string name ="world_0_cutscene4_5" value="ascolta bene."/>
+	<string name ="world_0_cutscene4_6" value="devi ritrovare questo data drive.."/>
+	<string name ="npc_mcmeow_1" value="delle fonti mi dicono che il bandito è nel canyon pepita."/>
+	<string name ="npc_mcmeow_2" value="sembra che i banditi siano ancora in fuga."/>
+	<string name ="world_0_cutscene4_8" value="ok!"/>
+	<string name ="world_0_cutscene4_9" value="prendi questa chiave a fai del tuo meglio!"/>
+	
+	<string name ="world_0_cutscene5_1" value="[red] pascal [/red] [backspace] ."/>
+	<string name ="world_0_cutscene5_2" value="[red] rose [/red] [backspace] ."/>
+	<string name ="world_0_cutscene5_3" value="ho sentito che hai fatto [line] un casino."/>
+	<string name ="world_0_cutscene5_4" value="il sergente vuole parlarti."/>
+	<string name ="world_0_cutscene5_5" value="vallo a cercare al piano di sopra.."/>
+	<string name ="world_0_cutscene5_6" value="..se non è troppo difficile. [hor_wave] hmph! [/hor_wave]"/>
+	
+	<string name ="world_0_cutscene6_1" value="[wave] mhh.. [/wave]"/>
+	<string name ="world_0_cutscene6_2" value="sembra che l'entrata sia chiusa."/>
+	<string name ="world_0_cutscene6_3" value="meglio tornare alla [red] base p.a.w.s. [/red] per trovare la chiave."/>
+	
+	<string name="shop_cutscene1_0" value="hey - benvenuto nel mio negozio!"/>
+	<string name="shop_cutscene1_1" value="benvenuto nel mio negozio!"/>
+	<string name="shop_cutscene1_2" value="ho vestiti e aiutanti per il tuo slot aiutante."/>
+	<string name="shop_cutscene1_3" value="...slot aiutante?"/>
+	<string name="shop_cutscene1_4" value="sentito giusto!"/>
+	<string name="shop_cutscene1_5" value="si trova nell'angolo in alto a sinistra. guarda!"/>
+	<string name="shop_cutscene1_6" value="premilo per equipaggiare degli aiutati, o controllare cosa hai in borsa."/>
+	<string name="shop_cutscene1_7" value="guarda cosa ho in vendita!"/>
+	<string name="shop_cutscene1_8" value="premi lo slot aiutante per accedere al negozio in ogni momento."/>
+	<string name="shop_cutscene1_9" value="grazie - torna presto!"/>
+	
+	<string name ="world_0_cutscene7_1" value="[red] rigs [/red] [backspace] ! la lucertola è in cima alla torre."/>
+	<string name ="world_0_cutscene7_2" value="vai avanti, io prendo una scorciatoia"/>
+	
+	<string name="world_0_cutscene8_1" value="[hor_wave] ..di nuovo tu?! [/hor_wave]"/>
+	<string name="world_0_cutscene8_2" value="sembra che avró del gatto per cena.. [shake] hahaha [/shake]"/>
+	
+	<string name ="world_0_cutscene9_0" value="[hor_wave] il data drive! [/hor_wave]"/>
+	<string name ="world_0_cutscene9_1" value="[wave] ciao carino [/wave]"/>
+	<string name ="world_0_cutscene9_2" value="[wave] aww, sei cosí carino [/wave]"/>
+	<string name ="world_0_cutscene9_3" value="questo viene a casa con me, spero sia ok."/>
+	
+	<string name ="world_0_fishing_0" value="hey ciao, sono [red] terje [/red] il pescatore."/>
+	<string name ="world_0_fishing_1" value="torna quando hai una canna da pesca e ti insegno qualche trucco."/>
+	<string name ="world_0_fishing_2" value="hey, stai spaventando i pesci."/>
+	<string name ="world_0_fishing_3" value="[hor_wave] pussa via! [/hor_wave]"/>
+	<string name ="world_0_fishing_4" value="hai una bella canna da pesca, [pause] perchè non provi a pescare?"/>
+	<string name ="world_0_fishing_5" value="è facile, segui le istruzioni sullo schermo."/>
+	<string name ="world_0_fishing_6" value="vieni a trovarmi in [red] portobello [/red] dopo che hai preso qualcosa."/>
+	<string name ="world_0_fishing_7" value="[hor_wave] divertiti! [/hor_wave]"/>
+	
+	
+	<string name ="world_2_cutscene0_1" value ="la situazione è peggiore di quello che pensavo."/>
+	<string name ="world_2_cutscene0_2" value ="questi banditi.. [pause] fanno sul serio!"/>
+	<string name ="world_2_cutscene0_3" value ="li dovete fermare."/>
+	<string name ="world_2_cutscene0_4" value ="nessun problema. ci penso io."/>
+	<string name ="world_2_cutscene0_5" value ="intendevo tutti e tre insieme."/>
+	<string name ="world_2_cutscene0_6" value ="[hor_wave] ma.. [/hor_wave]"/>
+	<string name ="world_2_cutscene0_7" value ="niente ma! vai verso il villaggio [red] portobello [/red] [backspace] ."/>
+	<string name ="world_2_cutscene0_8" value ="buona fortuna, [red] p.a.w.s. [/red]"/>
+	<string name ="world_2_cutscene0_9" value ="hey! dove vai?"/>
+	<string name ="world_2_cutscene0_10" value ="[red] mcmeow [/red] ha detto di lavorare assieme!"/>
+	<string name ="world_2_cutscene0_11" value ="[hor_wave] uff.. [/hor_wave] ok, ok."/>
+	<string name="world_2_cutscene0_12" value="ricorda, posso fare un doppio salto quando attacco."/>
+	
+	<string name ="npc_lobster_1" value ="benvenuto a [line] [red] portobello [/red] [backspace] !"/>
+	<string name ="npc_lobster_2" value ="a volte il vento è freddissimo, credo sia per via dell'iceberg."/>
+	<string name ="npc_lobster_3" value ="a presto amico!"/>
+	<string name ="npc_lobster_4" value ="il tempo dei punti pesca cambia in base alla tua ora."/>
+	<string name ="npc_sailor_tomo_1" value ="vedo un iceberg gigante all'orizzonte."/>
+	<string name ="npc_sailor_tomo_2" value ="hai mai preso un pesce raro o dorato?"/>
+	<string name ="npc_sailor_tomo_3" value ="c'è molta quiete qua in cima.."/>
+	<string name="npc_pig_2"          value="certi pesci escono solo di notte, altri di giorno."/>
+	<string name="npc_black_duck_2"  value="completa la [red] quest del giorno [/red] ogni volta per una ricompensa più alta."/>
+	<string name ="npc_beach_1" value ="questa è la mia spiaggia preferita."/>
+	<string name ="npc_beach_2" value ="sono il re della [line] spiaggia, [hor_wave] haha! [/hor_wave]"/>
+	<string name ="npc_beach_3" value ="non posso nuotare dove l'acqua è troppo profonda."/>
+	<string name ="npc_beach_4" value ="il sole è bellissimo oggi!"/>
+	<string name ="npc_beach_5" value ="mi vuoi sfidare?"/>
+	<string name ="npc_beach_6" value ="[hor_wave] vediamo cosa sai fare!! [/hor_wave]"/>
+	<string name ="npc_beach_7" value ="fammi vedere quante volte riesci a palleggiare."/>
+	<string name ="npc_beach_8" value ="pronto.. [pause] [shake] via!! [/shake]"/>
+	<string name ="npc_beach_bad" value ="amico.. fai schifo! [hor_wave] haha [/hor_wave]"/>
+	<string name ="npc_beach_normal" value ="[hor_wave] niente male! [/hor_wave]"/>
+	<string name ="npc_beach_good" value ="[hor_wave] bella zio! [/hor_wave]"/>
+	<string name ="npc_guy_1" value="vuoi raggiungere hermit island?"/>
+	<string name ="npc_guy_2" value="[hor_wave] tutti a bordo! [/hor_wave]"/>
+	<string name ="npc_guy_3" value="ho sentito che qualcuno viva a hermit island."/>
+	<string name ="npc_guy_4" value="hermit island è un posto favoloso per pescare."/>
+	<string name ="npc_guy_5" value="ho visto degli squali.. fai attenzione"/>
+	<string name ="npc_guy_11" value="esplora l'isola, mon ami!"/>
+	<string name ="npc_guy_12" value="sto preparando la barca per salpare. torna più tardi!"/>
+	<string name ="npc_shop_fish_1" value="[hor_wave] pesce!! [/hor_wave] [line] compro pesce!"/>
+	<string name ="npc_shop_fish_2" value="vuoi vendere tutto il pesce che hai per"/>
+	<string name ="npc_shop_fish_3" value="torna presto con altro pesce."/>
+	<string name ="npc_shop_inn_1" value="vuoi prendere una stanza?"/>
+	<string name ="npc_shop_inn_2" value="buona permanenza."/>
+	<string name ="npc_rose_1" value="vuoi andare a fare un giro?"/>
+	<string name ="npc_rose_2" value="evviva, guido io!"/>
+	<string name ="npc_rose_1_0" value="perchè sei sempre cosí timido, [red] pascal [/red] [backspace] ?"/>
+	<string name ="npc_rose_1_2" value="hey.."/>
+	<string name ="npc_rose_1_3" value="[red] rigs [/red] è carino."/>
+	<string name ="npc_mara_2" value="dicono che il cappello da pescatore faccia trovare pesci rari più facilmente."/>
+	<string name ="npc_tomo_chef_1" value="adoro cucinare. qual è il tuo piatto preferito?"/>
+	<string name ="npc_tomo_chef_2" value="grazie per il pesce, ecco una ricompensa!"/>
+	<string name ="npc_tomo_chef_3" value="voglio cucinare, portami 1 saltarello rosso e ti daró un premio."/>
+	<string name ="npc_tomo_chef_4" value="voglio cucinare seppie con piselli, portamene 3 e ti daró un premio."/>
+	<string name ="npc_tomo_chef_5" value="voglio arrostire un polipo, portamene 1 e ti daró un premio."/>
+	<string name ="npc_acorn_4" value="sono preoccupato per nonno, è molto malato."/>
+	<string name ="npc_acorn_5" value=". . ."/>
+	<string name ="npc_icecream_1" value="vuoi un gelato?"/>
+		
+	<string name="money_answer_cutscene_0" value ="[wave] mhh.. [/wave] sembra che tu non abbia abbastanza monete."/>
+	
+	<string name ="npc_fisherman_1" value="vuoi potenziare la tua canna da pesca?"/>
+	<string name ="npc_fisherman_2" value="sblocca nuovi punti pesca e ti potenzieró la canna da pesca."/>
+	<string name ="npc_fisherman_3" value="ci vorrà solo un minuto."/>
+	<string name ="npc_fisherman_4" value="[hor_wave] fatto! [/hor_wave] goditi la tua canna da pesca."/>
+	
+	<string name ="world_2_cutscene1_1" value ="hey! [pause] devi essere del team [red] p.a.w.s. [/red] ."/>
+	<string name ="world_2_cutscene1_2_0" value ="[wave] err.. [/wave] ci conosciamo?"/>
+	<string name ="world_2_cutscene1_2_1" value ="hey, ciao.. [pause] non ho capito il tuo nome. [hor_wave] haha.. [/hor_wave]"/>
+	<string name ="world_2_cutscene1_2_2" value ="huh? io non ti conosco."/>
+	<string name ="world_2_cutscene1_3" value ="chiamami [red] mara [/red] [backspace] ."/>
+	<string name ="world_2_cutscene1_4" value ="dobbiamo parlare, incontriamoci in cima al campanile."/>
+	
+	<string name ="world_2_cutscene2_1" value ="[red] mcmeow [/red] mi ha detto che [line] avete bisogno di aiuto."/>
+	<string name ="world_2_cutscene2_2" value ="vi posso portare nella [line] [red] fortezza di ghiaccio [/red] [backspace] ."/>
+	<string name ="world_2_cutscene2_3_0" value ="fantastico!"/>
+	<string name ="world_2_cutscene2_3_1" value ="che cosa stiamo aspettando quindi?"/>
+	<string name ="world_2_cutscene2_4" value ="non cosí in fretta, [hor_wave] haha! [/hor_wave] [pause] non lo vedi che sto pescando?"/>
+	<string name ="world_2_cutscene2_5" value ="[wave] mhh.. [/wave] a proposito di pescare.."/>
+	<string name ="world_2_cutscene2_6" value ="sembra che tu non abbia preso alcun pesce."/>
+	<string name ="world_2_cutscene2_7" value ="[hor_wave] prendi! [/hor_wave] questa canna da pesca è per te."/>
+	<string name ="npc_mara_1" value ="torna non appena hai pescato un pesce e mi uniró al tuo team."/>
+	
+	<!--<string name ="world_2_cutscene3_0" value ="hey, nice catch!"/>-->
+	<string name ="world_2_cutscene3_1" value ="la pesca è divertente, non è vero?"/>
+	<string name ="world_2_cutscene3_2_0" value ="certo! devo solo migliorare un po', credo.."/>
+	<string name ="world_2_cutscene3_2_1" value ="si, ma guidare il camion [red] p.a.w.s. [/red] è ancora meglio!"/>
+	<string name ="world_2_cutscene3_2_2" value ="lo sai cosa è meglio? [pause] andare alla [red] fortezza di ghiaccio [/red] [backspace] ."/>
+	<string name ="world_2_cutscene3_3" value ="sono pronta all'azione"/>
+	<string name ="world_2_cutscene3_4" value ="ricorda posso nuotare contro le correnti forti."/>
+	
+	<string name ="world_2_cutscene4_0" value="[wave] ciao, dolcezza. [/wave]"/>
+	<string name ="world_2_cutscene4_1" value="sei giusto in tempo per incontrare una mia amica.."/>
+	<string name ="world_2_cutscene4_2" value="ok, cosí questo è il tipo di cui ti parlavo.."/>
+	<string name ="world_2_cutscene4_3" value="[hor_wave] tu!! [/hor_wave] [pause] tu sei stato cattivo con il mio [red] mesa [/red] [backspace] !"/>
+	<string name ="world_2_cutscene4_4_0" value="hey, aspetta un attimo!"/>
+	<string name ="world_2_cutscene4_4_4" value="[wave] cosa?.. [/wave]"/>
+	<string name ="world_2_cutscene4_4_2" value="ok, quindi che vuoi?"/>
+	<string name ="world_2_cutscene4_4_3" value="non so di che cosa parli, bella."/>
+	<string name ="world_2_cutscene4_5" value="[hor_wave] grr... [/hor_wave] [pause] ti faccio vedere io!"/>
+	<string name ="world_2_cutscene4_6" value="[hor_wave] haha! [/hor_wave] [pause] divertitevi!"/>
+	
+	<string name= "world_2_cutscene5_0" value="sorpresa!"/>
+	<string name= "world_2_cutscene5_1_0" value="hey.. sembravi un terremoto."/>
+	<string name= "world_2_cutscene5_1_4" value="..non credo proprio. preparati a combattere!"/>
+	<string name= "world_2_cutscene5_1_2" value="sono stanco, [hor_wave] arrenditi! [hor_wave]"/>
+	<string name= "world_2_cutscene5_1_3" value="[hor_wave] ha! [/hor_wave] sei una preda facile, bella."/>
+	
+	<string name ="world_2_cutscene5_2" value="[hor_wave] grr... [/hor_wave] [pause] diventerai una frittata!"/>
+	<string name ="world_2_cutscene5_3" value="[shake] mi stai chiamando grassa?! [/shake]"/>
+	<string name ="world_2_cutscene5_4" value="[hor_wave] evviva! [/hor_wave] ce l'abbiamo fatta!"/>
+	<string name ="world_2_cutscene5_5" value="capo."/>
+	<string name ="world_2_cutscene5_6" value="come è andata?"/>
+	<string name ="world_2_cutscene5_7" value="hatto preso anche [red] cloe [/red] [backspace] ."/>
+	<string name ="world_2_cutscene5_8" value="sai.."/>
+	<string name ="world_2_cutscene5_9" value="..la mia maledizione non si femerà."/>
+	<string name ="world_2_cutscene5_10" value="quindi è ora di entare in gioco."/>
+	
+	<string name ="world_2_cutscene6_0" value="hey, terra!"/>
+	<string name ="world_2_cutscene6_1" value="preparati ad attraccare."/>
+	
+	<string name="world_2_cutscene7_0" value="[hor_wave] scusa. [/hor_wave]"/>
+	<string name="world_2_cutscene7_1" value="le stanze sono solo per i clienti."/>
+				
+	<string name="panel_pause" value="pausa"/>
+	<string name="panel_shop"  value="negozio"/>
+	<string name="panel_buy"   value="compra"/>
+	<string name="panel_equip" value="usa"/>
+	<string name="panel_remove" value="togli"/>
+	<string name="panel_premium_title" value="premium"/>
+	<string name="panel_premium_vip_title" value="vip premium"/>
+	<string name="panel_premium_text" value="rimuovi gli annunci dal gioco e tutto a metà prezzo."/>
+	<string name="panel_premium_text_1" value="rimuovi ads"/>
+	<string name="panel_premium_text_2" value="prezzi -50 %"/>
+	<string name="panel_premium_text_3" value="vestiti esclusivi"/>
+	<string name="panel_unlock_gate_title" value="cancello"/>
+	<string name="panel_unlock_gate_text" value="non hai abbastanza campanelle. compra un biglietto per aprire il cancello?"/>
+	<string name="panel_game_over_title" value="ouch!"/>
+	<string name="panel_game_over_text" value="cosí vicino all'obiettivo! guarda un video per continuare da qui?"/>
+	
+	<string name="panel_shop_add_coins" value="più monete"/>
+	<string name="panel_shop_premium" value="più monete"/>
+	<string name="panel_shop_items" value="oggetti"/>
+	<string name="panel_shop_helpers" value="aiutanti"/>
+	<string name="panel_shop_coins" value="monete"/>
+	<string name="panel_shop_inventory" value="borsa"/>
+	<string name="panel_shop_apparel" value="cappelli"/>
+	<string name="panel_shop_level_up" value="lv{"/>
+	<string name="panel_shop_level_1" value="lv 1"/>
+	<string name="panel_shop_level_2" value="lv 2"/>
+	<string name="panel_shop_level_3" value="lv 3"/>
+	<string name="panel_shop_sold" value="comprato"/>
+	<string name="panel_tap_to_play" value="tocca per giocare"/>
+	<string name="panel_purchase_ok" value="acquisto completato."/>
+	<string name="panel_purchase_bad_1" value="non hai abbastanza soldi."/>
+	<string name="panel_purchase_bad_2" value="errore."/>
+	<string name="panel_purchase_equip" value="oggetto equipaggiato."/>
+	<string name="item_action_obtained" value="ottenuto"/>
+	<string name="item_action_lost" value="perso"/>
+	
+	<string name="fishing_record" value="nuovo record!!"/>
+	<string name="fishing_result_1" value="bene!!"/>
+	<string name="fishing_result_2" value="ottimo!!"/>
+	<string name="fishing_result_3" value="fantastico!!"/>
+	<string name="fish_size" value="dimensione:"/>
+	<string name="fish_type" value="tipo:"/>
+	<string name="fish_type_common" value="comune"/>
+	<string name="fish_type_rare" value="raro"/>
+	<string name="fish_type_golden" value="dorato"/>
+	<string name="fish_record" value="dimensione record:"/>
+	<string name="fish_points" value="punti:"/>
+	<string name="fishing_rod_level" value="livello:"/>
+	
+	<string name="shop_title_4" value="moneta"/>
+	<string name="shop_title_4_plural" value="monete"/>
+	
+	<string name="shop_title_0" value="campanella"/>
+	<string name="shop_description_0" value="ogni livello nasconde 3 companelle, assicurati di trovarle tutte."/>
+	<string name="shop_title_1" value="chiave"/>
+	<string name="shop_description_1" value="molto utile per aprire porte segrete, di solito si ottiene da npc."/>
+	<string name="shop_title_8" value="mantello"/>
+	<string name="shop_description_8" value="ti permette di planare attraverso l'aria per raggiungere piattaforme lontane."/>
+	<string name="shop_title_9" value="scudo"/>
+	<string name="shop_description_9" value="ti rende immune ai proiettili che ti colpiscono frontalmente"/>
+	<string name="shop_title_10" value="maschera sub"/>
+	<string name="shop_description_10" value="ti rende immune ai piccoli nemici quando sei sott'acqua."/>
+	<string name="shop_title_11" value="pala"/>
+	<string name="shop_description_11" value="ti permette di scavare vicino alle zolle per trovare tesori."/>
+	<string name="shop_title_12" value="braciere eterno"/>
+	<string name="shop_description_12" value="ti fa sciogliere il ghiaccio e rende invulnerabile alla lava."/>
+	<string name="shop_title_13" value="ghiacciolo"/>
+	<string name="shop_description_13" value="ti consente di arrampicarti sul ghiaccio ed evitare di scivolare."/>
+	<string name="shop_title_14" value="lampada magica"/>
+	<string name="shop_description_14" value="moltiplica le monete raccolte per 2."/>
+	<string name="shop_title_15" value="flauto magico"/>
+	<string name="shop_description_15" value="sveglia i personaggi addormentati intorno a te."/>
+	<string name="shop_title_16" value="cerotto"/>
+	<string name="shop_description_16" value="riduce il tempo di stordimento del 25 percento."/>
+	<string name="shop_title_43" value="chiave fiori"/>
+	<string name="shop_description_43" value="chiave speciale con la forma del fiore"/>
+	<string name="shop_title_46" value="uovo"/>
+	<string name="shop_description_46" value="un uovo misterioso, sembra stia per schiudersi."/>
+	
+	<string name="shop_title_22" value="data drive"/>
+	<string name="shop_description_22" value="pennetta che contiene dei codici segreti."/>
+	<string name="shop_title_23" value="caramella"/>
+	<string name="shop_description_23" value="è dolce ed ha un gusto di fragola."/>
+	<string name="shop_title_41" value="gelato"/>
+	<string name="shop_description_41" value="gelato morbido al gusto di vaniglia, il migliore in portobello."/>
+	<string name="shop_title_29" value="canna da pesca"/>
+	<string name="shop_description_29" value="usata per catturare pesci quando sei su un punto pesca, la puoi potenziare in portobello."/>
+	
+	<string name="shop_title_24" value="carpa verde"/>
+	<string name="shop_description_24" value="pesce comune che si trova in molte acque."/>
+	<string name="shop_title_25" value="lumaca"/>
+	<string name="shop_description_25" value="creatura d'acqua fresca che vive in fondo al lago. ognuna trasporta il proprio guscio."/>
+	<string name="shop_title_26" value="pesce gatto"/>
+	<string name="shop_description_26" value="assomiglia proprio ad un gatto, comunque rimane un pesce!"/>
+	<string name="shop_title_27" value="pesce rosso"/>
+	<string name="shop_description_27" value="tondo tondo. i pesci rossi sono tenuti anche come animali domestici."/>
+	<string name="shop_title_28" value="girino"/>
+	<string name="shop_description_28" value="cucciolo di rana o rospo, si trovano nelle acque poco profonde."/>
+	<string name="shop_title_30" value="seppia"/>
+	<string name="shop_description_30" value="il loro inchiostro è molto utile agli abitanti dei villaggi di mare."/>
+	<string name="shop_title_31" value="granchio"/>
+	<string name="shop_description_31" value="si nascondono fra le rocce, pronti per dare un pizzicotto a chi si avvicina troppo."/>
+	<string name="shop_title_32" value="saltarello rosso"/>
+	<string name="shop_description_32" value="spesso visti saltare fuori dall'acqua per acchiappare la preda."/>
+	<string name="shop_title_33" value="pesce palla"/>
+	<string name="shop_description_33" value="coperti di spine, possono diventare il doppio più grandi quando si sentono in pericolo."/>
+	<string name="shop_title_34" value="squalo"/>
+	<string name="shop_description_34" value="uno dei predatori più grandi dell'isola, con denti affilatissimi!"/>
+	<string name="shop_title_35" value="salamandra"/>
+	<string name="shop_description_35" value="si vede fuori dall'acqua solo quando piove. certi credono che abbia poteri magici."/>
+	<string name="shop_title_36" value="tartaruga"/>
+	<string name="shop_description_36" value="il loro guscio è durissimo e protegge le tartarughe da predatori."/>
+	<string name="shop_title_37" value="rana"/>
+	<string name="shop_description_37" value="stadio adulto dei girini, riescono a saltare molto in alto."/>
+	<string name="shop_title_38" value="razza"/>
+	<string name="shop_description_38" value="questo pesce vive in acqua salata, la coda contiene un potente veleno."/>
+	<string name="shop_title_39" value="polipo"/>
+	<string name="shop_description_39" value="i loro tentacoli sono considerati una prelibatezza dagli abitanti di portobello"/>
+	<string name="shop_title_40" value="medusa"/>
+	<string name="shop_description_40" value="per lo più avvistate di notte in grandi gruppi."/>
+	
+	<string name="shop_title_18" value="berretto giallo"/>
+	<string name="shop_description_18" value="è giallo è proteggie da lucenti raggi di sole."/>
+	<string name="shop_title_19" value="berretto anni 80"/>
+	<string name="shop_description_19" value="con colori sgargianti questo berretto è proprio un sogno!"/>
+	<string name="shop_title_20" value="berretto rosso"/>
+	<string name="shop_description_20" value="è rosso ma portato al contrario, questo lo rende speciale."/>
+	<string name="shop_title_21" value="berretto verde"/>
+	<string name="shop_description_21" value="se ti piace il verde questo è il berretto che fa per te."/>
+	<string name="shop_title_47" value="cappuccio nero"/>
+	<string name="shop_description_47" value="ti copre la testa, ad un prezzo molto basso."/>
+	<string name="shop_title_48" value="cappello invernale rosa"/>
+	<string name="shop_description_48" value="cappuccio rosa che tiene la testa calda."/>
+	<string name="shop_title_49" value="cappello invernale blue"/>
+	<string name="shop_description_49" value="cappuccio blue che tiene la testa calda."/>
+	<string name="shop_title_50" value="cilindro"/>
+	<string name="shop_description_50" value="un cappello di classe, per veri eventi di gala."/>
+	<string name="shop_title_51" value="cilindro fantasia"/>
+	<string name="shop_description_51" value="cappello da soggettoni, con una piuma verde."/>
+	<string name="shop_title_52" value="cilindro verde"/>
+	<string name="shop_description_52" value="si dicono molte leggende su questo cappello, certi pensano che porti fortuna."/>
+	<string name="shop_title_53" value="cilindro rosa"/>
+	<string name="shop_description_53" value="è rosa, con un grande cuore rosso."/>
+	<string name="shop_title_54" value="cappello cowboy"/>
+	<string name="shop_description_54" value="sei un giramondo in cerca di libertà? allora questo è il cappello per te."/>
+	<string name="shop_title_55" value="cappello da pirata"/>
+	<string name="shop_description_55" value="cappello da pirata con una grande piuma rossa!"/>
+	<string name="shop_title_56" value="bandana rossa"/>
+	<string name="shop_description_56" value="una bandana rossa con pois bianchi."/>
+	<string name="shop_title_57" value="bandana nera"/>
+	<string name="shop_description_57" value="bandana nera con un grande teschio al centro."/>
+	<string name="shop_title_58" value="cappello da sole bianco"/>
+	<string name="shop_description_58" value="elegante e alla moda, con un nastro rosa attorno."/>
+	<string name="shop_title_59" value="cappello da sole rosa"/>
+	<string name="shop_description_59" value="elegante cappello da sole con un nastro bianco."/>
+	<string name="shop_title_60" value="capeline"/>
+	<string name="shop_description_60" value="largo ed elegante, con uno stile unico e classico."/>
+	<string name="shop_title_61" value="cappello ragazzo giornali"/>
+	<string name="shop_description_61" value="questo cappello ha di sicuro un gusto retro unico!"/>
+	<string name="shop_title_62" value="berretto ponpon"/>
+	<string name="shop_description_62" value="caldo e confortevole, con un grande ponpon bianco."/>
+	<string name="shop_title_63" value="cappello di paglia"/>
+	<string name="shop_description_63" value="leggero e fatto di paglia, ottima scelta per i giorni di sole"/>
+	<string name="shop_title_64" value="cappello del capitano"/>
+	<string name="shop_description_64" value="per i gatti che sono sempre al comando!"/>
+	<string name="shop_title_65" value="cappello pescatore"/>
+	<string name="shop_description_65" value="il miglior cappello che ci sia per andare a pesca."/>
+	<string name="shop_title_66" value="cappello chef"/>
+	<string name="shop_description_66" value="anche se non ti piace cucinare questo cappello ti farà sembrare un vero chef."/>
+	<string name="shop_title_67" value="cappello mago blu"/>
+	<string name="shop_description_67" value="cappello magico utilizzato da teo di drop wizard."/>
+	<string name="shop_title_68" value="cappello mago rosso"/>
+	<string name="shop_description_68" value="cappello magico utilizzato da mia di drop wizard."/>
+	<string name="shop_title_69" value="cappello ghianda"/>
+	<string name="shop_description_69" value="il cappello più stiloso proveniente dal villaggio torotoki."/>
+	<string name="shop_title_70" value="cappello stargazers"/>
+	<string name="shop_description_70" value="cappello misterioso con un grande occhio al centro"/>
+	<string name="shop_title_71" value="cappello minatore"/>
+	<string name="shop_description_71" value="stesso modello utilizzato da kuro. lo raccomandano 10 minatori su 10."/>
+	<string name="shop_title_72" value="cappello pilota"/>
+	<string name="shop_description_72" value="cappelli vintage di pelle molto resistente al vento."/>
+	<string name="shop_title_73" value="elmetto giallo"/>
+	<string name="shop_description_73" value="sembra ricordare il personaggio di qualche videogioco."/>
+	<string name="shop_title_74" value="scatola"/>
+	<string name="shop_description_74" value="se ti piace la privacy con questo cappello sei al sicuro!"/>
+	<string name="shop_title_75" value="corona dorata"/>
+	<string name="shop_description_75" value="lussuosissima corona fatta in oro e gemme preziose."/>
+	<string name="shop_title_76" value="corona suprema"/>
+	<string name="shop_description_76" value="corona ultra rara fatta di oro bianco e di gemme molto luccicanti."/>
+	<string name="shop_title_77" value="sombrero"/>
+	<string name="shop_description_77" value="ampio cappello con belle decorazioni."/><!-- disponibile solo per un periodo limitato!"/>-->
+	<string name="shop_title_78" value="cappello anguria"/>
+	<string name="shop_description_78" value="fantastico cappello per l'estate."/>
+	<string name="shop_title_79" value="cappello squalo"/>
+	<string name="shop_description_79" value="cappello a tema squalo con una bella pinna dorsale."/>
+	<string name="shop_title_80" value="cappello parasole"/>
+	<string name="shop_description_80" value="cappello o parasole. perché non entrambi?"/>
+	<string name="shop_title_81" value="cappello deluxe"/>
+	<string name="shop_description_81" value="cappello elegante e raro. disponibile solo per VIP!"/>
+	<string name="shop_title_82" value="cappello unicorno"/>
+	<string name="shop_description_82" value="cappello magico con un corno di unicorno. disponibile solo per VIP!"/>
+	<string name="shop_title_83" value="cappello rana"/>
+	<string name="shop_description_83" value="carino, verde e protegge dalla pioggia. disponibile solo per VIP!"/>
+	<string name="shop_title_84" value="cappello videogioco"/>
+	<string name="shop_description_84" value="let's-a go! questo è un grande cappello rosso. disponibile solo per VIP!"/>
+	<string name="shop_title_85" value="cappello di shinji"/>
+	<string name="shop_description_85" value="cappello stile marinaio e preferito di shinji. disponibile solo per VIP!"/>
+	<string name="shop_title_86" value="cappello materia oscura"/>
+	<string name="shop_description_86" value="cappello fatto di materia oscura, fai attenzione. disponibile solo per VIP!"/>
+	<string name="shop_title_87" value="cappello buffone"/>
+	<string name="shop_description_87" value="cappello a falde con campanelli alla fine. disponibile solo per VIP!"/>
+	<string name="shop_title_88" value="cappello vichingo"/>
+	<string name="shop_description_88" value="cappello cornuto fatto di legno e metallo. disponibile solo per VIP!"/>
+	<string name="shop_title_89" value="corona neutronized"/>
+	<string name="shop_description_89" value="solo i giocatori più fedeli indossano questa corona. disponibile solo per VIP!"/>
+	<string name="shop_title_91" value="maschera di zucca"/>
+	<string name="shop_description_91" value="dolcetto o scherzetto? scopriamolo! disponibile solo per un tempo limitato!"/>
+	<string name="shop_title_92" value="maschera da mostro"/>
+	<string name="shop_description_92" value="libera brividi elettrizzanti per halloween. disponibile solo per un tempo limitato!"/>
+	<string name="shop_title_93" value="maschera di teschio"/>
+	<string name="shop_description_93" value="perfetta per un travestimento birichino. disponibile solo per VIP!"/>
+	<string name="shop_title_94" value="cappello voodoo"/>
+	<string name="shop_description_94" value="lancia incantesimi voodoo con stile! disponibile solo per un tempo limitato!"/>
+	
+
+
+
+	<string name="shop_title_90" value="gachapon"/>
+	
+	
+	<string name="shop_title_400" value="coconut"/>
+	<string name="shop_description_400_1" value="ottimo per nemici che si muovono orizzontalmente. i semi fanno crescere una pianta."/>
+	<string name="shop_description_400_2" value="ottimo per nemici che si muovono orizzontalmente. rate di attacco aumentato."/>
+	<string name="shop_description_400_3" value="ottimo per nemici che si muovono orizzontalmente. i semi fanno crescere una liana."/>
+	<string name="shop_title_401" value="mr. cloud"/>
+	<string name="shop_description_401_1" value="esperto del tuono, ottimo per nemici che si muovono verticalmente."/>
+	<string name="shop_description_401_2" value="ottimo per nemici che si muovono verticalmente. rate di attacco aumentato."/>
+	<string name="shop_description_401_3" value="ottimo per nemici che si muovono verticalmente. puó generare elettricità"/>
+	<string name="shop_title_402" value="medusa"/>
+	<string name="shop_description_402_1" value="il miglior aiutante in acqua, anche utile contro nemici in aria."/>
+	<string name="shop_description_402_2" value="il miglior aiutante in acqua. rate di attacco aumentato."/>
+	<string name="shop_description_402_3" value="il miglior aiutante in acqua. protegge il gatto in una mega bolla."/>
+	<string name="shop_title_403" value="cupido"/>
+	<string name="shop_description_403_1" value="riduce il tempo di stordimento del 10 percento. utile supporto."/>
+	<string name="shop_description_403_2" value="riduce il tempo di stordimento del 20 percento. ottimo per situazioni difficili."/>
+	<string name="shop_description_403_3" value="riduce il tempo di stordimento del 50 percento e attacca i nemici."/>
+	<string name="shop_title_404" value="pipistrello dorato"/>
+	<string name="shop_description_404_1" value="colleziona le monete vicine per te."/>
+	<string name="shop_description_404_2" value="colleziona le monete vicini moltiplicando il valore per 1.25."/>
+	<string name="shop_description_404_3" value="colleziona le monete vicini moltiplicando il valore per 2.5."/>
+	<string name="shop_title_405" value="rokko"/>
+	<string name="shop_description_405_1" value="distrugge blocchi 1x1 per trovare passaggi segreti."/>
+	<string name="shop_description_405_2" value="distrugge blocchi 2x2 per trovare passaggi segreti."/>
+	<string name="shop_description_405_3" value="distrugge blocchi 3x3 per trovare passaggi segreti."/>
+	
+	<string name="panel_double_coins_title"     value="monete x2"/>
+	<string name="panel_double_coins_text"      value="guarda un annuncio per raddoppiare le monete?"/>
+	
+	<string name="panel_settings" value="crediti"/>
+	<string name="panel_reset"    value="resetta gioco"/>
+	<string name="reset_line_0"   value="sei sicuro?"/>
+	<string name="reset_line_1"   value="resettare il gioco cancella i tuoi progressi per sempre"/>
+	
+	<string name="panel_options" value="opzioni"/>
+	<string name="panel_options_gfx" value="qualità"/>
+	<string name="panel_options_normal" value="normale"/>
+	<string name="panel_options_low" value="bassa"/>
+	<string name="panel_options_quick_start" value="salta intro"/>
+	<string name="panel_options_cloud_save" value="salv. cloud"/>
+	
+
+	
+	<string name="game_ending_continue" value="continua..."/>
+	
+	<string name="yes" value="si"/>
+	<string name="no" value="no"/>
+	<string name="exit" value="EXIT"/>
+	<string name="rate_now" value="vota ora!"/>
+	<string name="rate_thanks" value="grazie per la tua recensione!"/>
+	<string name="npc_rate" value="ehi, ricordati di lasciare una rece!"/>	
+	<string name="rate_android_1" value="per favore, accetta queste 50 monete."/>
+	<string name="rate_android_2" value="OK!"/>
+	<string name="rate_android_3" value="Per favore vota questo gioco"/>
+	<string name="rate_android_4" value="scegli il numero di stelle:"/>
+	<string name="rate_android_5" value="vota ora!"/>
+	
+	<string name="continue_1" value="continua?"/>
+	<string name="question_dialog_1" value="ok!"/>
+
+	<string name="credits_line_0" value="versione"/>
+	<string name="credits_line_1" value="rilasciato da"/>
+	<string name="credits_line_2" value="creato da"/>
+	<string name="credits_line_3" value="idea, programmazione, e grafica"/>
+	<string name="credits_line_4" value="grafica aggiuntiva"/>
+	<string name="credits_line_5" value="musica"/>
+	<string name="credits_line_14" value="grazie speciale"/>
+	
+	<string name="quest_title" value="quest del giorno"/>
+	<string name="quest_completed" value="quest del giorno completata!"/>
+	<string name="quest_next_quest" value="prossima quest in"/>
+	<string name="quest_win_streak" value="vittorie:"/>
+	<string name="quest_done" value="(completata)"/>
+	
+	<string name="quest_0" value="completa 5 livelli normali senza eliminare alcun nemico."/>			
+	<string name="quest_1" value="sconfiggi 20 scarabei del legno con qualsiasi gatto."/>			
+	<string name="quest_2" value="raccogli 200 monete con qualsiasi gatto."/>			
+	<string name="quest_3" value="sconfiggi 40 nemici utilizzando l'aiutante coconut."/>			
+	<string name="quest_4" value="prendi 25 pesci con la canna da pesca."/>			
+	<string name="quest_5" value="completa 10 livello normali senza morire."/>			
+	<string name="quest_6" value="sconfiggi 20 nemici castelli di sabbia con qualsiasi gatto."/>			
+	<string name="quest_7" value="raccogli 15 campanelle con rigs."/>			
+	<string name="quest_8" value="sconfiggi 40 nemici utilizzando l'aiutante medusa."/>			
+	<string name="quest_9" value="prendi 10 saltarelli rossi con la canna da pesca."/>			
+	<string name="quest_10" value="completa 5 livelli normali con pascal."/>			
+	<string name="quest_11" value="sconfiggi 5 miniboss con qualsiasi gatto."/>			
+	<string name="quest_12" value="raccogli 200 monete con pascal."/>			
+	<string name="quest_13" value="distruggi 50 mattoncini 1x1 con l'aiutante rokko."/>			
+	<string name="quest_14" value="prendi 10 carpe verdi con la canna da pesca."/>			
+	<string name="quest_15" value="completa 5 livelli normali senza essere mai stordito."/>			
+	<string name="quest_16" value="sconfiggi 20 nemici pipistrello con qualsiasi gatto."/>			
+	<string name="quest_17" value="prendi 15 campanelle con qualsiasi gatto."/>			
+	<string name="quest_18" value="fatti guarire 40 volte dall'aiutante cupido."/>			
+	<string name="quest_19" value="vendi 20 pesci al mercato del pesce in portobello."/>			
+	<string name="quest_20" value="completa 5 livelli normali con rose."/>			
+	<string name="quest_21" value="sconfiggi 20 nemici seppia con qualsiasi gatto."/>			
+	<string name="quest_22" value="raccogli 200 monete con rose."/>
+	<string name="quest_23" value="pianta 10 semi con l'aiutante coconut."/>			
+	<string name="quest_24" value="prendi 10 pesci rosso con la canna da pesca."/>			
+	<string name="quest_25" value="completa 5 livelli normali senza mai saltare."/>			
+	<string name="quest_26" value="sconfiggi 50 nemici con qualsiasi gatto."/>			
+	<string name="quest_27" value="raccogli 200 monete con qualsiasi gatto."/>			
+	<string name="quest_28" value="sconfiggi 40 nemici utilizzando l'aiutante mr. cloud."/>			
+	<string name="quest_29" value="prendi 10 pesci palla con la canna da pesca."/>			
+	<string name="quest_30" value="completa 5 livelli normali senza prendere alcuna moneta."/>			
+	<string name="quest_31" value="sconfiggi 5 boss con qualsiasi gatto."/>			
+	<string name="quest_32" value="prendi 15 campanelle con rose."/>			
+	<string name="quest_33" value="raccogli 100 monete utilizzando l'aiutante pipistrello dorato."/>
+	<string name="quest_34" value="prendi 10 granchi con la canna da pesca."/>
+	<string name="quest_35" value="completa 5 livelli normali senza raccogliere alcuna campanella."/>
+	<string name="quest_36" value="sconfiggi 20 nemici cinghiale con qualsiasi gatto."/>
+	<string name="quest_37" value="raccogli 200 monete con rigs."/>
+	<string name="quest_38" value="prendi 10 seppie con la canna da pesca."/>
+	<string name="quest_39" value="completa 5 livelli normali senza cambiare gatto."/>
+	<string name="quest_40" value="sconfiggi 50 nemici con rose."/>
+	<string name="quest_41" value="raccogli 15 campanelle con pascal."/>
+	<string name="quest_42" value="completa 5 livelli villaggio con qualsiasi gatto."/>
+	<string name="quest_43" value="sconfiggi 50 nemici con rigs."/>
+	<string name="quest_44" value="raccogli 200 monete con qualsiasi gatto."/>
+	<string name="quest_45" value="sconfiggi 20 nemici slime gialli con qualsiasi gatto."/>
+	<string name="quest_46" value="prendi 25 pesci con la canna da pesca."/>
+	<string name="quest_47" value="complete 5 livelli normali sotto 60 secondi."/>
+	<string name="quest_48" value="sconfiggi 50 nemici con qualsiasi gatto."/>
+	<string name="quest_49" value="raccogli 15 campanelle con qualsiasi gatto."/>
+	<string name="quest_50" value="prendi 10 pesci gatto con la canna da pesca."/>
+	<string name="quest_51" value="completa 5 livelli normali con rigs."/>
+	<string name="quest_52" value="sconfiggi 5 miniboss con qualsiasi gatto."/>
+	<string name="quest_53" value="raccogli 200 monete con rose."/>
+	<string name="quest_54" value="pianta 10 semi con l'aiutante coconut."/>
+	<string name="quest_55" value="vendi 20 pesci al mercato del pesce in portobello."/>
+	
+	
+</strings>

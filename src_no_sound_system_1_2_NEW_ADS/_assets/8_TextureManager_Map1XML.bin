@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:59ef96737e1a9ac1f9b884d7764c0941:a7cd699dd68125af962fd7b16a03d0eb:39a9a3c7366e7448773e713d0aaae3af$ -->
+<TextureAtlas imagePath="map_texture.png" width="1024" height="1024">
+    <SubTexture name="map2Element1SpriteAnim_a" x="4" y="754" width="189" height="234"/>
+    <SubTexture name="map2Element1SpriteAnim_b" x="199" y="754" width="189" height="234"/>
+    <SubTexture name="map2Element1SpriteAnim_c" x="394" y="754" width="189" height="234"/>
+    <SubTexture name="map2Element1SpriteAnim_d" x="589" y="754" width="189" height="234"/>
+    <SubTexture name="map2Element2SpriteAnim_a" x="890" y="4" width="101" height="106"/>
+    <SubTexture name="map2Element2SpriteAnim_b" x="890" y="116" width="101" height="106"/>
+    <SubTexture name="map2Element2SpriteAnim_c" x="890" y="228" width="101" height="106"/>
+    <SubTexture name="map2Element2SpriteAnim_d" x="890" y="340" width="101" height="106"/>
+    <SubTexture name="map2Element3SpriteAnim_a" x="890" y="452" width="62" height="70"/>
+    <SubTexture name="map2Element3SpriteAnim_b" x="958" y="452" width="62" height="70"/>
+    <SubTexture name="map2Element3SpriteAnim_c" x="890" y="528" width="62" height="70"/>
+    <SubTexture name="map2Element3SpriteAnim_d" x="958" y="528" width="62" height="70"/>
+    <SubTexture name="map2Element4SpriteAnim_a" x="890" y="604" width="58" height="69"/>
+    <SubTexture name="map2Element4SpriteAnim_b" x="954" y="604" width="58" height="69"/>
+    <SubTexture name="map2Element4SpriteAnim_c" x="890" y="679" width="58" height="69"/>
+    <SubTexture name="map2Element4SpriteAnim_d" x="954" y="679" width="58" height="69"/>
+    <SubTexture name="map2Element5SpriteAnim_a" x="997" y="4" width="16" height="16"/>
+    <SubTexture name="map2Element5SpriteAnim_b" x="997" y="26" width="16" height="16"/>
+    <SubTexture name="map2Element5SpriteAnim_c" x="997" y="48" width="16" height="16"/>
+    <SubTexture name="map2Element5SpriteAnim_d" x="997" y="70" width="16" height="16"/>
+    <SubTexture name="mapBackground1" x="4" y="4" width="880" height="336"/>
+    <SubTexture name="mapBackground2" x="4" y="346" width="880" height="336"/>
+</TextureAtlas>

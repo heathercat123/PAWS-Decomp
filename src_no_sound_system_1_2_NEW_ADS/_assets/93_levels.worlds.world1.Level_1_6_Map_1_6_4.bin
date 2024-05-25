@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <tiles>
+    <obj name="cave_back_tile_1" back="1" x="208" y="112" w="48" h="48" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="174" y="56" w="4" h="121" f_x="0" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="288" y="128" w="16" h="8" f_x="0" f_y="0"/>
+    <obj name="door_tile_6" back="1" x="288" y="136" w="16" h="24" f_x="0" f_y="0"/>
+    <obj name="door_tile_5" back="1" x="288" y="128" w="16" h="8" f_x="1" f_y="0"/>
+    <obj name="door_tile_6" back="1" x="288" y="136" w="16" h="24" f_x="1" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="259" y="164" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="275" y="164" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="291" y="164" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="176" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="192" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="208" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="352" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="368" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="wood_tile_30" back="1" x="384" y="144" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_2" back="1" x="184" y="72" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_1" back="1" x="368" y="48" w="48" h="48" f_x="0" f_y="0"/>
+    <obj name="sandDecorationSpriteAnim_h" back="1" x="311" y="71" w="18" h="18" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_2" back="1" x="256" y="96" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_2" back="1" x="320" y="112" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="sandDecorationSpriteAnim_h" back="1" x="335" y="71" w="18" h="18" f_x="0" f_y="0"/>
+    <obj name="sandDecorationSpriteAnim_h" back="1" x="311" y="95" w="18" h="18" f_x="0" f_y="0"/>
+    <obj name="sandDecorationSpriteAnim_h" back="1" x="311" y="135" w="18" h="18" f_x="0" f_y="0"/>
+    <obj name="sandDecorationSpriteAnim_h" back="1" x="231" y="71" w="18" h="18" f_x="0" f_y="0"/>
+    <obj name="sandDecorationSpriteAnim_h" back="1" x="231" y="95" w="18" h="18" f_x="0" f_y="0"/>
+    <obj name="sandDecorationSpriteAnim_h" back="1" x="207" y="71" w="18" h="18" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="176" y="62" w="192" h="4" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="276" y="128" w="24" h="2" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="272" y="132" w="2" h="29" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="302" y="132" w="2" h="29" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="299" y="129" w="2" h="2" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="300" y="130" w="2" h="2" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="301" y="131" w="2" h="2" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="275" y="129" w="2" h="2" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="274" y="130" w="2" h="2" f_x="0" f_y="0"/>
+    <obj name="cave_back_tile_4" back="1" x="273" y="131" w="2" h="2" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_17" back="0" x="176" y="64" w="16" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_17" back="0" x="400" y="64" w="16" h="16" f_x="1" f_y="0"/>
+    <obj name="grass_tile_2" back="0" x="192" y="176" w="192" h="80" f_x="0" f_y="0"/>
+    <obj name="grass_tile_2" back="0" x="416" y="-32" w="160" h="288" f_x="0" f_y="0"/>
+    <obj name="grass_tile_4" back="0" x="400" y="-32" w="16" h="288" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_24" back="0" x="192" y="160" w="192" h="16" f_x="0" f_y="0"/>
+    <obj name="canyon_tile_32" back="0" x="175" y="160" w="17" h="16" f_x="0" f_y="0"/>
+    <obj name="grass_tile_4" back="0" x="176" y="176" w="16" h="80" f_x="0" f_y="0"/>
+    <obj name="grass_tile_2" back="0" x="0" y="-32" w="160" h="288" f_x="0" f_y="0"/>
+    <obj name="grass_tile_4" back="0" x="176" y="-32" w="16" h="288" f_x="1" f_y="0"/>
+    <obj name="grass_tile_2" back="0" x="192" y="-32" w="192" h="80" f_x="0" f_y="0"/>
+    <obj name="grass_tile_22" back="0" x="176" y="64" w="16" h="16" f_x="0" f_y="1"/>
+    <obj name="grass_tile_4" back="0" x="176" y="-32" w="16" h="80" f_x="0" f_y="0"/>
+    <obj name="grass_tile_12" back="0" x="192" y="48" w="192" h="16" f_x="0" f_y="0"/>
+    <obj name="grass_tile_22" back="0" x="400" y="64" w="16" h="16" f_x="1" f_y="1"/>
+    <obj name="grass_tile_4" back="0" x="400" y="-32" w="16" h="80" f_x="1" f_y="0"/>
+    <obj name="canyon_tile_32" back="0" x="401" y="160" w="17" h="16" f_x="1" f_y="0"/>
+    <obj name="grass_tile_4" back="0" x="400" y="176" w="16" h="80" f_x="1" f_y="0"/>
+    <obj name="village_tile_9" back="0" x="175" y="128" w="49" h="16" f_x="0" f_y="0"/>
+    <obj name="village_tile_8" back="0" x="243" y="125" w="19" h="19" f_x="1" f_y="0"/>
+    <obj name="wood_tile_26" back="0" x="224" y="144" w="16" h="17" f_x="0" f_y="0"/>
+    <obj name="village_tile_9" back="0" x="352" y="128" w="49" h="16" f_x="0" f_y="0"/>
+    <obj name="village_tile_8" back="0" x="333" y="125" w="19" h="19" f_x="0" f_y="0"/>
+    <obj name="wood_tile_26" back="0" x="336" y="144" w="16" h="17" f_x="0" f_y="0"/>
+  </tiles>
+  <tiles_front/>
+  <collisions>
+    <obj type="0" x="0" y="160" w="272" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="80" y="0" w="96" h="160" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="272" y="160" w="272" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="400" y="0" w="96" h="160" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="10" x="176" y="32" w="224" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="336" y="128" w="64" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="0" x="176" y="128" w="64" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="12" x="263" y="159" w="0" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </collisions>
+  <decorations>
+    <obj type="38" x="312" y="136" w="1" h="0" rot="0" ai="74" val_1="0" val_2="0" val_3="0"/>
+    <obj type="38" x="248" y="136" w="1" h="0" rot="0" ai="74" val_1="0" val_2="0" val_3="0"/>
+  </decorations>
+  <enemies/>
+  <items>
+    <obj type="3" x="184" y="112" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="200" y="112" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="216" y="112" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="208" y="96" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="192" y="96" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="344" y="112" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="360" y="112" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="376" y="112" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="368" y="96" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="352" y="96" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </items>
+  <npcs/>
+  <data>
+    <obj _class="LevelStartScript" x="0" y="0"/>
+    <obj _class="LevelEndScript" x="576" y="240"/>
+    <obj _class="CameraLeftMargin" x="32"/>
+    <obj _class="CameraRightMargin" x="544"/>
+    <obj _class="NumberScript1" x="288" y="166" w="1"/>
+    <obj _class="StartPosition" x="280" y="144" dir="0" type="0"/>
+    <obj _class="NumberScript1" x="288" y="152" w="1"/>
+  </data>
+  <layer_0>
+    <tiles/>
+    <elements/>
+  </layer_0>
+  <layer_1>
+    <tiles/>
+    <elements/>
+  </layer_1>
+  <layer_2>
+    <tiles/>
+    <elements/>
+  </layer_2>
+  <layer_sky>
+    <tiles/>
+    <elements/>
+  </layer_sky>
+  <layer_foreground>
+    <tiles/>
+    <elements/>
+  </layer_foreground>
+</map>
