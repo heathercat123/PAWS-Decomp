@@ -19,8 +19,8 @@
             "output": "bin/CatGamePaws_android",
             "signingOptions": {
                 "storetype": "pkcs12",
-                "keystore": "You have to specify your own cerftificate. This can help: https://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7f74.html"
+                "keystore": "You have to specify your own certificate. This can help: https://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7f74.html"
             }
-        },
+        }
     }
 }
