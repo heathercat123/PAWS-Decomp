@@ -8,7 +8,6 @@ package entities.enemies
    
    public class RedGooEnemy extends Enemy
    {
-       
       
       public var TYPE:int;
       
@@ -236,3 +235,4 @@ package entities.enemies
       }
    }
 }
+

@@ -5,7 +5,6 @@ package mx.core
    
    public interface IAssetLayoutFeatures
    {
-       
       
       function set layoutX(param1:Number) : void;
       
@@ -88,3 +87,4 @@ package mx.core
       function get computedMatrix3D() : Matrix3D;
    }
 }
+

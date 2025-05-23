@@ -12,7 +12,6 @@ package levels.items
    
    public class EggItem extends Item
    {
-       
       
       protected var SHIFT_INDEX:int;
       
@@ -63,3 +62,4 @@ package levels.items
       }
    }
 }
+

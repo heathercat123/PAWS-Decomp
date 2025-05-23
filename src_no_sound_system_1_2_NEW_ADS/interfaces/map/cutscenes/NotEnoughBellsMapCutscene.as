@@ -6,7 +6,6 @@ package interfaces.map.cutscenes
    
    public class NotEnoughBellsMapCutscene extends MapCutscene
    {
-       
       
       protected var levelButton:MapLevelButton;
       
@@ -74,3 +73,4 @@ package interfaces.map.cutscenes
       }
    }
 }
+

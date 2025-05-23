@@ -8,7 +8,6 @@ package interfaces.map.decorations
    
    public class GenericMapDecoration extends Decoration
    {
-       
       
       protected var INDEX:int;
       
@@ -174,3 +173,4 @@ package interfaces.map.decorations
       }
    }
 }
+

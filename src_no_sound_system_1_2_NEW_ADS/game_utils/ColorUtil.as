@@ -4,7 +4,6 @@ package game_utils
    
    public class ColorUtil
    {
-       
       
       public function ColorUtil()
       {
@@ -63,19 +62,19 @@ package game_utils
       public static function HexToRGB(hex:uint) : Object
       {
          var rgb:Object = {};
-         rgb.r = hex >> 16 & 255;
-         rgb.g = hex >> 8 & 255;
-         rgb.b = hex & 255;
+         rgb.r = hex >> 16 & 0xFF;
+         rgb.g = hex >> 8 & 0xFF;
+         rgb.b = hex & 0xFF;
          return rgb;
       }
       
       public static function HexToARGB(hex:uint) : Object
       {
          var rgb:Object = {};
-         rgb.a = hex >> 24 & 255;
-         rgb.r = hex >> 16 & 255;
-         rgb.g = hex >> 8 & 255;
-         rgb.b = hex & 255;
+         rgb.a = hex >> 24 & 0xFF;
+         rgb.r = hex >> 16 & 0xFF;
+         rgb.g = hex >> 8 & 0xFF;
+         rgb.b = hex & 0xFF;
          return rgb;
       }
       
@@ -163,11 +162,11 @@ package game_utils
       public static function getGradientColor(hex:uint, hex2:uint, ratio:Number) : uint
       {
          var r:uint = uint(hex >> 16);
-         var g:uint = uint(hex >> 8 & 255);
-         var b:uint = uint(hex & 255);
+         var g:uint = uint(hex >> 8 & 0xFF);
+         var b:uint = uint(hex & 0xFF);
          r += ((hex2 >> 16) - r) * ratio;
-         g += ((hex2 >> 8 & 255) - g) * ratio;
-         b += ((hex2 & 255) - b) * ratio;
+         g += ((hex2 >> 8 & 0xFF) - g) * ratio;
+         b += ((hex2 & 0xFF) - b) * ratio;
          return r << 16 | g << 8 | b;
       }
       
@@ -176,11 +175,11 @@ package game_utils
          var ratio:Number = NaN;
          var newArry:Array = [hex1];
          var r:uint = uint(hex1 >> 16);
-         var g:uint = uint(hex1 >> 8 & 255);
-         var b:uint = uint(hex1 & 255);
+         var g:uint = uint(hex1 >> 8 & 0xFF);
+         var b:uint = uint(hex1 & 0xFF);
          var rd:uint = uint((hex2 >> 16) - r);
-         var gd:uint = uint((hex2 >> 8 & 255) - g);
-         var bd:uint = uint((hex2 & 255) - b);
+         var gd:uint = uint((hex2 >> 8 & 0xFF) - g);
+         var bd:uint = uint((hex2 & 0xFF) - b);
          steps++;
          for(var i:int = 1; i < steps; i++)
          {
@@ -192,3 +191,4 @@ package game_utils
       }
    }
 }
+

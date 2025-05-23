@@ -12,7 +12,6 @@ package entities.npcs
    
    public class ChefNPC extends NPC
    {
-       
       
       protected var CUTSCENE_FLAG_1:Boolean;
       
@@ -225,3 +224,4 @@ package entities.npcs
       }
    }
 }
+

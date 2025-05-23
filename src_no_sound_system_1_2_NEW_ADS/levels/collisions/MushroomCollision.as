@@ -8,7 +8,6 @@ package levels.collisions
    
    public class MushroomCollision extends Collision
    {
-       
       
       protected var anim_start_frame:int;
       
@@ -162,3 +161,4 @@ package levels.collisions
       }
    }
 }
+

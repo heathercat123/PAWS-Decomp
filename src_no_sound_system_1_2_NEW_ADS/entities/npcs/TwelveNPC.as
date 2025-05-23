@@ -6,7 +6,6 @@ package entities.npcs
    
    public class TwelveNPC extends NPC
    {
-       
       
       protected var tick:int;
       
@@ -115,3 +114,4 @@ package entities.npcs
       }
    }
 }
+

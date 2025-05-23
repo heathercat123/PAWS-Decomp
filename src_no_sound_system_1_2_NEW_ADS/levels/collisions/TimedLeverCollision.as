@@ -18,7 +18,6 @@ package levels.collisions
       public static var shake_counter1:int = 0;
       
       public static var shake_counter2:int = 0;
-       
       
       public var IS_HERO_RIGHT:Boolean;
       
@@ -402,3 +401,4 @@ package levels.collisions
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class SquidEnemySprite extends GameSprite
    {
-       
       
       protected var walkAnim:GameMovieClip;
       
@@ -117,3 +116,4 @@ package sprites.enemies
       }
    }
 }
+

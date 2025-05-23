@@ -9,23 +9,20 @@ package levels.cutscenes
    
    public class FishermanTutorialCutscene extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
       protected var fishermanNPC:FishermanNPC;
       
-      protected var TYPE:int;
+      protected var TYPE:int = 0;
       
       protected var COUNTER:int;
       
-      protected var HIT_FLAG:Boolean;
+      protected var HIT_FLAG:Boolean = false;
       
       public function FishermanTutorialCutscene(_level:Level, _counter:int)
       {
-         this.TYPE = 0;
          this.COUNTER = _counter;
-         this.HIT_FLAG = false;
          super(_level);
       }
       
@@ -323,3 +320,4 @@ package levels.cutscenes
       }
    }
 }
+

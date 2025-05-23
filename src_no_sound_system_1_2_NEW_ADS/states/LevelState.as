@@ -365,7 +365,6 @@ package states
       public static const LEVEL_2_FISHING:int = 10001;
       
       public static const LEVEL_3_FISHING:int = 10002;
-       
       
       public var GET_OUT_FLAG:Boolean;
       
@@ -384,8 +383,6 @@ package states
       public var shopPanel:ShopPanel;
       
       public var gameOverPanel:GameOverPanel;
-      
-      public var doubleCoinsPanel:DoubleCoinsPanel;
       
       protected var FORCE_PAUSE_COUNTER:int;
       
@@ -486,7 +483,6 @@ package states
             }
             else if(this.stateMachine.currentState == "IS_DOUBLE_COINS_STATE")
             {
-               this.doubleCoinsPanel.backButtonAndroid();
             }
          }
       }
@@ -559,10 +555,6 @@ package states
                else if(Utils.GameOverOn && !Utils.IsInstaGameOver)
                {
                   this.stateMachine.performAction("REWARD_ADS_ACTION");
-               }
-               else if(Utils.DoubleCoinsOn)
-               {
-                  this.stateMachine.performAction("DOUBLE_COINS_ACTION");
                }
                else if(this.level.LEVEL_WON_FLAG)
                {
@@ -667,60 +659,49 @@ package states
                         this.stateMachine.performAction("END_ACTION");
                      }
                   }
-                  else if(this.stateMachine.currentState == "IS_DOUBLE_COINS_STATE")
+                  else if(this.stateMachine.currentState != "IS_DOUBLE_COINS_STATE")
                   {
-                     this.doubleCoinsPanel.update();
-                     if(this.doubleCoinsPanel.GET_OUT_FLAG)
+                     if(this.stateMachine.currentState == "IS_REWARD_AD_STATE")
                      {
-                        if(this.doubleCoinsPanel.CONTINUE_FLAG)
+                        this.gameOverPanel.update();
+                        if(this.gameOverPanel.GET_OUT_FLAG)
                         {
-                           this.level.hero.doubleCoins();
-                        }
-                        this.doubleCoinsPanel.hide();
-                        Utils.DoubleCoinsOn = false;
-                        this.stateMachine.performAction("END_ACTION");
-                     }
-                  }
-                  else if(this.stateMachine.currentState == "IS_REWARD_AD_STATE")
-                  {
-                     this.gameOverPanel.update();
-                     if(this.gameOverPanel.GET_OUT_FLAG)
-                     {
-                        if(this.gameOverPanel.CONTINUE_FLAG)
-                        {
-                           if(Utils.IsEvent)
+                           if(this.gameOverPanel.CONTINUE_FLAG)
                            {
-                              this.level.allowEvent();
+                              if(Utils.IsEvent)
+                              {
+                                 this.level.allowEvent();
+                              }
+                              else
+                              {
+                                 this.level.hero.revive();
+                              }
                            }
-                           else
+                           this.gameOverPanel.hide();
+                           if(this.level.stateMachine.currentState == "IS_PLAYING_STATE")
                            {
-                              this.level.hero.revive();
+                              LevelTimer.getInstance().endPause();
                            }
+                           Utils.GameOverOn = false;
+                           this.stateMachine.performAction("END_ACTION");
                         }
-                        this.gameOverPanel.hide();
-                        if(this.level.stateMachine.currentState == "IS_PLAYING_STATE")
-                        {
-                           LevelTimer.getInstance().endPause();
-                        }
-                        Utils.GameOverOn = false;
-                        this.stateMachine.performAction("END_ACTION");
                      }
-                  }
-                  else if(this.stateMachine.currentState == "IS_LEVEL_COMPLETE_STATE")
-                  {
-                     this.level.update();
-                     this.choice = 3;
-                     this.stateMachine.performAction("QUIT_ACTION");
-                  }
-                  else if(this.stateMachine.currentState == "IS_GAME_OVER_STATE" || this.stateMachine.currentState == "IS_LEVEL_EXIT_STATE" || this.stateMachine.currentState == "IS_CHANGING_ROOM_STATE")
-                  {
-                     this.level.update();
-                  }
-                  else if(this.stateMachine.currentState == "IS_EXITING_STATE")
-                  {
-                     if(this.choice == 3)
+                     else if(this.stateMachine.currentState == "IS_LEVEL_COMPLETE_STATE")
                      {
                         this.level.update();
+                        this.choice = 3;
+                        this.stateMachine.performAction("QUIT_ACTION");
+                     }
+                     else if(this.stateMachine.currentState == "IS_GAME_OVER_STATE" || this.stateMachine.currentState == "IS_LEVEL_EXIT_STATE" || this.stateMachine.currentState == "IS_CHANGING_ROOM_STATE")
+                     {
+                        this.level.update();
+                     }
+                     else if(this.stateMachine.currentState == "IS_EXITING_STATE")
+                     {
+                        if(this.choice == 3)
+                        {
+                           this.level.update();
+                        }
                      }
                   }
                }
@@ -868,8 +849,6 @@ package states
          this.ratePanel.level = this.level;
          this.gameOverPanel = new GameOverPanel();
          this.gameOverPanel.level = this.level;
-         this.doubleCoinsPanel = new DoubleCoinsPanel();
-         this.doubleCoinsPanel.level = this.level;
          this.stateMachine.performAction("END_ACTION");
       }
       
@@ -928,12 +907,6 @@ package states
       
       protected function doubleCoinsState() : void
       {
-         this.doubleCoinsPanel.destroy();
-         this.doubleCoinsPanel.dispose();
-         this.doubleCoinsPanel = null;
-         this.doubleCoinsPanel = new DoubleCoinsPanel();
-         this.doubleCoinsPanel.level = this.level;
-         this.doubleCoinsPanel.popUp();
       }
       
       protected function rewardAdState() : void
@@ -1489,3 +1462,4 @@ package states
       }
    }
 }
+

@@ -2,7 +2,6 @@ package game_utils
 {
    public class DecorationScript
    {
-       
       
       public var type:int;
       
@@ -45,3 +44,4 @@ package game_utils
       }
    }
 }
+

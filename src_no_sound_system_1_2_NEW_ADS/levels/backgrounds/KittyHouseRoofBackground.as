@@ -13,7 +13,6 @@ package levels.backgrounds
    
    public class KittyHouseRoofBackground extends Background
    {
-       
       
       protected var TYPE:int;
       
@@ -331,3 +330,4 @@ package levels.backgrounds
       }
    }
 }
+

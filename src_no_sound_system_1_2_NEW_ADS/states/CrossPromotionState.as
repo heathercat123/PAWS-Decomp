@@ -15,7 +15,6 @@ package states
    {
       
       protected static var checkCrossPromotion:Boolean = true;
-       
       
       public var menuBackground:MenuBackground;
       
@@ -137,3 +136,4 @@ package states
       }
    }
 }
+

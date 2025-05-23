@@ -5,7 +5,6 @@ package levels.collisions
    
    public class CollisionNoClimbAreaCollision extends Collision
    {
-       
       
       protected var TYPE:int;
       
@@ -26,3 +25,4 @@ package levels.collisions
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.cats
    
    public class GlideCatSprite extends CatSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -286,3 +285,4 @@ package sprites.cats
       }
    }
 }
+

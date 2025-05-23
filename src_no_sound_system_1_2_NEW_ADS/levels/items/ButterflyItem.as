@@ -8,7 +8,6 @@ package levels.items
    {
       
       public static var CAUGHT_COUNTER:int;
-       
       
       protected var invisible_counter:int;
       
@@ -145,3 +144,4 @@ package levels.items
       }
    }
 }
+

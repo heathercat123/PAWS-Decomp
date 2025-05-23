@@ -12,7 +12,6 @@ package levels.items
    
    public class QuestionMarkItem extends Item
    {
-       
       
       protected var forced_max_y_pos:Number;
       
@@ -249,3 +248,4 @@ package levels.items
       }
    }
 }
+

@@ -6,7 +6,6 @@ package sprites.minigames
    
    public class GachaToySprite extends GameSprite
    {
-       
       
       public var INDEX:int;
       
@@ -54,3 +53,4 @@ package sprites.minigames
       }
    }
 }
+

@@ -11,7 +11,6 @@ package levels.collisions
    
    public class CannonHeroCollision extends Collision
    {
-       
       
       protected var cannonBase:CannonHeroBaseCollisionSprite;
       
@@ -375,3 +374,4 @@ package levels.collisions
       }
    }
 }
+

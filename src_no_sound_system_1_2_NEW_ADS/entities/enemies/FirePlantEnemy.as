@@ -11,7 +11,6 @@ package entities.enemies
    
    public class FirePlantEnemy extends Enemy
    {
-       
       
       protected var shootFlag:Boolean;
       
@@ -362,3 +361,4 @@ package entities.enemies
       }
    }
 }
+

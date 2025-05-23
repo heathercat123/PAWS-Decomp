@@ -9,7 +9,6 @@ package levels.collisions
    
    public class CatSpotCollision extends ExitCollision
    {
-       
       
       protected var backImage:Image;
       
@@ -184,3 +183,4 @@ package levels.collisions
       }
    }
 }
+

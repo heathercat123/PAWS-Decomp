@@ -14,7 +14,6 @@ package levels.collisions
    {
       
       public static var YELLOW_PLATFORM_COLLISION_ID:int = 20000;
-       
       
       public var hero_xDiff:Number;
       
@@ -485,3 +484,4 @@ package levels.collisions
       }
    }
 }
+

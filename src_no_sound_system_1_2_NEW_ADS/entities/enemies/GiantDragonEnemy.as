@@ -11,7 +11,6 @@ package entities.enemies
    
    public class GiantDragonEnemy extends Enemy
    {
-       
       
       protected var sxWing:GiantDragonWingSprite;
       
@@ -320,3 +319,4 @@ package entities.enemies
       }
    }
 }
+

@@ -10,7 +10,6 @@ package entities.enemies
    
    public class WoodBeetleEnemy extends Enemy
    {
-       
       
       protected var ORIGINAL_SIDE:int;
       
@@ -657,3 +656,4 @@ package entities.enemies
       }
    }
 }
+

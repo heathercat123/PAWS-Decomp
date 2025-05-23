@@ -5,7 +5,6 @@ package sprites.npcs
    
    public class FishermanNPCSprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -95,3 +94,4 @@ package sprites.npcs
       }
    }
 }
+

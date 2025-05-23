@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class FireSoldierEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -136,3 +135,4 @@ package sprites.enemies
       }
    }
 }
+

@@ -6,7 +6,6 @@ package interfaces.unlocks
    
    public class CatUnlocksManager
    {
-       
       
       public var level:Level;
       
@@ -104,3 +103,4 @@ package interfaces.unlocks
       }
    }
 }
+

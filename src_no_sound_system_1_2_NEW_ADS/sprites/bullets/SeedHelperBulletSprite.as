@@ -5,7 +5,6 @@ package sprites.bullets
    
    public class SeedHelperBulletSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -49,3 +48,4 @@ package sprites.bullets
       }
    }
 }
+

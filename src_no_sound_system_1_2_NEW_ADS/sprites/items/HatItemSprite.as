@@ -5,7 +5,6 @@ package sprites.items
    
    public class HatItemSprite extends GameSprite
    {
-       
       
       protected var ITEM_INDEX:int;
       
@@ -37,3 +36,4 @@ package sprites.items
       }
    }
 }
+

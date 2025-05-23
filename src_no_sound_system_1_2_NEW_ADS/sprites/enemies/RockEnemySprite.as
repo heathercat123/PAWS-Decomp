@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class RockEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -170,3 +169,4 @@ package sprites.enemies
       }
    }
 }
+

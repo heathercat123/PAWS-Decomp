@@ -13,7 +13,6 @@ package entities.helpers
    
    public class CloudHelper extends Helper
    {
-       
       
       protected var electricity:Image;
       
@@ -389,3 +388,4 @@ package entities.helpers
       }
    }
 }
+

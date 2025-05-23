@@ -12,7 +12,6 @@ package entities.npcs
    
    public class ShopNPC extends NPC
    {
-       
       
       protected var IS_FIRST_CUTSCENE_DONE:Boolean;
       
@@ -249,3 +248,4 @@ package entities.npcs
       }
    }
 }
+

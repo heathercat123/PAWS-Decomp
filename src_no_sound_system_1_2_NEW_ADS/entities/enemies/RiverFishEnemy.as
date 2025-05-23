@@ -13,7 +13,6 @@ package entities.enemies
    
    public class RiverFishEnemy extends Enemy
    {
-       
       
       protected var speed_multiplier:Number;
       
@@ -644,3 +643,4 @@ package entities.enemies
       }
    }
 }
+

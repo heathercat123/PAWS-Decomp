@@ -14,7 +14,6 @@ package levels.collisions
    
    public class GeiserRockCollision extends Collision
    {
-       
       
       public var entity:Entity;
       
@@ -351,3 +350,4 @@ package levels.collisions
       }
    }
 }
+

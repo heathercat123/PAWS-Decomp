@@ -11,7 +11,6 @@ package entities
    
    public class StunHandler
    {
-       
       
       public var level:Level;
       
@@ -238,3 +237,4 @@ package entities
       }
    }
 }
+

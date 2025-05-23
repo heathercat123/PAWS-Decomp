@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class SmallPollenEnemySprite extends GameSprite
    {
-       
       
       protected var sleepAnim:GameMovieClip;
       
@@ -81,3 +80,4 @@ package sprites.enemies
       }
    }
 }
+

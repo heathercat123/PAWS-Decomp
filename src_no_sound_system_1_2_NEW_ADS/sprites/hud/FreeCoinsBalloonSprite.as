@@ -5,7 +5,6 @@ package sprites.hud
    
    public class FreeCoinsBalloonSprite extends GameSprite
    {
-       
       
       protected var anim1:GameMovieClip;
       
@@ -39,3 +38,4 @@ package sprites.hud
       }
    }
 }
+

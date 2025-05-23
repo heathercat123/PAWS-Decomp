@@ -6,7 +6,6 @@ package levels.decorations
    
    public class DewDecoration extends Decoration
    {
-       
       
       public var HAS_DRIPPED:Boolean;
       
@@ -72,3 +71,4 @@ package levels.decorations
       }
    }
 }
+

@@ -12,7 +12,6 @@ package levels.collisions
    
    public class FlameThrowerCollision extends Collision
    {
-       
       
       public var stateMachine:StateMachine;
       
@@ -565,3 +564,4 @@ package levels.collisions
       }
    }
 }
+

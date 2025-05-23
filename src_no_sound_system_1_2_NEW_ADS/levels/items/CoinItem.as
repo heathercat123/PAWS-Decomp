@@ -10,7 +10,6 @@ package levels.items
    
    public class CoinItem extends Item
    {
-       
       
       public var IS_FROZEN:Boolean;
       
@@ -331,3 +330,4 @@ package levels.items
       }
    }
 }
+

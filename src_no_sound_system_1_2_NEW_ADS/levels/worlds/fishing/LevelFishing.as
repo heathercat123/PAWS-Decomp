@@ -35,7 +35,6 @@ package levels.worlds.fishing
       public static const Map2_FishingSpot2_1:Class = LevelFishing_Map2_FishingSpot2_1;
       
       public static const Map2_FishingSpot2_2:Class = LevelFishing_Map2_FishingSpot2_2;
-       
       
       public var CUTSCENE_FLAG:Boolean;
       
@@ -274,8 +273,8 @@ package levels.worlds.fishing
                interstitial = Adverts.service.interstitials.createInterstitialAd();
                interstitial.setAdUnitId(Utils.ADMOB_INTERSTITIAL_FISHING_ID_ANDROID);
             }
-            interstitial.addEventListener(FullScreenContentEvent.SHOW,this.onInterstitialAdOpenedFishing);
-            interstitial.addEventListener(FullScreenContentEvent.DISMISSED,this.onInterstitialAdClosedFishing);
+            interstitial.addEventListener(FullScreenContentEvent.SHOW,this.openedHandler);
+            interstitial.addEventListener(FullScreenContentEvent.DISMISSED,this.closedHandler);
             this.preloadInterstitial();
          }
          if(!Utils.LEVEL_RUNTIME)
@@ -365,8 +364,8 @@ package levels.worlds.fishing
          {
             if(interstitial != null)
             {
-               interstitial.removeEventListener(FullScreenContentEvent.SHOW,this.onInterstitialAdOpenedFishing);
-               interstitial.removeEventListener(FullScreenContentEvent.DISMISSED,this.onInterstitialAdClosedFishing);
+               interstitial.removeEventListener(FullScreenContentEvent.SHOW,this.openedHandler);
+               interstitial.removeEventListener(FullScreenContentEvent.DISMISSED,this.closedHandler);
             }
          }
          this.hudPanel.removeChild(this.fishingBarPanel);
@@ -1206,16 +1205,17 @@ package levels.worlds.fishing
          SoundSystem.PlaySound("fish_bite");
       }
       
-      internal function onInterstitialAdOpenedFishing(event:FullScreenContentEvent) : void
+      internal function openedHandler(event:FullScreenContentEvent) : void
       {
          SoundSystem.StopMusic(true,true);
          SoundSystem.Update();
       }
       
-      internal function onInterstitialAdClosedFishing(event:FullScreenContentEvent) : void
+      internal function closedHandler(event:FullScreenContentEvent) : void
       {
          this.preloadInterstitial();
          SoundSystem.PlayMusic(this.getMusicName(),-1,true,true);
       }
    }
 }
+

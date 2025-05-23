@@ -15,7 +15,6 @@ package minigames
    
    public class GachaponMinigame extends Minigame
    {
-       
       
       protected var backgroundContainer:Sprite;
       
@@ -369,3 +368,4 @@ package minigames
       }
    }
 }
+

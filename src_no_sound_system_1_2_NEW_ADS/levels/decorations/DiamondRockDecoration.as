@@ -5,7 +5,6 @@ package levels.decorations
    
    public class DiamondRockDecoration extends Decoration
    {
-       
       
       public function DiamondRockDecoration(_level:Level, _xPos:Number, _yPos:Number, _id:int)
       {
@@ -33,3 +32,4 @@ package levels.decorations
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class CrabEnemySprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -243,3 +242,4 @@ package sprites.enemies
       }
    }
 }
+

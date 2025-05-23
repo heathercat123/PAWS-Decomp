@@ -27,7 +27,6 @@ package states
       public static var LOAD_SECONDARY_TEXTURES_FLAG:Boolean = false;
       
       public static var interstitial:InterstitialAd = null;
-       
       
       protected var worldMap:WorldMap;
       
@@ -668,3 +667,4 @@ package states
       }
    }
 }
+

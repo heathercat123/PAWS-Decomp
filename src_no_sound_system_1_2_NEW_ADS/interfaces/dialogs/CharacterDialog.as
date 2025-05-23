@@ -7,7 +7,6 @@ package interfaces.dialogs
    
    public class CharacterDialog extends Dialog
    {
-       
       
       public function CharacterDialog(_level:Level, _xPos:Number, _yPos:Number, _text:String, _onComplete:Function = null, _delay:int = 0, _sprite:GameSprite = null, _isQuestionButton:Boolean = false, _time:int = -1, _price:int = -1)
       {
@@ -95,3 +94,4 @@ package interfaces.dialogs
       }
    }
 }
+

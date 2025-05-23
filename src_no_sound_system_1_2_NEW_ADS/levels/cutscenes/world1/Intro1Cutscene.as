@@ -21,7 +21,6 @@ package levels.cutscenes.world1
    
    public class Intro1Cutscene extends Cutscene
    {
-       
       
       protected var t_start:Number;
       
@@ -657,3 +656,4 @@ package levels.cutscenes.world1
       }
    }
 }
+

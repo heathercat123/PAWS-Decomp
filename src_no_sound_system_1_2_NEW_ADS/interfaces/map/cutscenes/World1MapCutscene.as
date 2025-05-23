@@ -12,7 +12,6 @@ package interfaces.map.cutscenes
    
    public class World1MapCutscene extends MapCutscene
    {
-       
       
       protected var buttonSprite:MapButtonAppearingParticleSprite;
       
@@ -1405,3 +1404,4 @@ package interfaces.map.cutscenes
       }
    }
 }
+

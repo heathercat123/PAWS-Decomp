@@ -7,7 +7,6 @@ package interfaces.panels
    
    public class LightSourceGacha extends Sprite
    {
-       
       
       public var xPos:Number;
       
@@ -185,3 +184,4 @@ package interfaces.panels
       }
    }
 }
+

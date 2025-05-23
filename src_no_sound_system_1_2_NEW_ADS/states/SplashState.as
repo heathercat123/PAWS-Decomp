@@ -27,7 +27,6 @@ package states
       protected static var AutenticateJustOnce:Boolean = false;
       
       protected static var SAVE_SESSION:Boolean = true;
-       
       
       public var GET_OUT_FLAG:Boolean;
       
@@ -808,3 +807,4 @@ package states
       }
    }
 }
+

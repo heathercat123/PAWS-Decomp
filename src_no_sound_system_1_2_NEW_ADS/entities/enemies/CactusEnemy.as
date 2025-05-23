@@ -9,7 +9,6 @@ package entities.enemies
    
    public class CactusEnemy extends Enemy
    {
-       
       
       protected var slide_y_pos:Number;
       
@@ -388,3 +387,4 @@ package entities.enemies
       }
    }
 }
+

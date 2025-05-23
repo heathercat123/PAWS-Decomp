@@ -2,10 +2,9 @@ package
 {
    import flash.media.Sound;
    
-   [Embed(source="/_assets/196_SoundPhone.mp3")]
+   [Embed(source="/_assets/189_SoundPhone.mp3")]
    public dynamic class SoundPhone extends Sound
    {
-       
       
       public function SoundPhone()
       {
@@ -13,3 +12,4 @@ package
       }
    }
 }
+

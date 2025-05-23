@@ -13,7 +13,6 @@ package entities.helpers
    
    public class CupidHelper extends Helper
    {
-       
       
       protected var MIN_DISTANCE:Number;
       
@@ -529,3 +528,4 @@ package entities.helpers
       }
    }
 }
+

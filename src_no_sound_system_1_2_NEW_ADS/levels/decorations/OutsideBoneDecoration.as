@@ -9,7 +9,6 @@ package levels.decorations
    
    public class OutsideBoneDecoration extends Decoration
    {
-       
       
       public var isBlown:Boolean;
       
@@ -113,3 +112,4 @@ package levels.decorations
       }
    }
 }
+

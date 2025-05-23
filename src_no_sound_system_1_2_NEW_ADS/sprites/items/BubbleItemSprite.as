@@ -5,7 +5,6 @@ package sprites.items
    
    public class BubbleItemSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -38,3 +37,4 @@ package sprites.items
       }
    }
 }
+

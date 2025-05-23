@@ -15,7 +15,6 @@ package interfaces.panels
    
    public class GameOverPanel extends Sprite
    {
-       
       
       public var level:Level;
       
@@ -433,3 +432,4 @@ package interfaces.panels
       }
    }
 }
+

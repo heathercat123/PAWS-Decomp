@@ -6,7 +6,6 @@ package levels.collisions
    
    public class RopeAreaCollision extends Collision
    {
-       
       
       public function RopeAreaCollision(_level:Level, _xPos:Number, _yPos:Number, _width:Number, _height:Number)
       {
@@ -38,3 +37,4 @@ package levels.collisions
       }
    }
 }
+

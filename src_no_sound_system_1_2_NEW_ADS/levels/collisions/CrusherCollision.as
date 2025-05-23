@@ -12,7 +12,6 @@ package levels.collisions
    
    public class CrusherCollision extends Collision
    {
-       
       
       protected var TYPE:int;
       
@@ -368,3 +367,4 @@ package levels.collisions
       }
    }
 }
+

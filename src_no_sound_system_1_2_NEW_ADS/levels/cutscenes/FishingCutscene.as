@@ -7,7 +7,6 @@ package levels.cutscenes
    
    public class FishingCutscene extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
@@ -139,3 +138,4 @@ package levels.cutscenes
       }
    }
 }
+

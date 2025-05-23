@@ -25,7 +25,6 @@ package game_utils
       public static var VENDING_MACHINE_CANDY:int = 7;
       
       public static var GACHAPON:int = 8;
-       
       
       public function CoinPrices()
       {
@@ -215,3 +214,4 @@ package game_utils
       }
    }
 }
+

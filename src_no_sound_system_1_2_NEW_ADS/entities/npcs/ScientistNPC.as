@@ -6,7 +6,6 @@ package entities.npcs
    
    public class ScientistNPC extends NPC
    {
-       
       
       public function ScientistNPC(_level:Level, _xPos:Number, _yPos:Number, _direction:int, _string_id:int = 0)
       {
@@ -81,3 +80,4 @@ package entities.npcs
       }
    }
 }
+

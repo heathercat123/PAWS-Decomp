@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class WallSoldierEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -96,3 +95,4 @@ package sprites.enemies
       }
    }
 }
+

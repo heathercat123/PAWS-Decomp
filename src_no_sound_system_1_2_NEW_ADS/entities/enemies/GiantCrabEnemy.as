@@ -12,7 +12,6 @@ package entities.enemies
    
    public class GiantCrabEnemy extends GiantEnemy
    {
-       
       
       protected var ORIGINAL_SIDE:int;
       
@@ -1003,3 +1002,4 @@ package entities.enemies
       }
    }
 }
+

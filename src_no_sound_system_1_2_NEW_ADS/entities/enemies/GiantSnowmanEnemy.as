@@ -16,7 +16,6 @@ package entities.enemies
    
    public class GiantSnowmanEnemy extends GiantEnemy
    {
-       
       
       protected var wait_time:int;
       
@@ -398,3 +397,4 @@ package entities.enemies
       }
    }
 }
+

@@ -12,7 +12,6 @@ package levels.cutscenes.world1
    
    public class ShopIntroCutscene extends Cutscene
    {
-       
       
       protected var darkCircleSprite:BigDarkCircleSprite;
       
@@ -281,3 +280,4 @@ package levels.cutscenes.world1
       }
    }
 }
+

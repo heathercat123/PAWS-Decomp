@@ -11,7 +11,6 @@ package levels.items
    
    public class KeyItem extends Item
    {
-       
       
       public var TYPE:int;
       
@@ -49,3 +48,4 @@ package levels.items
       }
    }
 }
+

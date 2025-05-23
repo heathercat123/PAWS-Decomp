@@ -9,7 +9,6 @@ package entities.enemies
    
    public class CrabEnemy extends Enemy
    {
-       
       
       protected var ORIGINAL_SIDE:int;
       
@@ -704,3 +703,4 @@ package entities.enemies
       }
    }
 }
+

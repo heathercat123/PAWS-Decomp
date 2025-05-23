@@ -5,7 +5,6 @@ package sprites.particles
    
    public class EnergyParticleSprite extends GameSprite
    {
-       
       
       protected var standAnim1:GameMovieClip;
       
@@ -50,3 +49,4 @@ package sprites.particles
       }
    }
 }
+

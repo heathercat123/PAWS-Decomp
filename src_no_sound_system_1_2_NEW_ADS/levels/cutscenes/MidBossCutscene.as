@@ -14,7 +14,6 @@ package levels.cutscenes
    
    public class MidBossCutscene extends Cutscene
    {
-       
       
       protected var cutscene_y_offset:Number;
       
@@ -452,3 +451,4 @@ package levels.cutscenes
       }
    }
 }
+

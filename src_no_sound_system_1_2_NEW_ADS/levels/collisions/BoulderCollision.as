@@ -8,7 +8,6 @@ package levels.collisions
    
    public class BoulderCollision extends Collision
    {
-       
       
       protected var IS_A:Boolean;
       
@@ -104,3 +103,4 @@ package levels.collisions
       }
    }
 }
+

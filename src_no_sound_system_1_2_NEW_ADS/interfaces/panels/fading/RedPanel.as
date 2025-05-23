@@ -17,7 +17,6 @@ package interfaces.panels.fading
       public static const FADE_OUT:String = "IS_FADE_OUT_STATE";
       
       public static const FADE_IN:String = "IS_FADE_IN_STATE";
-       
       
       public var SIDE:int;
       
@@ -241,3 +240,4 @@ package interfaces.panels.fading
       }
    }
 }
+

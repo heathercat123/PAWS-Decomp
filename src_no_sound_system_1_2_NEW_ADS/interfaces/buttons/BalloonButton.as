@@ -16,7 +16,6 @@ package interfaces.buttons
       public static var TYPE_CONTINUE:int = 2;
       
       public static var TYPE_DOUBLE_COINS:int = 3;
-       
       
       public var WIDTH:int;
       
@@ -208,3 +207,4 @@ package interfaces.buttons
       }
    }
 }
+

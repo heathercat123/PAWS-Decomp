@@ -5,7 +5,6 @@ package sprites.fishing
    
    public class LureSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -82,3 +81,4 @@ package sprites.fishing
       }
    }
 }
+

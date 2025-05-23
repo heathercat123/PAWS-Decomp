@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class SmallBrickCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -78,3 +77,4 @@ package sprites.collisions
       }
    }
 }
+

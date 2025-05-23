@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class SnowmanEnemySprite extends GameSprite
    {
-       
       
       protected var walkAnim:GameMovieClip;
       
@@ -173,3 +172,4 @@ package sprites.enemies
       }
    }
 }
+

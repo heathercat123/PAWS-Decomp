@@ -5,7 +5,6 @@ package sprites.decorations
    
    public class DandelionFlowerDecorationSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -51,3 +50,4 @@ package sprites.decorations
       }
    }
 }
+

@@ -12,7 +12,6 @@ package levels.collisions
    
    public class CemeterySkullCollision extends Collision
    {
-       
       
       protected var stateMachine:StateMachine;
       
@@ -262,3 +261,4 @@ package levels.collisions
       }
    }
 }
+

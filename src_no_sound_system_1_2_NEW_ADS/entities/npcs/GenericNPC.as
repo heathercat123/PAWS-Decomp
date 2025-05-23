@@ -84,7 +84,6 @@ package entities.npcs
       public static var NPC_MONKEY:int = 32;
       
       public static var NPC_ZOMBIE:int = 33;
-       
       
       public var NPC_TYPE:int;
       
@@ -581,3 +580,4 @@ package entities.npcs
       }
    }
 }
+

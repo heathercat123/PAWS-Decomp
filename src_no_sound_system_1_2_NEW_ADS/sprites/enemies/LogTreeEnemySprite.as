@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class LogTreeEnemySprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -119,3 +118,4 @@ package sprites.enemies
       }
    }
 }
+

@@ -11,7 +11,6 @@ package levels.decorations
    
    public class DandelionFlowerDecoration extends Decoration
    {
-       
       
       public var isBlown:Boolean;
       
@@ -138,3 +137,4 @@ package levels.decorations
       }
    }
 }
+

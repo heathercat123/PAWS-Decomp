@@ -7,7 +7,6 @@ package interfaces.panels
    
    public class SingleItemPanel extends Sprite
    {
-       
       
       protected var counter_1:int;
       
@@ -68,3 +67,4 @@ package interfaces.panels
       }
    }
 }
+

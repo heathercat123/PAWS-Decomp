@@ -15,7 +15,6 @@ package levels.collisions
       public static var TRUCK_TYPE_BLUE:int = 0;
       
       public static var TRUCK_TYPE_RED:int = 1;
-       
       
       public var DIRECTION:int;
       
@@ -549,3 +548,4 @@ package levels.collisions
       }
    }
 }
+

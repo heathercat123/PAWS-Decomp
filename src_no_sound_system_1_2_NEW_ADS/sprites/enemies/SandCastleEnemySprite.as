@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class SandCastleEnemySprite extends GameSprite
    {
-       
       
       protected var isArmed:Boolean;
       
@@ -167,3 +166,4 @@ package sprites.enemies
       }
    }
 }
+

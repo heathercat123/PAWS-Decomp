@@ -5,7 +5,6 @@ package entities
    import flash.geom.*;
    import flash.utils.getTimer;
    import game_utils.*;
-   import interfaces.panels.DoubleCoinsPanel;
    import levels.Level;
    import levels.cameras.ScreenCamera;
    import levels.collisions.*;
@@ -26,7 +25,6 @@ package entities
       public static var CAT_RIGS:int = 2;
       
       public static var CAT_MARA:int = 3;
-       
       
       public var climb_y_t:int;
       
@@ -1156,25 +1154,12 @@ package entities
                else
                {
                   ++counter1;
-                  if(counter1 == 50)
+                  if(counter1 != 50)
                   {
-                     if(Utils.Slot.gameVariables[GameSlot.VARIABLE_IS_PREMIUM] == 0 && Utils.Slot.gameVariables[GameSlot.VARIABLE_IS_PLAYPASS] == 0)
+                     if(counter1 == 60)
                      {
-                        if(Utils.PlayerCoins >= 1)
-                        {
-                           if(Utils.Slot.levelSeqUnlocked[2] == true)
-                           {
-                              if(DoubleCoinsPanel.IsRewardAdAvailable())
-                              {
-                                 Utils.DoubleCoinsOn = true;
-                              }
-                           }
-                        }
+                        level.won();
                      }
-                  }
-                  else if(counter1 == 60)
-                  {
-                     level.won();
                   }
                }
             }
@@ -2813,3 +2798,4 @@ package entities
       }
    }
 }
+

@@ -807,7 +807,6 @@
     <obj type="10" x="208" y="16" w="48" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="10" x="848" y="240" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="10" x="1024" y="240" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
-    <obj type="91" x="933" y="206" w="101" h="5" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="20" x="656" y="240" w="208" h="96" rot="1" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="13" x="1664" y="208" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="16" x="-8" y="240" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
@@ -892,9 +891,9 @@
     <obj type="3" x="144" y="32" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="3" x="128" y="32" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="0" x="488" y="208" w="2" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
-    <obj type="3" x="1120" y="192" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
-    <obj type="3" x="1136" y="192" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
-    <obj type="3" x="1128" y="176" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="928" y="208" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="944" y="208" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="936" y="192" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
   </items>
   <npcs/>
   <data>

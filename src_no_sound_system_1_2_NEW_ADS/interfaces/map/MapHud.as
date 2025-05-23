@@ -10,7 +10,6 @@ package interfaces.map
    
    public class MapHud
    {
-       
       
       public var worldMap:WorldMap;
       
@@ -218,3 +217,4 @@ package interfaces.map
       }
    }
 }
+

@@ -21,7 +21,6 @@ package sprites.particles
       public static var WATER_CANNON_IMPACT:int = 6;
       
       public static var BIG_EXPLOSION:int = 7;
-       
       
       public var TYPE:int;
       
@@ -114,3 +113,4 @@ package sprites.particles
       }
    }
 }
+

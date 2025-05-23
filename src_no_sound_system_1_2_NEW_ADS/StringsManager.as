@@ -5,6 +5,10 @@ package
    public class StringsManager
    {
       
+      public static var xml:XML;
+      
+      public static var dictionary:Dictionary;
+      
       public static const StringXML:Class = StringsManager_StringXML;
       
       public static const StringXML_it:Class = StringsManager_StringXML_it;
@@ -18,11 +22,6 @@ package
       public static const StringXML_pt:Class = StringsManager_StringXML_pt;
       
       public static const StringXML_ru:Class = StringsManager_StringXML_ru;
-      
-      public static var xml:XML;
-      
-      public static var dictionary:Dictionary;
-       
       
       public function StringsManager()
       {
@@ -96,3 +95,4 @@ package
       }
    }
 }
+

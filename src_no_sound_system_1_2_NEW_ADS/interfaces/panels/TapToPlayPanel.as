@@ -5,7 +5,6 @@ package interfaces.panels
    
    public class TapToPlayPanel extends Sprite
    {
-       
       
       protected var counter_1:int;
       
@@ -123,3 +122,4 @@ package interfaces.panels
       }
    }
 }
+

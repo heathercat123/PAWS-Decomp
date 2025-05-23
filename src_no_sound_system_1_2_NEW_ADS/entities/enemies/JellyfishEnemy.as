@@ -9,7 +9,6 @@ package entities.enemies
    
    public class JellyfishEnemy extends Enemy
    {
-       
       
       protected var IS_GOING_UP:Boolean;
       
@@ -303,3 +302,4 @@ package entities.enemies
       }
    }
 }
+

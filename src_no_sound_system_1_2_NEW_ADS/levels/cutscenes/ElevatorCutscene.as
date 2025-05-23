@@ -11,7 +11,6 @@ package levels.cutscenes
    
    public class ElevatorCutscene extends Cutscene
    {
-       
       
       protected var yellowPlatform:CutsceneYellowPlatformCollision;
       
@@ -183,3 +182,4 @@ package levels.cutscenes
       }
    }
 }
+

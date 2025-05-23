@@ -6,7 +6,6 @@ package levels.decorations
    
    public class VineDecoration extends Decoration
    {
-       
       
       public function VineDecoration(_level:Level, _xPos:Number, _yPos:Number, _isVer:int, _id:int, _flipped_hor:int, _flipped_ver:int)
       {
@@ -38,3 +37,4 @@ package levels.decorations
       }
    }
 }
+

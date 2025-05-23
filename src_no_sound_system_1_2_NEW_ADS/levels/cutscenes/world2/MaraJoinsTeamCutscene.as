@@ -12,7 +12,6 @@ package levels.cutscenes.world2
    
    public class MaraJoinsTeamCutscene extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
@@ -196,3 +195,4 @@ package levels.cutscenes.world2
       }
    }
 }
+

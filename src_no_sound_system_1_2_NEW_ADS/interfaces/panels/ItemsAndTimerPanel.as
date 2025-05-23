@@ -8,7 +8,6 @@ package interfaces.panels
    
    public class ItemsAndTimerPanel extends Sprite
    {
-       
       
       protected var bluePanel:BluePanel;
       
@@ -303,3 +302,4 @@ package interfaces.panels
       }
    }
 }
+

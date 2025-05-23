@@ -15,7 +15,6 @@ package levels.cutscenes.world1
    
    public class LizardIntroCutscene extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
@@ -354,3 +353,4 @@ package levels.cutscenes.world1
       }
    }
 }
+

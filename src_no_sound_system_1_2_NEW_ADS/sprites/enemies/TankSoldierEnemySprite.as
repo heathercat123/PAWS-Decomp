@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class TankSoldierEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -98,3 +97,4 @@ package sprites.enemies
       }
    }
 }
+

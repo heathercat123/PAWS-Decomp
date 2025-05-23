@@ -103,7 +103,6 @@ package game_utils
       public static var ACTION_FINISH_NORMAL_LEVEL_WITH_RIGS:int = 46;
       
       public static var QUESTS_AMOUNT:int = 56;
-       
       
       public function QuestsManager()
       {
@@ -461,3 +460,4 @@ package game_utils
       }
    }
 }
+

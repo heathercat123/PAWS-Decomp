@@ -14,7 +14,6 @@ package entities.npcs
    
    public class BlackDuckNPC extends NPC
    {
-       
       
       internal var freeCoinsImage:FreeCoinsBalloonSprite;
       
@@ -191,3 +190,4 @@ package entities.npcs
       }
    }
 }
+

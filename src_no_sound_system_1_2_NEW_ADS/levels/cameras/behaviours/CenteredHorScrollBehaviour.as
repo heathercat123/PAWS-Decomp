@@ -6,7 +6,6 @@ package levels.cameras.behaviours
    
    public class CenteredHorScrollBehaviour extends CameraBehaviour
    {
-       
       
       protected var x_shift:Number;
       
@@ -45,3 +44,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

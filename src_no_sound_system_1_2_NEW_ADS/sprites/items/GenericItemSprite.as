@@ -7,7 +7,6 @@ package sprites.items
    {
       
       public static var GENERIC_ITEM_EGG:int = 0;
-       
       
       public var INDEX:int;
       
@@ -46,3 +45,4 @@ package sprites.items
       }
    }
 }
+

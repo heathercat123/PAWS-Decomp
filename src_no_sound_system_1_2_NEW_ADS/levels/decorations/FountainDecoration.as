@@ -8,7 +8,6 @@ package levels.decorations
    
    public class FountainDecoration extends Decoration
    {
-       
       
       protected var sxSideImage:Image;
       
@@ -200,3 +199,4 @@ package levels.decorations
       }
    }
 }
+

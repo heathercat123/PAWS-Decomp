@@ -5,7 +5,6 @@ package sprites.tutorials
    
    public class TutorialSprite extends GameSprite
    {
-       
       
       protected var INDEX:int;
       
@@ -194,3 +193,4 @@ package sprites.tutorials
       }
    }
 }
+

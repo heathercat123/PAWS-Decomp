@@ -8,15 +8,14 @@ package interfaces.buttons
    
    public class BalloonTextButton extends Button
    {
-       
       
       public var WIDTH:int;
       
       public var HEIGHT:int;
       
-      protected var upTexture:RenderTexture;
+      protected var upTexture:RenderTexture = this.createUpTexture();
       
-      protected var downTexture:RenderTexture;
+      protected var downTexture:RenderTexture = this.createDownTexture();
       
       protected var buy_text:GameText;
       
@@ -24,8 +23,6 @@ package interfaces.buttons
       {
          this.WIDTH = _WIDTH;
          this.HEIGHT = _HEIGHT;
-         this.upTexture = this.createUpTexture();
-         this.downTexture = this.createDownTexture();
          super(this.upTexture,"",this.downTexture);
          this.buy_text = new GameText(_string,GameText.TYPE_SMALL_DARK);
          this.buy_text.pivotX = int(this.buy_text.WIDTH * 0.5);
@@ -144,3 +141,4 @@ package interfaces.buttons
       }
    }
 }
+

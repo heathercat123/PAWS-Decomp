@@ -8,7 +8,6 @@ package levels.collisions
    
    public class BigGateCollision extends Collision
    {
-       
       
       protected var topGateSprite:BigGateCollisionSprite;
       
@@ -181,3 +180,4 @@ package levels.collisions
       }
    }
 }
+

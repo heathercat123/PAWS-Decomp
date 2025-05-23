@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class GiantTinSoldierEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -114,3 +113,4 @@ package sprites.enemies
       }
    }
 }
+

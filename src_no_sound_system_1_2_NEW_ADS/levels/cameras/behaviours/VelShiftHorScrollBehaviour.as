@@ -6,7 +6,6 @@ package levels.cameras.behaviours
    
    public class VelShiftHorScrollBehaviour extends CameraBehaviour
    {
-       
       
       public var x_focal:Number;
       
@@ -90,3 +89,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

@@ -10,7 +10,6 @@ package entities.enemies
    
    public class CrowEnemy extends Enemy
    {
-       
       
       protected var param_2:Number;
       
@@ -287,3 +286,4 @@ package entities.enemies
       }
    }
 }
+

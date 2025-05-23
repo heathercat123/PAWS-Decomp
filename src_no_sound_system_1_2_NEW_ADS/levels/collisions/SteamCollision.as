@@ -8,7 +8,6 @@ package levels.collisions
    
    public class SteamCollision extends AirCollision
    {
-       
       
       protected var stateMachine:StateMachine;
       
@@ -157,3 +156,4 @@ package levels.collisions
       }
    }
 }
+

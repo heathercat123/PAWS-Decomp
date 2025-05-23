@@ -10,7 +10,6 @@ package entities.enemies
    
    public class GenieEnemy extends Enemy
    {
-       
       
       protected var TYPE:int;
       
@@ -428,3 +427,4 @@ package entities.enemies
       }
    }
 }
+

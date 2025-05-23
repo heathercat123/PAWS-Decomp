@@ -20,7 +20,6 @@ package levels.cutscenes.world2
    
    public class FishBossCutscene extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
@@ -509,3 +508,4 @@ package levels.cutscenes.world2
       }
    }
 }
+

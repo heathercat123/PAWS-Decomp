@@ -9,7 +9,6 @@ package levels.decorations
    
    public class SandCastleDecoration extends Decoration
    {
-       
       
       public var isBlown:Boolean;
       
@@ -97,3 +96,4 @@ package levels.decorations
       }
    }
 }
+

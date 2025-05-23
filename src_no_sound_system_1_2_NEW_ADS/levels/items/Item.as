@@ -12,7 +12,6 @@ package levels.items
    
    public class Item extends Entity
    {
-       
       
       public var index:int;
       
@@ -480,3 +479,4 @@ package levels.items
       }
    }
 }
+

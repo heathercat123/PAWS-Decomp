@@ -5,7 +5,6 @@ package sprites.particles
    
    public class ImpactParticleSprite extends GameSprite
    {
-       
       
       protected var doNotFreeze:Boolean;
       
@@ -66,3 +65,4 @@ package sprites.particles
       }
    }
 }
+

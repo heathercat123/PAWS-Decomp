@@ -5,7 +5,6 @@ package interfaces.map.decorations
    
    public class Decoration
    {
-       
       
       public function Decoration(_worldMap:WorldMap)
       {
@@ -25,3 +24,4 @@ package interfaces.map.decorations
       }
    }
 }
+

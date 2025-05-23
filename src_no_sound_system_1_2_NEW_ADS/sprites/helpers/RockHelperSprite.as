@@ -5,7 +5,6 @@ package sprites.helpers
    
    public class RockHelperSprite extends GameSprite
    {
-       
       
       protected var LEVEL:int;
       
@@ -121,3 +120,4 @@ package sprites.helpers
       }
    }
 }
+

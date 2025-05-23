@@ -11,7 +11,6 @@ package interfaces.panels
    
    public class FishInfoPanel extends Sprite
    {
-       
       
       protected var bluePanel:BluePanel;
       
@@ -422,3 +421,4 @@ package interfaces.panels
       }
    }
 }
+

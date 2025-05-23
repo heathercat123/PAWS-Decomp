@@ -14,7 +14,6 @@ package levels.backgrounds
    
    public class MenuBackground
    {
-       
       
       public var INTRO_OVER:Boolean;
       
@@ -480,3 +479,4 @@ package levels.backgrounds
       }
    }
 }
+

@@ -6,7 +6,6 @@ package levels.scripts
    
    public class CollisionsScriptsManager
    {
-       
       
       public function CollisionsScriptsManager()
       {
@@ -49,3 +48,4 @@ package levels.scripts
       }
    }
 }
+

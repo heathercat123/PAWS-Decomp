@@ -12,7 +12,6 @@ package entities.helpers
    
    public class Helper extends Entity
    {
-       
       
       protected var OLD_LEVEL:int;
       
@@ -394,3 +393,4 @@ package entities.helpers
       }
    }
 }
+

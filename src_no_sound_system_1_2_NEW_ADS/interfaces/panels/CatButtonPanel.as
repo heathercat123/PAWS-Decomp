@@ -7,7 +7,6 @@ package interfaces.panels
    
    public class CatButtonPanel extends Sprite
    {
-       
       
       public var slotButton:Button;
       
@@ -97,3 +96,4 @@ package interfaces.panels
       }
    }
 }
+

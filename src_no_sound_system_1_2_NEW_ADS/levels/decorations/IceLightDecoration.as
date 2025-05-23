@@ -5,7 +5,6 @@ package levels.decorations
    
    public class IceLightDecoration extends Decoration
    {
-       
       
       protected var sinCounter1:Number;
       
@@ -59,3 +58,4 @@ package levels.decorations
       }
    }
 }
+

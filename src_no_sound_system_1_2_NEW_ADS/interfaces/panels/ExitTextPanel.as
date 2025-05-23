@@ -8,7 +8,6 @@ package interfaces.panels
    
    public class ExitTextPanel extends Sprite
    {
-       
       
       protected var bluePanel:BluePanel;
       
@@ -130,3 +129,4 @@ package interfaces.panels
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.background
    
    public class ThunderBackgroundParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -44,3 +43,4 @@ package sprites.background
       }
    }
 }
+

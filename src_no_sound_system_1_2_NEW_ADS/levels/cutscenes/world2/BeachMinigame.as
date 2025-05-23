@@ -14,7 +14,6 @@ package levels.cutscenes.world2
    
    public class BeachMinigame extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
@@ -246,3 +245,4 @@ package levels.cutscenes.world2
       }
    }
 }
+

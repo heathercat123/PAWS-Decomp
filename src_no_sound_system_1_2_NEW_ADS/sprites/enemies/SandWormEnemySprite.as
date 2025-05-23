@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class SandWormEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -132,3 +131,4 @@ package sprites.enemies
       }
    }
 }
+

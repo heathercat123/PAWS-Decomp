@@ -5,7 +5,6 @@ package levels.collisions
    
    public class FooCollisionAreaCollision extends Collision
    {
-       
       
       public function FooCollisionAreaCollision(_level:Level, _xPos:Number, _yPos:Number, _width:Number, _height:Number)
       {
@@ -16,3 +15,4 @@ package levels.collisions
       }
    }
 }
+

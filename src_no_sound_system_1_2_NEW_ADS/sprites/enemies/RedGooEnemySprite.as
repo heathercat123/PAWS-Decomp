@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class RedGooEnemySprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -188,3 +187,4 @@ package sprites.enemies
       }
    }
 }
+

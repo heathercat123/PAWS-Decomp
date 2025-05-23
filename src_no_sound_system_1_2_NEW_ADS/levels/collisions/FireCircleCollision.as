@@ -9,7 +9,6 @@ package levels.collisions
    
    public class FireCircleCollision extends Collision
    {
-       
       
       protected var TYPE:int;
       
@@ -285,3 +284,4 @@ package levels.collisions
       }
    }
 }
+

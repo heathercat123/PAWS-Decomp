@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class FirePlantEnemySprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -240,3 +239,4 @@ package sprites.enemies
       }
    }
 }
+

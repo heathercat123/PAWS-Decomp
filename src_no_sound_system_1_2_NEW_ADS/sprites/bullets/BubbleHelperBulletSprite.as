@@ -5,7 +5,6 @@ package sprites.bullets
    
    public class BubbleHelperBulletSprite extends GameSprite
    {
-       
       
       protected var LEVEL:int;
       
@@ -45,3 +44,4 @@ package sprites.bullets
       }
    }
 }
+

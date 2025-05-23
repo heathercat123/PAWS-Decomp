@@ -5,7 +5,6 @@ package sprites.background
    
    public class WaterfallBackgroundSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -49,3 +48,4 @@ package sprites.background
       }
    }
 }
+

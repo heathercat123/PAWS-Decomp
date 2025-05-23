@@ -9,7 +9,6 @@ package interfaces.panels.intro
    
    public class IntroScene1Panel extends Sprite
    {
-       
       
       protected var sky:Image;
       
@@ -325,3 +324,4 @@ package interfaces.panels.intro
       }
    }
 }
+

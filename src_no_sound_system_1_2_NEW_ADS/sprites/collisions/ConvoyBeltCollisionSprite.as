@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class ConvoyBeltCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation1:GameMovieClip;
       
@@ -60,3 +59,4 @@ package sprites.collisions
       }
    }
 }
+

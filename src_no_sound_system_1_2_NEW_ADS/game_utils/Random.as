@@ -4,7 +4,6 @@ package game_utils
    
    public class Random
    {
-       
       
       private var _inext:int;
       
@@ -159,3 +158,4 @@ package game_utils
       }
    }
 }
+

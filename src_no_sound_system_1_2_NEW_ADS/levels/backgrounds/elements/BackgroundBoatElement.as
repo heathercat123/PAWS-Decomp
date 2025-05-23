@@ -5,7 +5,6 @@ package levels.backgrounds.elements
    
    public class BackgroundBoatElement extends BackgroundElement
    {
-       
       
       protected var counter1:int;
       
@@ -35,3 +34,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

@@ -5,7 +5,6 @@ package interfaces.panels
    
    public class TextPanel extends Sprite
    {
-       
       
       public var WIDTH:int;
       
@@ -77,3 +76,4 @@ package interfaces.panels
       }
    }
 }
+

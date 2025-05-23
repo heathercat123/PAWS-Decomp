@@ -7,17 +7,16 @@ package interfaces.buttons
    
    public class GameButton extends Button
    {
-       
       
       public var WIDTH:int;
       
       public var HEIGHT:int;
       
-      protected var upTexture:RenderTexture;
+      protected var upTexture:RenderTexture = null;
       
-      protected var downTexture:RenderTexture;
+      protected var downTexture:RenderTexture = null;
       
-      protected var REDRAW_FLAG:Boolean;
+      protected var REDRAW_FLAG:Boolean = false;
       
       protected var icon_name:String;
       
@@ -25,9 +24,6 @@ package interfaces.buttons
       {
          this.WIDTH = _WIDTH;
          this.HEIGHT = _HEIGHT;
-         this.REDRAW_FLAG = false;
-         this.upTexture = null;
-         this.downTexture = null;
          this.icon_name = new String("" + _icon);
          this.createUpTexture(_icon);
          this.createDownTexture(_icon);
@@ -189,3 +185,4 @@ package interfaces.buttons
       }
    }
 }
+

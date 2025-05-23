@@ -14,7 +14,6 @@ package levels.collisions
    {
       
       public static var FLOATING_LOG_PLATFORM_COLLISION_ID:int = 40000;
-       
       
       protected var bodySprite:GameSprite;
       
@@ -362,3 +361,4 @@ package levels.collisions
       }
    }
 }
+

@@ -7,7 +7,6 @@ package sprites.decorations
    
    public class GenericDecorationSprite extends GameSprite
    {
-       
       
       protected var INDEX:int;
       
@@ -1050,3 +1049,4 @@ package sprites.decorations
       }
    }
 }
+

@@ -9,7 +9,6 @@ package interfaces.panels
    
    public class InventoryNotificationPanel extends Sprite
    {
-       
       
       protected var bluePanel:BluePanel;
       
@@ -277,3 +276,4 @@ package interfaces.panels
       }
    }
 }
+

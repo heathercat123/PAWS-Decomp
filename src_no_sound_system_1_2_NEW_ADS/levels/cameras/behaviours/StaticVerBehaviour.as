@@ -5,7 +5,6 @@ package levels.cameras.behaviours
    
    public class StaticVerBehaviour extends CameraBehaviour
    {
-       
       
       public var yLockCoordinate:Number;
       
@@ -30,3 +29,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

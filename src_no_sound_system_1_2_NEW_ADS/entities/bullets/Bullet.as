@@ -16,7 +16,6 @@ package entities.bullets
    
    public class Bullet extends Entity
    {
-       
       
       protected var foo1:Number;
       
@@ -1988,3 +1987,4 @@ package entities.bullets
       }
    }
 }
+

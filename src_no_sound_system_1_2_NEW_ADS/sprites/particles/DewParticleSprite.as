@@ -5,7 +5,6 @@ package sprites.particles
    
    public class DewParticleSprite extends GameSprite
    {
-       
       
       public var ID:int;
       
@@ -46,3 +45,4 @@ package sprites.particles
       }
    }
 }
+

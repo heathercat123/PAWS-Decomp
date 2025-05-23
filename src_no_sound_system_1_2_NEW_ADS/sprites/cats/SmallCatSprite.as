@@ -6,7 +6,6 @@ package sprites.cats
    
    public class SmallCatSprite extends CatSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -569,3 +568,4 @@ package sprites.cats
       }
    }
 }
+

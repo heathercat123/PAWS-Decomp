@@ -12,7 +12,6 @@ package entities.fishing
    {
       
       protected static var fishData:Vector.<FishData> = null;
-       
       
       public var level:Level;
       
@@ -395,3 +394,4 @@ package entities.fishing
       }
    }
 }
+

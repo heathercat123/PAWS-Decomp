@@ -6,7 +6,6 @@ package levels.backgrounds
    
    public class IcyCaveBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -40,3 +39,4 @@ package levels.backgrounds
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.particles
    
    public class SplashBigLavaParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -45,3 +44,4 @@ package sprites.particles
       }
    }
 }
+

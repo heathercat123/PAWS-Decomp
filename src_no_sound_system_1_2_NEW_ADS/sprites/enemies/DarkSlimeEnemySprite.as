@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class DarkSlimeEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -131,3 +130,4 @@ package sprites.enemies
       }
    }
 }
+

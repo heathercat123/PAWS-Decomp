@@ -17,7 +17,6 @@ package interfaces.panels
    
    public class RateTextPanel extends Sprite
    {
-       
       
       protected var bluePanel:BluePanel;
       
@@ -250,3 +249,4 @@ package interfaces.panels
       }
    }
 }
+

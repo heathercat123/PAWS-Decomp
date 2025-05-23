@@ -10,7 +10,6 @@ package levels.decorations
    
    public class AshFlowerDecoration extends Decoration
    {
-       
       
       public var isBlown:Boolean;
       
@@ -106,3 +105,4 @@ package levels.decorations
       }
    }
 }
+

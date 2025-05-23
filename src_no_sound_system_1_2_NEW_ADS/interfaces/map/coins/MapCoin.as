@@ -9,7 +9,6 @@ package interfaces.map.coins
    
    public class MapCoin
    {
-       
       
       public var worldMap:WorldMap;
       
@@ -93,3 +92,4 @@ package interfaces.map.coins
       }
    }
 }
+

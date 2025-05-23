@@ -13,7 +13,6 @@ package interfaces.panels
    
    public class SettingsSubPanel extends Sprite
    {
-       
       
       public var TYPE:int;
       
@@ -403,3 +402,4 @@ package interfaces.panels
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.particles
    
    public class StreamBubbleParticleSprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -46,3 +45,4 @@ package sprites.particles
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.hud
    
    public class ArrowHudSprite extends GameSprite
    {
-       
       
       protected var anim1:GameMovieClip;
       
@@ -36,3 +35,4 @@ package sprites.hud
       }
    }
 }
+

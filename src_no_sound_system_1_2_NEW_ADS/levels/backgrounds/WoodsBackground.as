@@ -6,7 +6,6 @@ package levels.backgrounds
    
    public class WoodsBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -45,3 +44,4 @@ package levels.backgrounds
       }
    }
 }
+

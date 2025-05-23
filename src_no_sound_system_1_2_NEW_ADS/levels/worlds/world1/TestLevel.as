@@ -7,7 +7,6 @@ package levels.worlds.world1
    
    public class TestLevel extends Level
    {
-       
       
       protected var scroll_counter:Number = 0;
       
@@ -32,3 +31,4 @@ package levels.worlds.world1
       }
    }
 }
+

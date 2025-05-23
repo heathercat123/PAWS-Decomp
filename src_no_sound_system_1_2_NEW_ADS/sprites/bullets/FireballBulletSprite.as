@@ -5,7 +5,6 @@ package sprites.bullets
    
    public class FireballBulletSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -45,3 +44,4 @@ package sprites.bullets
       }
    }
 }
+

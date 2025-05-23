@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class MonkeyRedEnemySprite extends GameSprite
    {
-       
       
       protected var floatAnim:GameMovieClip;
       
@@ -74,3 +73,4 @@ package sprites.enemies
       }
    }
 }
+

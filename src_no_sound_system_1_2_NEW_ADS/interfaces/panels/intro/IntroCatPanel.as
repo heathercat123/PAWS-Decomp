@@ -8,7 +8,6 @@ package interfaces.panels.intro
    
    public class IntroCatPanel extends Sprite
    {
-       
       
       protected var INDEX:int;
       
@@ -273,3 +272,4 @@ package interfaces.panels.intro
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.items
    
    public class ButterflyItemSprite extends GameSprite
    {
-       
       
       protected var butterfly1:GameMovieClip;
       
@@ -113,3 +112,4 @@ package sprites.items
       }
    }
 }
+

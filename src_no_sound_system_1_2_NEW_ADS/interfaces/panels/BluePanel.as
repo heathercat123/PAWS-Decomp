@@ -11,7 +11,6 @@ package interfaces.panels
       public static var TYPE_B:int = 2;
       
       public static var TYPE_C:int = 3;
-       
       
       public var type:int;
       
@@ -216,3 +215,4 @@ package interfaces.panels
       }
    }
 }
+

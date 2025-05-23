@@ -9,15 +9,14 @@ package interfaces.buttons
    
    public class BuyButton extends Button
    {
-       
       
       public var WIDTH:int;
       
       public var HEIGHT:int;
       
-      protected var upTexture:RenderTexture;
+      protected var upTexture:RenderTexture = null;
       
-      protected var downTexture:RenderTexture;
+      protected var downTexture:RenderTexture = null;
       
       protected var purchaseMarkImage:Image;
       
@@ -25,16 +24,13 @@ package interfaces.buttons
       
       protected var IS_PREMIUM:Boolean;
       
-      protected var REDRAW_FLAG:Boolean;
+      protected var REDRAW_FLAG:Boolean = false;
       
       public function BuyButton(_WIDTH:Number, _HEIGHT:Number, _isRestore:Boolean = false, _isUpgrade:Boolean = false, _isPremium:Boolean = false)
       {
          this.WIDTH = _WIDTH;
          this.HEIGHT = _HEIGHT;
-         this.REDRAW_FLAG = false;
          this.IS_PREMIUM = _isPremium;
-         this.upTexture = null;
-         this.downTexture = null;
          this.createUpTexture();
          this.createDownTexture();
          super(this.upTexture,"",this.downTexture);
@@ -276,3 +272,4 @@ package interfaces.buttons
       }
    }
 }
+

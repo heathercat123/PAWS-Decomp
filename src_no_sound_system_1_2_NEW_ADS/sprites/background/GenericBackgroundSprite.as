@@ -6,7 +6,6 @@ package sprites.background
    
    public class GenericBackgroundSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -65,3 +64,4 @@ package sprites.background
       }
    }
 }
+

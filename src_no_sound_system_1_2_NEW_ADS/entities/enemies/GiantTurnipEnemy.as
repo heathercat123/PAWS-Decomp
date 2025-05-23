@@ -13,7 +13,6 @@ package entities.enemies
    
    public class GiantTurnipEnemy extends GiantEnemy
    {
-       
       
       protected var wait_time:int;
       
@@ -302,3 +301,4 @@ package entities.enemies
       }
    }
 }
+

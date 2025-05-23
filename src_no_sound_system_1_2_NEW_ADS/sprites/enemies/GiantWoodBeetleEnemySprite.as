@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class GiantWoodBeetleEnemySprite extends GameSprite
    {
-       
       
       protected var walkAnim:GameMovieClip;
       
@@ -112,3 +111,4 @@ package sprites.enemies
       }
    }
 }
+

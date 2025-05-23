@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class TravelerEnemySprite extends GameSprite
    {
-       
       
       protected var index:int;
       
@@ -344,3 +343,4 @@ package sprites.enemies
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class SandfallWaveCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation1:GameMovieClip;
       
@@ -39,3 +38,4 @@ package sprites.collisions
       }
    }
 }
+

@@ -8,7 +8,6 @@ package entities
    
    public class Lure extends Entity
    {
-       
       
       protected var IS_REELING:Boolean;
       
@@ -182,3 +181,4 @@ package entities
       }
    }
 }
+

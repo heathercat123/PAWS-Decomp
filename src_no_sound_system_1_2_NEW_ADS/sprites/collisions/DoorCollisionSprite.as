@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class DoorCollisionSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -131,3 +130,4 @@ package sprites.collisions
       }
    }
 }
+

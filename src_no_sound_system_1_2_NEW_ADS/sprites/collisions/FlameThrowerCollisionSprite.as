@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class FlameThrowerCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -53,3 +52,4 @@ package sprites.collisions
       }
    }
 }
+

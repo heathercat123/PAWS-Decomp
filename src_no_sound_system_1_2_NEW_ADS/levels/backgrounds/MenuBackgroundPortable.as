@@ -4,7 +4,6 @@ package levels.backgrounds
    
    public class MenuBackgroundPortable extends Sprite
    {
-       
       
       protected var backgroundContainer:Sprite;
       
@@ -37,3 +36,4 @@ package levels.backgrounds
       }
    }
 }
+

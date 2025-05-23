@@ -16,7 +16,6 @@ package interfaces.panels.shop
    {
       
       public static var SHOP_BUY_PANEL_PURCHASE_REQUEST:Boolean = false;
-       
       
       protected var bluePanel:BluePanel;
       
@@ -629,3 +628,4 @@ package interfaces.panels.shop
       }
    }
 }
+

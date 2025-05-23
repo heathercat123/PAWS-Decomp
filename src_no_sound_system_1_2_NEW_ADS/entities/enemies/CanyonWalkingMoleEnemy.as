@@ -10,7 +10,6 @@ package entities.enemies
    
    public class CanyonWalkingMoleEnemy extends Enemy
    {
-       
       
       protected var wait_time:int;
       
@@ -360,3 +359,4 @@ package entities.enemies
       }
    }
 }
+

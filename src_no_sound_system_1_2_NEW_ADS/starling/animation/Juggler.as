@@ -282,7 +282,8 @@ package starling.animation
          *  </pre> 
          *
          *  <p>To cancel the tween, call 'Juggler.removeTweens' with the same target, or pass
-         *  the returned ID to 'Juggler.removeByID()'.</p>
+         *  the returned 'IAnimatable' instance to 'Juggler.remove()'. Do not use the returned
+         *  IAnimatable otherwise; it is taken from a pool and will be reused.</p>
          *
          *  <p>Note that some property types may be animated in a special way:</p>
          *  <ul>
@@ -330,11 +331,10 @@ package starling.animation
             var currentIndex:int = 0;
             var i:int;
 
-            _elapsedTime += time;
             time *= _timeScale;
-
             if (numObjects == 0 || time == 0) return;
-
+            _elapsedTime += time;
+            
             // there is a high probability that the "advanceTime" function modifies the list 
             // of animatables. we must not process new objects right now (they will be processed
             // in the next frame), and we need to clean up any empty slots in the list.

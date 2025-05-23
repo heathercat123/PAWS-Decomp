@@ -7,7 +7,6 @@ package levels.decorations
    
    public class CupboardDecoration extends Decoration
    {
-       
       
       public var ID:int;
       
@@ -113,3 +112,4 @@ package levels.decorations
       }
    }
 }
+

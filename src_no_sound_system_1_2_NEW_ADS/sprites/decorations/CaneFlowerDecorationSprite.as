@@ -5,7 +5,6 @@ package sprites.decorations
    
    public class CaneFlowerDecorationSprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -69,3 +68,4 @@ package sprites.decorations
       }
    }
 }
+

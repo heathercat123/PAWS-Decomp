@@ -83,7 +83,6 @@ package levels.backgrounds
       public static const CANYON_SCROLLING:int = 37;
       
       public static const TURNIP_GARDEN_WITH_CLOUDS_POLLEN:int = 38;
-       
       
       public var level:Level;
       
@@ -275,3 +274,4 @@ package levels.backgrounds
       }
    }
 }
+

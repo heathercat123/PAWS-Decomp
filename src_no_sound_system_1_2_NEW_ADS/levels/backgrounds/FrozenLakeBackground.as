@@ -11,7 +11,6 @@ package levels.backgrounds
    
    public class FrozenLakeBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -139,3 +138,4 @@ package levels.backgrounds
       }
    }
 }
+

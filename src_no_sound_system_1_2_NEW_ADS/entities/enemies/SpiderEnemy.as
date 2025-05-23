@@ -11,7 +11,6 @@ package entities.enemies
    
    public class SpiderEnemy extends Enemy
    {
-       
       
       protected var spider_web_base:Image;
       
@@ -374,3 +373,4 @@ package entities.enemies
       }
    }
 }
+

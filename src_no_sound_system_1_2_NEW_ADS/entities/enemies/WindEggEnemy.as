@@ -9,7 +9,6 @@ package entities.enemies
    
    public class WindEggEnemy extends Enemy
    {
-       
       
       protected var slide_y_pos:Number;
       
@@ -409,3 +408,4 @@ package entities.enemies
       }
    }
 }
+

@@ -7,7 +7,6 @@ package levels.decorations
    
    public class HoneyDecoration extends Decoration
    {
-       
       
       public var stateMachine:StateMachine;
       
@@ -110,3 +109,4 @@ package levels.decorations
       }
    }
 }
+

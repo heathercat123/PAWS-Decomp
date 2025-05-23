@@ -5,7 +5,6 @@ package sprites.particles
    
    public class FireBallBulletParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -38,3 +37,4 @@ package sprites.particles
       }
    }
 }
+

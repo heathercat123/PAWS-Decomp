@@ -6,7 +6,6 @@ package interfaces.panels
    
    public class LightSource extends Sprite
    {
-       
       
       public var xPos:Number;
       
@@ -96,3 +95,4 @@ package interfaces.panels
       }
    }
 }
+

@@ -15,7 +15,6 @@ package entities.enemies
    
    public class Enemy extends Entity
    {
-       
       
       protected var tick_counter:Number;
       
@@ -673,3 +672,4 @@ package entities.enemies
       }
    }
 }
+

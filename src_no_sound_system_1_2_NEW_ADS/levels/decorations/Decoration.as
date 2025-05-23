@@ -7,7 +7,6 @@ package levels.decorations
    
    public class Decoration
    {
-       
       
       public var level:Level;
       
@@ -91,3 +90,4 @@ package levels.decorations
       }
    }
 }
+

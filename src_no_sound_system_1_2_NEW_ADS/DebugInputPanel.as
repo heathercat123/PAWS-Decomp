@@ -11,8 +11,6 @@ package
    public class DebugInputPanel extends Sprite
    {
       
-      private static var _instance:DebugInputPanel = null;
-      
       private static var _tf1:TextField;
       
       private static var _tf2:TextField;
@@ -45,8 +43,6 @@ package
       
       private static var _df4:TextField;
       
-      private static var cursor_selector:int = 0;
-      
       private static var cursor1:Sprite;
       
       private static var cursor2:Sprite;
@@ -62,6 +58,10 @@ package
       private static var cXPos3:Number;
       
       private static var cXPos4:Number;
+      
+      private static var _instance:DebugInputPanel = null;
+      
+      private static var cursor_selector:int = 0;
       
       private static var cursor1Value:Number = 0;
       
@@ -86,7 +86,6 @@ package
       private static var multValue3:Number = 3;
       
       private static var multValue4:Number = 4;
-       
       
       private var bitmap:Bitmap;
       
@@ -613,3 +612,4 @@ package
       }
    }
 }
+

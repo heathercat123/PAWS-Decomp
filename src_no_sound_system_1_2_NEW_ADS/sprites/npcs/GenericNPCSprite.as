@@ -6,7 +6,6 @@ package sprites.npcs
    
    public class GenericNPCSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -527,3 +526,4 @@ package sprites.npcs
       }
    }
 }
+

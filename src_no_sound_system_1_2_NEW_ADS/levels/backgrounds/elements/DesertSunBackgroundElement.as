@@ -8,7 +8,6 @@ package levels.backgrounds.elements
    
    public class DesertSunBackgroundElement extends BackgroundElement
    {
-       
       
       protected var TYPE:int;
       
@@ -164,3 +163,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

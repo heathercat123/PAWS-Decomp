@@ -6,7 +6,6 @@ package sprites.fishing
    
    public class FishSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -351,3 +350,4 @@ package sprites.fishing
       }
    }
 }
+

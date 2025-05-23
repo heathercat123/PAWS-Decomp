@@ -7,7 +7,6 @@ package levels.decorations
    
    public class MugDecoration extends Decoration
    {
-       
       
       public var isBlown:Boolean;
       
@@ -74,3 +73,4 @@ package levels.decorations
       }
    }
 }
+

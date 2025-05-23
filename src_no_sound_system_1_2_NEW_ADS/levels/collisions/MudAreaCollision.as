@@ -8,7 +8,6 @@ package levels.collisions
    
    public class MudAreaCollision extends Collision
    {
-       
       
       public var entity:Entity;
       
@@ -107,3 +106,4 @@ package levels.collisions
       }
    }
 }
+

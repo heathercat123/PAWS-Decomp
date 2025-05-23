@@ -5,7 +5,6 @@ package levels.decorations
    
    public class SeaLightDecoration extends Decoration
    {
-       
       
       protected var sinCounter1:Number;
       
@@ -38,3 +37,4 @@ package levels.decorations
       }
    }
 }
+

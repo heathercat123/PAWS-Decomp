@@ -12,7 +12,6 @@ package interfaces.map.particles
    
    public class MapParticlesManager
    {
-       
       
       public var particles:Array;
       
@@ -204,3 +203,4 @@ package interfaces.map.particles
       }
    }
 }
+

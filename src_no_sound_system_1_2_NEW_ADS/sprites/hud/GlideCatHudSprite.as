@@ -5,7 +5,6 @@ package sprites.hud
    
    public class GlideCatHudSprite extends GameSprite
    {
-       
       
       protected var anim1:GameMovieClip;
       
@@ -66,3 +65,4 @@ package sprites.hud
       }
    }
 }
+

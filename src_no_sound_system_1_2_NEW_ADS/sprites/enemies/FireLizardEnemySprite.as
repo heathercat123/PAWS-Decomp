@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class FireLizardEnemySprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -172,3 +171,4 @@ package sprites.enemies
       }
    }
 }
+

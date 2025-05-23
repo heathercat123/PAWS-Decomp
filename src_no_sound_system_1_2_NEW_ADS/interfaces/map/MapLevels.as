@@ -14,7 +14,6 @@ package interfaces.map
    
    public class MapLevels
    {
-       
       
       public var worldMap:WorldMap;
       
@@ -401,3 +400,4 @@ package interfaces.map
       }
    }
 }
+

@@ -8,7 +8,6 @@ package entities
    
    public class SmallCatHero extends Hero
    {
-       
       
       protected var walk_hole_counter1:int;
       
@@ -174,3 +173,4 @@ package entities
       }
    }
 }
+

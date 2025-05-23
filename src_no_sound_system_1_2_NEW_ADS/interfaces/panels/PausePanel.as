@@ -12,7 +12,6 @@ package interfaces.panels
    
    public class PausePanel extends Sprite
    {
-       
       
       public var GET_OUT_FLAG:Boolean;
       
@@ -514,3 +513,4 @@ package interfaces.panels
       }
    }
 }
+

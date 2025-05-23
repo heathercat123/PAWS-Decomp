@@ -10,7 +10,6 @@ package interfaces.panels
    
    public class DialogPanel extends Sprite
    {
-       
       
       protected var backgroundQuad:Image;
       
@@ -100,3 +99,4 @@ package interfaces.panels
       }
    }
 }
+

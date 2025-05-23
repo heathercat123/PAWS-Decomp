@@ -19,7 +19,6 @@ package entities.npcs
       public static var BOSS_FISH:int = 2;
       
       public static var BOSS_LACE:int = 3;
-       
       
       public var SPEED:Number;
       
@@ -186,3 +185,4 @@ package entities.npcs
       }
    }
 }
+

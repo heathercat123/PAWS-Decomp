@@ -2,7 +2,6 @@ package neutronized
 {
    public class NeutronizedAdConfigXML
    {
-       
       
       public var enabledAdConfig:Boolean;
       
@@ -43,3 +42,4 @@ package neutronized
       }
    }
 }
+

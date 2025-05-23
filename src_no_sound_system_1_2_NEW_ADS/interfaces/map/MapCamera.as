@@ -8,7 +8,6 @@ package interfaces.map
    
    public class MapCamera
    {
-       
       
       public var worldMap:WorldMap;
       
@@ -253,3 +252,4 @@ package interfaces.map
       }
    }
 }
+

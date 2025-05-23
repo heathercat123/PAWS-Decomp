@@ -8,7 +8,6 @@ package levels.cutscenes
    
    public class QuestionMarkCutscene extends Cutscene
    {
-       
       
       protected var original_xPos:Number;
       
@@ -217,3 +216,4 @@ package levels.cutscenes
       }
    }
 }
+

@@ -298,7 +298,6 @@
     <obj type="33" x="560" y="144" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="33" x="1360" y="176" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="34" x="1392" y="192" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
-    <obj type="91" x="853" y="174" w="101" h="8" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="0" x="672" y="192" w="160" h="80" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="0" x="0" y="192" w="224" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="4" x="160" y="112" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>

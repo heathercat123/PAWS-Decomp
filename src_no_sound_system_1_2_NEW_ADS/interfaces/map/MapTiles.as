@@ -7,7 +7,6 @@ package interfaces.map
    
    public class MapTiles
    {
-       
       
       public var worldMap:WorldMap;
       
@@ -1027,3 +1026,4 @@ package interfaces.map
       }
    }
 }
+

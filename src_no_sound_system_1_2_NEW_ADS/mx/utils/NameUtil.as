@@ -13,7 +13,6 @@ package mx.utils
       mx_internal static const VERSION:String = "4.5.0.20834";
       
       private static var counter:int = 0;
-       
       
       public function NameUtil()
       {
@@ -27,12 +26,12 @@ package mx.utils
             return null;
          }
          var name:* = getQualifiedClassName(object);
-         var index:int = name.indexOf("::");
+         var index:int = int(name.indexOf("::"));
          if(index != -1)
          {
             name = name.substr(index + 2);
          }
-         var charCode:int = name.charCodeAt(name.length - 1);
+         var charCode:int = int(name.charCodeAt(name.length - 1));
          if(charCode >= 48 && charCode <= 57)
          {
             name += "_";
@@ -55,7 +54,7 @@ package mx.utils
                {
                   break;
                }
-               s = "id" in o && Boolean(o["id"]) ? String(o["id"]) : o.name;
+               s = "id" in o && Boolean(o["id"]) ? o["id"] : o.name;
                if(o is IRepeaterClient)
                {
                   indices = IRepeaterClient(o).instanceIndices;
@@ -85,7 +84,7 @@ package mx.utils
          {
             name = getQualifiedClassName(object);
          }
-         var index:int = name.indexOf("::");
+         var index:int = int(name.indexOf("::"));
          if(index != -1)
          {
             name = name.substr(index + 2);
@@ -94,3 +93,4 @@ package mx.utils
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.npcs
    
    public class ScientistNPCSprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -57,3 +56,4 @@ package sprites.npcs
       }
    }
 }
+

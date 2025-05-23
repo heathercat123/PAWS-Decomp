@@ -5,7 +5,6 @@ package sprites.particles
    
    public class MetalNutParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -43,3 +42,4 @@ package sprites.particles
       }
    }
 }
+

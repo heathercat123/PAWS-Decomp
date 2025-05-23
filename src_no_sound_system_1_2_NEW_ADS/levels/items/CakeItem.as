@@ -9,7 +9,6 @@ package levels.items
    
    public class CakeItem extends Item
    {
-       
       
       protected var cake_index:int;
       
@@ -60,3 +59,4 @@ package levels.items
       }
    }
 }
+

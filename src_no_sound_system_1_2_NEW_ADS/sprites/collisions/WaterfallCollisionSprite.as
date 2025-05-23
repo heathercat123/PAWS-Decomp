@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class WaterfallCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation1:GameMovieClip;
       
@@ -84,3 +83,4 @@ package sprites.collisions
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.particles
    
    public class LavaSurfaceBubbleParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -42,3 +41,4 @@ package sprites.particles
       }
    }
 }
+

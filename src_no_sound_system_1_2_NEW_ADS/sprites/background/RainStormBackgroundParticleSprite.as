@@ -5,7 +5,6 @@ package sprites.background
    
    public class RainStormBackgroundParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -36,3 +35,4 @@ package sprites.background
       }
    }
 }
+

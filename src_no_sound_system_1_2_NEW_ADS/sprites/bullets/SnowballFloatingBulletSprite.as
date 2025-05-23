@@ -5,7 +5,6 @@ package sprites.bullets
    
    public class SnowballFloatingBulletSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -39,3 +38,4 @@ package sprites.bullets
       }
    }
 }
+

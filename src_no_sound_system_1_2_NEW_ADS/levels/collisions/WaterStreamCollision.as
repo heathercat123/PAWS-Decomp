@@ -10,7 +10,6 @@ package levels.collisions
    
    public class WaterStreamCollision extends Collision
    {
-       
       
       public var DIRECTION:int;
       
@@ -116,3 +115,4 @@ package levels.collisions
       }
    }
 }
+

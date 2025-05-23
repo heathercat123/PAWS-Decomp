@@ -4,7 +4,6 @@ package game_utils
    
    public class AchievementsManager
    {
-       
       
       public function AchievementsManager()
       {
@@ -74,3 +73,4 @@ package game_utils
       }
    }
 }
+

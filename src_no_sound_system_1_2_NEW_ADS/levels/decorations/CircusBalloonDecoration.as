@@ -7,7 +7,6 @@ package levels.decorations
    
    public class CircusBalloonDecoration extends Decoration
    {
-       
       
       public var has_string:Boolean;
       
@@ -72,3 +71,4 @@ package levels.decorations
       }
    }
 }
+

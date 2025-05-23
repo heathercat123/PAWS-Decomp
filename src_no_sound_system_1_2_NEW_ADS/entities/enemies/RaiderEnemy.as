@@ -10,7 +10,6 @@ package entities.enemies
    
    public class RaiderEnemy extends Enemy
    {
-       
       
       protected var wait_time:int;
       
@@ -460,3 +459,4 @@ package entities.enemies
       }
    }
 }
+

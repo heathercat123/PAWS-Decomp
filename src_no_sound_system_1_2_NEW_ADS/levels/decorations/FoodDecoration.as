@@ -7,7 +7,6 @@ package levels.decorations
    
    public class FoodDecoration extends Decoration
    {
-       
       
       protected var counter1:int;
       
@@ -69,3 +68,4 @@ package levels.decorations
       }
    }
 }
+

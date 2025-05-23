@@ -8,7 +8,6 @@ package levels.collisions
    
    public class CheckeredSpotCollision extends Collision
    {
-       
       
       protected var backImage:Image;
       
@@ -87,3 +86,4 @@ package levels.collisions
       }
    }
 }
+

@@ -50,10 +50,6 @@
     <obj name="city_tile_2" back="1" x="228" y="152" w="24" h="12" f_x="0" f_y="0"/>
     <obj name="city_tile_4" back="1" x="389" y="119" w="13" h="5" f_x="0" f_y="0"/>
     <obj name="city_tile_4" back="1" x="390" y="118" w="11" h="7" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_1" back="1" x="248" y="144" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_5" back="0" x="352" y="97" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_6" back="0" x="368" y="97" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_5" back="0" x="384" y="97" w="16" h="16" f_x="0" f_y="0"/>
     <obj name="snow_tile_2" back="0" x="240" y="-16" w="96" h="64" f_x="0" f_y="0"/>
     <obj name="playhouse_tile_4" back="0" x="544" y="-16" w="16" h="288" f_x="1" f_y="0"/>
     <obj name="snow_tile_2" back="0" x="0" y="-16" w="160" h="288" f_x="0" f_y="0"/>
@@ -128,7 +124,6 @@
     <obj type="10" x="176" y="80" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="0" x="208" y="80" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="0" x="175.95" y="16" w="48.05" h="64" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
-    <obj type="91" x="413" y="126" w="101" h="7" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="12" x="439" y="143" w="0" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
   </collisions>
   <decorations>

@@ -5,7 +5,6 @@ package sprites.items
    
    public class DarkCoinItemSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -111,3 +110,4 @@ package sprites.items
       }
    }
 }
+

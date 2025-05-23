@@ -7,7 +7,6 @@ package entities.npcs
    
    public class HelperNPC extends NPC
    {
-       
       
       protected var float_y:Number;
       
@@ -93,3 +92,4 @@ package entities.npcs
       }
    }
 }
+

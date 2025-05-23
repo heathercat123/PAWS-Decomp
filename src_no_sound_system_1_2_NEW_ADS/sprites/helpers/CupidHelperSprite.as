@@ -5,7 +5,6 @@ package sprites.helpers
    
    public class CupidHelperSprite extends GameSprite
    {
-       
       
       protected var LEVEL:int;
       
@@ -103,3 +102,4 @@ package sprites.helpers
       }
    }
 }
+

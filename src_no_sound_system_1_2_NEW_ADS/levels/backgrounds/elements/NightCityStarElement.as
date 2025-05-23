@@ -9,7 +9,6 @@ package levels.backgrounds.elements
    
    public class NightCityStarElement extends BackgroundElement
    {
-       
       
       protected var index:int;
       
@@ -57,3 +56,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

@@ -6,7 +6,6 @@ package levels.cameras.behaviours
    
    public class HorTweenShiftBehaviour extends CameraBehaviour
    {
-       
       
       public var x_start:Number;
       
@@ -73,3 +72,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

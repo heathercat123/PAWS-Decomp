@@ -5,7 +5,6 @@ package sprites.decorations
    
    public class SandCastleDecorationSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -37,3 +36,4 @@ package sprites.decorations
       }
    }
 }
+

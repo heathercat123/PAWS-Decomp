@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class FrogEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -129,3 +128,4 @@ package sprites.enemies
       }
    }
 }
+

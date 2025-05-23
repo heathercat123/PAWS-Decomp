@@ -112,7 +112,7 @@ package starling.styles
          *  Subclasses must provide a constructor that can be called without any arguments. */
         public function MeshStyle()
         {
-            _textureSmoothing = TextureSmoothing.NONE;
+            _textureSmoothing = TextureSmoothing.BILINEAR;
             _type = Object(this).constructor as Class;
         }
 

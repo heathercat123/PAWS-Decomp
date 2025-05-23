@@ -8,7 +8,6 @@ package levels.decorations
    
    public class CandleDecoration extends Decoration
    {
-       
       
       public var isBlown:Boolean;
       
@@ -91,3 +90,4 @@ package levels.decorations
       }
    }
 }
+

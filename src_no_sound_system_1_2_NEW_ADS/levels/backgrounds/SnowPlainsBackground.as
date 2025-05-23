@@ -13,7 +13,6 @@ package levels.backgrounds
    
    public class SnowPlainsBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -160,3 +159,4 @@ package levels.backgrounds
       }
    }
 }
+

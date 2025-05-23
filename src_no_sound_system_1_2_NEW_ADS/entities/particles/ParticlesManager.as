@@ -23,7 +23,6 @@ package entities.particles
       public static var GLOBAL_VARIABLE_2:Number;
       
       public static var GLOBAL_VARIABLE_3:Number;
-       
       
       public var particles:Array;
       
@@ -1187,3 +1186,4 @@ package entities.particles
       }
    }
 }
+

@@ -12,7 +12,6 @@ package levels.collisions
    
    public class CoinsCircleCollision extends Collision
    {
-       
       
       public var coins:Array;
       
@@ -270,3 +269,4 @@ package levels.collisions
       }
    }
 }
+

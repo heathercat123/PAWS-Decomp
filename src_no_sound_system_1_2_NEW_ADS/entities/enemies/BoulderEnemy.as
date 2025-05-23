@@ -10,7 +10,6 @@ package entities.enemies
    
    public class BoulderEnemy extends Enemy
    {
-       
       
       protected var slide_y_pos:Number;
       
@@ -373,3 +372,4 @@ package entities.enemies
       }
    }
 }
+

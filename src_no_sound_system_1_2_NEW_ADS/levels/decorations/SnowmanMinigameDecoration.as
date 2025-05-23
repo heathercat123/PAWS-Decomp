@@ -8,7 +8,6 @@ package levels.decorations
    
    public class SnowmanMinigameDecoration extends Decoration
    {
-       
       
       public var isBlown:Boolean;
       
@@ -88,3 +87,4 @@ package levels.decorations
       }
    }
 }
+

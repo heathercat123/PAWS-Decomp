@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class BigRockIcycleCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -34,3 +33,4 @@ package sprites.collisions
       }
    }
 }
+

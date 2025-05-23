@@ -6,7 +6,6 @@ package sprites.collisions
    
    public class GenericCritterCollisionSprite extends GameSprite
    {
-       
       
       public var ID:int;
       
@@ -137,3 +136,4 @@ package sprites.collisions
       }
    }
 }
+

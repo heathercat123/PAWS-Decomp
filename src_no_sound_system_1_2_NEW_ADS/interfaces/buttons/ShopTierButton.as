@@ -10,15 +10,14 @@ package interfaces.buttons
    
    public class ShopTierButton extends Button
    {
-       
       
       public var WIDTH:int;
       
       public var HEIGHT:int;
       
-      protected var upTexture:RenderTexture;
+      protected var upTexture:RenderTexture = null;
       
-      protected var downTexture:RenderTexture;
+      protected var downTexture:RenderTexture = null;
       
       protected var item_icon:Image;
       
@@ -32,19 +31,15 @@ package interfaces.buttons
       
       protected var purchaseMarkImage:Image;
       
-      protected var REDRAW_FLAG:Boolean;
+      protected var REDRAW_FLAG:Boolean = false;
       
-      public var index:int;
+      public var index:int = 0;
       
       public function ShopTierButton(_iconName:String, _price:String, _WIDTH:Number, _HEIGHT:Number)
       {
          this.WIDTH = _WIDTH;
          this.HEIGHT = _HEIGHT;
          this.item_price = _price;
-         this.index = 0;
-         this.REDRAW_FLAG = false;
-         this.upTexture = null;
-         this.downTexture = null;
          this.createUpTexture();
          this.createDownTexture();
          super(this.upTexture,"",this.downTexture);
@@ -289,3 +284,4 @@ package interfaces.buttons
       }
    }
 }
+

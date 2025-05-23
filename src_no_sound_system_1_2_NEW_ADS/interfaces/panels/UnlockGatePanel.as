@@ -17,7 +17,6 @@ package interfaces.panels
    
    public class UnlockGatePanel extends Sprite
    {
-       
       
       public var GET_OUT_FLAG:Boolean;
       
@@ -453,3 +452,4 @@ package interfaces.panels
       }
    }
 }
+

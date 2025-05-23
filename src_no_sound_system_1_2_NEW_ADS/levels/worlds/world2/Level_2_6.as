@@ -28,7 +28,6 @@ package levels.worlds.world2
       public static const Map_2_6_6:Class = Level_2_6_Map_2_6_6;
       
       public static const Map_2_6_7:Class = Level_2_6_Map_2_6_7;
-       
       
       public var CUTSCENE_FLAG_1:Boolean;
       
@@ -414,3 +413,4 @@ package levels.worlds.world2
       }
    }
 }
+

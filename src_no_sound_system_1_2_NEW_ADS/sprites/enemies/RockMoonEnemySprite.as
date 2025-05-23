@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class RockMoonEnemySprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -220,3 +219,4 @@ package sprites.enemies
       }
    }
 }
+

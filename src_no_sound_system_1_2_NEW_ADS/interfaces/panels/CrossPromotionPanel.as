@@ -33,7 +33,6 @@ package interfaces.panels
       public static var IMAGE_LOADED:Boolean = false;
       
       public static var DO_NOT_INCREASE_SLOT:Boolean = false;
-       
       
       public var GET_OUT_FLAG:Boolean;
       
@@ -415,3 +414,4 @@ package interfaces.panels
       }
    }
 }
+

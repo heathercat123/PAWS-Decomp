@@ -7,7 +7,6 @@ package levels.decorations
    
    public class NeonDecoration extends Decoration
    {
-       
       
       protected var TYPE:int;
       
@@ -124,3 +123,4 @@ package levels.decorations
       }
    }
 }
+

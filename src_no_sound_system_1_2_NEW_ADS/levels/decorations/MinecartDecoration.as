@@ -5,7 +5,6 @@ package levels.decorations
    
    public class MinecartDecoration extends Decoration
    {
-       
       
       protected var counter1:int;
       
@@ -71,3 +70,4 @@ package levels.decorations
       }
    }
 }
+

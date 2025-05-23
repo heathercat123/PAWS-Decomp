@@ -6,7 +6,6 @@ package entities.enemies
    
    public class ScarecrowEnemy extends Enemy
    {
-       
       
       protected var start_y:Number;
       
@@ -262,3 +261,4 @@ package entities.enemies
       }
    }
 }
+

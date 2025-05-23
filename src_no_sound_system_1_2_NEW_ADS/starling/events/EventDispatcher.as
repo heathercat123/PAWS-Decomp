@@ -50,16 +50,12 @@ package starling.events
         /** Registers an event listener at a certain object. */
         public function addEventListener(type:String, listener:Function):void
         {
-            // The listeners are stored inside an Array instead of a Vector as a workaround
-            // to a strange String allocation taking place in the AOT compiler.
-            // See: https://tracker.adobe.com/#/view/AIR-4115729
-
             if (_eventListeners == null)
                 _eventListeners = new Dictionary();
             
-            var listeners:Array = _eventListeners[type] as Array;
+            var listeners:Vector.<Function> = _eventListeners[type] as Vector.<Function>;
             if (listeners == null)
-                _eventListeners[type] = [listener];
+                _eventListeners[type] = new <Function>[listener];
             else if (listeners.indexOf(listener) == -1) // check for duplicates
                 listeners[listeners.length] = listener; // avoid 'push'
         }
@@ -69,7 +65,7 @@ package starling.events
         {
             if (_eventListeners)
             {
-                var listeners:Array = _eventListeners[type] as Array;
+                var listeners:Vector.<Function> = _eventListeners[type] as Vector.<Function>;
                 var numListeners:int = listeners ? listeners.length : 0;
 
                 if (numListeners > 0)
@@ -87,7 +83,7 @@ package starling.events
                         }
                         else
                         {
-                            var restListeners:Array = listeners.slice(0, index);
+                            var restListeners:Vector.<Function> = listeners.slice(0, index);
 
                             for (var i:int=index+1; i<numListeners; ++i)
                                 restListeners[i-1] = listeners[i];
@@ -138,7 +134,8 @@ package starling.events
          *  method uses this method internally. */
         internal function invokeEvent(event:Event):Boolean
         {
-            var listeners:Array = _eventListeners ? _eventListeners[event.type] as Array : null;
+            var listeners:Vector.<Function> = _eventListeners ?
+                _eventListeners[event.type] as Vector.<Function> : null;
             var numListeners:int = listeners == null ? 0 : listeners.length;
             
             if (numListeners)
@@ -160,10 +157,7 @@ package starling.events
                     else listener(event, event.data);
                     
                     if (event.stopsImmediatePropagation)
-                    {
-                        _eventStack.pop();
                         return true;
-                    }
                 }
 
                 _eventStack.pop();
@@ -220,7 +214,7 @@ package starling.events
          *  listener is registered. */
         public function hasEventListener(type:String, listener:Function=null):Boolean
         {
-            var listeners:Array = _eventListeners ? _eventListeners[type] as Array : null;
+            var listeners:Vector.<Function> = _eventListeners ? _eventListeners[type] : null;
             if (listeners == null) return false;
             else
             {

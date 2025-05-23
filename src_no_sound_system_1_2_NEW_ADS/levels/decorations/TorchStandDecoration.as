@@ -9,7 +9,6 @@ package levels.decorations
    
    public class TorchStandDecoration extends Decoration
    {
-       
       
       protected var IS_OFF:Boolean;
       
@@ -160,3 +159,4 @@ package levels.decorations
       }
    }
 }
+

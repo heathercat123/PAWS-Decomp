@@ -8,9 +8,9 @@ package game_utils
    public class LevelItems
    {
       
-      public static var MAX_ITEMS:int = 1000;
-      
       public static var Items:Array;
+      
+      public static var MAX_ITEMS:int = 1000;
       
       public static const ITEM_BELL:int = 0;
       
@@ -241,7 +241,6 @@ package game_utils
       public static const ITEM_HELPER_8:int = 416;
       
       public static const ITEM_HELPER_9:int = 417;
-       
       
       public function LevelItems()
       {
@@ -828,3 +827,4 @@ package game_utils
       }
    }
 }
+

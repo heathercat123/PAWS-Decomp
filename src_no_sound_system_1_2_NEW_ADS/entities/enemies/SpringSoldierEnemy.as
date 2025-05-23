@@ -6,7 +6,6 @@ package entities.enemies
    
    public class SpringSoldierEnemy extends TinEnemy
    {
-       
       
       protected var start_y:Number;
       
@@ -269,3 +268,4 @@ package entities.enemies
       }
    }
 }
+

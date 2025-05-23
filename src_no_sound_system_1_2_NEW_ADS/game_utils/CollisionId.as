@@ -4,7 +4,6 @@ package game_utils
    
    public class CollisionId
    {
-       
       
       public var entity:Entity;
       
@@ -23,3 +22,4 @@ package game_utils
       }
    }
 }
+

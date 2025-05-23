@@ -2,7 +2,6 @@ package neutronized
 {
    public class NeutronizedCrossPromotionNode
    {
-       
       
       public var __id:int;
       
@@ -54,3 +53,4 @@ package neutronized
       }
    }
 }
+

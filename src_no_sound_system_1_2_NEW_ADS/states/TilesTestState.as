@@ -10,7 +10,6 @@ package states
    {
       
       public static const Map:Class = TilesTestState_Map;
-       
       
       internal var map:XML;
       
@@ -62,3 +61,4 @@ package states
       }
    }
 }
+

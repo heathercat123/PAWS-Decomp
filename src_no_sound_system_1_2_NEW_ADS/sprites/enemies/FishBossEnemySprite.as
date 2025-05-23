@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class FishBossEnemySprite extends GameSprite
    {
-       
       
       public var standAnim:GameMovieClip;
       
@@ -75,3 +74,4 @@ package sprites.enemies
       }
    }
 }
+

@@ -5,7 +5,6 @@ package levels.collisions
    
    public class CloudRightSlopeWideAreaCollision extends Collision
    {
-       
       
       public function CloudRightSlopeWideAreaCollision(_level:Level, _xPos:Number, _yPos:Number, _width:Number, _height:Number)
       {
@@ -39,3 +38,4 @@ package levels.collisions
       }
    }
 }
+

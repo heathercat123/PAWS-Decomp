@@ -7,7 +7,6 @@ package levels.decorations
    
    public class CageDecoration extends Decoration
    {
-       
       
       protected var image:Image;
       
@@ -73,3 +72,4 @@ package levels.decorations
       }
    }
 }
+

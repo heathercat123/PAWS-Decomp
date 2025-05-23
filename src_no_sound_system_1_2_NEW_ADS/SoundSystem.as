@@ -8,13 +8,7 @@ package
    public class SoundSystem
    {
       
-      protected static var MUSIC_VOLUME:Number = 0.25;
-      
-      protected static var MUSIC_IS_STOPPED:Boolean = false;
-      
       public static var sounds:Array;
-      
-      public static var last_kitty_voice:int = 0;
       
       public static var _soundTransform:SoundTransform;
       
@@ -24,31 +18,7 @@ package
       
       public static var musicChannel:SoundChannel;
       
-      public static var musicVolume:Number = MUSIC_VOLUME;
-      
-      public static var musicVolumeMultiplier:Number = 1;
-      
-      public static var pausePosition:int = 0;
-      
       public static var musicTimer:Timer;
-      
-      public static var stopMusicFlag:Boolean = false;
-      
-      public static var fadeInMusicFlag:Boolean = false;
-      
-      public static var lastExplosion:int = 0;
-      
-      public static var lastPoint:int = 0;
-      
-      public static var lastRandomValue:int = -1;
-      
-      public static var lastRandomExplosionValue:int = -1;
-      
-      public static var lastRandomBigExplosionValue:int = -1;
-      
-      public static var LastMusicName:String = "";
-      
-      public static var IS_INIT:Boolean = false;
       
       public static var soundCatBrake:SoundCatBrake;
       
@@ -631,7 +601,36 @@ package
       public static var musicIntro:MusicIntro;
       
       public static var musicSplash:MusicSplash;
-       
+      
+      protected static var MUSIC_VOLUME:Number = 0.25;
+      
+      protected static var MUSIC_IS_STOPPED:Boolean = false;
+      
+      public static var last_kitty_voice:int = 0;
+      
+      public static var musicVolume:Number = MUSIC_VOLUME;
+      
+      public static var musicVolumeMultiplier:Number = 1;
+      
+      public static var pausePosition:int = 0;
+      
+      public static var stopMusicFlag:Boolean = false;
+      
+      public static var fadeInMusicFlag:Boolean = false;
+      
+      public static var lastExplosion:int = 0;
+      
+      public static var lastPoint:int = 0;
+      
+      public static var lastRandomValue:int = -1;
+      
+      public static var lastRandomExplosionValue:int = -1;
+      
+      public static var lastRandomBigExplosionValue:int = -1;
+      
+      public static var LastMusicName:String = "";
+      
+      public static var IS_INIT:Boolean = false;
       
       public function SoundSystem()
       {
@@ -4172,3 +4171,4 @@ package
       }
    }
 }
+

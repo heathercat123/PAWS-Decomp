@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class AlarmCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -36,3 +35,4 @@ package sprites.collisions
       }
    }
 }
+

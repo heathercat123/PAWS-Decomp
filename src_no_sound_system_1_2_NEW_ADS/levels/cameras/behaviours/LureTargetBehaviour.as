@@ -6,7 +6,6 @@ package levels.cameras.behaviours
    
    public class LureTargetBehaviour extends CameraBehaviour
    {
-       
       
       protected var lure:Entity;
       
@@ -14,12 +13,11 @@ package levels.cameras.behaviours
       
       protected var diff_y:Number;
       
-      protected var delay:Number;
+      protected var delay:Number = 0;
       
       public function LureTargetBehaviour(_level:Level, _lure:Entity, _isHor:Boolean = true)
       {
          this.lure = _lure;
-         this.delay = 0;
          super(_level);
          this.IS_HOR = _isHor;
       }
@@ -68,3 +66,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

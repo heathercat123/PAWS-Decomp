@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class LaceBossEnemySprite extends GameSprite
    {
-       
       
       public var standAnim:GameMovieClip;
       
@@ -77,3 +76,4 @@ package sprites.enemies
       }
    }
 }
+

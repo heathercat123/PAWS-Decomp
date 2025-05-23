@@ -21,7 +21,6 @@ package sprites.bullets
       public static var ARROW_HELPER:int = 6;
       
       public static var ROCK_NO_DAMAGE:int = 7;
-       
       
       public var ID:int;
       
@@ -92,3 +91,4 @@ package sprites.bullets
       }
    }
 }
+

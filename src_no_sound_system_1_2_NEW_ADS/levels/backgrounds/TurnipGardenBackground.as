@@ -11,7 +11,6 @@ package levels.backgrounds
    
    public class TurnipGardenBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -241,3 +240,4 @@ package levels.backgrounds
       }
    }
 }
+

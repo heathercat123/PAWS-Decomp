@@ -5,10 +5,9 @@ package entities
       
       public static const LINEAR:int = 0;
       
-      public static var none:Function = easeLinear;
-      
       public static var linear:Function = easeLinear;
-       
+      
+      public static var none:Function = easeLinear;
       
       public function Easings()
       {
@@ -47,7 +46,8 @@ package entities
       
       public static function easeInOutQuint(t:Number, b:Number, c:Number, d:Number) : Number
       {
-         if((t = t / (d / 2)) < 1)
+         t = t / (d / 2);
+         if(t < 1)
          {
             return c / 2 * t * t * t * t * t + b;
          }
@@ -66,7 +66,8 @@ package entities
       
       public static function easeInOutQuart(t:Number, b:Number, c:Number, d:Number) : Number
       {
-         if((t = t / (d / 2)) < 1)
+         t = t / (d / 2);
+         if(t < 1)
          {
             return c / 2 * t * t * t * t + b;
          }
@@ -85,7 +86,8 @@ package entities
       
       public static function easeInOutQuad(t:Number, b:Number, c:Number, d:Number) : Number
       {
-         if((t = t / (d / 2)) < 1)
+         t = t / (d / 2);
+         if(t < 1)
          {
             return c / 2 * t * t + b;
          }
@@ -112,7 +114,8 @@ package entities
          {
             return b + c;
          }
-         if((t = t / (d / 2)) < 1)
+         t = t / (d / 2);
+         if(t < 1)
          {
             return c / 2 * Math.pow(2,10 * (t - 1)) + b;
          }
@@ -126,7 +129,8 @@ package entities
          {
             return b;
          }
-         if((t = t / d) == 1)
+         t = t / d;
+         if(t == 1)
          {
             return b + c;
          }
@@ -153,7 +157,8 @@ package entities
          {
             return b;
          }
-         if((t = t / d) == 1)
+         t = t / d;
+         if(t == 1)
          {
             return b + c;
          }
@@ -180,7 +185,8 @@ package entities
          {
             return b;
          }
-         if((t = t / (d / 2)) == 2)
+         t = t / (d / 2);
+         if(t == 2)
          {
             return b + c;
          }
@@ -216,7 +222,8 @@ package entities
       
       public static function easeInOutCircular(t:Number, b:Number, c:Number, d:Number) : Number
       {
-         if((t = t / (d / 2)) < 1)
+         t = t / (d / 2);
+         if(t < 1)
          {
             return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
          }
@@ -235,7 +242,8 @@ package entities
       
       public static function easeInOutBack(t:Number, b:Number, c:Number, d:Number, s:Number = 1.70158) : Number
       {
-         if((t = t / (d / 2)) < 1)
+         t = t / (d / 2);
+         if(t < 1)
          {
             return c / 2 * (t * t * (((s = s * 1.525) + 1) * t - s)) + b;
          }
@@ -249,7 +257,8 @@ package entities
       
       public static function easeOutBounce(t:Number, b:Number, c:Number, d:Number) : Number
       {
-         if((t = t / d) < 1 / 2.75)
+         t = t / d;
+         if(t < 1 / 2.75)
          {
             return c * (7.5625 * t * t) + b;
          }
@@ -285,7 +294,8 @@ package entities
       
       public static function easeInOutCubic(t:Number, b:Number, c:Number, d:Number) : Number
       {
-         if((t = t / (d / 2)) < 1)
+         t = t / (d / 2);
+         if(t < 1)
          {
             return c / 2 * t * t * t + b;
          }
@@ -293,3 +303,4 @@ package entities
       }
    }
 }
+

@@ -6,7 +6,6 @@ package levels.collisions
    
    public class FullAreaCollision extends Collision
    {
-       
       
       protected var TYPE:int;
       
@@ -119,3 +118,4 @@ package levels.collisions
       }
    }
 }
+

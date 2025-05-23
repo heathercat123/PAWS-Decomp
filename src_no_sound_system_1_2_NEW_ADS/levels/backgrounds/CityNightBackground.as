@@ -7,7 +7,6 @@ package levels.backgrounds
    
    public class CityNightBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -63,3 +62,4 @@ package levels.backgrounds
       }
    }
 }
+

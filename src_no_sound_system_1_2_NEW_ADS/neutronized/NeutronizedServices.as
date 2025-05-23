@@ -11,7 +11,6 @@ package neutronized
    {
       
       private static var _instance:NeutronizedServices = null;
-       
       
       private var _crossPromotionXML:NeutronizedCrossPromotionXML;
       
@@ -125,3 +124,4 @@ package neutronized
       }
    }
 }
+

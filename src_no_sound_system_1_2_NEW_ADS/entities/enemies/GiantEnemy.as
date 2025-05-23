@@ -13,7 +13,6 @@ package entities.enemies
    
    public class GiantEnemy extends Enemy
    {
-       
       
       protected var hero_collision_detection_cool_off_counter:int;
       
@@ -210,3 +209,4 @@ package entities.enemies
       }
    }
 }
+

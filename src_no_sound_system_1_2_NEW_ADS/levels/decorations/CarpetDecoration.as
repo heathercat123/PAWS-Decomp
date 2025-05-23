@@ -6,7 +6,6 @@ package levels.decorations
    
    public class CarpetDecoration extends Decoration
    {
-       
       
       protected var backImage:Image;
       
@@ -71,3 +70,4 @@ package levels.decorations
       }
    }
 }
+

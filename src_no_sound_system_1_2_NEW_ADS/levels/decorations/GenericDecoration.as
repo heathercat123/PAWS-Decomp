@@ -411,7 +411,6 @@ package levels.decorations
       public static var CANYON_ROCK_4:int = 200;
       
       public static var GIANT_SPIDER_TONGUE:int = 201;
-       
       
       protected var isBack:Boolean;
       
@@ -656,3 +655,4 @@ package levels.decorations
       }
    }
 }
+

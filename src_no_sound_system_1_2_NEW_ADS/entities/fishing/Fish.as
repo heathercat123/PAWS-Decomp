@@ -60,7 +60,6 @@ package entities.fishing
       public static var RANK_5_6:int = 9;
       
       public static var RANK_6:int = 10;
-       
       
       public function Fish(_level:Level, _type:int, _rank:int, _xPos:Number, _yPos:Number, _direction:int, _size:Number)
       {
@@ -324,3 +323,4 @@ package entities.fishing
       }
    }
 }
+

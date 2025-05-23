@@ -5,7 +5,6 @@ package game_utils
    
    public class ButtonCluster
    {
-       
       
       public var button:Button;
       
@@ -85,3 +84,4 @@ package game_utils
       }
    }
 }
+

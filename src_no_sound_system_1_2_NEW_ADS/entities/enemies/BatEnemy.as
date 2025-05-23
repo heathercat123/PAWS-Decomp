@@ -12,7 +12,6 @@ package entities.enemies
    
    public class BatEnemy extends Enemy
    {
-       
       
       protected var old_x_vel:Number;
       
@@ -251,11 +250,12 @@ package entities.enemies
       protected function fetchHero() : void
       {
          var hero_mid_x:Number = NaN;
+         var x_diff:Number = NaN;
          var distance:Number = NaN;
          var dest_y:Number = NaN;
          hero_mid_x = level.hero.getMidXPos();
          var hero_mid_y:Number = level.hero.getMidYPos();
-         var x_diff:Number = hero_mid_x - xPos;
+         x_diff = hero_mid_x - xPos;
          var y_diff:Number = hero_mid_y - yPos;
          distance = Math.sqrt(x_diff * x_diff + y_diff * y_diff);
          x_diff /= distance;
@@ -447,3 +447,4 @@ package entities.enemies
       }
    }
 }
+

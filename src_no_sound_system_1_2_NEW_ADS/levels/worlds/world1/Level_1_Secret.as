@@ -19,7 +19,6 @@ package levels.worlds.world1
       public static const Map_1_secret_2:Class = Level_1_Secret_Map_1_secret_2;
       
       public static const Map_1_secret_3:Class = Level_1_Secret_Map_1_secret_3;
-       
       
       public var CUTSCENE_FLAG:Boolean;
       
@@ -251,3 +250,4 @@ package levels.worlds.world1
       }
    }
 }
+

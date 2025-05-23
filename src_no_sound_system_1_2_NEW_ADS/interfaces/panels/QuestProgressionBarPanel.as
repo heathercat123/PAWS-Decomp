@@ -8,7 +8,6 @@ package interfaces.panels
    
    public class QuestProgressionBarPanel extends Sprite
    {
-       
       
       protected var bar_container:Sprite;
       
@@ -193,3 +192,4 @@ package interfaces.panels
       }
    }
 }
+

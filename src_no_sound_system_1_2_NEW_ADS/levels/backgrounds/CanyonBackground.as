@@ -11,7 +11,6 @@ package levels.backgrounds
    
    public class CanyonBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -233,3 +232,4 @@ package levels.backgrounds
       }
    }
 }
+

@@ -9,7 +9,6 @@ package levels.collisions
    
    public class HoneyCollision extends Collision
    {
-       
       
       public var entity:Entity;
       
@@ -94,3 +93,4 @@ package levels.collisions
       }
    }
 }
+

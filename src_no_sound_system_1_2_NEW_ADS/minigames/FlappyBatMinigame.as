@@ -11,7 +11,6 @@ package minigames
    
    public class FlappyBatMinigame extends ArcadeMinigame
    {
-       
       
       protected var gameText_1:Image;
       
@@ -558,3 +557,4 @@ package minigames
       }
    }
 }
+

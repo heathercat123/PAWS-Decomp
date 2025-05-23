@@ -12,7 +12,6 @@ package levels.cutscenes
    {
       
       public static var FORCE_SHORT_INTRO:Boolean = false;
-       
       
       protected var hero:Hero;
       
@@ -285,3 +284,4 @@ package levels.cutscenes
       }
    }
 }
+

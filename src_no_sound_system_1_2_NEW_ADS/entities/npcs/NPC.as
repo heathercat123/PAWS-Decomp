@@ -12,7 +12,6 @@ package entities.npcs
    
    public class NPC extends Entity
    {
-       
       
       protected var IS_INTERACTING:Boolean;
       
@@ -293,3 +292,4 @@ package entities.npcs
       }
    }
 }
+

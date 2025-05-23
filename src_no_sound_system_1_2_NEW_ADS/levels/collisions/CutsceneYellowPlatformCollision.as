@@ -11,7 +11,6 @@ package levels.collisions
    
    public class CutsceneYellowPlatformCollision extends Collision
    {
-       
       
       public var hero_xDiff:Number;
       
@@ -311,3 +310,4 @@ package levels.collisions
       }
    }
 }
+

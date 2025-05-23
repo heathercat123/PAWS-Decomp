@@ -14,7 +14,6 @@ package entities.helpers
    
    public class SeedHelper extends Helper
    {
-       
       
       protected var leafSprite:SmallPollenLeafSprite;
       
@@ -621,3 +620,4 @@ package entities.helpers
       }
    }
 }
+

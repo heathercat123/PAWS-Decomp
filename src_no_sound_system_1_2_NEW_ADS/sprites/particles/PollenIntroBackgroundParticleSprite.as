@@ -5,7 +5,6 @@ package sprites.particles
    
    public class PollenIntroBackgroundParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -39,3 +38,4 @@ package sprites.particles
       }
    }
 }
+

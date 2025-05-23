@@ -9,7 +9,6 @@ package interfaces.panels
    
    public class ChoiceSelectorPanel extends Sprite
    {
-       
       
       public var TYPE:int;
       
@@ -210,3 +209,4 @@ package interfaces.panels
       }
    }
 }
+

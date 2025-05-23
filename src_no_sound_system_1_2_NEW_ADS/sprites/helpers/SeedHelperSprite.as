@@ -5,7 +5,6 @@ package sprites.helpers
    
    public class SeedHelperSprite extends GameSprite
    {
-       
       
       protected var LEVEL:int;
       
@@ -105,3 +104,4 @@ package sprites.helpers
       }
    }
 }
+

@@ -24,7 +24,6 @@ package levels.cutscenes
       public static var LIFT_TRIP:int = 4;
       
       public static var VENDING_MACHINE_CANDY:int = 5;
-       
       
       protected var RESULT:Boolean;
       
@@ -355,3 +354,4 @@ package levels.cutscenes
       }
    }
 }
+

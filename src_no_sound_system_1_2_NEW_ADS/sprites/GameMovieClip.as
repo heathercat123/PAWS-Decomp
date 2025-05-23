@@ -5,7 +5,6 @@ package sprites
    
    public class GameMovieClip extends MovieClip
    {
-       
       
       public var frame:int;
       
@@ -46,3 +45,4 @@ package sprites
       }
    }
 }
+

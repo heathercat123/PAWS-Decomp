@@ -14,7 +14,6 @@ package levels.collisions
    
    public class BucketCollision extends Collision
    {
-       
       
       protected var container:Sprite;
       
@@ -346,3 +345,4 @@ package levels.collisions
       }
    }
 }
+

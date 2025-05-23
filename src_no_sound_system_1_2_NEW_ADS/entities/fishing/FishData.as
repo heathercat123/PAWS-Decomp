@@ -5,7 +5,6 @@ package entities.fishing
    
    public class FishData
    {
-       
       
       public var TYPE:int;
       
@@ -506,3 +505,4 @@ package entities.fishing
       }
    }
 }
+

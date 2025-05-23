@@ -12,7 +12,6 @@ package entities.enemies
    
    public class DustEnemy extends Enemy
    {
-       
       
       protected var initial_anim_delay:int;
       
@@ -292,3 +291,4 @@ package entities.enemies
       }
    }
 }
+

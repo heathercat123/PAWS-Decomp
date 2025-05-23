@@ -10,7 +10,6 @@ package mx.core
    {
       
       mx_internal static const VERSION:String = "4.5.0.20834";
-       
       
       public function FlexBitmap(bitmapData:BitmapData = null, pixelSnapping:String = "auto", smoothing:Boolean = false)
       {
@@ -30,3 +29,4 @@ package mx.core
       }
    }
 }
+

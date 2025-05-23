@@ -7,7 +7,6 @@ package levels.collisions
    
    public class SpinningSpikesCollision extends Collision
    {
-       
       
       protected var spikeSprite:GenericCollisionSprite;
       
@@ -202,3 +201,4 @@ package levels.collisions
       }
    }
 }
+

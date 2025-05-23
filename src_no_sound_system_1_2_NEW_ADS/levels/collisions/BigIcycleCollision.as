@@ -12,7 +12,6 @@ package levels.collisions
    
    public class BigIcycleCollision extends Collision
    {
-       
       
       protected var stateMachine:StateMachine;
       
@@ -189,3 +188,4 @@ package levels.collisions
       }
    }
 }
+

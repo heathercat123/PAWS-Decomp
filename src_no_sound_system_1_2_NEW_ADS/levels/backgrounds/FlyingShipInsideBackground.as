@@ -12,7 +12,6 @@ package levels.backgrounds
    
    public class FlyingShipInsideBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -192,3 +191,4 @@ package levels.backgrounds
       }
    }
 }
+

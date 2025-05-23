@@ -8,7 +8,6 @@ package levels.groups
    
    public class Group
    {
-       
       
       public var level:Level;
       
@@ -208,3 +207,4 @@ package levels.groups
       }
    }
 }
+

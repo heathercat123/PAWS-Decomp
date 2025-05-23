@@ -2,7 +2,6 @@ package states
 {
    public class GameEntryState implements IState
    {
-       
       
       public function GameEntryState()
       {
@@ -25,3 +24,4 @@ package states
       }
    }
 }
+

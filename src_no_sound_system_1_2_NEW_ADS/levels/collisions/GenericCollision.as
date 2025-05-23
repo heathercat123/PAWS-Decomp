@@ -13,7 +13,6 @@ package levels.collisions
       public static var LIFT:int = 100;
       
       public static var PUMPKIN:int = 101;
-       
       
       protected var ID:int;
       
@@ -97,3 +96,4 @@ package levels.collisions
       }
    }
 }
+

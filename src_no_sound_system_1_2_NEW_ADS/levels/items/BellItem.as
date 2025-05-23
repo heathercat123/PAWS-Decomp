@@ -16,7 +16,6 @@ package levels.items
    
    public class BellItem extends Item
    {
-       
       
       protected var forced_max_y_pos:Number;
       
@@ -288,3 +287,4 @@ package levels.items
       }
    }
 }
+

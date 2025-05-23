@@ -12,7 +12,6 @@ package levels.items
    
    public class BottleItem extends Item
    {
-       
       
       protected var butterfly_images:Array;
       
@@ -218,3 +217,4 @@ package levels.items
       }
    }
 }
+

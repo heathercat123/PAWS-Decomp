@@ -11,7 +11,6 @@ package interfaces.dialogs
    
    public class DialogsManager
    {
-       
       
       public var level:Level;
       
@@ -313,3 +312,4 @@ package interfaces.dialogs
       }
    }
 }
+

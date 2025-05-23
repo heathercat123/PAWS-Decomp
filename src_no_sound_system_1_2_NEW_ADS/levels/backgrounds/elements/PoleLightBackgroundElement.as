@@ -7,7 +7,6 @@ package levels.backgrounds.elements
    
    public class PoleLightBackgroundElement extends BackgroundElement
    {
-       
       
       protected var lampImage:Image;
       
@@ -79,3 +78,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

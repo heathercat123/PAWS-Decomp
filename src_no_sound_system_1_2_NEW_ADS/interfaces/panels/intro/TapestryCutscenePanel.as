@@ -11,7 +11,6 @@ package interfaces.panels.intro
    
    public class TapestryCutscenePanel extends Sprite
    {
-       
       
       internal var bg:Image;
       
@@ -339,3 +338,4 @@ package interfaces.panels.intro
       }
    }
 }
+

@@ -9,7 +9,6 @@ package levels.items
    {
       
       public static var start_index:int = 0;
-       
       
       public var level:Level;
       
@@ -181,3 +180,4 @@ package levels.items
       }
    }
 }
+

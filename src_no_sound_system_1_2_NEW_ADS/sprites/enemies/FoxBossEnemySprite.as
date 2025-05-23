@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class FoxBossEnemySprite extends GameSprite
    {
-       
       
       public var standAnim:GameMovieClip;
       
@@ -79,3 +78,4 @@ package sprites.enemies
       }
    }
 }
+

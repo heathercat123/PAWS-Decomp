@@ -20,7 +20,6 @@ package interfaces.texts
       public static const TYPE_BIG_BLUE:int = 3;
       
       public static const TYPE_SMALL_WHITE_SHORT_SPACING:int = 4;
-       
       
       protected var images:Array;
       
@@ -624,3 +623,4 @@ package interfaces.texts
       }
    }
 }
+

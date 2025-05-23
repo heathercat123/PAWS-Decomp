@@ -10,7 +10,6 @@ package entities.enemies
    
    public class GiantWoodBeetleEnemy extends GiantEnemy
    {
-       
       
       protected var SIDE:int;
       
@@ -1119,3 +1118,4 @@ package entities.enemies
       }
    }
 }
+

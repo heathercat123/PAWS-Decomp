@@ -5,7 +5,6 @@ package levels.groups
    
    public class GroupsManager
    {
-       
       
       public var level:Level;
       
@@ -64,3 +63,4 @@ package levels.groups
       }
    }
 }
+

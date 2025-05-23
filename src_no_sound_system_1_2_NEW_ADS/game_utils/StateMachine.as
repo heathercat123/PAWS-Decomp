@@ -5,7 +5,6 @@ package game_utils
    
    public class StateMachine
    {
-       
       
       public var statesDictionary:Dictionary;
       
@@ -105,7 +104,7 @@ package game_utils
          {
             trace("WARNING! Wrong action typed");
          }
-         var resultingState:String = String(this.states[this.statesDictionary[this.currentState]][this.actionsDictionary[action]]);
+         var resultingState:String = this.states[this.statesDictionary[this.currentState]][this.actionsDictionary[action]];
          if(resultingState != "NONE")
          {
             this.lastState = this.currentState;
@@ -134,3 +133,4 @@ package game_utils
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class LizardBossEnemySprite extends GameSprite
    {
-       
       
       public var standAnim:GameMovieClip;
       
@@ -162,3 +161,4 @@ package sprites.enemies
       }
    }
 }
+

@@ -9,7 +9,6 @@ package interfaces.panels
    
    public class ExperiencePanel extends Sprite
    {
-       
       
       protected var counter_1:int;
       
@@ -374,3 +373,4 @@ package interfaces.panels
       }
    }
 }
+

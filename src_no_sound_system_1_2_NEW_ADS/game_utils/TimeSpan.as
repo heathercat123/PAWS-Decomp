@@ -10,7 +10,6 @@ package game_utils
       public static const MILLISECONDS_IN_MINUTE:Number = 60000;
       
       public static const MILLISECONDS_IN_SECOND:Number = 1000;
-       
       
       private var _totalMilliseconds:Number;
       
@@ -108,3 +107,4 @@ package game_utils
       }
    }
 }
+

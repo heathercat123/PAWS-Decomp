@@ -6,7 +6,6 @@ package interfaces.panels
    
    public class MapItemsPanel extends Sprite
    {
-       
       
       protected var counter_1:int;
       
@@ -113,3 +112,4 @@ package interfaces.panels
       }
    }
 }
+

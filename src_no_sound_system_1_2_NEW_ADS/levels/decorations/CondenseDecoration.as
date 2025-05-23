@@ -7,7 +7,6 @@ package levels.decorations
    
    public class CondenseDecoration extends Decoration
    {
-       
       
       public var stateMachine:StateMachine;
       
@@ -107,3 +106,4 @@ package levels.decorations
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class CloudEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -117,3 +116,4 @@ package sprites.enemies
       }
    }
 }
+

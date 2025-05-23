@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class FireBrickCollisionSprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -55,3 +54,4 @@ package sprites.collisions
       }
    }
 }
+

@@ -13,7 +13,6 @@ package levels.backgrounds
    
    public class DarkManager
    {
-       
       
       public var level:Level;
       
@@ -303,3 +302,4 @@ package levels.backgrounds
       }
    }
 }
+

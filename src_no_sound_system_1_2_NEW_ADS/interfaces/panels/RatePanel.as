@@ -10,7 +10,6 @@ package interfaces.panels
    
    public class RatePanel extends Sprite
    {
-       
       
       public var QUIT_FLAG:Boolean;
       
@@ -273,3 +272,4 @@ package interfaces.panels
       }
    }
 }
+

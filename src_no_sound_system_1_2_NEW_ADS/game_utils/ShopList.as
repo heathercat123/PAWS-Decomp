@@ -7,7 +7,6 @@ package game_utils
    
    public class ShopList
    {
-       
       
       public function ShopList()
       {
@@ -69,18 +68,6 @@ package game_utils
          else if(_type == 3)
          {
             shopItemButton = new ShopItemButton("shopRemoveIcon",-1,_WIDTH,_HEIGHT,-1);
-            itemsContainer.addChild(shopItemButton);
-            itemButtons.push(shopItemButton);
-            shopItemButton = new ShopItemButton("shopItem_92",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_MONSTER),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_MONSTER);
-            itemsContainer.addChild(shopItemButton);
-            itemButtons.push(shopItemButton);
-            shopItemButton = new ShopItemButton("shopItem_91",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_PUMPKIN),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_PUMPKIN);
-            itemsContainer.addChild(shopItemButton);
-            itemButtons.push(shopItemButton);
-            shopItemButton = new ShopItemButton("shopItem_94",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_VOODOO),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_VOODOO);
-            itemsContainer.addChild(shopItemButton);
-            itemButtons.push(shopItemButton);
-            shopItemButton = new ShopItemButton("shopItem_93",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_SKULL),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_SKULL);
             itemsContainer.addChild(shopItemButton);
             itemButtons.push(shopItemButton);
             shopItemButton = new ShopItemButton("shopItem_18",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_YELLOW),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_YELLOW);
@@ -212,6 +199,27 @@ package game_utils
             shopItemButton = new ShopItemButton("shopItem_76",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_CROWN_SUPREME),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_CROWN_SUPREME);
             itemsContainer.addChild(shopItemButton);
             itemButtons.push(shopItemButton);
+            if(Utils.Slot.playerInventory[LevelItems.ITEM_HAT_MONSTER] > 0)
+            {
+               shopItemButton = new ShopItemButton("shopItem_92",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_MONSTER),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_MONSTER);
+               itemsContainer.addChild(shopItemButton);
+               itemButtons.push(shopItemButton);
+            }
+            if(Utils.Slot.playerInventory[LevelItems.ITEM_HAT_PUMPKIN] > 0)
+            {
+               shopItemButton = new ShopItemButton("shopItem_91",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_PUMPKIN),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_PUMPKIN);
+               itemsContainer.addChild(shopItemButton);
+               itemButtons.push(shopItemButton);
+            }
+            if(Utils.Slot.playerInventory[LevelItems.ITEM_HAT_VOODOO] > 0)
+            {
+               shopItemButton = new ShopItemButton("shopItem_94",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_VOODOO),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_VOODOO);
+               itemsContainer.addChild(shopItemButton);
+               itemButtons.push(shopItemButton);
+            }
+            shopItemButton = new ShopItemButton("shopItem_93",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_SKULL),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_SKULL);
+            itemsContainer.addChild(shopItemButton);
+            itemButtons.push(shopItemButton);
             if(Utils.Slot.playerInventory[LevelItems.ITEM_HAT_SOMBRERO] > 0)
             {
                shopItemButton = new ShopItemButton("shopItem_77",CoinPrices.GetHatPrice(LevelItems.ITEM_HAT_SOMBRERO),_WIDTH,_HEIGHT,LevelItems.ITEM_HAT_SOMBRERO);
@@ -250,3 +258,4 @@ package game_utils
       }
    }
 }
+

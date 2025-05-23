@@ -15,7 +15,6 @@ package levels.collisions
    
    public class BigIceBlockCollision extends Collision
    {
-       
       
       public var TYPE:int;
       
@@ -422,3 +421,4 @@ package levels.collisions
       }
    }
 }
+

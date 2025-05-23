@@ -8,7 +8,6 @@ package interfaces.panels.intro
    
    public class IntroScene2Panel extends Sprite
    {
-       
       
       protected var bgContainer:Sprite;
       
@@ -270,3 +269,4 @@ package interfaces.panels.intro
       }
    }
 }
+

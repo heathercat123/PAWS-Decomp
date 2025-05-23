@@ -8,7 +8,6 @@ package entities.enemies
    
    public class WallSoldierEnemy extends TinEnemy
    {
-       
       
       protected var IS_GOING_UP:Boolean;
       
@@ -301,3 +300,4 @@ package entities.enemies
       }
    }
 }
+

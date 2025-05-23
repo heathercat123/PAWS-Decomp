@@ -9,7 +9,6 @@ package levels.collisions
    
    public class NoRunAreaCollision extends Collision
    {
-       
       
       public var TYPE:int;
       
@@ -108,3 +107,4 @@ package levels.collisions
       }
    }
 }
+

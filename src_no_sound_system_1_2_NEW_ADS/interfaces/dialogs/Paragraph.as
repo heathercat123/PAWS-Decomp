@@ -9,7 +9,6 @@ package interfaces.dialogs
    
    public class Paragraph extends Sprite
    {
-       
       
       public var dialog:Dialog;
       
@@ -354,3 +353,4 @@ package interfaces.dialogs
       }
    }
 }
+

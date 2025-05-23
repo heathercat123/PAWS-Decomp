@@ -15,7 +15,6 @@ package levels.collisions
    
    public class GiantFishCollision extends Collision
    {
-       
       
       protected var container:Sprite;
       
@@ -225,3 +224,4 @@ package levels.collisions
       }
    }
 }
+

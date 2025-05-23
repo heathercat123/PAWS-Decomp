@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class GiantDragonWingSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -38,3 +37,4 @@ package sprites.enemies
       }
    }
 }
+

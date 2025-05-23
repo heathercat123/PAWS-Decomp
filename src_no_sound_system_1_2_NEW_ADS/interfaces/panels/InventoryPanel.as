@@ -7,7 +7,6 @@ package interfaces.panels
    
    public class InventoryPanel extends Sprite
    {
-       
       
       protected var bluePanel:BluePanel;
       
@@ -132,3 +131,4 @@ package interfaces.panels
       }
    }
 }
+

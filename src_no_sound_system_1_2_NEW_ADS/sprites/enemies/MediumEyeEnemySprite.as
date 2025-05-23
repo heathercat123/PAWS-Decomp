@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class MediumEyeEnemySprite extends GameSprite
    {
-       
       
       protected var openAnim:GameMovieClip;
       
@@ -95,3 +94,4 @@ package sprites.enemies
       }
    }
 }
+

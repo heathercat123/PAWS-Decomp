@@ -7,7 +7,6 @@ package interfaces.panels
    
    public class ItemsPanel extends Sprite
    {
-       
       
       protected var mid_x:int;
       
@@ -192,3 +191,4 @@ package interfaces.panels
       }
    }
 }
+

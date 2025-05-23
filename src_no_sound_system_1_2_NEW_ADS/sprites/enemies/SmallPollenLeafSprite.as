@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class SmallPollenLeafSprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -61,3 +60,4 @@ package sprites.enemies
       }
    }
 }
+

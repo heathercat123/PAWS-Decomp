@@ -9,7 +9,6 @@ package interfaces.panels
    
    public class CoinsPanel extends Sprite
    {
-       
       
       protected var counter_1:int;
       
@@ -108,3 +107,4 @@ package interfaces.panels
       }
    }
 }
+

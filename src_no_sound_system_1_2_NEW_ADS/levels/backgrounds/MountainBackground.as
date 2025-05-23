@@ -13,7 +13,6 @@ package levels.backgrounds
    
    public class MountainBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -168,3 +167,4 @@ package levels.backgrounds
       }
    }
 }
+

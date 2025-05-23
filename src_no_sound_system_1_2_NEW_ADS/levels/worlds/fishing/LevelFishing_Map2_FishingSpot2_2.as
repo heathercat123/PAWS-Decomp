@@ -5,7 +5,6 @@ package levels.worlds.fishing
    [Embed(source="/_assets/159_levels.worlds.fishing.LevelFishing_Map2_FishingSpot2_2.bin", mimeType="application/octet-stream")]
    public class LevelFishing_Map2_FishingSpot2_2 extends ByteArrayAsset
    {
-       
       
       public function LevelFishing_Map2_FishingSpot2_2()
       {
@@ -13,3 +12,4 @@ package levels.worlds.fishing
       }
    }
 }
+

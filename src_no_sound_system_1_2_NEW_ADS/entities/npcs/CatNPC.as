@@ -21,7 +21,6 @@ package entities.npcs
       public static var MC_MEOW:int = 4;
       
       public static var MARA:int = 5;
-       
       
       public var SPEED:Number;
       
@@ -276,3 +275,4 @@ package entities.npcs
       }
    }
 }
+

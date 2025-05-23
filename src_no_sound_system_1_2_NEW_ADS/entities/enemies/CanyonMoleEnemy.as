@@ -11,7 +11,6 @@ package entities.enemies
    
    public class CanyonMoleEnemy extends Enemy
    {
-       
       
       protected var start_y:Number;
       
@@ -507,3 +506,4 @@ package entities.enemies
       }
    }
 }
+

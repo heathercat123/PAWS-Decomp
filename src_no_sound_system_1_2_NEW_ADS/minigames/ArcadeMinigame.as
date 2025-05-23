@@ -13,7 +13,6 @@ package minigames
    
    public class ArcadeMinigame extends Minigame
    {
-       
       
       protected var background_image:Image;
       
@@ -466,3 +465,4 @@ package minigames
       }
    }
 }
+

@@ -14,7 +14,6 @@ package entities.enemies
    
    public class LogTreeEnemy extends Enemy
    {
-       
       
       protected var wait_time:int;
       
@@ -523,3 +522,4 @@ package entities.enemies
       }
    }
 }
+

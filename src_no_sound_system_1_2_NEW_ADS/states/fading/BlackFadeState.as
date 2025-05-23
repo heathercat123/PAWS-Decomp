@@ -6,7 +6,6 @@ package states.fading
    
    public class BlackFadeState implements IState
    {
-       
       
       private var container:Sprite;
       
@@ -96,3 +95,4 @@ package states.fading
       }
    }
 }
+

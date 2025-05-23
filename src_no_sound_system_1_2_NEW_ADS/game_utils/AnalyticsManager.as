@@ -2,7 +2,6 @@ package game_utils
 {
    public class AnalyticsManager
    {
-       
       
       public function AnalyticsManager()
       {
@@ -22,3 +21,4 @@ package game_utils
       }
    }
 }
+

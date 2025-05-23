@@ -8,7 +8,6 @@ package entities.enemies
    
    public class CaveBeetleEnemy extends Enemy
    {
-       
       
       protected var ORIGINAL_SIDE:int;
       
@@ -563,3 +562,4 @@ package entities.enemies
       }
    }
 }
+

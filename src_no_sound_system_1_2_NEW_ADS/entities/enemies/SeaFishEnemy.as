@@ -8,7 +8,6 @@ package entities.enemies
    
    public class SeaFishEnemy extends Enemy
    {
-       
       
       protected var speed_multiplier:Number;
       
@@ -266,3 +265,4 @@ package entities.enemies
       }
    }
 }
+

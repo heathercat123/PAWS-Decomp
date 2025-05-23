@@ -6,7 +6,6 @@ package interfaces.dialogs.balloons
    
    public class Balloon extends Sprite
    {
-       
       
       public var dialog:Dialog;
       
@@ -83,3 +82,4 @@ package interfaces.dialogs.balloons
       }
    }
 }
+

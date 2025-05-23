@@ -4,7 +4,6 @@ package game_utils
    {
       
       private static var _instance:LevelTimer = null;
-       
       
       private var stateMachine:StateMachine;
       
@@ -91,3 +90,4 @@ package game_utils
       }
    }
 }
+

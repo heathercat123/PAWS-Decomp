@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class MountainGoatEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -185,3 +184,4 @@ package sprites.enemies
       }
    }
 }
+

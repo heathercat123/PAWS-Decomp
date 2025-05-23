@@ -6,7 +6,6 @@ package levels.decorations
    
    public class SprinklerDecoration extends Decoration
    {
-       
       
       internal var sin_counter:Number;
       
@@ -70,3 +69,4 @@ package levels.decorations
       }
    }
 }
+

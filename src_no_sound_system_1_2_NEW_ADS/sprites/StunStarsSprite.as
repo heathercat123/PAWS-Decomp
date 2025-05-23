@@ -2,7 +2,6 @@ package sprites
 {
    public class StunStarsSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -49,3 +48,4 @@ package sprites
       }
    }
 }
+

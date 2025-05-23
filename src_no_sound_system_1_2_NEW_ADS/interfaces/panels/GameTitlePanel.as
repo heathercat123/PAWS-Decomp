@@ -9,7 +9,6 @@ package interfaces.panels
    
    public class GameTitlePanel extends Sprite
    {
-       
       
       protected var titleImage:Image;
       
@@ -203,3 +202,4 @@ package interfaces.panels
       }
    }
 }
+

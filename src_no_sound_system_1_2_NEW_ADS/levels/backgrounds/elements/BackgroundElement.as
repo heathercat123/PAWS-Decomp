@@ -7,7 +7,6 @@ package levels.backgrounds.elements
    
    public class BackgroundElement
    {
-       
       
       protected var level:Level;
       
@@ -87,3 +86,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

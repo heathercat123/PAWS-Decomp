@@ -5,7 +5,6 @@ package levels.cameras.behaviours
    
    public class CenteredVerScrollBehaviour extends CameraBehaviour
    {
-       
       
       protected var y_shift:Number;
       
@@ -46,3 +45,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

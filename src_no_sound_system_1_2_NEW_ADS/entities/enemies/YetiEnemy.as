@@ -13,7 +13,6 @@ package entities.enemies
    
    public class YetiEnemy extends Enemy
    {
-       
       
       protected var wait_time:int;
       
@@ -522,3 +521,4 @@ package entities.enemies
       }
    }
 }
+

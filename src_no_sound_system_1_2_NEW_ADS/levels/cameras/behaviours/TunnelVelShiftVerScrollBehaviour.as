@@ -5,7 +5,6 @@ package levels.cameras.behaviours
    
    public class TunnelVelShiftVerScrollBehaviour extends CameraBehaviour
    {
-       
       
       public var y_focal:Number;
       
@@ -136,3 +135,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

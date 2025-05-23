@@ -18,7 +18,6 @@ package entities.enemies
    
    public class BossFishEnemy extends GiantEnemy
    {
-       
       
       protected var HITS:int;
       
@@ -950,3 +949,4 @@ package entities.enemies
       }
    }
 }
+

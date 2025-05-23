@@ -12,7 +12,6 @@ package interfaces.panels
    
    public class SettingsCreditsPanel extends Sprite
    {
-       
       
       public var settingsPanel:SettingsPanel;
       
@@ -332,3 +331,4 @@ package interfaces.panels
       }
    }
 }
+

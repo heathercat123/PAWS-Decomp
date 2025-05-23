@@ -13,7 +13,6 @@ package sprites.minigames
       public static var SPRITE_HUD_ARROW:int = 2;
       
       public static var SPRITE_BAT_HERO:int = 3;
-       
       
       protected var TYPE:int;
       
@@ -146,3 +145,4 @@ package sprites.minigames
       }
    }
 }
+

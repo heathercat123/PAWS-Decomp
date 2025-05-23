@@ -10,7 +10,6 @@ package levels.collisions
    
    public class TutorialCollision extends Collision
    {
-       
       
       protected var TYPE:int;
       
@@ -193,3 +192,4 @@ package levels.collisions
       }
    }
 }
+

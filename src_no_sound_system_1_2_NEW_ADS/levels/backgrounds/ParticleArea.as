@@ -4,7 +4,6 @@ package levels.backgrounds
    
    public class ParticleArea
    {
-       
       
       public var aabb:Rectangle;
       
@@ -28,3 +27,4 @@ package levels.backgrounds
       }
    }
 }
+

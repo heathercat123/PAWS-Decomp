@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class RaiderEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -165,3 +164,4 @@ package sprites.enemies
       }
    }
 }
+

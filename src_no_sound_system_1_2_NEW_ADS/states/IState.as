@@ -2,7 +2,6 @@ package states
 {
    public interface IState
    {
-       
       
       function enterState(param1:Game) : void;
       
@@ -11,3 +10,4 @@ package states
       function exitState(param1:Game) : void;
    }
 }
+

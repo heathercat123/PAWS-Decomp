@@ -11,7 +11,6 @@ package levels.cutscenes.world2
    
    public class ChefRewardCutscene extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
@@ -115,3 +114,4 @@ package levels.cutscenes.world2
       }
    }
 }
+

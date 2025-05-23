@@ -100,8 +100,7 @@ package starling.text
         private var _requiresRecomposition:Boolean;
         private var _border:DisplayObjectContainer;
         private var _meshBatch:MeshBatch;
-        private var _customStyle:MeshStyle;
-        private var _defaultStyle:MeshStyle;
+        private var _style:MeshStyle;
         private var _recomposing:Boolean;
 
         // helper objects
@@ -176,7 +175,7 @@ package starling.text
         }
 
         // font and border rendering
-
+        
         private function updateText():void
         {
             var width:Number  = _hitArea.width;
@@ -192,13 +191,7 @@ package starling.text
             _options.textureScale = Starling.contentScaleFactor;
             _compositor.fillMeshBatch(_meshBatch, width, height, _text, _format, _options);
 
-            if (_customStyle) _meshBatch.style = _customStyle;
-            else
-            {
-                _defaultStyle = _compositor.getDefaultMeshStyle(_defaultStyle, _format, _options);
-                if (_defaultStyle) _meshBatch.style = _defaultStyle;
-            }
-
+            if (_style) _meshBatch.style = _style;
             if (_options.autoSize != TextFieldAutoSize.NONE)
             {
                 _textBounds = _meshBatch.getBounds(_meshBatch, _textBounds);
@@ -276,7 +269,9 @@ package starling.text
         /** Returns the bounds of the text within the text field. */
         public function get textBounds():Rectangle
         {
-            return getTextBounds(this);
+            if (_requiresRecomposition) recompose();
+            if (_textBounds == null) _textBounds = _meshBatch.getBounds(this);
+            return _textBounds.clone();
         }
         
         /** @inheritDoc */
@@ -285,15 +280,6 @@ package starling.text
             if (_requiresRecomposition) recompose();
             getTransformationMatrix(targetSpace, sMatrix);
             return RectangleUtil.getBounds(_hitArea, sMatrix, out);
-        }
-
-        /** Returns the bounds of the text within the text field in the given coordinate space. */
-        public function getTextBounds(targetSpace:DisplayObject, out:Rectangle=null):Rectangle
-        {
-            if (_requiresRecomposition) recompose();
-            if (_textBounds == null) _textBounds = _meshBatch.getBounds(this);
-            getTransformationMatrix(targetSpace, sMatrix);
-            return RectangleUtil.getBounds(_textBounds, sMatrix, out);
         }
         
         /** @inheritDoc */
@@ -439,15 +425,10 @@ package starling.text
 
         /** The mesh style that is used to render the text.
          *  Note that a style instance may only be used on one mesh at a time. */
-        public function get style():MeshStyle
-        {
-            if (_requiresRecomposition) recompose(); // might change style!
-            return _meshBatch.style;
-        }
-
+        public function get style():MeshStyle { return _meshBatch.style; }
         public function set style(value:MeshStyle):void
         {
-            _customStyle = value;
+            _meshBatch.style = _style = value;
             setRequiresRecomposition();
         }
 

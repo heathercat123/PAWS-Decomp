@@ -11,7 +11,6 @@ package interfaces.panels
    
    public class CatPanel extends Sprite
    {
-       
       
       public var GET_OUT_FLAG:Boolean;
       
@@ -273,3 +272,4 @@ package interfaces.panels
       }
    }
 }
+

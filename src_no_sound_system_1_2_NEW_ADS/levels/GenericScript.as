@@ -2,7 +2,6 @@ package levels
 {
    public class GenericScript
    {
-       
       
       public var type:int;
       
@@ -40,3 +39,4 @@ package levels
       }
    }
 }
+

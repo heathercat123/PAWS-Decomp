@@ -6,7 +6,6 @@ package sprites.cats
    
    public class HeroSprite extends CatSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -494,3 +493,4 @@ package sprites.cats
       }
    }
 }
+

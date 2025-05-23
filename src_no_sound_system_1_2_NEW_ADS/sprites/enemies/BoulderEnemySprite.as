@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class BoulderEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -160,3 +159,4 @@ package sprites.enemies
       }
    }
 }
+

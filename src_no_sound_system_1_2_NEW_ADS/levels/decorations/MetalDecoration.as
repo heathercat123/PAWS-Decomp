@@ -6,7 +6,6 @@ package levels.decorations
    
    public class MetalDecoration extends Decoration
    {
-       
       
       protected var image:Image;
       
@@ -35,3 +34,4 @@ package levels.decorations
       }
    }
 }
+

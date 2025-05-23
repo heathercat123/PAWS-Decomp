@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class BatEnemySprite extends GameSprite
    {
-       
       
       protected var sleepAnim:GameMovieClip;
       
@@ -135,3 +134,4 @@ package sprites.enemies
       }
    }
 }
+

@@ -11,7 +11,6 @@ package entities.enemies
    
    public class AnglerFishEnemy extends Enemy
    {
-       
       
       protected var speed_multiplier:Number;
       
@@ -381,3 +380,4 @@ package entities.enemies
       }
    }
 }
+

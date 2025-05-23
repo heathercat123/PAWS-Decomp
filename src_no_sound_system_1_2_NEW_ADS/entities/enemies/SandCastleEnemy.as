@@ -18,7 +18,6 @@ package entities.enemies
    
    public class SandCastleEnemy extends Enemy
    {
-       
       
       protected var wait_time:int;
       
@@ -768,3 +767,4 @@ package entities.enemies
       }
    }
 }
+

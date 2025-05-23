@@ -10,7 +10,6 @@ package levels.backgrounds
    
    public class RainWoodsBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -164,3 +163,4 @@ package levels.backgrounds
       }
    }
 }
+

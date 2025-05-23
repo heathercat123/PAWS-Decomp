@@ -8,7 +8,6 @@ package entities.enemies
    
    public class SnowmanEnemy extends Enemy
    {
-       
       
       protected var start_y:Number;
       
@@ -421,3 +420,4 @@ package entities.enemies
       }
    }
 }
+

@@ -9,7 +9,6 @@ package levels.collisions
    
    public class AirCollision extends Collision
    {
-       
       
       public var DIRECTION:int;
       
@@ -133,3 +132,4 @@ package levels.collisions
       }
    }
 }
+

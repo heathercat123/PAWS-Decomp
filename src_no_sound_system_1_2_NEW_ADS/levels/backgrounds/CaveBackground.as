@@ -7,7 +7,6 @@ package levels.backgrounds
    
    public class CaveBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -51,3 +50,4 @@ package levels.backgrounds
       }
    }
 }
+

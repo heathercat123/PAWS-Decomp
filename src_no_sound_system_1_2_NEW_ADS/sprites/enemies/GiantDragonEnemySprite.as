@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class GiantDragonEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -97,3 +96,4 @@ package sprites.enemies
       }
    }
 }
+

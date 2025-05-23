@@ -5,7 +5,6 @@ package levels.cameras.behaviours
    
    public class CenteredProgressiveVerScrollBehaviour extends CameraBehaviour
    {
-       
       
       protected var multiplier:Number;
       
@@ -52,3 +51,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

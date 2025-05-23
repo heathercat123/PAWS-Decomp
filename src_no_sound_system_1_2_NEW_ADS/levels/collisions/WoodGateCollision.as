@@ -10,7 +10,6 @@ package levels.collisions
    
    public class WoodGateCollision extends GearCollision
    {
-       
       
       protected var TYPE:int;
       
@@ -427,3 +426,4 @@ package levels.collisions
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class FireBallCollisionSprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -49,3 +48,4 @@ package sprites.collisions
       }
    }
 }
+

@@ -9,7 +9,6 @@ package levels.worlds.fishing
    
    public class Level_1_Fishing extends LevelFishing
    {
-       
       
       protected var TUTORIAL_CUTSCENE_FLAG_1:Boolean;
       
@@ -175,3 +174,4 @@ package levels.worlds.fishing
       }
    }
 }
+

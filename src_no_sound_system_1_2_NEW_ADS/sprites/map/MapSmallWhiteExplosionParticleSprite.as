@@ -5,7 +5,6 @@ package sprites.map
    
    public class MapSmallWhiteExplosionParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -39,3 +38,4 @@ package sprites.map
       }
    }
 }
+

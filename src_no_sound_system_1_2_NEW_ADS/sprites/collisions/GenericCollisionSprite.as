@@ -6,7 +6,6 @@ package sprites.collisions
    
    public class GenericCollisionSprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -123,3 +122,4 @@ package sprites.collisions
       }
    }
 }
+

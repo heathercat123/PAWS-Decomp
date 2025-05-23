@@ -9,7 +9,6 @@ package entities.enemies
    
    public class MonkeyRedEnemy extends Enemy
    {
-       
       
       protected var lighter_y_diff:Number;
       
@@ -160,3 +159,4 @@ package entities.enemies
       }
    }
 }
+

@@ -9,7 +9,6 @@ package interfaces.buttons
    
    public class ShopItemButton extends Button
    {
-       
       
       public var WIDTH:int;
       
@@ -336,3 +335,4 @@ package interfaces.buttons
       }
    }
 }
+

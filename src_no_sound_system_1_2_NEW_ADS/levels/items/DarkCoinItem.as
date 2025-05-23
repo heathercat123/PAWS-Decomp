@@ -11,7 +11,6 @@ package levels.items
    {
       
       public static var CAUGHT_COUNTER:int;
-       
       
       public var IS_FROZEN:Boolean;
       
@@ -149,3 +148,4 @@ package levels.items
       }
    }
 }
+

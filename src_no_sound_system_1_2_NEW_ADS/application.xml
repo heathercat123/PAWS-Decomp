@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<application xmlns="http://ns.adobe.com/air/application/50.2">
+<application xmlns="http://ns.adobe.com/air/application/51.0">
    <id>com.neutronized.supercattalespaws</id>
-  <versionNumber>1.0.59</versionNumber>
+  <versionNumber>1.0.64</versionNumber>
   <versionLabel/>
   <filename>CatGamePaws_android</filename>
   <description/>
@@ -17,13 +17,13 @@
     <renderMode>direct</renderMode>
     <autoOrients>true</autoOrients></initialWindow>
   <icon>
-    <!--  <image36x36>AppIconsForPublish/36x36.png</image36x36>
-            <image48x48>AppIconsForPublish/48x48.png</image48x48>
-            <image72x72>AppIconsForPublish/72x72.png</image72x72>
-            <image96x96>AppIconsForPublish/96x96.png</image96x96>
-            <image144x144>AppIconsForPublish/144x144.png</image144x144>  -->
+      <image36x36>AppIconsForPublish/36x36.png</image36x36>
+    <image48x48>AppIconsForPublish/48x48.png</image48x48>
+    <image72x72>AppIconsForPublish/72x72.png</image72x72>
+    <image96x96>AppIconsForPublish/96x96.png</image96x96>
+    <image144x144>AppIconsForPublish/144x144.png</image144x144>
     <image192x192>AppIconsForPublish/192x192.png</image192x192>
-    <!--  <image512x512>AppIconsForPublish/512x512.png</image512x512>  -->
+	  <image512x512>AppIconsForPublish/512x512.png</image512x512>
   </icon>
    <customUpdateUI>false</customUpdateUI>
   <allowBrowserInvocation>false</allowBrowserInvocation>
@@ -31,7 +31,7 @@
     <manifestAdditions>
       <![CDATA[
 	<manifest android:installLocation="auto" xmlns:tools="http://schemas.android.com/tools" >
-	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="33" />
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="34" />
 	
 	 
 	
@@ -41,6 +41,9 @@
 <uses-permission android:name="com.android.vending.BILLING" />
  <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
     <queries>
+		<intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+        </intent>
         <!-- For browser content -->
         <intent>
             <action android:name="android.intent.action.VIEW" />
@@ -54,6 +57,7 @@
         </intent>
         <!-- End of CustomTabsService -->
     </queries>
+	
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
 
@@ -222,21 +226,25 @@
                 android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
                 android:exported="true"
                 android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+	<activity 
+            android:name="com.distriqt.extension.inappbilling.activities.ProductViewActivity" 
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
-           <!-- <activity
-                android:name="com.google.android.gms.common.api.GoogleApiActivity"
-                android:exported="false"
-                android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
 
-				
-				<!-- GOOGLE PLAY BILLING -->
-        <meta-data android:name="com.google.android.play.billingclient.version" android:value="5.0.0" />
+        <!-- GOOGLE PLAY BILLING -->
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="6.2.1" />
         <activity
             android:name="com.android.billingclient.api.ProxyBillingActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+			
 
 	
 			
@@ -257,5 +265,27 @@
   
   
   
-
+  <extensions>
+    <extensionID>com.distriqt.InAppBilling</extensionID>
+    <extensionID>com.distriqt.playservices.Base</extensionID>
+    <extensionID>com.distriqt.playservices.Auth</extensionID>
+    <extensionID>com.distriqt.playservices.Drive</extensionID>
+    <extensionID>com.distriqt.playservices.Games</extensionID>
+    <extensionID>com.distriqt.GameServices</extensionID>
+    <extensionID>com.distriqt.Core</extensionID>
+    <extensionID>com.distriqt.Application</extensionID>
+    <extensionID>androidx.appcompat</extensionID>
+    <extensionID>androidx.core</extensionID>
+    <extensionID>com.distriqt.playservices.AdsIdentifier</extensionID>
+    <extensionID>com.jetbrains.kotlin</extensionID>
+    <extensionID>androidx.browser</extensionID>
+    <extensionID>androidx.constraintlayout</extensionID>
+    <extensionID>androidx.vectordrawable</extensionID>
+    <extensionID>androidx.room</extensionID>
+    <extensionID>androidx.work</extensionID>
+    <extensionID>com.google.code.gson</extensionID>
+    <extensionID>com.distriqt.playservices.Ads</extensionID>
+    <extensionID>com.distriqt.playservices.AppSet</extensionID>
+    <extensionID>com.distriqt.Adverts</extensionID>
+  </extensions>
 </application>

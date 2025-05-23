@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class CemeterySkullCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -76,3 +75,4 @@ package sprites.collisions
       }
    }
 }
+

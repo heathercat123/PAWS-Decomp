@@ -5,7 +5,6 @@ package sprites.decorations
    
    public class CircusBalloonDecorationSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -34,3 +33,4 @@ package sprites.decorations
       }
    }
 }
+

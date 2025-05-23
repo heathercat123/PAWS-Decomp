@@ -5,7 +5,6 @@ package sprites.background
    
    public class NightSnowBackgroundParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -35,3 +34,4 @@ package sprites.background
       }
    }
 }
+

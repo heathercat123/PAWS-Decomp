@@ -17,7 +17,6 @@ package levels.collisions
       public static var FISH_1:int = 1;
       
       public static var HERMIT_1:int = 2;
-       
       
       public var ID:int;
       
@@ -566,3 +565,4 @@ package levels.collisions
       }
    }
 }
+

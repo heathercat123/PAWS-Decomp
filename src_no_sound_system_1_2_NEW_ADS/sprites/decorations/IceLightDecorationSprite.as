@@ -5,7 +5,6 @@ package sprites.decorations
    
    public class IceLightDecorationSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -58,3 +57,4 @@ package sprites.decorations
       }
    }
 }
+

@@ -7,7 +7,6 @@ package levels
    
    public class LevelPhysics
    {
-       
       
       public var level:Level;
       
@@ -622,3 +621,4 @@ package levels
       }
    }
 }
+

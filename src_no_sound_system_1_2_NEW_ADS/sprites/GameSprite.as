@@ -4,7 +4,6 @@ package sprites
    
    public class GameSprite extends Sprite
    {
-       
       
       public var frame:int;
       
@@ -60,3 +59,4 @@ package sprites
       }
    }
 }
+

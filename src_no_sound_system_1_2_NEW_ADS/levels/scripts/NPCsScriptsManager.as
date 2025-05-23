@@ -6,7 +6,6 @@ package levels.scripts
    
    public class NPCsScriptsManager
    {
-       
       
       public function NPCsScriptsManager()
       {
@@ -45,3 +44,4 @@ package levels.scripts
       }
    }
 }
+

@@ -9,7 +9,6 @@ package entities.enemies
    
    public class CloudEnemy extends Enemy
    {
-       
       
       protected var sin_counter:Number;
       
@@ -287,3 +286,4 @@ package entities.enemies
       }
    }
 }
+

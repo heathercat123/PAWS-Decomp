@@ -10,7 +10,6 @@ package levels.collisions
    
    public class TreadmillCollision extends Collision
    {
-       
       
       public var stateMachine:StateMachine;
       
@@ -213,3 +212,4 @@ package levels.collisions
       }
    }
 }
+

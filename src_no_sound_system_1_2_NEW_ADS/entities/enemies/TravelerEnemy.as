@@ -16,7 +16,6 @@ package entities.enemies
    
    public class TravelerEnemy extends Enemy
    {
-       
       
       protected var param_2:Number;
       
@@ -980,3 +979,4 @@ package entities.enemies
       }
    }
 }
+

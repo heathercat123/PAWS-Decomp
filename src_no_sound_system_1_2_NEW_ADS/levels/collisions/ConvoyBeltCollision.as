@@ -10,7 +10,6 @@ package levels.collisions
    
    public class ConvoyBeltCollision extends Collision
    {
-       
       
       public var hero_xDiff:Number;
       
@@ -247,3 +246,4 @@ package levels.collisions
       }
    }
 }
+

@@ -6,7 +6,6 @@ package levels.collisions
    
    public class SpawnerCollision extends Collision
    {
-       
       
       public var TYPE:int;
       
@@ -31,3 +30,4 @@ package levels.collisions
       }
    }
 }
+

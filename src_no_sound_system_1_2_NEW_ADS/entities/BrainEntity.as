@@ -4,7 +4,6 @@ package entities
    
    public class BrainEntity extends Entity
    {
-       
       
       public function BrainEntity(_level:Level, _xPos:Number, _yPos:Number, _direction:int)
       {
@@ -47,3 +46,4 @@ package entities
       }
    }
 }
+

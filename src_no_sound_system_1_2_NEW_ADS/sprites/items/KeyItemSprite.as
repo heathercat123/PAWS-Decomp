@@ -5,7 +5,6 @@ package sprites.items
    
    public class KeyItemSprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -152,3 +151,4 @@ package sprites.items
       }
    }
 }
+

@@ -8,7 +8,6 @@ package game_utils
       public static const FENCE:int = 1;
       
       public static const DOOR:int = 2;
-       
       
       public var x:int;
       
@@ -31,3 +30,4 @@ package game_utils
       }
    }
 }
+

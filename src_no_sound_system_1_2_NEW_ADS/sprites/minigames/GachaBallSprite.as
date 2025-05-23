@@ -5,7 +5,6 @@ package sprites.minigames
    
    public class GachaBallSprite extends GameSprite
    {
-       
       
       public var COLOR_INDEX:int;
       
@@ -53,3 +52,4 @@ package sprites.minigames
       }
    }
 }
+

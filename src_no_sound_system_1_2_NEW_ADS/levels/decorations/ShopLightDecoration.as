@@ -5,7 +5,6 @@ package levels.decorations
    
    public class ShopLightDecoration extends Decoration
    {
-       
       
       public function ShopLightDecoration(_level:Level, _xPos:Number, _yPos:Number, _id:int)
       {
@@ -22,3 +21,4 @@ package levels.decorations
       }
    }
 }
+

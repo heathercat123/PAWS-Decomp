@@ -16,7 +16,6 @@ package levels.collisions
    
    public class ArcadeCabinetCollision extends Collision
    {
-       
       
       protected var TYPE:int;
       
@@ -333,3 +332,4 @@ package levels.collisions
       }
    }
 }
+

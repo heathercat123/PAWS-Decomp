@@ -5,7 +5,6 @@ package levels.collisions
    
    public class PotCollision extends Collision
    {
-       
       
       public function PotCollision(_level:Level, _xPos:Number, _yPos:Number, _value:int = 0)
       {
@@ -28,3 +27,4 @@ package levels.collisions
       }
    }
 }
+

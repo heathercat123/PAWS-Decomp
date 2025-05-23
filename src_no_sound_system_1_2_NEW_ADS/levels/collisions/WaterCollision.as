@@ -14,7 +14,6 @@ package levels.collisions
    
    public class WaterCollision extends Collision
    {
-       
       
       public var container:Sprite;
       
@@ -291,3 +290,4 @@ package levels.collisions
       }
    }
 }
+

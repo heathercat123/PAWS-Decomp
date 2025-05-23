@@ -9,7 +9,6 @@ package entities.enemies
    
    public class MountainGoatEnemy extends Enemy
    {
-       
       
       protected var start_y:Number;
       
@@ -410,3 +409,4 @@ package entities.enemies
       }
    }
 }
+

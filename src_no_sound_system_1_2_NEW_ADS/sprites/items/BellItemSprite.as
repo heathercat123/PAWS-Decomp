@@ -5,7 +5,6 @@ package sprites.items
    
    public class BellItemSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -142,3 +141,4 @@ package sprites.items
       }
    }
 }
+

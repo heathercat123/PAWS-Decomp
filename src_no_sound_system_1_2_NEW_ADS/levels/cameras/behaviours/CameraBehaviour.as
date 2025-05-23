@@ -5,7 +5,6 @@ package levels.cameras.behaviours
    
    public class CameraBehaviour
    {
-       
       
       public var level:Level;
       
@@ -33,3 +32,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

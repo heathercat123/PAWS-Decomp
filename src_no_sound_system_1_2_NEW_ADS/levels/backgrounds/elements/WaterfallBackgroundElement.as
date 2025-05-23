@@ -7,7 +7,6 @@ package levels.backgrounds.elements
    
    public class WaterfallBackgroundElement extends BackgroundElement
    {
-       
       
       protected var sprite:WaterfallBackgroundSprite;
       
@@ -59,3 +58,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

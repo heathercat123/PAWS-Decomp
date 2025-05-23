@@ -13,7 +13,6 @@ package levels.collisions
    {
       
       public static var WATERFALL_PLATFORM_COLLISION_ID:int = 30000;
-       
       
       protected var topSXSide:GameSprite;
       
@@ -331,3 +330,4 @@ package levels.collisions
       }
    }
 }
+

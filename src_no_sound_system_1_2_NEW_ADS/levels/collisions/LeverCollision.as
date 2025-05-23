@@ -13,7 +13,6 @@ package levels.collisions
       public static var knobAnimCounter:int = 0;
       
       public static var updateOnce:Boolean = true;
-       
       
       public var IS_HERO_RIGHT:Boolean;
       
@@ -338,3 +337,4 @@ package levels.collisions
       }
    }
 }
+

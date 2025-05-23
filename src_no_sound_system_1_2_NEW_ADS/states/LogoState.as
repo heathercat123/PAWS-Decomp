@@ -8,7 +8,6 @@ package states
    
    public class LogoState implements IState
    {
-       
       
       public var container:Sprite;
       
@@ -175,3 +174,4 @@ package states
       }
    }
 }
+

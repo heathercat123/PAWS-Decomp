@@ -12,7 +12,6 @@ package levels.collisions
    
    public class CoconutCollision extends Collision
    {
-       
       
       protected var stateMachine:StateMachine;
       
@@ -205,3 +204,4 @@ package levels.collisions
       }
    }
 }
+

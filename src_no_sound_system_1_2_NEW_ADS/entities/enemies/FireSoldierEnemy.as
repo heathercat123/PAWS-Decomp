@@ -14,7 +14,6 @@ package entities.enemies
    
    public class FireSoldierEnemy extends TinEnemy
    {
-       
       
       protected var wait_time:int;
       
@@ -426,3 +425,4 @@ package entities.enemies
       }
    }
 }
+

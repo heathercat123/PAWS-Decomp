@@ -2,7 +2,6 @@ package mx.core
 {
    public interface ILayoutDirectionElement
    {
-       
       
       function get layoutDirection() : String;
       
@@ -11,3 +10,4 @@ package mx.core
       function invalidateLayoutDirection() : void;
    }
 }
+

@@ -6,7 +6,6 @@ package levels.cameras.behaviours
    
    public class VerTweenShiftBehaviour extends CameraBehaviour
    {
-       
       
       public var y_start:Number;
       
@@ -51,3 +50,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

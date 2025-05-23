@@ -9,7 +9,6 @@ package interfaces.panels
    
    public class ExitPanel extends Sprite
    {
-       
       
       public var QUIT_FLAG:Boolean;
       
@@ -264,3 +263,4 @@ package interfaces.panels
       }
    }
 }
+

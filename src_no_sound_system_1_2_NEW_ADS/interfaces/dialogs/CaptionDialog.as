@@ -7,7 +7,6 @@ package interfaces.dialogs
    
    public class CaptionDialog extends Dialog
    {
-       
       
       public function CaptionDialog(_level:Level, _xPos:Number, _yPos:Number, _text:String, _onComplete:Function = null, _delay:int = 0, _sprite:GameSprite = null, _isRateButton:Boolean = false)
       {
@@ -79,3 +78,4 @@ package interfaces.dialogs
       }
    }
 }
+

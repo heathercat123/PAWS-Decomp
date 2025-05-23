@@ -13,7 +13,6 @@ package entities.enemies
    
    public class WarlockEnemy extends Enemy
    {
-       
       
       protected var portalSprite:GenericParticleSprite;
       
@@ -532,3 +531,4 @@ package entities.enemies
       }
    }
 }
+

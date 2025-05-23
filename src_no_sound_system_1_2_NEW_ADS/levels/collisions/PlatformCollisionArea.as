@@ -12,7 +12,6 @@ package levels.collisions
    
    public class PlatformCollisionArea extends Collision
    {
-       
       
       protected var entity:Entity;
       
@@ -113,3 +112,4 @@ package levels.collisions
       }
    }
 }
+

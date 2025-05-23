@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class HotBigBrickCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -143,3 +142,4 @@ package sprites.collisions
       }
    }
 }
+

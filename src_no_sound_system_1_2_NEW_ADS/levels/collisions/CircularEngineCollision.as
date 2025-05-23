@@ -11,7 +11,6 @@ package levels.collisions
    
    public class CircularEngineCollision extends Collision
    {
-       
       
       public var collisions:Array;
       
@@ -213,3 +212,4 @@ package levels.collisions
       }
    }
 }
+

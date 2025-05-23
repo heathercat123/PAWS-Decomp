@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class LeverCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -57,3 +56,4 @@ package sprites.collisions
       }
    }
 }
+

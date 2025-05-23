@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class CaveBeetleEnemySprite extends GameSprite
    {
-       
       
       protected var walkAnim:GameMovieClip;
       
@@ -133,3 +132,4 @@ package sprites.enemies
       }
    }
 }
+

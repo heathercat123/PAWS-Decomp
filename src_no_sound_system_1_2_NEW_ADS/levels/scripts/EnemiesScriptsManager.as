@@ -6,7 +6,6 @@ package levels.scripts
    
    public class EnemiesScriptsManager
    {
-       
       
       public function EnemiesScriptsManager()
       {
@@ -65,3 +64,4 @@ package levels.scripts
       }
    }
 }
+

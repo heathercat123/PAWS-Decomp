@@ -6,7 +6,6 @@ package entities.npcs
    
    public class NPCsManager
    {
-       
       
       public var level:Level;
       
@@ -126,3 +125,4 @@ package entities.npcs
       }
    }
 }
+

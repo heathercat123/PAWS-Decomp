@@ -14,7 +14,6 @@ package entities.enemies
    
    public class SquidEnemy extends Enemy
    {
-       
       
       protected var start_y:Number;
       
@@ -499,3 +498,4 @@ package entities.enemies
       }
    }
 }
+

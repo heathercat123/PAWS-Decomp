@@ -7,7 +7,6 @@ package levels.collisions
    
    public class MisteryCollision extends Collision
    {
-       
       
       public var index:int;
       
@@ -380,3 +379,4 @@ package levels.collisions
       }
    }
 }
+

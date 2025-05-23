@@ -2,7 +2,6 @@ package game_utils
 {
    public class InAppProduct
    {
-       
       
       public var product_id:String;
       
@@ -25,3 +24,4 @@ package game_utils
       }
    }
 }
+

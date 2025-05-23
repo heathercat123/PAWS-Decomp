@@ -6,7 +6,6 @@ package states.fading
    
    public class WhiteQuickFadeState implements IState
    {
-       
       
       private var container:Sprite;
       
@@ -72,3 +71,4 @@ package states.fading
       }
    }
 }
+

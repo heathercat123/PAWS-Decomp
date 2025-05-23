@@ -10,7 +10,6 @@ package levels.collisions
    
    public class HotBrickCollision extends Collision
    {
-       
       
       protected var stateMachine:StateMachine;
       
@@ -315,3 +314,4 @@ package levels.collisions
       }
    }
 }
+

@@ -34,7 +34,6 @@ package
    {
       
       private static const TIME_PER_FRAME:* = 1 / 60;
-       
       
       private var currentState:IState;
       
@@ -113,7 +112,7 @@ package
          Utils.rootMovie = this;
          NeutronizedServices.getInstance().Init();
          SoundSystem.InitSounds();
-         Utils.FLAIR = Utils.FLAIR_HALLOWEEN;
+         Utils.FLAIR = Utils.FLAIR_NONE;
          if(Utils.IS_ON_WINDOWS == false)
          {
             Core.init();
@@ -807,3 +806,4 @@ package
       }
    }
 }
+

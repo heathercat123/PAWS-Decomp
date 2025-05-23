@@ -8,7 +8,6 @@ package levels
    
    public class ScriptsManager
    {
-       
       
       public var initialXPos:int;
       
@@ -418,3 +417,4 @@ package levels
       }
    }
 }
+

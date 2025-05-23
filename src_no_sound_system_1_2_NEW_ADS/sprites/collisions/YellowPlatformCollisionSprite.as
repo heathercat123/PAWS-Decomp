@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class YellowPlatformCollisionSprite extends GameSprite
    {
-       
       
       protected var type:int;
       
@@ -52,3 +51,4 @@ package sprites.collisions
       }
    }
 }
+

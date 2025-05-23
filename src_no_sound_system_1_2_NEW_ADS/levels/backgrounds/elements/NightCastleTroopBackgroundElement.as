@@ -8,7 +8,6 @@ package levels.backgrounds.elements
    
    public class NightCastleTroopBackgroundElement extends BackgroundElement
    {
-       
       
       protected var counter_1:int;
       
@@ -110,3 +109,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

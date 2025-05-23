@@ -5,7 +5,6 @@ package sprites.decorations
    
    public class MinecartDecorationSprite extends GameSprite
    {
-       
       
       protected var index:int;
       
@@ -120,3 +119,4 @@ package sprites.decorations
       }
    }
 }
+

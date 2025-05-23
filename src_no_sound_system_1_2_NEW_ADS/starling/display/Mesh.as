@@ -117,7 +117,7 @@ package starling.display
          */
         public function setStyle(meshStyle:MeshStyle=null, mergeWithPredecessor:Boolean=true):void
         {
-            if (meshStyle == null) meshStyle = createDefaultStyle(this);
+            if (meshStyle == null) meshStyle = createDefaultMeshStyle();
             else if (meshStyle == _style) return;
             else if (meshStyle.target) meshStyle.target.setStyle();
 
@@ -133,18 +133,14 @@ package starling.display
             setRequiresRedraw();
         }
 
-        /** Creates a new instance of the current default MeshStyle. Internally, this method
-         *  calls either the <code>defaultStyleFactory</code> or (if no factory has been assigned)
-         *  instantiates <code>defaultStyle</code>.
-         */
-        public static function createDefaultStyle(instance:Mesh=null):MeshStyle
+        private function createDefaultMeshStyle():MeshStyle
         {
             var meshStyle:MeshStyle;
 
             if (sDefaultStyleFactory != null)
             {
                 if (sDefaultStyleFactory.length == 0) meshStyle = sDefaultStyleFactory();
-                else meshStyle = sDefaultStyleFactory(instance);
+                else meshStyle = sDefaultStyleFactory(this);
             }
 
             if (meshStyle == null)

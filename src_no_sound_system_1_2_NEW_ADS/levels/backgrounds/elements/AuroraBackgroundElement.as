@@ -10,7 +10,6 @@ package levels.backgrounds.elements
    {
       
       public static var counter:int = 0;
-       
       
       protected var counter1:int;
       
@@ -109,3 +108,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

@@ -12,7 +12,6 @@ package levels.backgrounds
    
    public class StarryNightBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -222,3 +221,4 @@ package levels.backgrounds
       }
    }
 }
+

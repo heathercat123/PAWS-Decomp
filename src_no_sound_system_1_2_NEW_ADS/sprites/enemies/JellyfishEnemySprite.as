@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class JellyfishEnemySprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -128,3 +127,4 @@ package sprites.enemies
       }
    }
 }
+

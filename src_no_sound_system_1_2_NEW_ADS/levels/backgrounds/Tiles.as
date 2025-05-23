@@ -13,7 +13,6 @@ package levels.backgrounds
    
    public class Tiles
    {
-       
       
       public var level:Level;
       
@@ -366,3 +365,4 @@ package levels.backgrounds
       }
    }
 }
+

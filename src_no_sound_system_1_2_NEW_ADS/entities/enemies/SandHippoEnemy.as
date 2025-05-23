@@ -10,7 +10,6 @@ package entities.enemies
    
    public class SandHippoEnemy extends Enemy
    {
-       
       
       protected var pixels_walked:int;
       
@@ -242,3 +241,4 @@ package entities.enemies
       }
    }
 }
+

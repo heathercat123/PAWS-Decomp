@@ -17,7 +17,6 @@ package entities.particles
    
    public class Particle
    {
-       
       
       protected var ID:int;
       
@@ -1899,3 +1898,4 @@ package entities.particles
       }
    }
 }
+

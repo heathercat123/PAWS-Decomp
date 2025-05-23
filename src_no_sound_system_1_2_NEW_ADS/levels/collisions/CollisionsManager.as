@@ -8,7 +8,6 @@ package levels.collisions
    {
       
       public static var start_index:int = 0;
-       
       
       public var level:Level;
       
@@ -698,3 +697,4 @@ package levels.collisions
       }
    }
 }
+

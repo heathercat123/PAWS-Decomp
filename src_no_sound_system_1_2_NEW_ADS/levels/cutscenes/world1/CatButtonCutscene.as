@@ -11,7 +11,6 @@ package levels.cutscenes.world1
    
    public class CatButtonCutscene extends Cutscene
    {
-       
       
       protected var darkCircleSprite:DarkCircleSprite;
       
@@ -213,3 +212,4 @@ package levels.cutscenes.world1
       }
    }
 }
+

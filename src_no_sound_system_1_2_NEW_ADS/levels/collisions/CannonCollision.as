@@ -8,7 +8,6 @@ package levels.collisions
    
    public class CannonCollision extends Collision
    {
-       
       
       protected var ai_index:int;
       
@@ -178,3 +177,4 @@ package levels.collisions
       }
    }
 }
+

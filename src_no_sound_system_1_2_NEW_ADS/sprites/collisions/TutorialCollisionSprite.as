@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class TutorialCollisionSprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -46,3 +45,4 @@ package sprites.collisions
       }
    }
 }
+

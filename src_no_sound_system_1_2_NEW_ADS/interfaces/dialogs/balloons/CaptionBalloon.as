@@ -9,7 +9,6 @@ package interfaces.dialogs.balloons
    
    public class CaptionBalloon extends Balloon
    {
-       
       
       public var area:Rectangle;
       
@@ -216,3 +215,4 @@ package interfaces.dialogs.balloons
       }
    }
 }
+

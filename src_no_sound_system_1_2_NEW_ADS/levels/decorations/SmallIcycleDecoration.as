@@ -5,7 +5,6 @@ package levels.decorations
    
    public class SmallIcycleDecoration extends Decoration
    {
-       
       
       public function SmallIcycleDecoration(_level:Level, _xPos:Number, _yPos:Number)
       {
@@ -30,3 +29,4 @@ package levels.decorations
       }
    }
 }
+

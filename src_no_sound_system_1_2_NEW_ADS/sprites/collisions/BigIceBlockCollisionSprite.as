@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class BigIceBlockCollisionSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -51,3 +50,4 @@ package sprites.collisions
       }
    }
 }
+

@@ -8,7 +8,6 @@ package levels.collisions
    
    public class FloatingIceCollision extends Collision
    {
-       
       
       public var hero_xDiff:Number;
       
@@ -127,3 +126,4 @@ package levels.collisions
       }
    }
 }
+

@@ -12,7 +12,6 @@ package interfaces
    {
       
       public static var SET_HUD_INVISIBLE:Boolean = false;
-       
       
       public var level:Level;
       
@@ -457,3 +456,4 @@ package interfaces
       }
    }
 }
+

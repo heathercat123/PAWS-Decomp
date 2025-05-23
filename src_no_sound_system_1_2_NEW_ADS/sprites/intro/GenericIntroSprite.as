@@ -5,7 +5,6 @@ package sprites.intro
    
    public class GenericIntroSprite extends GameSprite
    {
-       
       
       protected var INDEX:int;
       
@@ -63,3 +62,4 @@ package sprites.intro
       }
    }
 }
+

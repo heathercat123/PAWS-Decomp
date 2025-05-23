@@ -19,7 +19,6 @@ package levels.cutscenes.world2
    
    public class RigsJoinsTeamCutscene extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
@@ -824,3 +823,4 @@ package levels.cutscenes.world2
       }
    }
 }
+

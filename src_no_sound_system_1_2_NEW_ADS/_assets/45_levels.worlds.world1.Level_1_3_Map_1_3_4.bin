@@ -176,12 +176,12 @@
     <obj type="0" x="752" y="192" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="10" x="112" y="0" w="112" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="10" x="784" y="0" w="112" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="48" x="120" y="65" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="48" x="760" y="145" w="16" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="48" x="416" y="33" w="32" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="48" x="552" y="33" w="16" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="48" x="504" y="33" w="32" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="48" x="728" y="177" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
-    <obj type="91" x="109" y="62" w="101" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="13" x="1016" y="-48" w="1" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="13" x="64" y="240" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
   </collisions>

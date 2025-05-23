@@ -11,7 +11,7 @@ package levels.worlds.world2
    import levels.backgrounds.BackgroundsManager;
    import levels.cameras.*;
    import levels.cameras.behaviours.*;
-   import levels.cameras.*;
+   import levels.cameras.world_1.*;
    import levels.collisions.*;
    import levels.cutscenes.*;
    import levels.cutscenes.world1.*;
@@ -29,7 +29,6 @@ package levels.worlds.world2
       public static const Map_2_7_4:Class = Level_2_7_Map_2_7_4;
       
       public static const Map_2_7_5:Class = Level_2_7_Map_2_7_5;
-       
       
       public var CUTSCENE_FLAG_1:Boolean;
       
@@ -364,3 +363,4 @@ package levels.worlds.world2
       }
    }
 }
+

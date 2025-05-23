@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class DarkSmallSpotCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -82,3 +81,4 @@ package sprites.collisions
       }
    }
 }
+

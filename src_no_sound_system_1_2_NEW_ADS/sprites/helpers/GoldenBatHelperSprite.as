@@ -5,7 +5,6 @@ package sprites.helpers
    
    public class GoldenBatHelperSprite extends GameSprite
    {
-       
       
       protected var LEVEL:int;
       
@@ -87,3 +86,4 @@ package sprites.helpers
       }
    }
 }
+

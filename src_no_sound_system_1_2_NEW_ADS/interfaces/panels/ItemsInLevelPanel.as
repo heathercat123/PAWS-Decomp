@@ -7,7 +7,6 @@ package interfaces.panels
    
    public class ItemsInLevelPanel extends Sprite
    {
-       
       
       protected var mid_x:int;
       
@@ -189,3 +188,4 @@ package interfaces.panels
       }
    }
 }
+

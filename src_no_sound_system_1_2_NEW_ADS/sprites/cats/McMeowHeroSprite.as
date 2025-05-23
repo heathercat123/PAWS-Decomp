@@ -5,7 +5,6 @@ package sprites.cats
    
    public class McMeowHeroSprite extends GameSprite
    {
-       
       
       protected var isInjured:Boolean;
       
@@ -424,3 +423,4 @@ package sprites.cats
       }
    }
 }
+

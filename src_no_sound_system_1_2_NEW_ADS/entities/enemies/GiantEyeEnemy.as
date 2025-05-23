@@ -13,7 +13,6 @@ package entities.enemies
    
    public class GiantEyeEnemy extends Enemy
    {
-       
       
       public var container:Sprite;
       
@@ -436,3 +435,4 @@ package entities.enemies
       }
    }
 }
+

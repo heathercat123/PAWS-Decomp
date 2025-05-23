@@ -15,7 +15,6 @@ package levels.collisions
    
    public class SmallIceBlockCollision extends Collision
    {
-       
       
       public function SmallIceBlockCollision(_level:Level, _xPos:Number, _yPos:Number)
       {
@@ -184,3 +183,4 @@ package levels.collisions
       }
    }
 }
+

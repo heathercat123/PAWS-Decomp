@@ -6,7 +6,6 @@ package levels.decorations
    
    public class DoorExitDecoration extends Decoration
    {
-       
       
       protected var IS_SX_EXIT:Boolean;
       
@@ -91,3 +90,4 @@ package levels.decorations
       }
    }
 }
+

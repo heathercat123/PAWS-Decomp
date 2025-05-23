@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class LavaBubblesCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -43,3 +42,4 @@ package sprites.collisions
       }
    }
 }
+

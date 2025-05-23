@@ -13,7 +13,6 @@ package levels.backgrounds
    
    public class Background
    {
-       
       
       public var level:Level;
       
@@ -457,3 +456,4 @@ package levels.backgrounds
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.decorations
    
    public class CondenseDecorationSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -54,3 +53,4 @@ package sprites.decorations
       }
    }
 }
+

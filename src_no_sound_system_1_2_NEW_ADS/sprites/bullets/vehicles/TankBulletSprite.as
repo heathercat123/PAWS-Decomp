@@ -5,7 +5,6 @@ package sprites.bullets.vehicles
    
    public class TankBulletSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -35,3 +34,4 @@ package sprites.bullets.vehicles
       }
    }
 }
+

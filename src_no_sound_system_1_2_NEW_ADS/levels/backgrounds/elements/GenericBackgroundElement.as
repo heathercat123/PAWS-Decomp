@@ -16,7 +16,6 @@ package levels.backgrounds.elements
       public static var CASTLE_TORCH:int = 2;
       
       public static var LIGHTHOUSE:int = 3;
-       
       
       public var TYPE:int;
       
@@ -94,3 +93,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

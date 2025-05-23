@@ -5,7 +5,6 @@ package sprites.npcs
    
    public class ShopNPCSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -113,3 +112,4 @@ package sprites.npcs
       }
    }
 }
+

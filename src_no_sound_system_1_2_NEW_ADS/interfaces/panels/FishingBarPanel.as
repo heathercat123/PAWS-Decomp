@@ -9,7 +9,6 @@ package interfaces.panels
    
    public class FishingBarPanel extends Sprite
    {
-       
       
       protected var level:Level;
       
@@ -245,3 +244,4 @@ package interfaces.panels
       }
    }
 }
+

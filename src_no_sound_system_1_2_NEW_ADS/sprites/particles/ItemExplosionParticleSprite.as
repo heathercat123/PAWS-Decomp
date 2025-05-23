@@ -5,7 +5,6 @@ package sprites.particles
    
    public class ItemExplosionParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -41,3 +40,4 @@ package sprites.particles
       }
    }
 }
+

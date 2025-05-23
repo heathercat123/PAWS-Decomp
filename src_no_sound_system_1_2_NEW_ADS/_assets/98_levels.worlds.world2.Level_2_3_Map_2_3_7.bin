@@ -14,15 +14,6 @@
     <obj name="door_tile_1" back="1" x="408" y="132" w="16" h="8" f_x="1" f_y="0"/>
     <obj name="village_tile_13" back="1" x="448" y="136" w="16" h="16" f_x="0" f_y="0"/>
     <obj name="village_tile_13" back="1" x="352" y="136" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_5" back="0" x="376" y="113" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_6" back="0" x="360" y="113" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_5" back="0" x="408" y="113" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_6" back="0" x="392" y="113" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_5" back="0" x="440" y="113" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_6" back="0" x="424" y="113" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_2" back="1" x="353" y="122" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_3" back="1" x="371" y="116" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_4" back="1" x="445" y="120" w="16" h="16" f_x="0" f_y="0"/>
     <obj name="village_tile_8" back="0" x="483" y="157" w="19" h="19" f_x="1" f_y="0"/>
     <obj name="wood_tile_26" back="0" x="464" y="96" w="16" h="64" f_x="0" f_y="0"/>
     <obj name="water_tile_36" back="0" x="272" y="224" w="64" h="16" f_x="0" f_y="0"/>
@@ -74,7 +65,6 @@
   </tiles>
   <tiles_front/>
   <collisions>
-    <obj type="91" x="357" y="142" w="101" h="6" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="0" x="368" y="240" w="160" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="0" x="240" y="208" w="16" h="32" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="0" x="240" y="240" w="128" h="48" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
@@ -125,7 +115,11 @@
   <enemies>
     <obj type="29" x="440" y="145" w="0" h="0" rot="0" ai="7" val_1="0" val_2="0" val_3="0"/>
   </enemies>
-  <items/>
+  <items>
+    <obj type="3" x="352" y="144" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="368" y="144" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+    <obj type="3" x="360" y="128" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
+  </items>
   <npcs/>
   <data>
     <obj _class="LevelStartScript" x="0" y="0"/>

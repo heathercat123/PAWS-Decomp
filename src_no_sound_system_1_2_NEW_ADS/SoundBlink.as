@@ -2,10 +2,9 @@ package
 {
    import flash.media.Sound;
    
-   [Embed(source="/_assets/296_SoundBlink.mp3")]
+   [Embed(source="/_assets/196_SoundBlink.mp3")]
    public dynamic class SoundBlink extends Sound
    {
-       
       
       public function SoundBlink()
       {
@@ -13,3 +12,4 @@ package
       }
    }
 }
+

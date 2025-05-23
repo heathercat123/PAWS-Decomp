@@ -9,15 +9,14 @@ package interfaces.buttons
    
    public class MoreCoinsButton extends Button
    {
-       
       
       public var WIDTH:int;
       
-      public var HEIGHT:int;
+      public var HEIGHT:int = 16;
       
-      protected var upTexture:RenderTexture;
+      protected var upTexture:RenderTexture = null;
       
-      protected var downTexture:RenderTexture;
+      protected var downTexture:RenderTexture = null;
       
       protected var item_icon:Image;
       
@@ -25,25 +24,19 @@ package interfaces.buttons
       
       public var item_price:String;
       
-      protected var item_price_text:GameText;
+      protected var item_price_text:GameText = new GameText(StringsManager.GetString("panel_shop_add_coins"),GameText.TYPE_SMALL_WHITE);
       
       public var IS_PURCHASED:Boolean;
       
       protected var purchaseMarkImage:Image;
       
-      public var index:int;
+      public var index:int = 0;
       
-      protected var REDRAW_FLAG:Boolean;
+      protected var REDRAW_FLAG:Boolean = false;
       
       public function MoreCoinsButton()
       {
-         this.item_price_text = new GameText(StringsManager.GetString("panel_shop_add_coins"),GameText.TYPE_SMALL_WHITE);
          this.WIDTH = this.item_price_text.WIDTH + 8;
-         this.HEIGHT = 16;
-         this.REDRAW_FLAG = false;
-         this.upTexture = null;
-         this.downTexture = null;
-         this.index = 0;
          this.createUpTexture();
          this.createDownTexture();
          super(this.upTexture,"",this.downTexture);
@@ -213,3 +206,4 @@ package interfaces.buttons
       }
    }
 }
+

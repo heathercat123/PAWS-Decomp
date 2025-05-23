@@ -8,7 +8,6 @@ package levels.collisions
    
    public class Collision
    {
-       
       
       public var level:Level;
       
@@ -173,3 +172,4 @@ package levels.collisions
       }
    }
 }
+

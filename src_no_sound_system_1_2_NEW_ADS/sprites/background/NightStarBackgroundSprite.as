@@ -5,7 +5,6 @@ package sprites.background
    
    public class NightStarBackgroundSprite extends GameSprite
    {
-       
       
       protected var standAnimation1:GameMovieClip;
       
@@ -157,3 +156,4 @@ package sprites.background
       }
    }
 }
+

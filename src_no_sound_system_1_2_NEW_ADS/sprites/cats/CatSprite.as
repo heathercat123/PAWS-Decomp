@@ -18,7 +18,6 @@ package sprites.cats
       public static var LOOK_UP:int = 3;
       
       public static var ALERT:int = 4;
-       
       
       protected var hatItemSprite:HatItemSprite;
       
@@ -173,3 +172,4 @@ package sprites.cats
       }
    }
 }
+

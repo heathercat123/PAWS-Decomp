@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class MushroomCollisionSprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -96,3 +95,4 @@ package sprites.collisions
       }
    }
 }
+

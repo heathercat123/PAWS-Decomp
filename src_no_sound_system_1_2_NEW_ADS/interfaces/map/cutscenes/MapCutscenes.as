@@ -5,7 +5,6 @@ package interfaces.map.cutscenes
    
    public class MapCutscenes
    {
-       
       
       public var worldMap:WorldMap;
       
@@ -161,3 +160,4 @@ package interfaces.map.cutscenes
       }
    }
 }
+

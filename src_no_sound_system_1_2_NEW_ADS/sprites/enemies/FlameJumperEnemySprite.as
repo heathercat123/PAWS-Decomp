@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class FlameJumperEnemySprite extends GameSprite
    {
-       
       
       protected var swimAnim:GameMovieClip;
       
@@ -98,3 +97,4 @@ package sprites.enemies
       }
    }
 }
+

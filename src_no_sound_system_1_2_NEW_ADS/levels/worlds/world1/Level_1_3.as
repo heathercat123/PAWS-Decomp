@@ -24,7 +24,6 @@ package levels.worlds.world1
       public static const Map_1_3_5:Class = Level_1_3_Map_1_3_5;
       
       public static const Map_1_3_6:Class = Level_1_3_Map_1_3_6;
-       
       
       public var CUTSCENE_FLAG:Boolean;
       
@@ -292,3 +291,4 @@ package levels.worlds.world1
       }
    }
 }
+

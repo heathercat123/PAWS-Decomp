@@ -5,7 +5,6 @@ package sprites.particles.vehicles
    
    public class TankShootExplosionParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -38,3 +37,4 @@ package sprites.particles.vehicles
       }
    }
 }
+

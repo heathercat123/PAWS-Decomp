@@ -9,7 +9,6 @@ package levels.collisions
    
    public class RedPlatformCollision extends Collision
    {
-       
       
       public var hero_xDiff:Number;
       
@@ -380,3 +379,4 @@ package levels.collisions
       }
    }
 }
+

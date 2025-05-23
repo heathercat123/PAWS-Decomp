@@ -10,7 +10,6 @@ package interfaces.texts
    
    public class GameTextArea extends Sprite
    {
-       
       
       protected var images:Array;
       
@@ -456,3 +455,4 @@ package interfaces.texts
       }
    }
 }
+

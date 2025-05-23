@@ -6,7 +6,6 @@ package entities
    
    public class WaterCatHero extends Hero
    {
-       
       
       protected var victory_counter_1:int;
       
@@ -121,3 +120,4 @@ package entities
       }
    }
 }
+

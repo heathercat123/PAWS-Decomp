@@ -16,7 +16,6 @@ package
    {
       
       public static var rootStage:Stage;
-       
       
       private var myStarling:Starling;
       
@@ -138,7 +137,7 @@ package
       {
          Utils.Lang = "_en";
          var languageSettings:Array = Capabilities.languages;
-         var locale:String = String(languageSettings[0].toString().toLowerCase());
+         var locale:String = languageSettings[0].toString().toLowerCase();
          var __lang:String = "" + locale.charAt(0) + locale.charAt(1);
          var __sublang:String = "";
          if(locale.length >= 5)
@@ -230,3 +229,4 @@ package
       }
    }
 }
+

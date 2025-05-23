@@ -18,7 +18,6 @@ package levels.cutscenes.world2
    
    public class GenericWorld2Cutscene extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
@@ -1208,3 +1207,4 @@ package levels.cutscenes.world2
       }
    }
 }
+

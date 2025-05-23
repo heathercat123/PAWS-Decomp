@@ -5,7 +5,6 @@ package sprites.npcs
    
    public class TwelveNPCSprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -79,3 +78,4 @@ package sprites.npcs
       }
    }
 }
+

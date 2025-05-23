@@ -2,7 +2,6 @@ package neutronized
 {
    public class NeutronizedCrossPromotionXML
    {
-       
       
       public var frequencyCrossPromotion:int;
       
@@ -38,3 +37,4 @@ package neutronized
       }
    }
 }
+

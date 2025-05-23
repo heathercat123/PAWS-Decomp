@@ -5,7 +5,6 @@ package sprites.helpers
    
    public class JellyfishHelperSprite extends GameSprite
    {
-       
       
       protected var LEVEL:int;
       
@@ -113,3 +112,4 @@ package sprites.helpers
       }
    }
 }
+

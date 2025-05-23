@@ -15,7 +15,6 @@ package entities.helpers
    
    public class GoldenBatHelper extends Helper
    {
-       
       
       protected var coinTarget:Item;
       
@@ -480,3 +479,4 @@ package entities.helpers
       }
    }
 }
+

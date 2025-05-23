@@ -10,7 +10,6 @@ package entities.enemies
    
    public class FrogEnemy extends Enemy
    {
-       
       
       protected var param_2:Number;
       
@@ -369,3 +368,4 @@ package entities.enemies
       }
    }
 }
+

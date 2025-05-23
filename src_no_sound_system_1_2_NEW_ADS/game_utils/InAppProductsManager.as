@@ -7,7 +7,6 @@ package game_utils
    {
       
       public static var products:Vector.<InAppProduct>;
-       
       
       public function InAppProductsManager()
       {
@@ -58,3 +57,4 @@ package game_utils
       }
    }
 }
+

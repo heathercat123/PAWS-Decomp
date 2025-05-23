@@ -18,7 +18,6 @@ package levels.collisions
    
    public class ClodCollision extends Collision
    {
-       
       
       public var stateMachine:StateMachine;
       
@@ -508,3 +507,4 @@ package levels.collisions
       }
    }
 }
+

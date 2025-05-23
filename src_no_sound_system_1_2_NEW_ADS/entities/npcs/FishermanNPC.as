@@ -15,7 +15,6 @@ package entities.npcs
    
    public class FishermanNPC extends NPC
    {
-       
       
       protected var tick:int;
       
@@ -290,3 +289,4 @@ package entities.npcs
       }
    }
 }
+

@@ -8,7 +8,6 @@ package interfaces.buttons
    
    public class CatButton extends Button
    {
-       
       
       public var WIDTH:int;
       
@@ -441,3 +440,4 @@ package interfaces.buttons
       }
    }
 }
+

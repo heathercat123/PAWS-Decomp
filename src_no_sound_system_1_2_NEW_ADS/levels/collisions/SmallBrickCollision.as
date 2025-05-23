@@ -15,7 +15,6 @@ package levels.collisions
    
    public class SmallBrickCollision extends Collision
    {
-       
       
       protected var IS_SPIKED:Boolean;
       
@@ -294,3 +293,4 @@ package levels.collisions
       }
    }
 }
+

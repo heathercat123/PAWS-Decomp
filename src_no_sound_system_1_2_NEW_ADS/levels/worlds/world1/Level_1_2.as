@@ -15,7 +15,7 @@ package levels.worlds.world1
    import levels.cameras.behaviours.TunnelVelShiftVerScrollBehaviour;
    import levels.cameras.behaviours.VelShiftHorScrollBehaviour;
    import levels.cameras.behaviours.VerTweenShiftBehaviour;
-   import levels.cameras.*;
+   import levels.cameras.world_1.*;
    import levels.collisions.CheckeredSpotCollision;
    import levels.cutscenes.world1.*;
    
@@ -29,7 +29,6 @@ package levels.worlds.world1
       public static const Map_1_2_3:Class = Level_1_2_Map_1_2_3;
       
       public static const Map_1_2_4:Class = Level_1_2_Map_1_2_4;
-       
       
       public var CUTSCENE_FLAG:Boolean;
       
@@ -371,3 +370,4 @@ package levels.worlds.world1
       }
    }
 }
+

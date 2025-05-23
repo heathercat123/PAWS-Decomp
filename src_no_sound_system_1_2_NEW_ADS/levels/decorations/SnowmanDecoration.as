@@ -9,7 +9,6 @@ package levels.decorations
    
    public class SnowmanDecoration extends Decoration
    {
-       
       
       public var isBlown:Boolean;
       
@@ -115,3 +114,4 @@ package levels.decorations
       }
    }
 }
+

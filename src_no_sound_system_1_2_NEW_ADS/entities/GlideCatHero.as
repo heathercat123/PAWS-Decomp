@@ -6,7 +6,6 @@ package entities
    
    public class GlideCatHero extends Hero
    {
-       
       
       public function GlideCatHero(_level:Level, _xPos:Number, _yPos:Number, _direction:int)
       {
@@ -57,3 +56,4 @@ package entities
       }
    }
 }
+

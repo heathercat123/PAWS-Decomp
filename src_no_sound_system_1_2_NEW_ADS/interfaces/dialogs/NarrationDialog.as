@@ -7,7 +7,6 @@ package interfaces.dialogs
    
    public class NarrationDialog extends Dialog
    {
-       
       
       protected var time_alive:int;
       
@@ -92,3 +91,4 @@ package interfaces.dialogs
       }
    }
 }
+

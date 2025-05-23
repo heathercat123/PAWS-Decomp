@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class YellowSlimeEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -190,3 +189,4 @@ package sprites.enemies
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.items
    
    public class BellInvisibleItemSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -118,3 +117,4 @@ package sprites.items
       }
    }
 }
+

@@ -13,7 +13,6 @@ package levels.collisions
    
    public class LavaCollision extends Collision
    {
-       
       
       public var container:Sprite;
       
@@ -299,3 +298,4 @@ package levels.collisions
       }
    }
 }
+

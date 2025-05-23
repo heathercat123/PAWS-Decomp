@@ -7,7 +7,6 @@ package minigames
    
    public class Minigame
    {
-       
       
       public var GET_OUT_FLAG:Boolean;
       
@@ -103,3 +102,4 @@ package minigames
       }
    }
 }
+

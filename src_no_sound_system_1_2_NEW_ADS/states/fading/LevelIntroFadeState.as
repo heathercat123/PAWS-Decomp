@@ -14,7 +14,6 @@ package states.fading
    
    public class LevelIntroFadeState implements IState
    {
-       
       
       protected var container:Sprite;
       
@@ -445,3 +444,4 @@ package states.fading
       }
    }
 }
+

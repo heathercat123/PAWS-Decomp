@@ -2,10 +2,9 @@ package
 {
    import flash.media.Sound;
    
-   [Embed(source="/_assets/346_SoundMapAdvance.mp3")]
+   [Embed(source="/_assets/307_SoundMapAdvance.mp3")]
    public dynamic class SoundMapAdvance extends Sound
    {
-       
       
       public function SoundMapAdvance()
       {
@@ -13,3 +12,4 @@ package
       }
    }
 }
+

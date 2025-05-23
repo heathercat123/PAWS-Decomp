@@ -8,7 +8,6 @@ package entities
    
    public class EvilCatHero extends Hero
    {
-       
       
       protected var victory_counter_1:int;
       
@@ -105,3 +104,4 @@ package entities
       }
    }
 }
+

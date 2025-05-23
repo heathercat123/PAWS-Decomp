@@ -8,7 +8,6 @@ package interfaces.unlocks
    
    public class CatUnlockScene
    {
-       
       
       public var level:Level;
       
@@ -536,3 +535,4 @@ package interfaces.unlocks
       }
    }
 }
+

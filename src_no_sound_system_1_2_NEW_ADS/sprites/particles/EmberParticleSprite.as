@@ -5,7 +5,6 @@ package sprites.particles
    
    public class EmberParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -59,3 +58,4 @@ package sprites.particles
       }
    }
 }
+

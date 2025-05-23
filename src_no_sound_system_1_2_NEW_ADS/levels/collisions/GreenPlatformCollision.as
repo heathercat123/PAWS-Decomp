@@ -8,7 +8,6 @@ package levels.collisions
    
    public class GreenPlatformCollision extends Collision
    {
-       
       
       public var hero_xDiff:Number;
       
@@ -89,3 +88,4 @@ package levels.collisions
       }
    }
 }
+

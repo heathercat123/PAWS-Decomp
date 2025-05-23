@@ -47,7 +47,6 @@ package levels
       public static var ADS_COUNTER:int = 0;
       
       public static var interstitial:InterstitialAd = null;
-       
       
       public var LEVEL_LOADED:Boolean;
       
@@ -1103,3 +1102,4 @@ package levels
       }
    }
 }
+

@@ -9,15 +9,14 @@ package interfaces.buttons
    
    public class ShopInventoryButton extends Button
    {
-       
       
       public var WIDTH:int;
       
       public var HEIGHT:int;
       
-      protected var upTexture:RenderTexture;
+      protected var upTexture:RenderTexture = null;
       
-      protected var downTexture:RenderTexture;
+      protected var downTexture:RenderTexture = null;
       
       protected var item_icon:Image;
       
@@ -25,7 +24,7 @@ package interfaces.buttons
       
       protected var item_amount_text:GameText;
       
-      protected var REDRAW_FLAG:Boolean;
+      protected var REDRAW_FLAG:Boolean = false;
       
       public var index:int;
       
@@ -35,9 +34,6 @@ package interfaces.buttons
          this.HEIGHT = _HEIGHT;
          this.index = _index;
          this.item_amount = _amount;
-         this.REDRAW_FLAG = false;
-         this.upTexture = null;
-         this.downTexture = null;
          this.createUpTexture();
          this.createDownTexture();
          super(this.upTexture,"",this.downTexture);
@@ -235,3 +231,4 @@ package interfaces.buttons
       }
    }
 }
+

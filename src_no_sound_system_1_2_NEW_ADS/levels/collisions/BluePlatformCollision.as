@@ -8,7 +8,6 @@ package levels.collisions
    
    public class BluePlatformCollision extends Collision
    {
-       
       
       public var entity:Entity;
       
@@ -162,3 +161,4 @@ package levels.collisions
       }
    }
 }
+

@@ -9,7 +9,6 @@ package entities.bullets
    
    public class BulletsManager
    {
-       
       
       public var bullets:Array;
       
@@ -142,3 +141,4 @@ package entities.bullets
       }
    }
 }
+

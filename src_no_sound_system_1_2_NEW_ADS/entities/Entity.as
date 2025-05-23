@@ -25,7 +25,6 @@ package entities
       public static const EMOTION_LOVE:int = 2;
       
       public static const EMOTION_QUESTION:int = 3;
-       
       
       public var level:Level;
       
@@ -718,3 +717,4 @@ package entities
       }
    }
 }
+

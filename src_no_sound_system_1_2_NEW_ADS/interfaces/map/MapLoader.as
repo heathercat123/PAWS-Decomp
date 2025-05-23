@@ -10,7 +10,6 @@ package interfaces.map
       public static const World_Map_1:Class = MapLoader_World_Map_1;
       
       public static const World_Map_2:Class = MapLoader_World_Map_2;
-       
       
       public var mapTiles:Array;
       
@@ -142,3 +141,4 @@ package interfaces.map
       }
    }
 }
+

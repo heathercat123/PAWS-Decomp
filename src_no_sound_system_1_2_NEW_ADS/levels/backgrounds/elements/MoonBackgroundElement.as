@@ -8,7 +8,6 @@ package levels.backgrounds.elements
    
    public class MoonBackgroundElement extends BackgroundElement
    {
-       
       
       protected var counter1:int;
       
@@ -47,3 +46,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

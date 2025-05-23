@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class GiantPollenEnemySprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -147,3 +146,4 @@ package sprites.enemies
       }
    }
 }
+

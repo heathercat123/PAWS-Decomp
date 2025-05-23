@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class SeaUrchinEnemySprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -127,3 +126,4 @@ package sprites.enemies
       }
    }
 }
+

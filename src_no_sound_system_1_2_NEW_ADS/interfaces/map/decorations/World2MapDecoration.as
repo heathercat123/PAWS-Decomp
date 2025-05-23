@@ -7,7 +7,6 @@ package interfaces.map.decorations
    
    public class World2MapDecoration extends Decoration
    {
-       
       
       public var INDEX:int;
       
@@ -244,3 +243,4 @@ package interfaces.map.decorations
       }
    }
 }
+

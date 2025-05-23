@@ -16,7 +16,6 @@ package interfaces
    
    public class SoundHud
    {
-       
       
       public var hudPanel:SoundHudPanel;
       
@@ -734,3 +733,4 @@ package interfaces
       }
    }
 }
+

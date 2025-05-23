@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class GiantTurnipEnemySprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -194,3 +193,4 @@ package sprites.enemies
       }
    }
 }
+

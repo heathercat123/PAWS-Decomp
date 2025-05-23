@@ -9,7 +9,6 @@ package levels.decorations
    
    public class ChimneyDecoration extends Decoration
    {
-       
       
       protected var counter1:int;
       
@@ -101,3 +100,4 @@ package levels.decorations
       }
    }
 }
+

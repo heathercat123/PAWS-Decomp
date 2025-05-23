@@ -5,7 +5,6 @@ package sprites.background
    
    public class SeaDawnReflectionBackgroundSprite extends GameSprite
    {
-       
       
       protected var standAnimation1:GameMovieClip;
       
@@ -53,3 +52,4 @@ package sprites.background
       }
    }
 }
+

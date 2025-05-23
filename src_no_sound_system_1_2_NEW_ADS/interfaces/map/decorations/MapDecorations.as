@@ -107,7 +107,6 @@ package interfaces.map.decorations
       public static var LEVEL_SECRET_2_DECORATION:int = 5000001;
       
       public static var FISHING_SPOT_1_DECORATION:int = 2000000;
-       
       
       public var worldMap:WorldMap;
       
@@ -295,3 +294,4 @@ package interfaces.map.decorations
       }
    }
 }
+

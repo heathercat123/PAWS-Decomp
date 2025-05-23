@@ -14,7 +14,6 @@ package entities.enemies
    
    public class WaspEnemy extends Enemy
    {
-       
       
       protected var param_2:Number;
       
@@ -440,3 +439,4 @@ package entities.enemies
       }
    }
 }
+

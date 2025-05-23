@@ -14,7 +14,6 @@ package entities.fishing
    
    public class BaseFish extends Entity
    {
-       
       
       public var TYPE:int = 0;
       
@@ -630,3 +629,4 @@ package entities.fishing
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.map
    
    public class MapButtonAppearingParticleSprite extends GameSprite
    {
-       
       
       protected var type:int;
       
@@ -57,3 +56,4 @@ package sprites.map
       }
    }
 }
+

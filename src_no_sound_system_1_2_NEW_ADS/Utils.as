@@ -15,15 +15,61 @@ package
    public class Utils
    {
       
-      public static var VERSION_STRING:String = "1.0.58";
-      
-      public static var ANDROID_VERSION_STRING:String = "1.0.59";
-      
-      public static var AMAZON_VERSION_STRING:String = "1.0.0";
-      
       public static var GFX_SCALE:Number;
       
       public static var GFX_INV_SCALE:Number;
+      
+      public static var LEVEL_RUNTIME:Boolean;
+      
+      public static var WIDTH:int;
+      
+      public static var HEIGHT:int;
+      
+      public static var ratio:Number;
+      
+      public static var __width:Number;
+      
+      public static var __height:Number;
+      
+      public static var rootStage:Stage;
+      
+      public static var rootMovie:Sprite;
+      
+      public static var gameMovie:Sprite;
+      
+      public static var gamePanel:Sprite;
+      
+      public static var shadows:Sprite;
+      
+      public static var world:Sprite;
+      
+      public static var darkWorld:Sprite;
+      
+      public static var backWorld:Sprite;
+      
+      public static var topWorld:Sprite;
+      
+      public static var foregroundWorld:Sprite;
+      
+      public static var backgroundWorld:Sprite;
+      
+      public static var juggler:Juggler;
+      
+      public static var freeze_juggler:Juggler;
+      
+      public static var random:Random;
+      
+      public static var Slot:GameSlot;
+      
+      public static var date:Date;
+      
+      public static var CustomContextMenu:ContextMenu;
+      
+      public static var VERSION_STRING:String = "1.0.60";
+      
+      public static var ANDROID_VERSION_STRING:String = "1.0.64";
+      
+      public static var AMAZON_VERSION_STRING:String = "1.0.0";
       
       public static var KEY_RIGHT:int = 39;
       
@@ -44,8 +90,6 @@ package
       public static var LAST_DIALOG:int = 0;
       
       public static var AIR_MESSAGE:String = "";
-      
-      public static var LEVEL_RUNTIME:Boolean;
       
       public static var ROOT_PATH:String = "C:/flash_projects/CatGamePaws_code/maps";
       
@@ -175,10 +219,6 @@ package
       
       public static var SCREEN_HEIGHT:int = 240;
       
-      public static var WIDTH:int;
-      
-      public static var HEIGHT:int;
-      
       public static var SEA_LEVEL:int = 0;
       
       public static var SAND_LEVEL:int = 0;
@@ -227,12 +267,6 @@ package
       
       public static var IS_TICK:Boolean = true;
       
-      public static var ratio:Number;
-      
-      public static var __width:Number;
-      
-      public static var __height:Number;
-      
       public static var SpeedUpMapMusic:Boolean = false;
       
       public static var NoMusicBeingPlayed:Boolean = false;
@@ -259,39 +293,11 @@ package
       
       public static var GameStartAd:Boolean = true;
       
-      public static var rootStage:Stage;
-      
-      public static var rootMovie:Sprite;
-      
-      public static var gameMovie:Sprite;
-      
-      public static var gamePanel:Sprite;
-      
-      public static var shadows:Sprite;
-      
-      public static var world:Sprite;
-      
-      public static var darkWorld:Sprite;
-      
-      public static var backWorld:Sprite;
-      
-      public static var topWorld:Sprite;
-      
-      public static var foregroundWorld:Sprite;
-      
-      public static var backgroundWorld:Sprite;
-      
       public static var CurrentLevel:int = 1;
       
       public static var CurrentChapter:int = 1;
       
       public static var CurrentSubLevel:int = 1;
-      
-      public static var juggler:Juggler;
-      
-      public static var freeze_juggler:Juggler;
-      
-      public static var random:Random;
       
       public static var SoundOn:Boolean = true;
       
@@ -405,8 +411,6 @@ package
       
       public static var CurrentSlot:int = 0;
       
-      public static var Slot:GameSlot;
-      
       public static var Lang:String = "_en";
       
       public static var DEBUG:Boolean = false;
@@ -425,10 +429,6 @@ package
       
       public static var BLACK:int = 2;
       
-      public static var date:Date;
-      
-      public static var CustomContextMenu:ContextMenu;
-      
       public static var QUEST_ENEMY_DEFEATED_FLAG:Boolean = false;
       
       public static var QUEST_HERO_GAME_OVER_FLAG:Boolean = false;
@@ -442,7 +442,6 @@ package
       public static var QUEST_BELL_COLLECTED_FLAG:Boolean = false;
       
       public static var QUEST_CAT_CHANGED_FLAG:Boolean = false;
-       
       
       public function Utils()
       {
@@ -804,3 +803,4 @@ package
       }
    }
 }
+

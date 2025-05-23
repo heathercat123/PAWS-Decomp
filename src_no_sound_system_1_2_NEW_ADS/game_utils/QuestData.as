@@ -2,7 +2,6 @@ package game_utils
 {
    public class QuestData
    {
-       
       
       public var description:String;
       
@@ -19,3 +18,4 @@ package game_utils
       }
    }
 }
+

@@ -7,7 +7,6 @@ package sprites.hud
    {
       
       public static var speed:Number = 0.075;
-       
       
       protected var anim1:GameMovieClip;
       
@@ -42,3 +41,4 @@ package sprites.hud
       }
    }
 }
+

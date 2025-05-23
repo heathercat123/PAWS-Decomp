@@ -5,7 +5,6 @@ package sprites.particles
    
    public class WaterDropParticleSprite extends GameSprite
    {
-       
       
       protected var type:int;
       
@@ -49,3 +48,4 @@ package sprites.particles
       }
    }
 }
+

@@ -16,7 +16,6 @@ package interfaces.map
    
    public class WorldMap
    {
-       
       
       protected var mapState:MapState;
       
@@ -361,3 +360,4 @@ package interfaces.map
       }
    }
 }
+

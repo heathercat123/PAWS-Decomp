@@ -6,7 +6,6 @@ package sprites.intro
    
    public class StunCatIntroSprite extends GameSprite
    {
-       
       
       protected var anim1:GameMovieClip;
       
@@ -38,3 +37,4 @@ package sprites.intro
       }
    }
 }
+

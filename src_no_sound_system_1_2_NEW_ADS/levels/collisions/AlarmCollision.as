@@ -7,7 +7,6 @@ package levels.collisions
    
    public class AlarmCollision extends Collision
    {
-       
       
       protected var IS_ON:Boolean;
       
@@ -91,3 +90,4 @@ package levels.collisions
       }
    }
 }
+

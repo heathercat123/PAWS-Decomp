@@ -14,7 +14,6 @@ package entities.helpers
    
    public class RockHelper extends Helper
    {
-       
       
       protected var brickTarget:SmallBrickCollision;
       
@@ -632,3 +631,4 @@ package entities.helpers
       }
    }
 }
+

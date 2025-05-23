@@ -2,7 +2,6 @@ package game_utils
 {
    public class FrameData
    {
-       
       
       public var x:int;
       
@@ -28,3 +27,4 @@ package game_utils
       }
    }
 }
+

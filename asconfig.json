@@ -21,6 +21,87 @@
                 "storetype": "pkcs12",
                 "keystore": "You have to specify your own certificate. This can help: https://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7f74.html"
             }
-        }
+        },
+        "ios": {
+            "output": "bin/CatGamePaws_android.ipa",
+			"listen": true,
+            "connect": true,
+            "target": "ipa-debug",
+            "signingOptions": {
+                "storetype": "pkcs12",
+                "keystore": "cert.p12",
+                "provisioning-profile": "provision.mobileprovision"
+            }
+        },
+        "files": [
+            {
+                "file": "AppIconsForPublish/Icon.png",
+                "path": "AppIconsForPublish/Icon.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon@2x.png",
+                "path": "AppIconsForPublish/Icon@2x.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon@2x-Large.png",
+                "path": "AppIconsForPublish/Icon@2x-Large.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-167.png",
+                "path": "AppIconsForPublish/Icon-167.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Ipad-76.png",
+                "path": "AppIconsForPublish/Icon-Ipad-76.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Ipad-152.png",
+                "path": "AppIconsForPublish/Icon-Ipad-152.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Iphone-60.png",
+                "path": "AppIconsForPublish/Icon-Iphone-60.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Iphone-87.png",
+                "path": "AppIconsForPublish/Icon-Iphone-87.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Iphone-120.png",
+                "path": "AppIconsForPublish/Icon-Iphone-120.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Iphone-180.png",
+                "path": "AppIconsForPublish/Icon-Iphone-180.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Large.png",
+                "path": "AppIconsForPublish/Icon-Large.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Small.png",
+                "path": "AppIconsForPublish/Icon-Small.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Small@2x.png",
+                "path": "AppIconsForPublish/Icon-Small@2x.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Small-40.png",
+                "path": "AppIconsForPublish/Icon-Small-40.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Small-50.png",
+                "path": "AppIconsForPublish/Icon-Small-50.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Small-50@2x.png",
+                "path": "AppIconsForPublish/Icon-Small-50@2x.png"
+            },
+            {
+                "file": "AppIconsForPublish/Icon-Small-80.png",
+                "path": "AppIconsForPublish/Icon-Small-80.png"
+            }
+        ]
     }
 }

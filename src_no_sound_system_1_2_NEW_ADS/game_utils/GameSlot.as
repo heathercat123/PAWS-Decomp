@@ -153,7 +153,6 @@ package game_utils
       public static const VARIABLE_GACHA_0_SPAWN_19:int = 520;
       
       public static const VARIABLE_ARCADE_2_RECORD:int = 521;
-       
       
       public var levelUnlocked:Array;
       
@@ -237,3 +236,4 @@ package game_utils
       }
    }
 }
+

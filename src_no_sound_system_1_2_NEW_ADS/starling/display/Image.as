@@ -20,6 +20,7 @@ package starling.display
     import starling.utils.Padding;
     import starling.utils.Pool;
     import starling.utils.RectangleUtil;
+    import starling.utils.execute;
 
     /** An Image is a quad with a texture mapped onto it.
      *
@@ -49,7 +50,7 @@ package starling.display
         private var _scale9Grid:Rectangle;
         private var _tileGrid:Rectangle;
 
-        private static var sAutomators:Dictionary = new Dictionary(true);
+        private static var sSetupFunctions:Dictionary = new Dictionary(true);
 
         // helper objects
         private static var sPadding:Padding = new Padding();
@@ -177,13 +178,13 @@ package starling.display
         {
             if (value != texture)
             {
-                if (texture && sAutomators[texture])
-                    sAutomators[texture].onRelease(this);
+                if (texture && sSetupFunctions[texture])
+                    execute(sSetupFunctions[texture][1], this);
 
                 super.texture = value;
 
-                if (value && sAutomators[value])
-                    sAutomators[value].onAssign(this);
+                if (value && sSetupFunctions[value])
+                    execute(sSetupFunctions[value][0], this);
                 else if (_scale9Grid && value)
                     readjustSize();
             }
@@ -197,8 +198,6 @@ package starling.display
             var frame:Rectangle = texture.frame;
             var absScaleX:Number = scaleX > 0 ? scaleX : -scaleX;
             var absScaleY:Number = scaleY > 0 ? scaleY : -scaleY;
-
-            if (absScaleX == 0.0 || absScaleY == 0) return;
 
             // If top and bottom row / left and right column are empty, this is actually
             // a scale3 grid. In that case, we want the 'caps' to maintain their aspect ratio.
@@ -505,7 +504,6 @@ package starling.display
         // bindings
 
         /** Injects code that is called by all instances whenever the given texture is assigned or replaced.
-         *  The new functions will be executed after any existing ones.
          *
          *  @param texture    Assignment of this texture instance will lead to the following callback(s) being executed.
          *  @param onAssign   Called when the texture is assigned. Receives one parameter of type 'Image'.
@@ -513,23 +511,18 @@ package starling.display
          */
         public static function automateSetupForTexture(texture:Texture, onAssign:Function, onRelease:Function=null):void
         {
-            var automator:SetupAutomator = sAutomators[texture];
-            if (automator) automator.add(onAssign, onRelease);
-            else sAutomators[texture] = new SetupAutomator(onAssign, onRelease);
+            if (texture == null)
+                return;
+            else if (onAssign == null && onRelease == null)
+                delete sSetupFunctions[texture];
+            else
+                sSetupFunctions[texture] = [onAssign, onRelease];
         }
 
-        /** Removes all custom setup functions for the given texture, including those created via
-         *  'bindScale9GridToTexture' and 'bindPivotPointToTexture'. */
+        /** Removes any custom setup functions for the given texture. */
         public static function resetSetupForTexture(texture:Texture):void
         {
-            delete sAutomators[texture];
-        }
-
-        /** Removes specific setup functions for the given texture. */
-        public static function removeSetupForTexture(texture:Texture, onAssign:Function, onRelease:Function=null):void
-        {
-            var automator:SetupAutomator = sAutomators[texture];
-            if (automator) automator.remove(onAssign, onRelease);
+            automateSetupForTexture(texture, null, null);
         }
 
         /** Binds the given scaling grid to the given texture so that any image which displays the texture will
@@ -549,59 +542,5 @@ package starling.display
                 function(image:Image):void { image.pivotX = pivotX; image.pivotY = pivotY; },
                 function(image:Image):void { image.pivotX = image.pivotY = 0; });
         }
-    }
-}
-
-import starling.display.Image;
-import starling.utils.execute;
-
-class SetupAutomator
-{
-    private var _onAssign:Array;
-    private var _onRelease:Array;
-
-    public function SetupAutomator(onAssign:Function, onRelease:Function)
-    {
-        _onAssign = [];
-        _onRelease = [];
-        add(onAssign, onRelease);
-    }
-
-    public function add(onAssign:Function, onRelease:Function):void
-    {
-        if (onAssign != null && _onAssign.indexOf(onAssign) == -1)
-            _onAssign[_onAssign.length] = onAssign;
-
-        if (onRelease != null && _onRelease.indexOf(onRelease) == -1)
-            _onRelease[_onRelease.length] = onRelease;
-    }
-
-    public function remove(onAssign:Function, onRelease:Function):void
-    {
-        if (onAssign != null)
-        {
-            var onAssignIndex:int = _onAssign.indexOf(onAssign);
-            if (onAssignIndex != -1) _onAssign.removeAt(onAssignIndex);
-        }
-
-        if (onRelease != null)
-        {
-            var onReleaseIndex:int = _onRelease.indexOf(onRelease);
-            if (onReleaseIndex != -1) _onRelease.removeAt(onReleaseIndex);
-        }
-    }
-
-    public function onAssign(image:Image):void
-    {
-        var count:int = _onAssign.length;
-        for (var i:int=0; i<count; ++i)
-            execute(_onAssign[i], image);
-    }
-
-    public function onRelease(image:Image):void
-    {
-        var count:int = _onRelease.length;
-        for (var i:int=0; i<count; ++i)
-            execute(_onRelease[i], image);
     }
 }

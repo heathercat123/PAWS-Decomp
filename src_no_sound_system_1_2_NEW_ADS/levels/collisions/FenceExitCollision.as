@@ -6,7 +6,6 @@ package levels.collisions
    
    public class FenceExitCollision extends ExitCollision
    {
-       
       
       protected var ADJUST_POSITION_ASAP:Boolean;
       
@@ -116,3 +115,4 @@ package levels.collisions
       }
    }
 }
+

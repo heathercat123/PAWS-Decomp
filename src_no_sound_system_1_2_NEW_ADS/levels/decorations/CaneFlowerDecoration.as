@@ -8,7 +8,6 @@ package levels.decorations
    
    public class CaneFlowerDecoration extends Decoration
    {
-       
       
       protected var TYPE:int;
       
@@ -132,3 +131,4 @@ package levels.decorations
       }
    }
 }
+

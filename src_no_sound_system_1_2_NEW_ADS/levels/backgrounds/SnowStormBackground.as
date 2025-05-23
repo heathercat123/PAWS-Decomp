@@ -9,7 +9,6 @@ package levels.backgrounds
    
    public class SnowStormBackground extends Background
    {
-       
       
       protected var pCounter:int;
       
@@ -197,3 +196,4 @@ package levels.backgrounds
       }
    }
 }
+

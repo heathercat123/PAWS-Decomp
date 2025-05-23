@@ -10,7 +10,6 @@ package entities.enemies
    
    public class YellowSlimeEnemy extends Enemy
    {
-       
       
       protected var isGravityDown:Boolean;
       
@@ -535,3 +534,4 @@ package entities.enemies
       }
    }
 }
+

@@ -7,84 +7,83 @@ package
    public class TextureManager
    {
       
+      public static var sTextureAtlas:TextureAtlas;
+      
+      public static var hudTextureAtlas:TextureAtlas;
+      
+      public static var fishingTextureAtlas:TextureAtlas;
+      
+      public static var minigamesTextureAtlas:TextureAtlas;
+      
+      public static var gacha1TextureAtlas:TextureAtlas;
+      
+      public static var gacha2TextureAtlas:TextureAtlas;
+      
+      public static var gacha3TextureAtlas:TextureAtlas;
+      
+      public static var gacha4TextureAtlas:TextureAtlas;
+      
+      public static var gacha5TextureAtlas:TextureAtlas;
+      
+      public static var group1TextureAtlas:TextureAtlas;
+      
+      public static var introTextureAtlas:TextureAtlas;
+      
+      public static var intro2TextureAtlas:TextureAtlas;
+      
+      public static var map1TextureAtlas:TextureAtlas;
+      
       private static const SpriteSheet:Class = TextureManager_SpriteSheet;
       
       public static const SpriteSheetXML:Class = TextureManager_SpriteSheetXML;
-      
-      public static var sTextureAtlas:TextureAtlas;
       
       private static const HudSpriteSheet:Class = TextureManager_HudSpriteSheet;
       
       public static const HudSpriteSheetXML:Class = TextureManager_HudSpriteSheetXML;
       
-      public static var hudTextureAtlas:TextureAtlas;
-      
       private static const FishingSpriteSheet:Class = TextureManager_FishingSpriteSheet;
       
       public static const FishingSpriteSheetXML:Class = TextureManager_FishingSpriteSheetXML;
-      
-      public static var fishingTextureAtlas:TextureAtlas;
       
       private static const MinigamesSpriteSheet:Class = TextureManager_MinigamesSpriteSheet;
       
       public static const MinigamesSpriteSheetXML:Class = TextureManager_MinigamesSpriteSheetXML;
       
-      public static var minigamesTextureAtlas:TextureAtlas;
-      
       private static const Gacha1SpriteSheet:Class = TextureManager_Gacha1SpriteSheet;
       
       public static const Gacha1SpriteSheetXML:Class = TextureManager_Gacha1SpriteSheetXML;
-      
-      public static var gacha1TextureAtlas:TextureAtlas;
       
       private static const Gacha2SpriteSheet:Class = TextureManager_Gacha2SpriteSheet;
       
       public static const Gacha2SpriteSheetXML:Class = TextureManager_Gacha2SpriteSheetXML;
       
-      public static var gacha2TextureAtlas:TextureAtlas;
-      
       private static const Gacha3SpriteSheet:Class = TextureManager_Gacha3SpriteSheet;
       
       public static const Gacha3SpriteSheetXML:Class = TextureManager_Gacha3SpriteSheetXML;
-      
-      public static var gacha3TextureAtlas:TextureAtlas;
       
       private static const Gacha4SpriteSheet:Class = TextureManager_Gacha4SpriteSheet;
       
       public static const Gacha4SpriteSheetXML:Class = TextureManager_Gacha4SpriteSheetXML;
       
-      public static var gacha4TextureAtlas:TextureAtlas;
-      
       private static const Gacha5SpriteSheet:Class = TextureManager_Gacha5SpriteSheet;
       
       public static const Gacha5SpriteSheetXML:Class = TextureManager_Gacha5SpriteSheetXML;
-      
-      public static var gacha5TextureAtlas:TextureAtlas;
       
       private static const Group1Sheet:Class = TextureManager_Group1Sheet;
       
       public static const Group1XML:Class = TextureManager_Group1XML;
       
-      public static var group1TextureAtlas:TextureAtlas;
-      
       private static const IntroSpriteSheet:Class = TextureManager_IntroSpriteSheet;
       
       public static const IntroSpriteSheetXML:Class = TextureManager_IntroSpriteSheetXML;
-      
-      public static var introTextureAtlas:TextureAtlas;
       
       private static const Intro2SpriteSheet:Class = TextureManager_Intro2SpriteSheet;
       
       public static const Intro2SpriteSheetXML:Class = TextureManager_Intro2SpriteSheetXML;
       
-      public static var intro2TextureAtlas:TextureAtlas;
-      
       private static const Map1Sheet:Class = TextureManager_Map1Sheet;
       
       public static const Map1XML:Class = TextureManager_Map1XML;
-      
-      public static var map1TextureAtlas:TextureAtlas;
-       
       
       public function TextureManager()
       {
@@ -227,3 +226,4 @@ package
       }
    }
 }
+

@@ -6,7 +6,6 @@ package levels.decorations
    
    public class WoodVeinDecoration extends Decoration
    {
-       
       
       protected var image:Image;
       
@@ -111,3 +110,4 @@ package levels.decorations
       }
    }
 }
+

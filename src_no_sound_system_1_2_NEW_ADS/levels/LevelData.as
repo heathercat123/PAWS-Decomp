@@ -6,7 +6,6 @@ package levels
    
    public class LevelData
    {
-       
       
       public var level:Level;
       
@@ -216,3 +215,4 @@ package levels
       }
    }
 }
+

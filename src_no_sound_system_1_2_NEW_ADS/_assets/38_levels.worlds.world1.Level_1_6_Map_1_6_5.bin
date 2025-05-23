@@ -202,7 +202,6 @@
     <obj type="6" x="928" y="160" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="7" x="1056" y="160" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="0" x="896" y="112" w="16" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
-    <obj type="91" x="261" y="142" w="101" h="3" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="13" x="48" y="80" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="9" x="1247" y="111" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="15" x="688" y="104" w="40" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
@@ -225,6 +224,8 @@
     <obj type="111" x="1268" y="22" w="0" h="0" rot="0" ai="73" val_1="0" val_2="0" val_3="0"/>
     <obj type="111" x="1124" y="150" w="0" h="0" rot="0" ai="73" val_1="0" val_2="0" val_3="0"/>
     <obj type="111" x="1236" y="22" w="0" h="0" rot="0" ai="73" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="236" y="150" w="0" h="0" rot="0" ai="72" val_1="0" val_2="0" val_3="0"/>
+    <obj type="111" x="236" y="140" w="0" h="0" rot="0" ai="73" val_1="0" val_2="0" val_3="0"/>
     <obj type="56" x="289" y="114" w="8" h="8" rot="4" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="56" x="540" y="114" w="8" h="8" rot="4" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="56" x="508" y="126" w="8" h="8" rot="4" ai="0" val_1="0" val_2="1" val_3="0"/>

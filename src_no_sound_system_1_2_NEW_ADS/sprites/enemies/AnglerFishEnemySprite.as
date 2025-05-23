@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class AnglerFishEnemySprite extends GameSprite
    {
-       
       
       protected var swimAnim:GameMovieClip;
       
@@ -102,3 +101,4 @@ package sprites.enemies
       }
    }
 }
+

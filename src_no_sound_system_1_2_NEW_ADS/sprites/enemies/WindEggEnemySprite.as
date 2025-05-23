@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class WindEggEnemySprite extends GameSprite
    {
-       
       
       protected var TYPE:int = 0;
       
@@ -366,3 +365,4 @@ package sprites.enemies
       }
    }
 }
+

@@ -7,7 +7,6 @@ package interfaces.buttons
    
    public class MapLevelButton extends Button
    {
-       
       
       public var index:int;
       
@@ -198,3 +197,4 @@ package interfaces.buttons
       }
    }
 }
+

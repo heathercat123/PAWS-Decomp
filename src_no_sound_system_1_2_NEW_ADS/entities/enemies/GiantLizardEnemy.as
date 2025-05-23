@@ -9,7 +9,6 @@ package entities.enemies
    
    public class GiantLizardEnemy extends GiantEnemy
    {
-       
       
       protected var quad:Quad;
       
@@ -100,3 +99,4 @@ package entities.enemies
       }
    }
 }
+

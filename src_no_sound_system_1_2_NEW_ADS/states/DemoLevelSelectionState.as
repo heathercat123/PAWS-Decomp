@@ -7,7 +7,6 @@ package states
    
    public class DemoLevelSelectionState implements IState
    {
-       
       
       public var GET_OUT_FLAG:Boolean;
       
@@ -254,3 +253,4 @@ package states
       }
    }
 }
+

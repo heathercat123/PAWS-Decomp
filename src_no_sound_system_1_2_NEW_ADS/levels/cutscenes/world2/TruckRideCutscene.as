@@ -21,7 +21,6 @@ package levels.cutscenes.world2
    
    public class TruckRideCutscene extends Cutscene
    {
-       
       
       protected var t_start:Number;
       
@@ -340,3 +339,4 @@ package levels.cutscenes.world2
       }
    }
 }
+

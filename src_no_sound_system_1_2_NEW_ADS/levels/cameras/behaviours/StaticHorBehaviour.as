@@ -5,7 +5,6 @@ package levels.cameras.behaviours
    
    public class StaticHorBehaviour extends CameraBehaviour
    {
-       
       
       public var x_locked_at:Number;
       
@@ -30,3 +29,4 @@ package levels.cameras.behaviours
       }
    }
 }
+

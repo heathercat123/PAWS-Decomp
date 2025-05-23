@@ -2,9 +2,7 @@
 <map>
   <tiles/>
   <decorations>
-    <obj type="31" x="233" y="190" w="0" h="0" rot="0" val_1="20" val_2="16"/>
-    <obj type="31" x="424" y="158" w="0" h="0" rot="0" val_1="20" val_2="16"/>
-    <obj type="31" x="617" y="151" w="0" h="0" rot="0" val_1="20" val_2="16"/>
+    <obj type="8" x="231" y="196" w="0" h="0" rot="0" val_1="16" val_2="16"/>
     <obj type="11" x="856" y="60" w="0" h="0" rot="0" val_1="8" val_2="4"/>
     <obj type="11" x="848" y="64" w="0" h="0" rot="0" val_1="8" val_2="4"/>
     <obj type="1000001" x="192" y="135" w="0" h="0" rot="0" val_1="32" val_2="10"/>

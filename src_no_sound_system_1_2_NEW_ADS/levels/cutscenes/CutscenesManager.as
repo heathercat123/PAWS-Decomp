@@ -5,7 +5,6 @@ package levels.cutscenes
    
    public class CutscenesManager
    {
-       
       
       public var level:Level;
       
@@ -107,3 +106,4 @@ package levels.cutscenes
       }
    }
 }
+

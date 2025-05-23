@@ -6,7 +6,6 @@ package interfaces.panels
    
    public class SplashHudPanel extends Sprite
    {
-       
       
       public var settingsButton:Button;
       
@@ -160,3 +159,4 @@ package interfaces.panels
       }
    }
 }
+

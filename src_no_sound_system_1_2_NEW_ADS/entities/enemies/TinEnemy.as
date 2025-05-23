@@ -7,7 +7,6 @@ package entities.enemies
    
    public class TinEnemy extends Enemy
    {
-       
       
       public function TinEnemy(_level:Level, _xPos:Number, _yPos:Number, _direction:int, _ai:int)
       {
@@ -68,3 +67,4 @@ package entities.enemies
       }
    }
 }
+

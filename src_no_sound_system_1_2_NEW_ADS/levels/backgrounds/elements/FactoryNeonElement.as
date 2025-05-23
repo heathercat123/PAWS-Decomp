@@ -8,7 +8,6 @@ package levels.backgrounds.elements
    
    public class FactoryNeonElement extends BackgroundElement
    {
-       
       
       protected var sprite:GameSprite;
       
@@ -71,3 +70,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

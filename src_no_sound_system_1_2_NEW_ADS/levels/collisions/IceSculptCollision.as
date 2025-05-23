@@ -9,7 +9,6 @@ package levels.collisions
    
    public class IceSculptCollision extends Collision
    {
-       
       
       internal var ice_button:Button;
       
@@ -51,3 +50,4 @@ package levels.collisions
       }
    }
 }
+

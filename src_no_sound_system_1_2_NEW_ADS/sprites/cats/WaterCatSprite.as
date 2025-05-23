@@ -6,7 +6,6 @@ package sprites.cats
    
    public class WaterCatSprite extends CatSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -408,3 +407,4 @@ package sprites.cats
       }
    }
 }
+

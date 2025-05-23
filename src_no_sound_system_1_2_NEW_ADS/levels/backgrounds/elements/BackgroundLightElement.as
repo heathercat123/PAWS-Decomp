@@ -6,7 +6,6 @@ package levels.backgrounds.elements
    
    public class BackgroundLightElement extends BackgroundElement
    {
-       
       
       protected var counter1:int;
       
@@ -81,3 +80,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

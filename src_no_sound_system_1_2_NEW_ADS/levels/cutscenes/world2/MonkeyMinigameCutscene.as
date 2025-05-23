@@ -11,7 +11,6 @@ package levels.cutscenes.world2
    
    public class MonkeyMinigameCutscene extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
@@ -39,17 +38,14 @@ package levels.cutscenes.world2
       
       protected var t_tick_2:Number;
       
-      protected var SUB_LEVEL:int;
+      protected var SUB_LEVEL:int = 0;
       
-      protected var sxBalloon:Image;
+      protected var sxBalloon:Image = null;
       
-      protected var dxBalloon:Image;
+      protected var dxBalloon:Image = null;
       
       public function MonkeyMinigameCutscene(_level:Level)
       {
-         this.SUB_LEVEL = 0;
-         this.sxBalloon = null;
-         this.dxBalloon = null;
          super(_level);
          this.condition_1 = this.condition_2 = false;
          counter1 = counter2 = counter3 = 0;
@@ -279,3 +275,4 @@ package levels.cutscenes.world2
       }
    }
 }
+

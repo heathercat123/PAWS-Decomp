@@ -12,7 +12,6 @@ package entities.enemies
    
    public class SmallPollenEnemy extends Enemy
    {
-       
       
       protected var leafSprite:SmallPollenLeafSprite;
       
@@ -32,7 +31,7 @@ package entities.enemies
       
       protected var WAS_HERO_SX_WHEN_HIT:Boolean;
       
-      protected var IS_BIG_POLLEN:Boolean;
+      protected var IS_BIG_POLLEN:Boolean = false;
       
       protected var bullet_counter:int;
       
@@ -40,7 +39,6 @@ package entities.enemies
       
       public function SmallPollenEnemy(_level:Level, _xPos:Number, _yPos:Number, _direction:int, _ai_index:int, _param_1:int = 0)
       {
-         this.IS_BIG_POLLEN = false;
          if(_ai_index == 2)
          {
             this.IS_BIG_POLLEN = true;
@@ -369,3 +367,4 @@ package entities.enemies
       }
    }
 }
+

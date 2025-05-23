@@ -16,7 +16,6 @@ package states.fading
    
    public class LevelCompleteFadeState implements IState
    {
-       
       
       protected var container:Sprite;
       
@@ -666,3 +665,4 @@ package states.fading
       }
    }
 }
+

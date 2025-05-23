@@ -71,10 +71,8 @@ package starling.display
         private var _touchGroup:Boolean;
         
         // helper objects
-        private static var sHitTestMatrix:Matrix = new Matrix();
-        private static var sHitTestPoint:Point = new Point();
-        private static var sBoundsMatrix:Matrix = new Matrix();
-        private static var sBoundsPoint:Point = new Point();
+        private static var sHelperMatrix:Matrix = new Matrix();
+        private static var sHelperPoint:Point = new Point();
         private static var sBroadcastListeners:Vector.<DisplayObject> = new <DisplayObject>[];
         private static var sSortBuffer:Vector.<DisplayObject> = new <DisplayObject>[];
         private static var sCacheToken:BatchToken = new BatchToken();
@@ -292,9 +290,9 @@ package starling.display
             
             if (numChildren == 0)
             {
-                getTransformationMatrix(targetSpace, sBoundsMatrix);
-                MatrixUtil.transformCoords(sBoundsMatrix, 0.0, 0.0, sBoundsPoint);
-                out.setTo(sBoundsPoint.x, sBoundsPoint.y, 0, 0);
+                getTransformationMatrix(targetSpace, sHelperMatrix);
+                MatrixUtil.transformCoords(sHelperMatrix, 0.0, 0.0, sHelperPoint);
+                out.setTo(sHelperPoint.x, sHelperPoint.y, 0, 0);
             }
             else if (numChildren == 1)
             {
@@ -336,11 +334,11 @@ package starling.display
                 var child:DisplayObject = _children[i];
                 if (child.isMask) continue;
 
-                sHitTestMatrix.copyFrom(child.transformationMatrix);
-                sHitTestMatrix.invert();
+                sHelperMatrix.copyFrom(child.transformationMatrix);
+                sHelperMatrix.invert();
 
-                MatrixUtil.transformCoords(sHitTestMatrix, localX, localY, sHitTestPoint);
-                target = child.hitTest(sHitTestPoint);
+                MatrixUtil.transformCoords(sHelperMatrix, localX, localY, sHelperPoint);
+                target = child.hitTest(sHelperPoint);
 
                 if (target) return _touchGroup ? this : target;
             }

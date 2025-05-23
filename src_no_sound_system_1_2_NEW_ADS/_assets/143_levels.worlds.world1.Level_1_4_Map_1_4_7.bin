@@ -213,7 +213,6 @@
     <obj type="10" x="208" y="592" w="96" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="40" x="256" y="640" w="40" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="69" x="336" y="208" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
-    <obj type="91" x="245" y="558" w="101" h="2" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="12" x="231" y="751" w="0" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="13" x="304" y="80" w="3" h="2" rot="0" ai="1" val_1="80" val_2="48" val_3="0"/>
   </collisions>

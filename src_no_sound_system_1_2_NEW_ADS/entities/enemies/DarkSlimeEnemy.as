@@ -8,7 +8,6 @@ package entities.enemies
    
    public class DarkSlimeEnemy extends Enemy
    {
-       
       
       public function DarkSlimeEnemy(_level:Level, _xPos:Number, _yPos:Number, _direction:int)
       {
@@ -238,3 +237,4 @@ package entities.enemies
       }
    }
 }
+

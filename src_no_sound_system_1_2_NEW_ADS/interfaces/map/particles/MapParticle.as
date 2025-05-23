@@ -21,7 +21,6 @@ package interfaces.map.particles
    {
       
       public static var RAIN:int = 0;
-       
       
       public var worldMap:WorldMap;
       
@@ -245,3 +244,4 @@ package interfaces.map.particles
       }
    }
 }
+

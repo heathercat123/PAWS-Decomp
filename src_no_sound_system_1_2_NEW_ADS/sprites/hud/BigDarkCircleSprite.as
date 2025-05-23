@@ -5,7 +5,6 @@ package sprites.hud
    
    public class BigDarkCircleSprite extends GameSprite
    {
-       
       
       protected var anim1:GameMovieClip;
       
@@ -35,3 +34,4 @@ package sprites.hud
       }
    }
 }
+

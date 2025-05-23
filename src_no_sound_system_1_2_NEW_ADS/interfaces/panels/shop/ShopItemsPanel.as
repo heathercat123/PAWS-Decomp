@@ -14,7 +14,6 @@ package interfaces.panels.shop
    
    public class ShopItemsPanel extends Sprite
    {
-       
       
       protected var bluePanel:BluePanel;
       
@@ -549,7 +548,7 @@ package interfaces.panels.shop
          {
             if(this.itemButtons[i] != null)
             {
-               if(_inventory_index == int(Button(this.itemButtons[i])))
+               if(_inventory_index == int(Button(this.itemButtons[i]).index))
                {
                   array_index = i;
                }
@@ -566,7 +565,7 @@ package interfaces.panels.shop
          {
             if(this.itemButtons[i] != null)
             {
-               if(_inventory_index == int(Button(this.itemButtons[i])))
+               if(_inventory_index == int(Button(this.itemButtons[i]).index))
                {
                   array_index = i;
                }
@@ -684,3 +683,4 @@ package interfaces.panels.shop
       }
    }
 }
+

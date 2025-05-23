@@ -12,7 +12,6 @@ package starling.styles
 {
     import flash.geom.Matrix;
 
-    import starling.core.Starling;
     import starling.display.Mesh;
     import starling.rendering.MeshEffect;
     import starling.rendering.RenderState;
@@ -39,19 +38,6 @@ package starling.styles
      *  <p>Here are some tools that support creation of such distance field textures:</p>
      *
      *  <ul>
-     *    <li>Field Agent - a Ruby script that uses ImageMagick to create single-channel distance
-     *        field textures. Part of the Starling download ('util' directory).</li>
-     *    <li><a href="https://github.com/Chlumsky/msdfgen">msdfgen</a> - an excellent and fast
-     *        open source command line tool that creates multi- and single-channel distance field
-     *        textures.</li>
-     *  </ul>
-     *
-     *  <p>The former tools convert arbitrary SVG or PNG images to distance field textures.
-     *  To create distance field <em>fonts</em>, have a look at the following alternatives:</p>
-     *
-     *  <ul>
-     *    <li><a href="https://github.com/soimy/msdf-bmfont-xml/">msdf-bmfont-xml</a> - a command
-     *        line tool powered by msdf and thus producing excellent multi-channel output.</li>
      *    <li><a href="http://kvazars.com/littera/">Littera</a> - a free online bitmap font
      *        generator.</li>
      *    <li><a href="http://github.com/libgdx/libgdx/wiki/Hiero">Hiero</a> - a cross platform
@@ -59,16 +45,6 @@ package starling.styles
      *    <li><a href="http://www.angelcode.com/products/bmfont/">BMFont</a> - Windows-only, from
      *        AngelCode.</li>
      *  </ul>
-     *
-     *  <strong>Single-Channel vs. Multi-Channel</strong>
-     *
-     *  <p>The original approach for distance field textures uses just a single channel (encoding
-     *  the distance of each pixel to the shape that's being represented). By utilizing
-     *  all three color channels, however, the results can be greatly enhanced - a technique
-     *  developed by Viktor Chlumský.</p>
-     *
-     *  <p>Starling supports such multi-channel DF textures, as well. When using an appropriate
-     *  texture, don't forget to enable the style's <code>multiChannel</code> property.</p>
      *
      *  <strong>Special effects</strong>
      *
@@ -100,7 +76,6 @@ package starling.styles
         public static const MODE_SHADOW:String = "shadow";
 
         private var _mode:String;
-        private var _multiChannel:Boolean;
 
         // basic
         private var _threshold:Number;
@@ -120,8 +95,8 @@ package starling.styles
         /** Creates a new distance field style.
          *
          *  @param softness   adds a soft transition between the inside and the outside.
-         *                    This should typically be 1.0 divided by the spread (in points)
-         *                    used when creating the distance field texture.
+         *                    This should typically be 1.0 divided by the spread used when
+         *                    creating the distance field texture.
          *  @param threshold  the value separating the inside from the outside of the shape.
          *                    Range: 0 - 1.
          */
@@ -146,7 +121,6 @@ package starling.styles
             if (otherStyle)
             {
                 _mode = otherStyle._mode;
-                _multiChannel = otherStyle._multiChannel;
                 _threshold = otherStyle._threshold;
                 _softness = otherStyle._softness;
                 _alpha = otherStyle._alpha;
@@ -237,9 +211,6 @@ package starling.styles
                     var maxScale:Number = DistanceFieldEffect.MAX_SCALE;
                     var minScale:Number = maxScale / 255;
 
-                    if (numVertices < 0)
-                        numVertices = vertexData.numVertices - vertexID;
-
                     for (var i:int=0; i<numVertices; ++i)
                     {
                         var srcAttr:uint = vertexData.getUnsignedInt(vertexID + i, "basic");
@@ -259,17 +230,16 @@ package starling.styles
         {
             var dfEffect:DistanceFieldEffect = effect as DistanceFieldEffect;
             dfEffect.mode = _mode;
-            dfEffect.multiChannel = _multiChannel;
 
             if (state.is3D) dfEffect.scale = 1.0;
             else
             {
-                // The softness is adapted automatically with the total scale of the object;
-                // this only works for 2D objects, though.
+                // The softness is adapted automatically with the total scale of the object.
+                // However, this only works for 2D objects.
 
                 var matrix:Matrix = state.modelviewMatrix;
                 var scale:Number = Math.sqrt(matrix.a * matrix.a + matrix.c * matrix.c);
-                dfEffect.scale = scale * Starling.contentScaleFactor;
+                dfEffect.scale = scale;
             }
 
             super.updateEffect(effect, state);
@@ -279,10 +249,8 @@ package starling.styles
         override public function canBatchWith(meshStyle:MeshStyle):Boolean
         {
             var dfStyle:DistanceFieldStyle = meshStyle as DistanceFieldStyle;
-            if (dfStyle && super.canBatchWith(meshStyle))
-                return dfStyle._mode == _mode && dfStyle._multiChannel == _multiChannel;
-            else
-                return false;
+            if (dfStyle && super.canBatchWith(meshStyle)) return dfStyle.mode == _mode;
+            else return false;
         }
 
         // simplified setup
@@ -356,15 +324,6 @@ package starling.styles
         public function set mode(value:String):void
         {
             _mode = value;
-            setRequiresRedraw();
-        }
-
-        /** Indicates if the distance field texture utilizes multiple channels. This improves
-         *  render quality, but requires specially created DF textures. @default false */
-        public function get multiChannel():Boolean { return _multiChannel; }
-        public function set multiChannel(value:Boolean):void
-        {
-            _multiChannel = value;
             setRequiresRedraw();
         }
 
@@ -518,7 +477,6 @@ class DistanceFieldEffect extends MeshEffect
 
     private var _mode:String;
     private var _scale:Number;
-    private var _multiChannel:Boolean;
 
     private static const sVector:Vector.<Number> = new Vector.<Number>(4, true);
 
@@ -546,18 +504,12 @@ class DistanceFieldEffect extends MeshEffect
             /// *** VERTEX SHADER ***
 
             var vertexShader:Vector.<String> = new <String>[
-                "m44 op, va0, vc0",       // 4x4 matrix transform to output clip-space
-                "mov v0, va1",            // pass texture coordinates to fragment program
-                "mul vt4, va3.yyyy, vc4", // multiply inner alpha (va3.y) with state alpha (vc4)
-                "mul v1, va2, vt4",       // multiply vertex color (va2) with combined alpha (vt4)
-                "mov v3, va3",
-                "mov v4, va4",
-                "mov v5, va5",
-
-                // multiply outerAlphaStart and outerAlphaEnd with state alpha and vertex alpha
-                "mul vt4.w, vc4.w, va2.w", // state alpha (vc4) * vertex alpha (va2.w)
-                "mul v4.y, va4.y, vt4.w",  // v4.x = outerAlphaEnd
-                "mul v5.w, va5.w, vt4.w",  // v5.w = outerAlphaStart
+                "m44 op, va0, vc0", // 4x4 matrix transform to output clip-space
+                "mov v0, va1     ", // pass texture coordinates to fragment program
+                "mul v1, va2, vc4", // multiply alpha (vc4) with color (va2), pass to fp
+                "mov v3, va3     ",
+                "mov v4, va4     ",
+                "mov v5, va5     ",
 
                 // update softness to take current scale into account
                 "mul vt0.x, va3.w, vc5.z", // vt0.x = local scale [decoded]
@@ -601,7 +553,6 @@ class DistanceFieldEffect extends MeshEffect
             var fragmentShader:Vector.<String> = new <String>[
                 // create basic inner area
                 tex("ft0", "v0", 0, texture),     // ft0 = texture color
-                _multiChannel ? median("ft0") : "mov ft0, ft0.xxxx",
                 "mov ft1, ft0",                   // ft1 = texture color
                 step("ft1.w", "v6.x", "v6.y"),    // make soft inner mask
                 "mov ft3, ft1",                   // store copy of inner mask in ft3 (for outline)
@@ -612,7 +563,6 @@ class DistanceFieldEffect extends MeshEffect
             {
                 fragmentShader.push(
                     tex("ft0", "v7", 0, texture), // sample at shadow tex coords
-                    _multiChannel ? median("ft0") : "mov ft0, ft0.xxxx",
                     "mov ft5.x, v7.z"             // ft5.x = inner threshold of shadow
                 );
             }
@@ -656,22 +606,15 @@ class DistanceFieldEffect extends MeshEffect
     private static function step(inOutReg:String, minReg:String, maxReg:String,
                                  tmpReg:String="ft6"):String
     {
-        return [
+        var ops:Vector.<String> = new <String>[
             StringUtil.format("sub {0}, {1}, {2}", tmpReg, maxReg, minReg), // tmpReg = range
             StringUtil.format("rcp {0}, {0}", tmpReg),                      // tmpReg = scale
             StringUtil.format("sub {0}, {0}, {1}", inOutReg, minReg),       // inOut -= minimum
             StringUtil.format("mul {0}, {0}, {1}", inOutReg, tmpReg),       // inOut *= scale
             StringUtil.format("sat {0}, {0}", inOutReg)                     // clamp to 0-1
-        ].join("\n");
-    }
+        ];
 
-    private static function median(inOutReg:String):String
-    {
-        return [
-            StringUtil.format("max {0}.xyz, {0}.xxy, {0}.yzz", inOutReg),
-            StringUtil.format("min {0}.x, {0}.x, {0}.y", inOutReg),
-            StringUtil.format("min {0}, {0}.xxxx, {0}.zzzz", inOutReg)
-        ].join("\n");
+        return ops.join("\n");
     }
 
     override protected function beforeDraw(context:Context3D):void
@@ -730,8 +673,6 @@ class DistanceFieldEffect extends MeshEffect
             default:                              modeBits = 0;
         }
 
-        if (_multiChannel) modeBits |= (1 << 2);
-
         return super.programVariantName | (modeBits << 8);
     }
 
@@ -740,7 +681,4 @@ class DistanceFieldEffect extends MeshEffect
 
     public function get mode():String { return _mode; }
     public function set mode(value:String):void { _mode = value; }
-
-    public function get multiChannel():Boolean { return _multiChannel; }
-    public function set multiChannel(value:Boolean):void { _multiChannel = value; }
 }

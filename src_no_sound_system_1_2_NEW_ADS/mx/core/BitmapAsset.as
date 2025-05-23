@@ -11,12 +11,11 @@ package mx.core
    public class BitmapAsset extends FlexBitmap implements IFlexAsset, IFlexDisplayObject, ILayoutDirectionElement
    {
       
-      mx_internal static const VERSION:String = "4.5.0.20834";
-      
       private static var FlexVersionClass:Class;
       
       private static var MatrixUtilClass:Class;
-       
+      
+      mx_internal static const VERSION:String = "4.5.0.20834";
       
       private var layoutFeaturesClass:Class;
       
@@ -46,7 +45,7 @@ package mx.core
       
       override public function get x() : Number
       {
-         return this.layoutFeatures == null ? super.x : this.layoutFeatures.layoutX;
+         return this.layoutFeatures?.layoutX;
       }
       
       override public function set x(value:Number) : void
@@ -68,7 +67,7 @@ package mx.core
       
       override public function get y() : Number
       {
-         return this.layoutFeatures == null ? super.y : this.layoutFeatures.layoutY;
+         return this.layoutFeatures?.layoutY;
       }
       
       override public function set y(value:Number) : void
@@ -90,7 +89,7 @@ package mx.core
       
       override public function get z() : Number
       {
-         return this.layoutFeatures == null ? super.z : this.layoutFeatures.layoutZ;
+         return this.layoutFeatures?.layoutZ;
       }
       
       override public function set z(value:Number) : void
@@ -121,7 +120,7 @@ package mx.core
          {
             p = MatrixUtilClass["transformSize"](this.layoutFeatures.layoutWidth,this._height,transform.matrix);
          }
-         return !!p ? p.x : super.width;
+         return p ? p.x : super.width;
       }
       
       override public function set width(value:Number) : void
@@ -153,7 +152,7 @@ package mx.core
          {
             p = MatrixUtilClass["transformSize"](this.layoutFeatures.layoutWidth,this._height,transform.matrix);
          }
-         return !!p ? p.y : super.height;
+         return p ? p.y : super.height;
       }
       
       override public function set height(value:Number) : void
@@ -176,7 +175,7 @@ package mx.core
       
       override public function get rotationX() : Number
       {
-         return this.layoutFeatures == null ? super.rotationX : this.layoutFeatures.layoutRotationX;
+         return this.layoutFeatures?.layoutRotationX;
       }
       
       override public function set rotationX(value:Number) : void
@@ -198,7 +197,7 @@ package mx.core
       
       override public function get rotationY() : Number
       {
-         return this.layoutFeatures == null ? super.rotationY : this.layoutFeatures.layoutRotationY;
+         return this.layoutFeatures?.layoutRotationY;
       }
       
       override public function set rotationY(value:Number) : void
@@ -220,7 +219,7 @@ package mx.core
       
       override public function get rotationZ() : Number
       {
-         return this.layoutFeatures == null ? super.rotationZ : this.layoutFeatures.layoutRotationZ;
+         return this.layoutFeatures?.layoutRotationZ;
       }
       
       override public function set rotationZ(value:Number) : void
@@ -242,7 +241,7 @@ package mx.core
       
       override public function get rotation() : Number
       {
-         return this.layoutFeatures == null ? super.rotation : this.layoutFeatures.layoutRotationZ;
+         return this.layoutFeatures?.layoutRotationZ;
       }
       
       override public function set rotation(value:Number) : void
@@ -264,7 +263,7 @@ package mx.core
       
       override public function get scaleX() : Number
       {
-         return this.layoutFeatures == null ? super.scaleX : this.layoutFeatures.layoutScaleX;
+         return this.layoutFeatures?.layoutScaleX;
       }
       
       override public function set scaleX(value:Number) : void
@@ -287,7 +286,7 @@ package mx.core
       
       override public function get scaleY() : Number
       {
-         return this.layoutFeatures == null ? super.scaleY : this.layoutFeatures.layoutScaleY;
+         return this.layoutFeatures?.layoutScaleY;
       }
       
       override public function set scaleY(value:Number) : void
@@ -310,7 +309,7 @@ package mx.core
       
       override public function get scaleZ() : Number
       {
-         return this.layoutFeatures == null ? super.scaleZ : this.layoutFeatures.layoutScaleZ;
+         return this.layoutFeatures?.layoutScaleZ;
       }
       
       override public function set scaleZ(value:Number) : void
@@ -463,3 +462,4 @@ package mx.core
       }
    }
 }
+

@@ -7,7 +7,6 @@ package levels.cameras
    
    public class GameCamera extends ScreenCamera
    {
-       
       
       public var horBehaviour:CameraBehaviour;
       
@@ -212,3 +211,4 @@ package levels.cameras
       }
    }
 }
+

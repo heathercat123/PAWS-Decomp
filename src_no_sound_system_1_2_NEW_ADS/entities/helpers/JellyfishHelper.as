@@ -9,7 +9,6 @@ package entities.helpers
    
    public class JellyfishHelper extends Helper
    {
-       
       
       protected var MIN_DISTANCE:Number;
       
@@ -453,3 +452,4 @@ package entities.helpers
       }
    }
 }
+

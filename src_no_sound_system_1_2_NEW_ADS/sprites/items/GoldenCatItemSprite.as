@@ -5,7 +5,6 @@ package sprites.items
    
    public class GoldenCatItemSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -110,3 +109,4 @@ package sprites.items
       }
    }
 }
+

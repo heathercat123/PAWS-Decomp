@@ -12,7 +12,6 @@ package entities.enemies
       public static var STATUS_1:Boolean;
       
       public static var STATUS_2:Boolean;
-       
       
       public var level:Level;
       
@@ -429,3 +428,4 @@ package entities.enemies
       }
    }
 }
+

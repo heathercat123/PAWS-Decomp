@@ -6,7 +6,6 @@ package interfaces.panels
    
    public class SoundHudPanel extends Sprite
    {
-       
       
       public var pauseButton:Button;
       
@@ -52,3 +51,4 @@ package interfaces.panels
       }
    }
 }
+

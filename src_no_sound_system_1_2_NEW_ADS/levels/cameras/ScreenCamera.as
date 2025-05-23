@@ -6,7 +6,6 @@ package levels.cameras
    
    public class ScreenCamera
    {
-       
       
       public var level:Level;
       
@@ -192,3 +191,4 @@ package levels.cameras
       }
    }
 }
+

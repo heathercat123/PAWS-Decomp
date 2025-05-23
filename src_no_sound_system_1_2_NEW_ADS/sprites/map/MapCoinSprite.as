@@ -5,7 +5,6 @@ package sprites.map
    
    public class MapCoinSprite extends GameSprite
    {
-       
       
       protected var standAnimation1:GameMovieClip;
       
@@ -48,3 +47,4 @@ package sprites.map
       }
    }
 }
+

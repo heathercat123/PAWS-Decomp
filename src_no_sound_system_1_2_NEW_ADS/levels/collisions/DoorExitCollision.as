@@ -17,7 +17,6 @@ package levels.collisions
    
    public class DoorExitCollision extends ExitCollision
    {
-       
       
       public var LOCK_ID:int;
       
@@ -468,3 +467,4 @@ package levels.collisions
       }
    }
 }
+

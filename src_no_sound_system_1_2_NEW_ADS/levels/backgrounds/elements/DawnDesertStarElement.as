@@ -8,7 +8,6 @@ package levels.backgrounds.elements
    
    public class DawnDesertStarElement extends BackgroundElement
    {
-       
       
       protected var index:int;
       
@@ -59,3 +58,4 @@ package levels.backgrounds.elements
       }
    }
 }
+

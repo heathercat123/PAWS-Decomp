@@ -6,7 +6,6 @@ package sprites.map
    
    public class GenericMapSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -212,3 +211,4 @@ package sprites.map
       }
    }
 }
+

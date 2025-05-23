@@ -14,7 +14,6 @@ package entities.enemies
    
    public class SeedPollenEnemy extends Enemy
    {
-       
       
       protected var wait_time:int;
       
@@ -447,3 +446,4 @@ package entities.enemies
       }
    }
 }
+

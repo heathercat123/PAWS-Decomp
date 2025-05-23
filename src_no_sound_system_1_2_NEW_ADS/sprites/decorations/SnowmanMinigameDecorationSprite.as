@@ -5,7 +5,6 @@ package sprites.decorations
    
    public class SnowmanMinigameDecorationSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -52,3 +51,4 @@ package sprites.decorations
       }
    }
 }
+

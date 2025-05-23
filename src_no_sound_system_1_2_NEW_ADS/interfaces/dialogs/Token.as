@@ -10,7 +10,6 @@ package interfaces.dialogs
    
    public class Token extends Sprite
    {
-       
       
       public var dialog:Dialog;
       
@@ -278,7 +277,7 @@ package interfaces.dialogs
                   else
                   {
                      _textField = null;
-                     char_code = this.text.charCodeAt(i);
+                     char_code = int(this.text.charCodeAt(i));
                      if(char_code != 32 && char_code != 160)
                      {
                         image = new Image(TextureManager.hudTextureAtlas.getTexture(this.dialog.getCharName(this.color) + this.dialog.getCharCode(char_code)));
@@ -340,3 +339,4 @@ package interfaces.dialogs
       }
    }
 }
+

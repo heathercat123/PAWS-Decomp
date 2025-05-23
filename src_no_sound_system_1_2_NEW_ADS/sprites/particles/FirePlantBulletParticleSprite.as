@@ -5,7 +5,6 @@ package sprites.particles
    
    public class FirePlantBulletParticleSprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -77,3 +76,4 @@ package sprites.particles
       }
    }
 }
+

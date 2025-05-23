@@ -52,7 +52,6 @@ package interfaces.dialogs
       public static const BACKSPACE:int = 3;
       
       public static const PAUSE:int = 4;
-       
       
       public var level:Level;
       
@@ -806,3 +805,4 @@ package interfaces.dialogs
       }
    }
 }
+

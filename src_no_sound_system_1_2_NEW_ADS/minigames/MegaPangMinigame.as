@@ -10,7 +10,6 @@ package minigames
    
    public class MegaPangMinigame extends ArcadeMinigame
    {
-       
       
       protected var gameText_1:Image;
       
@@ -738,3 +737,4 @@ package minigames
       }
    }
 }
+

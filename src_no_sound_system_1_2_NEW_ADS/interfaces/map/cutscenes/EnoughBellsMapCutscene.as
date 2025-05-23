@@ -8,7 +8,6 @@ package interfaces.map.cutscenes
    
    public class EnoughBellsMapCutscene extends MapCutscene
    {
-       
       
       protected var levelButton:MapLevelButton;
       
@@ -113,3 +112,4 @@ package interfaces.map.cutscenes
       }
    }
 }
+

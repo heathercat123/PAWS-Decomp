@@ -9,7 +9,6 @@ package entities.enemies
    
    public class FlameJumperEnemy extends Enemy
    {
-       
       
       protected var speed_multiplier:Number;
       
@@ -353,3 +352,4 @@ package entities.enemies
       }
    }
 }
+

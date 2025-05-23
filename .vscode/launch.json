@@ -11,6 +11,13 @@
             "profile": "mobileDevice",
             "screensize": "750x1334:750x1334",
             "versionPlatform": "AND"
+        },
+        {
+             "type": "swf",
+             "request": "attach",
+             "name": "Install and Attach (iOS)",
+             "connect": true,
+             "platform": "ios"
         }
     ]
 }

@@ -2,7 +2,6 @@ package game_utils
 {
    public class NumberUtil
    {
-       
       
       public function NumberUtil()
       {
@@ -161,3 +160,4 @@ package game_utils
       }
    }
 }
+

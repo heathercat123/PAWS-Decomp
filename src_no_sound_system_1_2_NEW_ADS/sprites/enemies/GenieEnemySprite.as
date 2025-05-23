@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class GenieEnemySprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -130,3 +129,4 @@ package sprites.enemies
       }
    }
 }
+

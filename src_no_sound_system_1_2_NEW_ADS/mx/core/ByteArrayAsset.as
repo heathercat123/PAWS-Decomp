@@ -8,7 +8,6 @@ package mx.core
    {
       
       mx_internal static const VERSION:String = "4.5.0.20834";
-       
       
       public function ByteArrayAsset()
       {
@@ -16,3 +15,4 @@ package mx.core
       }
    }
 }
+

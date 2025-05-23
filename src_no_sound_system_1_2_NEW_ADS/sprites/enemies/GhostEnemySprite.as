@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class GhostEnemySprite extends GameSprite
    {
-       
       
       public var TYPE:int;
       
@@ -213,3 +212,4 @@ package sprites.enemies
       }
    }
 }
+

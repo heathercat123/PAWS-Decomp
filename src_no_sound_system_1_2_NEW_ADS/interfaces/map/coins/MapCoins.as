@@ -6,7 +6,6 @@ package interfaces.map.coins
    
    public class MapCoins
    {
-       
       
       public var worldMap:WorldMap;
       
@@ -148,3 +147,4 @@ package interfaces.map.coins
       }
    }
 }
+

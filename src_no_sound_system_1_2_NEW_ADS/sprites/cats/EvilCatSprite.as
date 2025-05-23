@@ -6,7 +6,6 @@ package sprites.cats
    
    public class EvilCatSprite extends CatSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -476,3 +475,4 @@ package sprites.cats
       }
    }
 }
+

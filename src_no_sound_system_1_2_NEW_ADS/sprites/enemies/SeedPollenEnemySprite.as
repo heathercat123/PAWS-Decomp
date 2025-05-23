@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class SeedPollenEnemySprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -102,3 +101,4 @@ package sprites.enemies
       }
    }
 }
+

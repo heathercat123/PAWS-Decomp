@@ -5,7 +5,6 @@ package sprites.map
    
    public class MapStarParticleSprite extends GameSprite
    {
-       
       
       protected var standAnimation:GameMovieClip;
       
@@ -37,3 +36,4 @@ package sprites.map
       }
    }
 }
+

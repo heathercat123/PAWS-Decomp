@@ -9,7 +9,6 @@ package entities
    
    public class GreyCatHero extends Hero
    {
-       
       
       protected var victory_counter_1:int;
       
@@ -119,3 +118,4 @@ package entities
       }
    }
 }
+

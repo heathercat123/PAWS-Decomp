@@ -12,7 +12,6 @@ package levels.collisions
    
    public class PinkBlockCollision extends Collision
    {
-       
       
       protected var invisibleImage:Image;
       
@@ -358,3 +357,4 @@ package levels.collisions
       }
    }
 }
+

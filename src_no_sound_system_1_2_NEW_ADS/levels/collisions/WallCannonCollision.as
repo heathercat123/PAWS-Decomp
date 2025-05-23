@@ -7,7 +7,6 @@ package levels.collisions
    
    public class WallCannonCollision extends Collision
    {
-       
       
       protected var IS_RIGHT:Boolean;
       
@@ -97,3 +96,4 @@ package levels.collisions
       }
    }
 }
+

@@ -211,7 +211,6 @@
   </tiles>
   <tiles_front/>
   <collisions>
-    <obj type="91" x="717" y="126" w="101" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="18" x="1344" y="176" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="10" x="912" y="160" w="32" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="0" x="944" y="160" w="64" h="16" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
@@ -302,6 +301,7 @@
     <obj type="13" x="64" y="208" w="0" h="0" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
   </collisions>
   <decorations>
+    <obj type="111" x="720" y="128" w="0" h="0" rot="0" ai="10" val_1="0" val_2="0" val_3="0"/>
     <obj type="111" x="712" y="128" w="0" h="0" rot="0" ai="8" val_1="0" val_2="0" val_3="0"/>
     <obj type="111" x="282" y="226" w="0" h="0" rot="0" ai="14" val_1="0" val_2="0" val_3="0"/>
     <obj type="111" x="496" y="208" w="0" h="0" rot="0" ai="16" val_1="0" val_2="0" val_3="0"/>

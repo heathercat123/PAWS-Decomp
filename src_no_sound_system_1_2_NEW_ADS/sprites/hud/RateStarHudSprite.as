@@ -5,7 +5,6 @@ package sprites.hud
    
    public class RateStarHudSprite extends GameSprite
    {
-       
       
       protected var anim1:GameMovieClip;
       
@@ -34,3 +33,4 @@ package sprites.hud
       }
    }
 }
+

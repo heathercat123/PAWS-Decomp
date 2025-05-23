@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class BirdCollisionSprite extends GameSprite
    {
-       
       
       protected var standAnim:GameMovieClip;
       
@@ -178,3 +177,4 @@ package sprites.collisions
       }
    }
 }
+

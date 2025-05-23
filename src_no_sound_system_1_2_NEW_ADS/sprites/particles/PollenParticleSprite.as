@@ -5,7 +5,6 @@ package sprites.particles
    
    public class PollenParticleSprite extends GameSprite
    {
-       
       
       protected var TYPE:int;
       
@@ -45,3 +44,4 @@ package sprites.particles
       }
    }
 }
+

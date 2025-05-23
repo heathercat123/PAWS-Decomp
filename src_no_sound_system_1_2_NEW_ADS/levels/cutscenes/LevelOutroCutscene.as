@@ -8,7 +8,6 @@ package levels.cutscenes
    
    public class LevelOutroCutscene extends Cutscene
    {
-       
       
       protected var hero:Hero;
       
@@ -28,26 +27,20 @@ package levels.cutscenes
       
       protected var y_t_2:int;
       
-      protected var hero_xPos:Number;
+      protected var hero_xPos:Number = 0;
       
-      protected var IS_DOOR_COLLISION:Boolean;
+      protected var IS_DOOR_COLLISION:Boolean = false;
       
-      protected var mid_x:Number;
+      protected var mid_x:Number = 0;
       
-      protected var GO_RIGHT:Boolean;
+      protected var GO_RIGHT:Boolean = false;
       
-      protected var IS_CASTLE_DOOR:Boolean;
+      protected var IS_CASTLE_DOOR:Boolean = false;
       
-      protected var DOOR_SOUND_JUST_ONCE:Boolean;
+      protected var DOOR_SOUND_JUST_ONCE:Boolean = true;
       
       public function LevelOutroCutscene(_level:Level)
       {
-         this.IS_DOOR_COLLISION = false;
-         this.IS_CASTLE_DOOR = false;
-         this.mid_x = 0;
-         this.hero_xPos = 0;
-         this.GO_RIGHT = false;
-         this.DOOR_SOUND_JUST_ONCE = true;
          super(_level);
          IS_BLACK_BANDS = false;
       }
@@ -312,3 +305,4 @@ package levels.cutscenes
       }
    }
 }
+

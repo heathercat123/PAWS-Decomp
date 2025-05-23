@@ -20,7 +20,6 @@ package interfaces.panels.shop
    
    public class ShopPanel extends Sprite
    {
-       
       
       protected var level:Level;
       
@@ -1030,3 +1029,4 @@ package interfaces.panels.shop
       }
    }
 }
+

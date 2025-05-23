@@ -9,7 +9,6 @@ package entities.enemies
    
    public class SeaUrchinEnemy extends Enemy
    {
-       
       
       protected var TYPE:int;
       
@@ -316,3 +315,4 @@ package entities.enemies
       }
    }
 }
+

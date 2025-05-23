@@ -9,7 +9,6 @@ package entities.helpers
    
    public class HelpersManager
    {
-       
       
       public var level:Level;
       
@@ -223,3 +222,4 @@ package entities.helpers
       }
    }
 }
+

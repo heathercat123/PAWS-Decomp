@@ -13,7 +13,6 @@ package levels.collisions
    {
       
       public static var SANDFALL_PLATFORM_COLLISION_ID:int = 90000;
-       
       
       protected var topSXSide:GameSprite;
       
@@ -330,3 +329,4 @@ package levels.collisions
       }
    }
 }
+

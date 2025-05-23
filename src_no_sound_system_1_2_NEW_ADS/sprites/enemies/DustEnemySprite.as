@@ -5,7 +5,6 @@ package sprites.enemies
    
    public class DustEnemySprite extends GameSprite
    {
-       
       
       protected var floatAnim:GameMovieClip;
       
@@ -43,3 +42,4 @@ package sprites.enemies
       }
    }
 }
+

@@ -2,10 +2,9 @@ package
 {
    import flash.media.Sound;
    
-   [Embed(source="/_assets/233_SoundImpactSmall.mp3")]
+   [Embed(source="/_assets/assets.swf", symbol="symbol395")]
    public dynamic class SoundImpactSmall extends Sound
    {
-       
       
       public function SoundImpactSmall()
       {
@@ -13,3 +12,4 @@ package
       }
    }
 }
+

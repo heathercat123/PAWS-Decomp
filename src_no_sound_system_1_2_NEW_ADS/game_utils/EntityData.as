@@ -2,7 +2,6 @@ package game_utils
 {
    public class EntityData
    {
-       
       
       public var xPos:Number;
       
@@ -40,3 +39,4 @@ package game_utils
       }
    }
 }
+

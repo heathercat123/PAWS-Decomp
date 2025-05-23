@@ -9,7 +9,6 @@ package levels.collisions
    
    public class WoodPlatformCollision extends GearCollision
    {
-       
       
       protected var TYPE:int;
       
@@ -293,3 +292,4 @@ package levels.collisions
       }
    }
 }
+

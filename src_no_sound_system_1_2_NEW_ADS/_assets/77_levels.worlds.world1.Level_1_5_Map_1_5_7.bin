@@ -179,9 +179,6 @@
     <obj name="stencyl_font_0" back="0" x="96" y="55" w="15" h="19" f_x="0" f_y="0"/>
     <obj name="factory_tile_2" back="0" x="272" y="16" w="32" h="32" f_x="0" f_y="0"/>
     <obj name="factory_tile_2" back="0" x="1120" y="16" w="32" h="32" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_4" back="1" x="549" y="137" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_3" back="1" x="588" y="137" w="16" h="16" f_x="0" f_y="0"/>
-    <obj name="decoration_tile_2" back="1" x="569" y="137" w="16" h="16" f_x="0" f_y="0"/>
     <obj name="stencyl_font_0" back="0" x="486" y="90" w="15" h="19" f_x="0" f_y="0"/>
     <obj name="stencyl_font_3" back="0" x="505" y="90" w="15" h="19" f_x="0" f_y="0"/>
   </tiles>
@@ -292,8 +289,7 @@
     <obj type="56" x="1320" y="144" w="0" h="3" rot="0" ai="1" val_1="0" val_2="0" val_3="0"/>
     <obj type="31" x="248" y="144" w="0" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
     <obj type="56" x="736" y="96" w="0" h="1" rot="0" ai="15" val_1="0" val_2="0" val_3="0"/>
-    <obj type="56" x="632" y="144" w="0" h="2" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
-    <obj type="56" x="832" y="144" w="0" h="1" rot="0" ai="33" val_1="0" val_2="0" val_3="0"/>
+    <obj type="56" x="568" y="144" w="0" h="1" rot="0" ai="0" val_1="0" val_2="0" val_3="0"/>
   </npcs>
   <data>
     <obj _class="LevelStartScript" x="0" y="0"/>

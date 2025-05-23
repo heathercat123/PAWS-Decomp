@@ -12,7 +12,6 @@ package entities.enemies
    
    public class GiantPollenEnemy extends GiantEnemy
    {
-       
       
       protected var leafSprite:SmallPollenLeafSprite;
       
@@ -373,3 +372,4 @@ package entities.enemies
       }
    }
 }
+

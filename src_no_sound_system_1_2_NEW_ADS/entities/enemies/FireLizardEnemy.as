@@ -8,7 +8,6 @@ package entities.enemies
    
    public class FireLizardEnemy extends Enemy
    {
-       
       
       protected var MOVE_ASAP:Boolean;
       
@@ -326,3 +325,4 @@ package entities.enemies
       }
    }
 }
+

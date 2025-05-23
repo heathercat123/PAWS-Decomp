@@ -4,7 +4,6 @@ package levels.collisions
    
    public class GearCollision extends Collision
    {
-       
       
       public var GEAR_ID:int;
       
@@ -22,3 +21,4 @@ package levels.collisions
       }
    }
 }
+

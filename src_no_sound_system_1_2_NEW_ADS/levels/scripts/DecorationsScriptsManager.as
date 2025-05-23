@@ -6,7 +6,6 @@ package levels.scripts
    
    public class DecorationsScriptsManager
    {
-       
       
       public function DecorationsScriptsManager()
       {
@@ -45,3 +44,4 @@ package levels.scripts
       }
    }
 }
+

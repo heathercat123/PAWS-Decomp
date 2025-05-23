@@ -5,7 +5,6 @@ package sprites.collisions
    
    public class CannonCollisionSprite extends GameSprite
    {
-       
       
       protected var standSxAnimation:GameMovieClip;
       
@@ -119,3 +118,4 @@ package sprites.collisions
       }
    }
 }
+

@@ -5,7 +5,6 @@ package sprites.background
    
    public class NightFlagBackgroundSprite extends GameSprite
    {
-       
       
       protected var type:int;
       
@@ -52,3 +51,4 @@ package sprites.background
       }
    }
 }
+

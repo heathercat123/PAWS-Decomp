@@ -13,7 +13,6 @@ package levels.collisions
    
    public class BirdCollision extends Collision
    {
-       
       
       public var stateMachine:StateMachine;
       
@@ -537,3 +536,4 @@ package levels.collisions
       }
    }
 }
+
