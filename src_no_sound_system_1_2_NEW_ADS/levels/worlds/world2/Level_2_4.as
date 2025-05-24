@@ -9,31 +9,40 @@ package levels.worlds.world2
    import levels.backgrounds.BackgroundsManager;
    import levels.cameras.*;
    import levels.cameras.behaviours.*;
-   import levels.cameras.world_1.*;
+   import levels.cameras.world_1.*; // Unused, doesn't exist, causes compiler warning
    import levels.collisions.*;
    import levels.cutscenes.*;
    import levels.cutscenes.world1.*;
    
    public class Level_2_4 extends Level
    {
+
+	  [Embed(source="../../../../maps/world_2/2_4_1.xml", mimeType="application/octet-stream")]      
+      public static const Map_2_4_1:Class;
       
-      public static const Map_2_4_1:Class = Level_2_4_Map_2_4_1;
+	  [Embed(source="../../../../maps/world_2/2_4_2.xml", mimeType="application/octet-stream")]  
+      public static const Map_2_4_2:Class;
       
-      public static const Map_2_4_2:Class = Level_2_4_Map_2_4_2;
+	  [Embed(source="../../../../maps/world_2/2_4_3.xml", mimeType="application/octet-stream")]  
+      public static const Map_2_4_3:Class;
       
-      public static const Map_2_4_3:Class = Level_2_4_Map_2_4_3;
+	  [Embed(source="../../../../maps/world_2/2_4_4.xml", mimeType="application/octet-stream")]  
+      public static const Map_2_4_4:Class;
+
+	  [Embed(source="../../../../maps/world_2/2_4_5.xml", mimeType="application/octet-stream")]  
+      public static const Map_2_4_5:Class;
       
-      public static const Map_2_4_4:Class = Level_2_4_Map_2_4_4;
+	  [Embed(source="../../../../maps/world_2/2_4_6.xml", mimeType="application/octet-stream")]  
+      public static const Map_2_4_6:Class;
       
-      public static const Map_2_4_5:Class = Level_2_4_Map_2_4_5;
+	  [Embed(source="../../../../maps/world_2/2_4_7.xml", mimeType="application/octet-stream")]  
+      public static const Map_2_4_7:Class;
       
-      public static const Map_2_4_6:Class = Level_2_4_Map_2_4_6;
+	  [Embed(source="../../../../maps/world_2/2_4_8.xml", mimeType="application/octet-stream")]  
+      public static const Map_2_4_8:Class;
       
-      public static const Map_2_4_7:Class = Level_2_4_Map_2_4_7;
-      
-      public static const Map_2_4_8:Class = Level_2_4_Map_2_4_8;
-      
-      public static const Map_2_4_9:Class = Level_2_4_Map_2_4_9;
+	  [Embed(source="../../../../maps/world_2/2_4_9.xml", mimeType="application/octet-stream")]  
+      public static const Map_2_4_9:Class;
       
       public var CUTSCENE_FLAG_1:Boolean;
       

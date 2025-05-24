@@ -68,7 +68,7 @@ package interfaces.panels
          addChild(this.nameText);
          this.nameText.x = int(this.WIDTH * 0.5);
          this.nameText.y = int(this.HEIGHT * 0.9);
-         if(Utils.Slot.playerInventory[LevelItems.ITEM_GACHA_1] >> GachaShowcasePanel.LAST_SEEN_INDEX & 1 == 1)
+         if(Utils.Slot.playerInventory[LevelItems.ITEM_GACHA_1] >> GachaShowcasePanel.LAST_SEEN_INDEX)
          {
             this.toySprites[GachaShowcasePanel.LAST_SEEN_INDEX].visible = true;
          }
@@ -107,7 +107,7 @@ package interfaces.panels
                GachaShowcasePanel.LAST_SEEN_INDEX = 0;
             }
          }
-         if(Utils.Slot.playerInventory[LevelItems.ITEM_GACHA_1] >> GachaShowcasePanel.LAST_SEEN_INDEX & 1 == 1)
+         if(Utils.Slot.playerInventory[LevelItems.ITEM_GACHA_1] >> GachaShowcasePanel.LAST_SEEN_INDEX)
          {
             this.toySprites[GachaShowcasePanel.LAST_SEEN_INDEX].visible = true;
          }

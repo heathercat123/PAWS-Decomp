@@ -15,21 +15,29 @@ package levels.worlds.world2
    public class Level_2_3 extends Level
    {
       
-      public static const Map_2_3_1:Class = Level_2_3_Map_2_3_1;
+	  [Embed(source="../../../../maps/world_2/2_3_1.xml", mimeType="application/octet-stream")]
+      public static const Map_2_3_1:Class;
       
-      public static const Map_2_3_2:Class = Level_2_3_Map_2_3_2;
+	  [Embed(source="../../../../maps/world_2/2_3_2.xml", mimeType="application/octet-stream")]
+      public static const Map_2_3_2:Class;
+
+	  [Embed(source="../../../../maps/world_2/2_3_3.xml", mimeType="application/octet-stream")]
+      public static const Map_2_3_3:Class;
       
-      public static const Map_2_3_3:Class = Level_2_3_Map_2_3_3;
+	  [Embed(source="../../../../maps/world_2/2_3_4.xml", mimeType="application/octet-stream")]
+      public static const Map_2_3_4:Class;
       
-      public static const Map_2_3_4:Class = Level_2_3_Map_2_3_4;
+	  [Embed(source="../../../../maps/world_2/2_3_5.xml", mimeType="application/octet-stream")]
+      public static const Map_2_3_5:Class;
       
-      public static const Map_2_3_5:Class = Level_2_3_Map_2_3_5;
+	  [Embed(source="../../../../maps/world_2/2_3_6.xml", mimeType="application/octet-stream")]
+      public static const Map_2_3_6:Class;
       
-      public static const Map_2_3_6:Class = Level_2_3_Map_2_3_6;
+	  [Embed(source="../../../../maps/world_2/2_3_7.xml", mimeType="application/octet-stream")]
+      public static const Map_2_3_7:Class;
       
-      public static const Map_2_3_7:Class = Level_2_3_Map_2_3_7;
-      
-      public static const Map_2_3_8:Class = Level_2_3_Map_2_3_8;
+	  [Embed(source="../../../../maps/world_2/2_3_8.xml", mimeType="application/octet-stream")]
+      public static const Map_2_3_8:Class;
       
       public var CUTSCENE_FLAG_1:Boolean;
       

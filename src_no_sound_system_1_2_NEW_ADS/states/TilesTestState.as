@@ -9,7 +9,8 @@ package states
    public class TilesTestState implements IState
    {
       
-      public static const Map:Class = TilesTestState_Map;
+	  [Embed(source="../../maps/test.xml", mimeType="application/octet-stream")]
+      public static const Map:Class;
       
       internal var map:XML;
       

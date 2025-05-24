@@ -14,11 +14,14 @@ package levels.worlds.world1
    public class Level_1_Secret extends Level
    {
       
-      public static const Map_1_secret_1:Class = Level_1_Secret_Map_1_secret_1;
+	  [Embed(source="../../../../maps/world_1/1_secret_1.xml", mimeType="application/octet-stream")]
+      public static const Map_1_secret_1:Class;
       
-      public static const Map_1_secret_2:Class = Level_1_Secret_Map_1_secret_2;
+	  [Embed(source="../../../../maps/world_1/1_secret_2.xml", mimeType="application/octet-stream")]
+      public static const Map_1_secret_2:Class;
       
-      public static const Map_1_secret_3:Class = Level_1_Secret_Map_1_secret_3;
+	  [Embed(source="../../../../maps/world_1/1_secret_3.xml", mimeType="application/octet-stream")]
+      public static const Map_1_secret_3:Class;
       
       public var CUTSCENE_FLAG:Boolean;
       

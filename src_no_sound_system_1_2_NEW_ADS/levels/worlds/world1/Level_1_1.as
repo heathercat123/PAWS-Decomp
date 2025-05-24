@@ -20,15 +20,20 @@ package levels.worlds.world1
    public class Level_1_1 extends Level
    {
       
-      public static const Map_1_1_1:Class = Level_1_1_Map_1_1_1;
+	  [Embed(source="../../../../maps/world_1/1_1_1.xml", mimeType="application/octet-stream")]
+      public static const Map_1_1_1:Class;
       
-      public static const Map_1_1_2:Class = Level_1_1_Map_1_1_2;
+	  [Embed(source="../../../../maps/world_1/1_1_2.xml", mimeType="application/octet-stream")]
+      public static const Map_1_1_2:Class;
       
-      public static const Map_1_1_3:Class = Level_1_1_Map_1_1_3;
+	  [Embed(source="../../../../maps/world_1/1_1_3.xml", mimeType="application/octet-stream")]
+      public static const Map_1_1_3:Class;
       
-      public static const Map_1_1_4:Class = Level_1_1_Map_1_1_4;
+	  [Embed(source="../../../../maps/world_1/1_1_4.xml", mimeType="application/octet-stream")]
+      public static const Map_1_1_4:Class;
       
-      public static const Map_1_1_5:Class = Level_1_1_Map_1_1_5;
+	  [Embed(source="../../../../maps/world_1/1_1_5.xml", mimeType="application/octet-stream")]
+      public static const Map_1_1_5:Class;
       
       public var CUTSCENE_FLAG:Boolean;
       

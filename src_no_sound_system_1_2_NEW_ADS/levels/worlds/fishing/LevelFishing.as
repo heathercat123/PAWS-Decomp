@@ -24,17 +24,23 @@ package levels.worlds.fishing
       
       public static var FISH_CAUGHT_AMOUNT:int = 0;
       
-      public static const Map1_FishingSpot1_0:Class = LevelFishing_Map1_FishingSpot1_0;
+	  [Embed(source="../../../../maps/fishing/fishing_1_0.xml", mimeType="application/octet-stream")]
+      public static const Map1_FishingSpot1_0:Class;
       
-      public static const Map1_FishingSpot1_1:Class = LevelFishing_Map1_FishingSpot1_1;
+	  [Embed(source="../../../../maps/fishing/fishing_1_1.xml", mimeType="application/octet-stream")]
+      public static const Map1_FishingSpot1_1:Class;
       
-      public static const Map1_FishingSpot1_2:Class = LevelFishing_Map1_FishingSpot1_2;
+	  [Embed(source="../../../../maps/fishing/fishing_1_2.xml", mimeType="application/octet-stream")]
+      public static const Map1_FishingSpot1_2:Class;
       
-      public static const Map2_FishingSpot2_0:Class = LevelFishing_Map2_FishingSpot2_0;
+	  [Embed(source="../../../../maps/fishing/fishing_2_0.xml", mimeType="application/octet-stream")]
+      public static const Map2_FishingSpot2_0:Class;
       
-      public static const Map2_FishingSpot2_1:Class = LevelFishing_Map2_FishingSpot2_1;
+	  [Embed(source="../../../../maps/fishing/fishing_2_1.xml", mimeType="application/octet-stream")]
+      public static const Map2_FishingSpot2_1:Class;
       
-      public static const Map2_FishingSpot2_2:Class = LevelFishing_Map2_FishingSpot2_2;
+	  [Embed(source="../../../../maps/fishing/fishing_2_2.xml", mimeType="application/octet-stream")]
+      public static const Map2_FishingSpot2_2:Class;
       
       public var CUTSCENE_FLAG:Boolean;
       

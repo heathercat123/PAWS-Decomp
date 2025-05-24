@@ -1,0 +1,11 @@
+bin/
+
+# Compile shortcuts
+*.bat
+
+# Just in case I accidentally leave stdrename.exe in the repo
+*.exe
+
+# VIM
+*~
+*.swp

@@ -14,15 +14,20 @@ package levels.worlds.world2
    public class Level_2_2 extends Level
    {
       
-      public static const Map_2_2_1:Class = Level_2_2_Map_2_2_1;
+	  [Embed(source="../../../../maps/world_2/2_2_1.xml", mimeType="application/octet-stream")]
+      public static const Map_2_2_1:Class;
       
-      public static const Map_2_2_2:Class = Level_2_2_Map_2_2_2;
+	  [Embed(source="../../../../maps/world_2/2_2_2.xml", mimeType="application/octet-stream")]
+      public static const Map_2_2_2:Class;
       
-      public static const Map_2_2_3:Class = Level_2_2_Map_2_2_3;
+	  [Embed(source="../../../../maps/world_2/2_2_3.xml", mimeType="application/octet-stream")]
+      public static const Map_2_2_3:Class;
       
-      public static const Map_2_2_4:Class = Level_2_2_Map_2_2_4;
+	  [Embed(source="../../../../maps/world_2/2_2_4.xml", mimeType="application/octet-stream")]
+      public static const Map_2_2_4:Class;
       
-      public static const Map_2_2_5:Class = Level_2_2_Map_2_2_5;
+	  [Embed(source="../../../../maps/world_2/2_2_5.xml", mimeType="application/octet-stream")]
+      public static const Map_2_2_5:Class;
       
       public var CUTSCENE_FLAG_1:Boolean;
       

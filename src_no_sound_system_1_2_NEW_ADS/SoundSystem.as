@@ -20,587 +20,1174 @@ package
       
       public static var musicTimer:Timer;
       
-      public static var soundCatBrake:SoundCatBrake;
-      
-      public static var soundCatBrakeLow:SoundCatBrakeLow;
-      
-      public static var soundCatHurt:SoundCatHurt;
-      
-      public static var soundCatHurtGameOver:SoundCatHurtGameOver;
-      
-      public static var soundCatRun:SoundCatRun;
-      
-      public static var soundCatRunLow:SoundCatRunLow;
-      
-      public static var soundCatJump:SoundCatJump;
-      
-      public static var soundCatHeadbutt:SoundCatHeadbutt;
-      
-      public static var soundWater:SoundWater;
-      
-      public static var soundWaterSplash:SoundWaterSplash;
-      
-      public static var soundIceSlide:SoundIceSlide;
-      
-      public static var soundCatFallsGround:SoundCatFallsGround;
-      
-      public static var soundCatJumpLow:SoundCatJumpLow;
-      
-      public static var soundCatHopLow:SoundCatHopLow;
-      
-      public static var soundCatFallsGroundLow:SoundCatFallsGroundLow;
-      
-      public static var soundCatGroundImpact:SoundCatGroundImpact;
-      
-      public static var soundDarkCat:SoundDarkCat;
-      
-      public static var soundGreyCatVictoryJump:SoundGreyCatVictoryJump;
-      
-      public static var soundCatSuperJump:SoundCatSuperJump;
-      
-      public static var soundCatSuperJumpLow:SoundCatSuperJumpLow;
-      
-      public static var soundCatYawn:SoundCatYawn;
-      
-      public static var soundBlink:SoundBlink;
-      
-      public static var soundItemBellCollected:SoundItemBellCollected;
-      
-      public static var soundButterfliesAppear:SoundButterfliesAppear;
-      
-      public static var soundItemCoin:SoundItemCoin;
-      
-      public static var soundItemImpact:SoundItemImpact;
-      
-      public static var soundItemImpactWater:SoundItemImpactWater;
-      
-      public static var soundBellCollected:SoundBellCollected;
-      
-      public static var soundItemAppear:SoundItemAppear;
-      
-      public static var soundItemPop:SoundItemPop;
-      
-      public static var soundPotCollected:SoundPotCollected;
-      
-      public static var soundPotPop:SoundBottlePop;
-      
-      public static var soundButterflyCollected1:SoundButterflyCollected1;
-      
-      public static var soundButterflyCollected2:SoundButterflyCollected2;
-      
-      public static var soundButterflyCollected3:SoundButterflyCollected3;
-      
-      public static var soundButterflyCollected4:SoundButterflyCollected4;
-      
-      public static var soundButterflyCollected5:SoundButterflyCollected5;
-      
-      public static var soundRedCoin:SoundRedCoin;
-      
-      public static var soundDoorClose:SoundDoorClose;
-      
-      public static var soundDoorOpen:SoundDoorOpen;
-      
-      public static var soundBrickDestroyed1:SoundBrickDestroyed1;
-      
-      public static var soundBrickDestroyed2:SoundBrickDestroyed2;
-      
-      public static var soundBrickCreated:SoundBrickCreated;
-      
-      public static var soundBluePlatform:SoundBluePlatform;
-      
-      public static var soundBone:SoundBone;
-      
-      public static var soundFireBallShoot:SoundFireBallShoot;
-      
-      public static var soundGeyser:SoundGeyser;
-      
-      public static var soundIceShake:SoundIceShake;
-      
-      public static var soundIceImpact:SoundIceImpact;
-      
-      public static var soundLever:SoundLever;
-      
-      public static var soundMud:SoundMud;
-      
-      public static var soundRedPlatform:SoundRedPlatform;
-      
-      public static var soundCrate:SoundCrate;
-      
-      public static var soundExplosionBig:SoundExplosionBig;
-      
-      public static var soundExplosionMedium:SoundExplosionMedium;
-      
-      public static var soundExplosionSmall:SoundExplosionSmall;
-      
-      public static var soundClod:SoundClod;
-      
-      public static var soundSandPit:SoundSandPit;
-      
-      public static var soundLogCollision:SoundLogCollision;
-      
-      public static var soundMudSlide:SoundMudSlide;
-      
-      public static var soundImpactSmall:SoundImpactSmall;
-      
-      public static var soundImpactBig:SoundImpactBig;
-      
-      public static var soundChainRattle:SoundChainRattle;
-      
-      public static var soundWoosh:SoundWoosh;
-      
-      public static var soundWooshLow:SoundWooshLow;
-      
-      public static var soundGateOpen:SoundGateOpen;
-      
-      public static var soundFire1:SoundFire1;
-      
-      public static var soundFire2:SoundFire2;
-      
-      public static var soundExplosionDistance:SoundExplosionDistance;
-      
-      public static var soundBrickDestroyedEcho:SoundBrickDestroyedEcho;
-      
-      public static var soundFenceExit:SoundFenceExit;
-      
-      public static var soundCarEngine:SoundCarEngine;
-      
-      public static var soundSkid:SoundSkid;
-      
-      public static var soundCarEngineFirst:SoundCarEngineFirst;
-      
-      public static var soundIceMelt:SoundIceMelt;
-      
-      public static var soundHeroCannon:SoundHeroCannon;
-      
-      public static var soundCatAngry:SoundCatAngry;
-      
-      public static var soundVehicleEngine:SoundVehicleEngine;
-      
-      public static var soundPhone:SoundPhone;
-      
-      public static var soundVehicleStop:SoundVehicleStop;
-      
-      public static var soundVehicleEngineUp:SoundVehicleEngineUp;
-      
-      public static var soundVehicleTurnOff:SoundVehicleTurnOff;
-      
-      public static var soundVehicleTurnOn:SoundVehicleTurnOn;
-      
-      public static var soundVehicleCannon:SoundVehicleCannon;
-      
-      public static var soundVehicleReload:SoundVehicleReload;
-      
-      public static var soundEnemyBullet:SoundEnemyBullet;
-      
-      public static var soundEnemyHurt:SoundEnemyHurt;
-      
-      public static var soundBigEnemyHurt:SoundBigEnemyHurt;
-      
-      public static var soundGroundStomp:SoundGroundStomp;
-      
-      public static var soundDustEnemy:SoundDustEnemy;
-      
-      public static var soundMetalEnemyHurtA:SoundMetalEnemyHurtA;
-      
-      public static var soundMetalEnemyHurtB:SoundMetalEnemyHurtB;
-      
-      public static var soundMetalBigEnemyHurtA:SoundMetalBigEnemyHurtA;
-      
-      public static var soundMetalEnemyJump:SoundMetalEnemyJump;
-      
-      public static var soundDig:SoundDig;
-      
-      public static var soundEnemyJump:SoundEnemyJump;
-      
-      public static var soundEnemyBrake:SoundEnemyBrake;
-      
-      public static var soundGiantTurnipDefeat:SoundGiantTurnipDefeat;
-      
-      public static var soundBigEnemyHit:SoundBigEnemyHit;
-      
-      public static var soundFrog1:SoundFrog1;
-      
-      public static var soundFrog2:SoundFrog2;
-      
-      public static var soundEnemyWater:SoundEnemyWater;
-      
-      public static var soundGiantFishRoar:SoundGiantFishRoar;
-      
-      public static var soundGiantFishSwoosh:SoundGiantFishSwoosh;
-      
-      public static var soundEnemyRun:SoundEnemyRun;
-      
-      public static var soundBeamStart:SoundBeamStart;
-      
-      public static var soundBeamShoot:SoundBeamShoot;
-      
-      public static var soundBeamRepeat:SoundBeamRepeat;
-      
-      public static var soundDragonWing:SoundDragonWing;
-      
-      public static var soundEnemyIceSlide:SoundEnemyIceSlide;
-      
-      public static var soundGhostScared:SoundGhostScared;
-      
-      public static var soundTongue:SoundTongue;
-      
-      public static var soundDecorationBlown:SoundDecorationBlown;
-      
-      public static var soundBirdFlying:SoundBirdFlying;
-      
-      public static var soundChirp1:SoundChirp1;
-      
-      public static var soundChirp2:SoundChirp2;
-      
-      public static var soundLoudChirp:SoundLoudChirp;
-      
-      public static var soundGiantSpaceship:SoundGiantSpaceship;
-      
-      public static var soundWindBreeze:SoundWindBreeze;
-      
-      public static var soundFlyingshipDistance:SoundFlyingshipDistance;
-      
-      public static var soundFlyingshipDistanceFirst:SoundFlyingshipDistanceFirst;
-      
-      public static var soundFlyingshipMalfunction:SoundFlyingshipMalfunction;
-      
-      public static var soundFlyingshipFallDown:SoundFlyingshipFallDown;
-      
-      public static var soundAlarm:SoundAlarm;
-      
-      public static var soundCrystalAmbience:SoundCrystalAmbience;
-      
-      public static var soundMagicDisappear:SoundMagicDisappear;
-      
-      public static var soundQuake:SoundQuake;
-      
-      public static var soundQuakeFade:SoundQuakeFade;
-      
-      public static var soundBoatHorn:SoundBoatHorn;
-      
-      public static var soundWindStrongStart:SoundWindStrongStart;
-      
-      public static var soundWindStrongMid:SoundWindStrongMid;
-      
-      public static var soundWindStrongEnd:SoundWindStrongEnd;
-      
-      public static var soundSmallQuake:SoundSmallQuake;
-      
-      public static var soundTrainTrack:SoundTrainTrack;
-      
-      public static var soundTrainTrackSlow:SoundTrainTrackSlow;
-      
-      public static var soundTrainWhistle:SoundTrainWhistle;
-      
-      public static var soundCrystalAppear:SoundCrystalAppear;
-      
-      public static var soundLogo:SoundLogo;
-      
-      public static var soundBlip:SoundBlip;
-      
-      public static var soundSelect:SoundSelect;
-      
-      public static var soundFont1:SoundFont1;
-      
-      public static var soundFont2:SoundFont2;
-      
-      public static var soundFont3:SoundFont3;
-      
-      public static var soundConfirmLong:SoundConfirmLong;
-      
-      public static var soundConfirmShort:SoundConfirmShort;
-      
-      public static var soundHudItemCollected:SoundHudItemCollected;
-      
-      public static var soundError:SoundError;
-      
-      public static var soundError2:SoundError2;
-      
-      public static var soundPurchase:SoundPurchase;
-      
-      public static var soundHudWoosh:SoundHudWoosh;
-      
-      public static var soundBulletGroundImpact:SoundBulletGroundImpact;
-      
-      public static var soundSnowBulletImpact:SoundSnowBulletImpact;
-      
-      public static var soundFireBulletImpact:SoundFireBulletImpact;
-      
-      public static var soundFireBullet:SoundFireBullet;
-      
-      public static var soundGiantBulletImpact:SoundGiantBulletImpact;
-      
-      public static var soundSeedBulletImpact:SoundSeedBulletImpact;
-      
-      public static var soundEggImpact:SoundEggImpact;
-      
-      public static var soundThrowBullet:SoundThrowBullet;
-      
-      public static var soundFireShoot:SoundFireShoot;
-      
-      public static var soundSnowCannon:SoundSnowCannon;
-      
-      public static var soundMetalParticleImpact:SoundMetalParticleImpact;
-      
-      public static var soundMetalParticleImpactHigh:SoundMetalParticleImpactHigh;
-      
-      public static var soundCatBlue:SoundCatBlue;
-      
-      public static var soundCatBlack:SoundCatBlack;
-      
-      public static var soundCatGlide:SoundCatGlide;
-      
-      public static var soundCatRed:SoundCatRed;
-      
-      public static var soundCatChomp:SoundCatChomp;
-      
-      public static var soundCatPurr:SoundPurr;
-      
-      public static var soundCatSmall:SoundCatSmall;
-      
-      public static var soundKitten1:SoundKitten1;
-      
-      public static var soundKitten2:SoundKitten2;
-      
-      public static var soundKitten3:SoundKitten3;
-      
-      public static var soundKitten4:SoundKitten4;
-      
-      public static var soundMesaLaugh:SoundMesaLaugh;
-      
-      public static var soundMesaSnarl:SoundMesaSnarl;
-      
-      public static var soundMesaDefeat:SoundMesaDefeat;
-      
-      public static var soundGreenLaugh:SoundGreenLaugh;
-      
-      public static var soundCatMayor:SoundCatMayor;
-      
-      public static var soundGreenHurt:SoundGreenHurt;
-      
-      public static var soundDragonScreech:SoundDragonScreech;
-      
-      public static var soundLaalVoice1:SoundVoiceLaal1;
-      
-      public static var soundLaalVoice2:SoundVoiceLaal2;
-      
-      public static var soundBite:SoundBite;
-      
-      public static var soundMerchantVoice1:SoundMerchantVoice1;
-      
-      public static var soundMerchantVoice2:SoundMerchantVoice2;
-      
-      public static var soundVoiceFisherman:SoundVoiceFisherman;
-      
-      public static var soundKallioVoice1:SoundKallioVoice1;
-      
-      public static var soundKallioVoice2:SoundKallioVoice2;
-      
-      public static var soundIridiumVoice1:SoundIridiumVoice1;
-      
-      public static var soundIridiumVoice2:SoundIridiumVoice2;
-      
-      public static var soundCatDemise:SoundCatDemise;
-      
-      public static var soundCatSoldier:SoundCatSoldier;
-      
-      public static var soundBaburu:SoundBaburu;
-      
-      public static var soundMapExplosion:SoundMapExplosion;
-      
-      public static var soundMapAdvance:SoundMapAdvance;
-      
-      public static var soundMapStomp:SoundMapStomp;
-      
-      public static var soundMapAppear:SoundMapAppear;
-      
-      public static var soundMapRumble:SoundMapRumble;
-      
-      public static var soundAtomicExplosion:SoundAtomicExplosion;
-      
-      public static var soundTitleAppear:SoundTitleAppear;
-      
-      public static var soundCarStart:SoundCarStart;
-      
-      public static var soundCarRunning:SoundCarRunning;
-      
-      public static var soundBlow:SoundBlow;
-      
-      public static var soundRockStomp:SoundRockStomp;
-      
-      public static var soundEnemyJumpLow:SoundEnemyJumpLow;
-      
-      public static var soundTongueMesa:SoundTongueMesa;
-      
-      public static var soundEat:SoundEat;
-      
-      public static var soundEnemyShoot:SoundEnemyShoot;
-      
-      public static var soundWiggle:SoundWiggle;
-      
-      public static var soundHide:SoundHide;
-      
-      public static var soundDoorExit:SoundDoorExit;
-      
-      public static var soundArcadeFlap:SoundArcadeFlap;
-      
-      public static var soundArcadeCoin:SoundArcadeCoin;
-      
-      public static var soundArcadeLaser:SoundArcadeLaser;
-      
-      public static var soundArcadeExplosion:SoundArcadeExplosion;
-      
-      public static var soundArcadeWalk:SoundArcadeWalk;
-      
-      public static var soundArcadeBonus:SoundArcadeBonus;
-      
-      public static var soundPulleyCrank:SoundPulleyCrank;
-      
-      public static var soundEnemyShootSticky:SoundEnemyShootSticky;
-      
-      public static var soundCoinAppear:SoundCoinAppear;
-      
-      public static var soundWindEnemy:SoundWindEnemy;
-      
-      public static var soundGiantDoorOpen:SoundGiantDoorOpen;
-      
-      public static var soundGiantDoorClose:SoundGiantDoorClose;
-      
-      public static var soundWarlockAppear:SoundWarlockAppear;
-      
-      public static var soundCatRose:SoundCatRose;
-      
-      public static var soundCatWink:SoundCatWink;
-      
-      public static var soundCatRigsAngry:SoundRigsAngry;
-      
-      public static var soundRigs:SoundRigs;
-      
-      public static var soundSkullWakeUp:SoundSkullWakeUp;
-      
-      public static var soundDash:SoundDash;
-      
-      public static var soundFoxLaugh:SoundFoxLaugh;
-      
-      public static var soundBell:SoundBell;
-      
-      public static var soundReel:SoundReel;
-      
-      public static var soundReelStruggle:SoundReelStruggle;
-      
-      public static var soundFishBite:SoundFishBite;
-      
-      public static var soundCatMara:SoundCatMara;
-      
-      public static var soundWhistle:SoundWhistle;
-      
-      public static var soundDog:SoundDog;
-      
-      public static var soundFireDragonShoot:SoundFireDragonShoot;
-      
-      public static var soundLace:SoundLace;
-      
-      public static var soundItemNotification:SoundItemNotification;
-      
-      public static var soundSeedAttack:SoundSeedAttack;
-      
-      public static var soundPlantGrow:SoundPlantGrow;
-      
-      public static var soundBounce:SoundBounce;
-      
-      public static var soundLegMove:SoundLegMove;
-      
-      public static var soundSpiderVoice:SoundSpiderVoice;
-      
-      public static var soundSpideDefeat:SoundSpiderDefeat;
-      
-      public static var soundThunder:SoundThunder;
-      
-      public static var soundElectricityMid:SoundElectricityMid;
-      
-      public static var soundElectricityEnd:SoundElectricityEnd;
-      
-      public static var soundHelperBubble:SoundHelperBubble;
-      
-      public static var soundArrow:SoundArrow;
-      
-      public static var soundCast:SoundCast;
-      
-      public static var musicOutsideRain:MusicOutsideRain;
-      
-      public static var musicOutsideTrees:MusicOutsideTrees;
-      
-      public static var musicOutsideTreesNight:MusicOutsideTreesNight;
-      
-      public static var musicOutsideMountain:MusicOutsideMountain;
-      
-      public static var musicOutsideDesert:MusicOutsideDesert;
-      
-      public static var musicInsideCave:MusicInsideCave;
-      
-      public static var musicOutsideSea:MusicOutsideSea;
-      
-      public static var musicOutsideSeaNight:MusicOutsideSeaNight;
-      
-      public static var musicRain:MusicRain;
-      
-      public static var musicButterfliesComplete:MusicButterfliesComplete;
-      
-      public static var musicVictory:MusicLevelComplete;
-      
-      public static var musicGameOver:MusicGameOver;
-      
-      public static var musicRadioStation:MusicRadioStation;
-      
-      public static var musicBandits:MusicBandits;
-      
-      public static var musicWoods:MusicWoods;
-      
-      public static var musicHive:MusicHive;
-      
-      public static var musicMidBoss:MusicMidBoss;
-      
-      public static var musicPawsBase:MusicPawsBase;
-      
-      public static var musicArcade:MusicArcade;
-      
-      public static var musicCatTalk:MusicCatTalk;
-      
-      public static var musicCatDanger:MusicCatDanger;
-      
-      public static var musicArcadeStart:MusicArcadeStart;
-      
-      public static var musicArcadeGameOver:MusicArcadeGameOver;
-      
-      public static var musicCanyon:MusicCanyon;
-      
-      public static var musicFortress:MusicFortress;
-      
-      public static var musicBoss:MusicBoss;
-      
-      public static var musicBeach:MusicBeach;
-      
-      public static var musicCave:MusicCave;
-      
-      public static var musicPortobello:MusicPortobello;
-      
-      public static var musicInsideTavern:MusicInsideTavern;
-      
-      public static var musicFishing:MusicFishing;
-      
-      public static var musicFishingFight:MusicFishingFight;
-      
-      public static var musicButterflies:MusicButterflies;
-      
-      public static var musicOcean:MusicOcean;
-      
-      public static var musicMap:MusicMap;
-      
-      public static var musicOutsideIceberg:MusicOutsideIceberg;
-      
-      public static var musicIntro:MusicIntro;
-      
-      public static var musicSplash:MusicSplash;
+	  // Files themselves -> Renamed via stdrename + BRU
+	  // All of those embed statement below -> Half an hour of manual work
+      [Embed(source="../sfx/sounds/cat_brake.mp3")]
+      public static var SoundCatBrake:Class;
+      public static var soundCatBrake:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_brake_low.mp3")] // Of course, instead of lowering the pitch on the fly, just make it another sound!
+      public static var SoundCatBrakeLow:Class;
+      public static var soundCatBrakeLow:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_hurt.mp3")]
+      public static var SoundCatHurt:Class;
+      public static var soundCatHurt:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_hurt_game_over.mp3")]
+      public static var SoundCatHurtGameOver:Class;
+      public static var soundCatHurtGameOver:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_run.mp3")]
+      public static var SoundCatRun:Class;
+      public static var soundCatRun:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_run_low.mp3")] // Same here!
+      public static var SoundCatRunLow:Class;
+      public static var soundCatRunLow:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_jump.mp3")]
+      public static var SoundCatJump:Class;
+      public static var soundCatJump:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_headbutt.mp3")]
+      public static var SoundCatHeadbutt:Class;
+      public static var soundCatHeadbutt:Sound;
+      
+      [Embed(source="../sfx/sounds/water.mp3")]
+      public static var SoundWater:Class;
+      public static var soundWater:Sound;
+      
+      [Embed(source="../sfx/sounds/water_splash.mp3")]
+      public static var SoundWaterSplash:Class;
+      public static var soundWaterSplash:Sound;
+      
+      [Embed(source="../sfx/sounds/ice_slide.mp3")]
+      public static var SoundIceSlide:Class;
+      public static var soundIceSlide:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_falls_ground.mp3")] // Does the cat fall ON the ground or does it fall the ground?
+      public static var SoundCatFallsGround:Class;
+      public static var soundCatFallsGround:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_jump_low.mp3")]
+      public static var SoundCatJumpLow:Class;
+      public static var soundCatJumpLow:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_hop_low.mp3")]
+      public static var SoundCatHopLow:Class;
+      public static var soundCatHopLow:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_falls_ground_low.mp3")] // Low pitch, not low ground!
+      public static var SoundCatFallsGroundLow:Class;
+      public static var soundCatFallsGroundLow:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_ground_impact.mp3")]
+      public static var SoundCatGroundImpact:Class;
+      public static var soundCatGroundImpact:Sound;
+      
+      [Embed(source="../sfx/sounds/dark_cat.mp3")] // That's the 'going in the dark' sound and not Kuro's meow
+      public static var SoundDarkCat:Class;
+      public static var soundDarkCat:Sound;
+      
+      [Embed(source="../sfx/sounds/grey_cat_victory_jump.mp3")] // Hop. It's called a hop.
+      public static var SoundGreyCatVictoryJump:Class;
+      public static var soundGreyCatVictoryJump:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_super_jump.mp3")]
+      public static var SoundCatSuperJump:Class;
+      public static var soundCatSuperJump:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_super_jump_low.mp3")]
+      public static var SoundCatSuperJumpLow:Class;
+      public static var soundCatSuperJumpLow:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_yawn.mp3")]
+      public static var SoundCatYawn:Class;
+      public static var soundCatYawn:Sound;
+      
+      [Embed(source="../sfx/sounds/blink.mp3")]
+      public static var SoundBlink:Class;
+      public static var soundBlink:Sound;
+      
+      [Embed(source="../sfx/sounds/item_bell_collected.mp3")]
+      public static var SoundItemBellCollected:Class;
+      public static var soundItemBellCollected:Sound;
+      
+      [Embed(source="../sfx/sounds/butterflies_appear.mp3")]
+      public static var SoundButterfliesAppear:Class;
+      public static var soundButterfliesAppear:Sound;
+      
+      [Embed(source="../sfx/sounds/item_coin.mp3")]
+      public static var SoundItemCoin:Class;
+      public static var soundItemCoin:Sound;
+      
+      [Embed(source="../sfx/sounds/item_impact.mp3")]
+      public static var SoundItemImpact:Class;
+      public static var soundItemImpact:Sound;
+      
+      [Embed(source="../sfx/sounds/item_impact_water.mp3")]
+      public static var SoundItemImpactWater:Class;
+      public static var soundItemImpactWater:Sound;
+      
+      [Embed(source="../sfx/sounds/bell_collected.mp3")]
+      public static var SoundBellCollected:Class;
+      public static var soundBellCollected:Sound;
+      
+      [Embed(source="../sfx/sounds/item_appear.mp3")]
+      public static var SoundItemAppear:Class;
+      public static var soundItemAppear:Sound;
+      
+      [Embed(source="../sfx/sounds/item_pop.mp3")]
+      public static var SoundItemPop:Class;
+      public static var soundItemPop:Sound;
+      
+      [Embed(source="../sfx/sounds/pot_collected.mp3")]
+      public static var SoundPotCollected:Class;
+      public static var soundPotCollected:Sound;
+      
+      [Embed(source="../sfx/sounds/pot_pop.mp3")]
+      public static var SoundBottlePop:Class;
+      public static var soundPotPop:Sound;
+      
+      [Embed(source="../sfx/sounds/butterfly_collect_1.mp3")]
+      public static var SoundButterflyCollected1:Class;
+      public static var soundButterflyCollected1:Sound;
+      
+      [Embed(source="../sfx/sounds/butterfly_collect_2.mp3")]
+      public static var SoundButterflyCollected2:Class;
+      public static var soundButterflyCollected2:Sound;
+      
+      [Embed(source="../sfx/sounds/butterfly_collect_3.mp3")]
+      public static var SoundButterflyCollected3:Class;
+      public static var soundButterflyCollected3:Sound;
+      
+      [Embed(source="../sfx/sounds/butterfly_collect_4.mp3")]
+      public static var SoundButterflyCollected4:Class;
+      public static var soundButterflyCollected4:Sound;
+      
+      [Embed(source="../sfx/sounds/butterfly_collect_5.mp3")]
+      public static var SoundButterflyCollected5:Class;
+      public static var soundButterflyCollected5:Sound;
+      
+      [Embed(source="../sfx/sounds/red_coin.mp3")]
+      public static var SoundRedCoin:Class;
+      public static var soundRedCoin:Sound;
+      
+      [Embed(source="../sfx/sounds/door_close.mp3")]
+      public static var SoundDoorClose:Class;
+      public static var soundDoorClose:Sound;
+      
+      [Embed(source="../sfx/sounds/door_open.mp3")]
+      public static var SoundDoorOpen:Class;
+      public static var soundDoorOpen:Sound;
+      
+      [Embed(source="../sfx/sounds/brick_destroyed_1.mp3")]
+      public static var SoundBrickDestroyed1:Class;
+      public static var soundBrickDestroyed1:Sound;
+      
+      [Embed(source="../sfx/sounds/brick_destroyed_2.mp3")]
+      public static var SoundBrickDestroyed2:Class;
+      public static var soundBrickDestroyed2:Sound;
+      
+      [Embed(source="../sfx/sounds/brick_created.mp3")]
+      public static var SoundBrickCreated:Class;
+      public static var soundBrickCreated:Sound;
+      
+      [Embed(source="../sfx/sounds/blue_platform.mp3")]
+      public static var SoundBluePlatform:Class;
+      public static var soundBluePlatform:Sound;
+      
+      [Embed(source="../sfx/sounds/bone.mp3")]
+      public static var SoundBone:Class;
+      public static var soundBone:Sound;
+      
+      [Embed(source="../sfx/sounds/fire_ball_shoot.mp3")]
+      public static var SoundFireBallShoot:Class;
+      public static var soundFireBallShoot:Sound;
+      
+      [Embed(source="../sfx/sounds/geyser.mp3")]
+      public static var SoundGeyser:Class;
+      public static var soundGeyser:Sound;
+      
+      [Embed(source="../sfx/sounds/ice_shake.mp3")]
+      public static var SoundIceShake:Class;
+      public static var soundIceShake:Sound;
+      
+      [Embed(source="../sfx/sounds/ice_impact.mp3")]
+      public static var SoundIceImpact:Class;
+      public static var soundIceImpact:Sound;
+      
+      [Embed(source="../sfx/sounds/lever.mp3")]
+      public static var SoundLever:Class;
+      public static var soundLever:Sound;
+      
+      [Embed(source="../sfx/sounds/mud.mp3")]
+      public static var SoundMud:Class;
+      public static var soundMud:Sound;
+      
+      [Embed(source="../sfx/sounds/red_platform.mp3")]
+      public static var SoundRedPlatform:Class;
+      public static var soundRedPlatform:Sound;
+      
+      [Embed(source="../sfx/sounds/crate.mp3")]
+      public static var SoundCrate:Class;
+      public static var soundCrate:Sound;
+      
+      [Embed(source="../sfx/sounds/explosion_big.mp3")]
+      public static var SoundExplosionBig:Class;
+      public static var soundExplosionBig:Sound;
+      
+      [Embed(source="../sfx/sounds/explosion_medium.mp3")]
+      public static var SoundExplosionMedium:Class;
+      public static var soundExplosionMedium:Sound;
+      
+      [Embed(source="../sfx/sounds/explosion_small.mp3")]
+      public static var SoundExplosionSmall:Class;
+      public static var soundExplosionSmall:Sound;
+      
+      [Embed(source="../sfx/sounds/clod.mp3")]
+      public static var SoundClod:Class;
+      public static var soundClod:Sound;
+      
+      [Embed(source="../sfx/sounds/sand_pit.mp3")]
+      public static var SoundSandPit:Class;
+      public static var soundSandPit:Sound;
+      
+      [Embed(source="../sfx/sounds/log_collision.mp3")]
+      public static var SoundLogCollision:Class;
+      public static var soundLogCollision:Sound;
+      
+      [Embed(source="../sfx/sounds/mud_slide.mp3")]
+      public static var SoundMudSlide:Class;
+      public static var soundMudSlide:Sound;
+      
+      [Embed(source="../sfx/sounds/impact_small.mp3")]
+      public static var SoundImpactSmall:Class;
+      public static var soundImpactSmall:Sound;
+      
+      [Embed(source="../sfx/sounds/impact_big.mp3")]
+      public static var SoundImpactBig:Class;
+      public static var soundImpactBig:Sound;
+      
+      [Embed(source="../sfx/sounds/chain_rattle.mp3")]
+      public static var SoundChainRattle:Class;
+      public static var soundChainRattle:Sound;
+      
+      [Embed(source="../sfx/sounds/woosh.mp3")]
+      public static var SoundWoosh:Class;
+      public static var soundWoosh:Sound;
+      
+      [Embed(source="../sfx/sounds/woosh_low.mp3")]
+      public static var SoundWooshLow:Class;
+      public static var soundWooshLow:Sound;
+      
+      [Embed(source="../sfx/sounds/gate_open.mp3")]
+      public static var SoundGateOpen:Class;
+      public static var soundGateOpen:Sound;
+      
+      [Embed(source="../sfx/sounds/fire_1.mp3")]
+      public static var SoundFire1:Class;
+      public static var soundFire1:Sound;
+      
+      [Embed(source="../sfx/sounds/fire_2.mp3")]
+      public static var SoundFire2:Class;
+      public static var soundFire2:Sound;
+      
+      [Embed(source="../sfx/sounds/explosion_distance.mp3")]
+      public static var SoundExplosionDistance:Class;
+      public static var soundExplosionDistance:Sound;
+      
+      [Embed(source="../sfx/sounds/brick_destroyed_echo.mp3")]
+      public static var SoundBrickDestroyedEcho:Class;
+      public static var soundBrickDestroyedEcho:Sound;
+      
+      [Embed(source="../sfx/sounds/fence_exit.mp3")]
+      public static var SoundFenceExit:Class;
+      public static var soundFenceExit:Sound;
+      
+      [Embed(source="../sfx/sounds/car_engine.mp3")]
+      public static var SoundCarEngine:Class;
+      public static var soundCarEngine:Sound;
+      
+      [Embed(source="../sfx/sounds/skid.mp3")]
+      public static var SoundSkid:Class;
+      public static var soundSkid:Sound;
+      
+      [Embed(source="../sfx/sounds/car_engine_first.mp3")]
+      public static var SoundCarEngineFirst:Class;
+      public static var soundCarEngineFirst:Sound;
+      
+      [Embed(source="../sfx/sounds/ice_melt.mp3")]
+      public static var SoundIceMelt:Class;
+      public static var soundIceMelt:Sound;
+      
+      [Embed(source="../sfx/sounds/hero_cannon.mp3")]
+      public static var SoundHeroCannon:Class;
+      public static var soundHeroCannon:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_angry.mp3")]
+      public static var SoundCatAngry:Class;
+      public static var soundCatAngry:Sound;
+      
+      [Embed(source="../sfx/sounds/vehicle_engine.mp3")]
+      public static var SoundVehicleEngine:Class;
+      public static var soundVehicleEngine:Sound;
+      
+      [Embed(source="../sfx/sounds/phone.mp3")]
+      public static var SoundPhone:Class;
+      public static var soundPhone:Sound;
+      
+      [Embed(source="../sfx/sounds/vehicle_stop.mp3")]
+      public static var SoundVehicleStop:Class;
+      public static var soundVehicleStop:Sound;
+      
+      [Embed(source="../sfx/sounds/vehicle_engine_up.mp3")]
+      public static var SoundVehicleEngineUp:Class;
+      public static var soundVehicleEngineUp:Sound;
+      
+      [Embed(source="../sfx/sounds/vehicle_turn_off.mp3")]
+      public static var SoundVehicleTurnOff:Class;
+      public static var soundVehicleTurnOff:Sound;
+      
+      [Embed(source="../sfx/sounds/vehicle_turn_on.mp3")]
+      public static var SoundVehicleTurnOn:Class;
+      public static var soundVehicleTurnOn:Sound;
+      
+      [Embed(source="../sfx/sounds/vehicle_cannon.mp3")]
+      public static var SoundVehicleCannon:Class;
+      public static var soundVehicleCannon:Sound;
+      
+      [Embed(source="../sfx/sounds/vehicle_reload.mp3")]
+      public static var SoundVehicleReload:Class;
+      public static var soundVehicleReload:Sound;
+      
+      [Embed(source="../sfx/sounds/enemy_bullet.mp3")]
+      public static var SoundEnemyBullet:Class;
+      public static var soundEnemyBullet:Sound;
+      
+      [Embed(source="../sfx/sounds/enemy_hurt.mp3")]
+      public static var SoundEnemyHurt:Class;
+      public static var soundEnemyHurt:Sound;
+      
+      [Embed(source="../sfx/sounds/big_enemy_hurt.mp3")]
+      public static var SoundBigEnemyHurt:Class;
+      public static var soundBigEnemyHurt:Sound;
+      
+      [Embed(source="../sfx/sounds/ground_stomp.mp3")]
+      public static var SoundGroundStomp:Class;
+      public static var soundGroundStomp:Sound;
+      
+      [Embed(source="../sfx/sounds/dust_enemy.mp3")]
+      public static var SoundDustEnemy:Class;
+      public static var soundDustEnemy:Sound;
+      
+      [Embed(source="../sfx/sounds/metal_enemy_hurt_a.mp3")]
+      public static var SoundMetalEnemyHurtA:Class;
+      public static var soundMetalEnemyHurtA:Sound;
+      
+      [Embed(source="../sfx/sounds/metal_enemy_hurt_b.mp3")]
+      public static var SoundMetalEnemyHurtB:Class;
+      public static var soundMetalEnemyHurtB:Sound;
+      
+      [Embed(source="../sfx/sounds/metal_big_enemy_hurt_a.mp3")]
+      public static var SoundMetalBigEnemyHurtA:Class;
+      public static var soundMetalBigEnemyHurtA:Sound;
+      
+      [Embed(source="../sfx/sounds/metal_enemy_jump.mp3")]
+      public static var SoundMetalEnemyJump:Class;
+      public static var soundMetalEnemyJump:Sound;
+      
+      [Embed(source="../sfx/sounds/dig.mp3")]
+      public static var SoundDig:Class;
+      public static var soundDig:Sound;
+      
+      [Embed(source="../sfx/sounds/enemy_jump.mp3")]
+      public static var SoundEnemyJump:Class;
+      public static var soundEnemyJump:Sound;
+      
+      [Embed(source="../sfx/sounds/enemy_brake.mp3")]
+      public static var SoundEnemyBrake:Class;
+      public static var soundEnemyBrake:Sound;
+      
+      [Embed(source="../sfx/sounds/giant_turnip_defeat.mp3")]
+      public static var SoundGiantTurnipDefeat:Class;
+      public static var soundGiantTurnipDefeat:Sound;
+      
+      [Embed(source="../sfx/sounds/big_enemy_hit.mp3")]
+      public static var SoundBigEnemyHit:Class;
+      public static var soundBigEnemyHit:Sound;
+      
+      [Embed(source="../sfx/sounds/frog_1.mp3")]
+      public static var SoundFrog1:Class;
+      public static var soundFrog1:Sound;
+      
+      [Embed(source="../sfx/sounds/frog_2.mp3")]
+      public static var SoundFrog2:Class;
+      public static var soundFrog2:Sound;
+      
+      [Embed(source="../sfx/sounds/enemy_water.mp3")]
+      public static var SoundEnemyWater:Class;
+      public static var soundEnemyWater:Sound;
+      
+      [Embed(source="../sfx/sounds/giant_fish_roar.mp3")]
+      public static var SoundGiantFishRoar:Class;
+      public static var soundGiantFishRoar:Sound;
+      
+      [Embed(source="../sfx/sounds/giant_fish_swoosh.mp3")]
+      public static var SoundGiantFishSwoosh:Class;
+      public static var soundGiantFishSwoosh:Sound;
+      
+      [Embed(source="../sfx/sounds/enemy_run.mp3")]
+      public static var SoundEnemyRun:Class;
+      public static var soundEnemyRun:Sound;
+      
+      [Embed(source="../sfx/sounds/beam_start.mp3")]
+      public static var SoundBeamStart:Class;
+      public static var soundBeamStart:Sound;
+      
+      [Embed(source="../sfx/sounds/beam_shoot.mp3")]
+      public static var SoundBeamShoot:Class;
+      public static var soundBeamShoot:Sound;
+      
+      [Embed(source="../sfx/sounds/beam_repeat.mp3")]
+      public static var SoundBeamRepeat:Class;
+      public static var soundBeamRepeat:Sound;
+      
+      [Embed(source="../sfx/sounds/dragon_wing.mp3")]
+      public static var SoundDragonWing:Class;
+      public static var soundDragonWing:Sound;
+      
+      [Embed(source="../sfx/sounds/enemy_ice_slide.mp3")]
+      public static var SoundEnemyIceSlide:Class;
+      public static var soundEnemyIceSlide:Sound;
+      
+      [Embed(source="../sfx/sounds/ghost_scared.mp3")]
+      public static var SoundGhostScared:Class;
+      public static var soundGhostScared:Sound;
+      
+      [Embed(source="../sfx/sounds/tongue.mp3")]
+      public static var SoundTongue:Class;
+      public static var soundTongue:Sound;
+      
+      [Embed(source="../sfx/sounds/decoration_blown.mp3")]
+      public static var SoundDecorationBlown:Class;
+      public static var soundDecorationBlown:Sound;
+      
+      [Embed(source="../sfx/sounds/bird_flying.mp3")]
+      public static var SoundBirdFlying:Class;
+      public static var soundBirdFlying:Sound;
+      
+      [Embed(source="../sfx/sounds/chirp_1.mp3")]
+      public static var SoundChirp1:Class;
+      public static var soundChirp1:Sound;
+      
+      [Embed(source="../sfx/sounds/chirp_2.mp3")]
+      public static var SoundChirp2:Class;
+      public static var soundChirp2:Sound;
+      
+      [Embed(source="../sfx/sounds/loud_chirp.mp3")]
+      public static var SoundLoudChirp:Class;
+      public static var soundLoudChirp:Sound;
+      
+      [Embed(source="../sfx/sounds/giant_spaceship.mp3")]
+      public static var SoundGiantSpaceship:Class;
+      public static var soundGiantSpaceship:Sound;
+      
+      [Embed(source="../sfx/sounds/wind_breeze.mp3")]
+      public static var SoundWindBreeze:Class;
+      public static var soundWindBreeze:Sound;
+      
+      [Embed(source="../sfx/sounds/flyingship_distance.mp3")]
+      public static var SoundFlyingshipDistance:Class;
+      public static var soundFlyingshipDistance:Sound;
+      
+      [Embed(source="../sfx/sounds/flyingship_distance_first.mp3")]
+      public static var SoundFlyingshipDistanceFirst:Class;
+      public static var soundFlyingshipDistanceFirst:Sound;
+      
+      [Embed(source="../sfx/sounds/flyingship_malfunction.mp3")]
+      public static var SoundFlyingshipMalfunction:Class;
+      public static var soundFlyingshipMalfunction:Sound;
+      
+      [Embed(source="../sfx/sounds/flyingship_fall_down.mp3")]
+      public static var SoundFlyingshipFallDown:Class;
+      public static var soundFlyingshipFallDown:Sound;
+      
+      [Embed(source="../sfx/sounds/alarm.mp3")]
+      public static var SoundAlarm:Class;
+      public static var soundAlarm:Sound;
+      
+      [Embed(source="../sfx/sounds/crystal_ambience.mp3")]
+      public static var SoundCrystalAmbience:Class;
+      public static var soundCrystalAmbience:Sound;
+      
+      [Embed(source="../sfx/sounds/magic_disappear.mp3")]
+      public static var SoundMagicDisappear:Class;
+      public static var soundMagicDisappear:Sound;
+      
+      [Embed(source="../sfx/sounds/quake.mp3")]
+      public static var SoundQuake:Class;
+      public static var soundQuake:Sound;
+      
+      [Embed(source="../sfx/sounds/quake_fade.mp3")]
+      public static var SoundQuakeFade:Class;
+      public static var soundQuakeFade:Sound;
+      
+      [Embed(source="../sfx/sounds/boat_horn.mp3")]
+      public static var SoundBoatHorn:Class;
+      public static var soundBoatHorn:Sound;
+      
+      [Embed(source="../sfx/sounds/wind_strong_start.mp3")]
+      public static var SoundWindStrongStart:Class;
+      public static var soundWindStrongStart:Sound;
+      
+      [Embed(source="../sfx/sounds/wind_strong_mid.mp3")]
+      public static var SoundWindStrongMid:Class;
+      public static var soundWindStrongMid:Sound;
+      
+      [Embed(source="../sfx/sounds/wind_strong_end.mp3")]
+      public static var SoundWindStrongEnd:Class;
+      public static var soundWindStrongEnd:Sound;
+      
+      [Embed(source="../sfx/sounds/small_quake.mp3")]
+      public static var SoundSmallQuake:Class;
+      public static var soundSmallQuake:Sound;
+      
+      [Embed(source="../sfx/sounds/train_track.mp3")]
+      public static var SoundTrainTrack:Class;
+      public static var soundTrainTrack:Sound;
+      
+      [Embed(source="../sfx/sounds/train_track_slow.mp3")]
+      public static var SoundTrainTrackSlow:Class;
+      public static var soundTrainTrackSlow:Sound;
+      
+      [Embed(source="../sfx/sounds/train_whistle.mp3")]
+      public static var SoundTrainWhistle:Class;
+      public static var soundTrainWhistle:Sound;
+      
+      [Embed(source="../sfx/sounds/crystal_appear.mp3")]
+      public static var SoundCrystalAppear:Class;
+      public static var soundCrystalAppear:Sound;
+      
+      [Embed(source="../sfx/sounds/logo.mp3")]
+      public static var SoundLogo:Class;
+      public static var soundLogo:Sound;
+      
+      [Embed(source="../sfx/sounds/blip.mp3")]
+      public static var SoundBlip:Class;
+      public static var soundBlip:Sound;
+      
+      [Embed(source="../sfx/sounds/select.mp3")]
+      public static var SoundSelect:Class;
+      public static var soundSelect:Sound;
+      
+      [Embed(source="../sfx/sounds/font_1.mp3")]
+      public static var SoundFont1:Class;
+      public static var soundFont1:Sound;
+      
+      [Embed(source="../sfx/sounds/font_2.mp3")]
+      public static var SoundFont2:Class;
+      public static var soundFont2:Sound;
+      
+      [Embed(source="../sfx/sounds/font_3.mp3")]
+      public static var SoundFont3:Class;
+      public static var soundFont3:Sound;
+      
+      [Embed(source="../sfx/sounds/confirm_long.mp3")]
+      public static var SoundConfirmLong:Class;
+      public static var soundConfirmLong:Sound;
+      
+      [Embed(source="../sfx/sounds/confirm_short.mp3")]
+      public static var SoundConfirmShort:Class;
+      public static var soundConfirmShort:Sound;
+      
+      [Embed(source="../sfx/sounds/hud_item_collected.mp3")]
+      public static var SoundHudItemCollected:Class;
+      public static var soundHudItemCollected:Sound;
+      
+      [Embed(source="../sfx/sounds/error.mp3")]
+      public static var SoundError:Class;
+      public static var soundError:Sound;
+      
+      [Embed(source="../sfx/sounds/error_2.mp3")]
+      public static var SoundError2:Class;
+      public static var soundError2:Sound;
+      
+      [Embed(source="../sfx/sounds/purchase.mp3")]
+      public static var SoundPurchase:Class;
+      public static var soundPurchase:Sound;
+      
+      [Embed(source="../sfx/sounds/hud_woosh.mp3")]
+      public static var SoundHudWoosh:Class;
+      public static var soundHudWoosh:Sound;
+      
+	  // Most of the impacts are here
+      [Embed(source="../sfx/sounds/bullet_ground_impact.mp3")]
+      public static var SoundBulletGroundImpact:Class;
+      public static var soundBulletGroundImpact:Sound;
+      
+      [Embed(source="../sfx/sounds/snow_bullet_impact.mp3")]
+      public static var SoundSnowBulletImpact:Class;
+      public static var soundSnowBulletImpact:Sound;
+      
+      [Embed(source="../sfx/sounds/fire_bullet_impact.mp3")]
+      public static var SoundFireBulletImpact:Class;
+      public static var soundFireBulletImpact:Sound;
+      
+      [Embed(source="../sfx/sounds/fire_bullet.mp3")] // why is it after the impact sound
+      public static var SoundFireBullet:Class;
+      public static var soundFireBullet:Sound;
+      
+      [Embed(source="../sfx/sounds/giant_bullet_impact.mp3")]
+      public static var SoundGiantBulletImpact:Class;
+      public static var soundGiantBulletImpact:Sound;
+      
+      [Embed(source="../sfx/sounds/seed_bullet_impact.mp3")]
+      public static var SoundSeedBulletImpact:Class;
+      public static var soundSeedBulletImpact:Sound;
+      
+      [Embed(source="../sfx/sounds/egg_impact.mp3")]
+      public static var SoundEggImpact:Class;
+      public static var soundEggImpact:Sound;
+      
+      [Embed(source="../sfx/sounds/throw_bullet.mp3")]
+      public static var SoundThrowBullet:Class;
+      public static var soundThrowBullet:Sound;
+      
+      [Embed(source="../sfx/sounds/fire_shoot.mp3")]
+      public static var SoundFireShoot:Class;
+      public static var soundFireShoot:Sound;
+      
+      [Embed(source="../sfx/sounds/snow_cannon.mp3")]
+      public static var SoundSnowCannon:Class;
+      public static var soundSnowCannon:Sound;
+      
+      [Embed(source="../sfx/sounds/metal_particle_impact.mp3")] // hey bud, the impact list is above!
+      public static var SoundMetalParticleImpact:Class;
+      public static var soundMetalParticleImpact:Sound;
+      
+      [Embed(source="../sfx/sounds/metal_particle_impact_high.mp3")]
+      public static var SoundMetalParticleImpactHigh:Class;
+      public static var soundMetalParticleImpactHigh:Sound;
+      
+	  // It's time to rate the cat order!
+      [Embed(source="../sfx/sounds/cat_blue.mp3")] // Shinji
+      public static var SoundCatBlue:Class;
+      public static var soundCatBlue:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_black.mp3")] // Kuro
+      public static var SoundCatBlack:Class;
+      public static var soundCatBlack:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_glide.mp3")] // Olli
+      public static var SoundCatGlide:Class;
+      public static var soundCatGlide:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_red.mp3")] // Brutus/McMeow
+      public static var SoundCatRed:Class;
+      public static var soundCatRed:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_chomp.mp3")] // Brutus chomp
+      public static var SoundCatChomp:Class;
+      public static var soundCatChomp:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_purr.mp3")] // purr
+      public static var SoundPurr:Class;
+      public static var soundCatPurr:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_small.mp3")] // Amy
+      public static var SoundCatSmall:Class;
+      public static var soundCatSmall:Sound;
+      
+      [Embed(source="../sfx/sounds/kitten_1.mp3")] // Kitten 1
+      public static var SoundKitten1:Class;
+      public static var soundKitten1:Sound;
+      
+      [Embed(source="../sfx/sounds/kitten_2.mp3")] // Kitten 2
+      public static var SoundKitten2:Class;
+      public static var soundKitten2:Sound;
+      
+      [Embed(source="../sfx/sounds/kitten_3.mp3")] // Kitten3
+      public static var SoundKitten3:Class;
+      public static var soundKitten3:Sound;
+      
+      [Embed(source="../sfx/sounds/kitten_4.mp3")] // Kitten 4
+      public static var SoundKitten4:Class;
+      public static var soundKitten4:Sound;
+      
+      [Embed(source="../sfx/sounds/mesa_laugh.mp3")]
+      public static var SoundMesaLaugh:Class;
+      public static var soundMesaLaugh:Sound;
+      
+      [Embed(source="../sfx/sounds/mesa_snarl.mp3")]
+      public static var SoundMesaSnarl:Class;
+      public static var soundMesaSnarl:Sound;
+      
+      [Embed(source="../sfx/sounds/mesa_defeat.mp3")]
+      public static var SoundMesaDefeat:Class;
+      public static var soundMesaDefeat:Sound;
+      
+      [Embed(source="../sfx/sounds/green_laugh.mp3")]
+      public static var SoundGreenLaugh:Class;
+      public static var soundGreenLaugh:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_mayor.mp3")] // Hikari City mayor
+      public static var SoundCatMayor:Class;
+      public static var soundCatMayor:Sound;
+      
+      [Embed(source="../sfx/sounds/green_hurt.mp3")] // How do you hurt a color?
+      public static var SoundGreenHurt:Class;
+      public static var soundGreenHurt:Sound;
+      
+      [Embed(source="../sfx/sounds/dragon_screech.mp3")]
+      public static var SoundDragonScreech:Class;
+      public static var soundDragonScreech:Sound;
+      
+      [Embed(source="../sfx/sounds/laal_voice_1.mp3")]
+      public static var SoundVoiceLaal1:Class;
+      public static var soundLaalVoice1:Sound;
+      
+      [Embed(source="../sfx/sounds/laal_voice_2.mp3")]
+      public static var SoundVoiceLaal2:Class;
+      public static var soundLaalVoice2:Sound;
+      
+      [Embed(source="../sfx/sounds/bite.mp3")] // There's already a chomp sound in the game that's used by Brutus, why add a second?
+      public static var SoundBite:Class;
+      public static var soundBite:Sound;
+      
+      [Embed(source="../sfx/sounds/merchant_voice_1.mp3")]
+      public static var SoundMerchantVoice1:Class;
+      public static var soundMerchantVoice1:Sound;
+      
+      [Embed(source="../sfx/sounds/merchant_voice_2.mp3")]
+      public static var SoundMerchantVoice2:Class;
+      public static var soundMerchantVoice2:Sound;
+      
+      [Embed(source="../sfx/sounds/voice_fisherman.mp3")]
+      public static var SoundVoiceFisherman:Class;
+      public static var soundVoiceFisherman:Sound;
+      
+      [Embed(source="../sfx/sounds/kallio_voice_1.mp3")]
+      public static var SoundKallioVoice1:Class;
+      public static var soundKallioVoice1:Sound;
+      
+      [Embed(source="../sfx/sounds/kallio_voice_2.mp3")]
+      public static var SoundKallioVoice2:Class;
+      public static var soundKallioVoice2:Sound;
+      
+      [Embed(source="../sfx/sounds/iridium_voice_1.mp3")]
+      public static var SoundIridiumVoice1:Class;
+      public static var soundIridiumVoice1:Sound;
+      
+      [Embed(source="../sfx/sounds/iridium_voice_2.mp3")]
+      public static var SoundIridiumVoice2:Class;
+      public static var soundIridiumVoice2:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_demise.mp3")] // animal abuse
+      public static var SoundCatDemise:Class;
+      public static var soundCatDemise:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_soldier.mp3")] // Pascal!
+      public static var SoundCatSoldier:Class;
+      public static var soundCatSoldier:Sound;
+      
+      [Embed(source="../sfx/sounds/baburu.mp3")]
+      public static var SoundBaburu:Class;
+      public static var soundBaburu:Sound;
+      
+      [Embed(source="../sfx/sounds/map_explosion.mp3")] // Boom boom boom boom! I want you in my world map!
+      public static var SoundMapExplosion:Class;
+      public static var soundMapExplosion:Sound;
+      
+      [Embed(source="../sfx/sounds/map_advance.mp3")]
+      public static var SoundMapAdvance:Class;
+      public static var soundMapAdvance:Sound;
+      
+      [Embed(source="../sfx/sounds/map_stomp.mp3")]
+      public static var SoundMapStomp:Class;
+      public static var soundMapStomp:Sound;
+      
+      [Embed(source="../sfx/sounds/map_appear.mp3")]
+      public static var SoundMapAppear:Class;
+      public static var soundMapAppear:Sound;
+      
+      [Embed(source="../sfx/sounds/map_rumble.mp3")]
+      public static var SoundMapRumble:Class;
+      public static var soundMapRumble:Sound;
+      
+      [Embed(source="../sfx/sounds/atomic_explosion.mp3")]
+      public static var SoundAtomicExplosion:Class;
+      public static var soundAtomicExplosion:Sound;
+      
+      [Embed(source="../sfx/sounds/title_appear.mp3")] // Logo. It's called a logo.
+      public static var SoundTitleAppear:Class;
+      public static var soundTitleAppear:Sound;
+      
+      [Embed(source="../sfx/sounds/car_start.mp3")]
+      public static var SoundCarStart:Class;
+      public static var soundCarStart:Sound;
+      
+      [Embed(source="../sfx/sounds/car_running.mp3")] // wait a minute, cars can run?
+      public static var SoundCarRunning:Class;
+      public static var soundCarRunning:Sound;
+      
+      [Embed(source="../sfx/sounds/blow.mp3")]
+      public static var SoundBlow:Class;
+      public static var soundBlow:Sound;
+      
+      [Embed(source="../sfx/sounds/rock_stomp.mp3")]
+      public static var SoundRockStomp:Class;
+      public static var soundRockStomp:Sound;
+      
+      [Embed(source="../sfx/sounds/enemy_jump_low.mp3")]
+      public static var SoundEnemyJumpLow:Class;
+      public static var soundEnemyJumpLow:Sound;
+      
+      [Embed(source="../sfx/sounds/tongue_mesa.mp3")] // shouldn've been mesa_tongue but neutronized said no
+      public static var SoundTongueMesa:Class;
+      public static var soundTongueMesa:Sound;
+      
+      [Embed(source="../sfx/sounds/eat.mp3")]
+      public static var SoundEat:Class;
+      public static var soundEat:Sound;
+      
+      [Embed(source="../sfx/sounds/enemy_shoot.mp3")]
+      public static var SoundEnemyShoot:Class;
+      public static var soundEnemyShoot:Sound;
+      
+      [Embed(source="../sfx/sounds/wiggle.mp3")]
+      public static var SoundWiggle:Class;
+      public static var soundWiggle:Sound;
+      
+      [Embed(source="../sfx/sounds/hide.mp3")]
+      public static var SoundHide:Class;
+      public static var soundHide:Sound;
+      
+      [Embed(source="../sfx/sounds/door_exit.mp3")]
+      public static var SoundDoorExit:Class;
+      public static var soundDoorExit:Sound;
+      
+      [Embed(source="../sfx/sounds/arcade_flap.mp3")]
+      public static var SoundArcadeFlap:Class;
+      public static var soundArcadeFlap:Sound;
+      
+      [Embed(source="../sfx/sounds/arcade_coin.mp3")]
+      public static var SoundArcadeCoin:Class;
+      public static var soundArcadeCoin:Sound;
+      
+      [Embed(source="../sfx/sounds/arcade_laser.mp3")]
+      public static var SoundArcadeLaser:Class;
+      public static var soundArcadeLaser:Sound;
+      
+      [Embed(source="../sfx/sounds/arcade_explosion.mp3")]
+      public static var SoundArcadeExplosion:Class;
+      public static var soundArcadeExplosion:Sound;
+      
+      [Embed(source="../sfx/sounds/arcade_walk.mp3")]
+      public static var SoundArcadeWalk:Class;
+      public static var soundArcadeWalk:Sound;
+      
+      [Embed(source="../sfx/sounds/arcade_bonus.mp3")]
+      public static var SoundArcadeBonus:Class;
+      public static var soundArcadeBonus:Sound;
+      
+      [Embed(source="../sfx/sounds/pulley_crank.mp3")]
+      public static var SoundPulleyCrank:Class;
+      public static var soundPulleyCrank:Sound;
+      
+      [Embed(source="../sfx/sounds/enemy_shoot_sticky.mp3")]
+      public static var SoundEnemyShootSticky:Class;
+      public static var soundEnemyShootSticky:Sound;
+      
+      [Embed(source="../sfx/sounds/coin_appear.mp3")]
+      public static var SoundCoinAppear:Class;
+      public static var soundCoinAppear:Sound;
+      
+      [Embed(source="../sfx/sounds/wind_enemy.mp3")]
+      public static var SoundWindEnemy:Class;
+      public static var soundWindEnemy:Sound;
+      
+      [Embed(source="../sfx/sounds/giant_door_open.mp3")]
+      public static var SoundGiantDoorOpen:Class;
+      public static var soundGiantDoorOpen:Sound;
+      
+      [Embed(source="../sfx/sounds/giant_door_close.mp3")]
+      public static var SoundGiantDoorClose:Class;
+      public static var soundGiantDoorClose:Sound;
+      
+      [Embed(source="../sfx/sounds/warlock_appear.mp3")]
+      public static var SoundWarlockAppear:Class;
+      public static var soundWarlockAppear:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_rose.mp3")] // Did Rose get her sound after the Rose VS Tarra thing?
+      public static var SoundCatRose:Class;
+      public static var soundCatRose:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_wink.mp3")]
+      public static var SoundCatWink:Class;
+      public static var soundCatWink:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_rigs_angry.mp3")]
+      public static var SoundRigsAngry:Class;
+      public static var soundCatRigsAngry:Sound;
+      
+      [Embed(source="../sfx/sounds/rigs.mp3")] // Notice how it's called "rigs" and not "cat_rigs"
+      public static var SoundRigs:Class;
+      public static var soundRigs:Sound;
+      
+      [Embed(source="../sfx/sounds/skull_wake_up.mp3")]
+      public static var SoundSkullWakeUp:Class;
+      public static var soundSkullWakeUp:Sound;
+      
+      [Embed(source="../sfx/sounds/dash.mp3")]
+      public static var SoundDash:Class;
+      public static var soundDash:Sound;
+      
+      [Embed(source="../sfx/sounds/fox_laugh.mp3")]
+      public static var SoundFoxLaugh:Class;
+      public static var soundFoxLaugh:Sound;
+      
+      [Embed(source="../sfx/sounds/bell.mp3")]
+      public static var SoundBell:Class;
+      public static var soundBell:Sound;
+      
+      [Embed(source="../sfx/sounds/reel.mp3")]
+      public static var SoundReel:Class;
+      public static var soundReel:Sound;
+      
+      [Embed(source="../sfx/sounds/reel_struggle.mp3")] // The reel is struggling! The reel is struggling!
+      public static var SoundReelStruggle:Class;
+      public static var soundReelStruggle:Sound;
+      
+      [Embed(source="../sfx/sounds/fish_bite.mp3")]
+      public static var SoundFishBite:Class;
+      public static var soundFishBite:Sound;
+      
+      [Embed(source="../sfx/sounds/cat_mara.mp3")]
+      public static var SoundCatMara:Class;
+      public static var soundCatMara:Sound;
+      
+      [Embed(source="../sfx/sounds/whistle.mp3")]
+      public static var SoundWhistle:Class;
+      public static var soundWhistle:Sound;
+      
+      [Embed(source="../sfx/sounds/dog.mp3")] // When is this used? Never?
+      public static var SoundDog:Class;
+      public static var soundDog:Sound;
+      
+      [Embed(source="../sfx/sounds/fire_dragon_shoot.mp3")]
+      public static var SoundFireDragonShoot:Class;
+      public static var soundFireDragonShoot:Sound;
+      
+      [Embed(source="../sfx/sounds/lace.mp3")]
+      public static var SoundLace:Class;
+      public static var soundLace:Sound;
+      
+      [Embed(source="../sfx/sounds/item_notification.mp3")] // you've got mail
+      public static var SoundItemNotification:Class;
+      public static var soundItemNotification:Sound;
+      
+      [Embed(source="../sfx/sounds/seed_attack.mp3")]
+      public static var SoundSeedAttack:Class;
+      public static var soundSeedAttack:Sound;
+      
+      [Embed(source="../sfx/sounds/plant_grow.mp3")]
+      public static var SoundPlantGrow:Class;
+      public static var soundPlantGrow:Sound;
+      
+      [Embed(source="../sfx/sounds/bounce.mp3")]
+      public static var SoundBounce:Class;
+      public static var soundBounce:Sound;
+      
+      [Embed(source="../sfx/sounds/leg_move.mp3")]
+      public static var SoundLegMove:Class;
+      public static var soundLegMove:Sound;
+      
+      [Embed(source="../sfx/sounds/spider_voice.mp3")]
+      public static var SoundSpiderVoice:Class;
+      public static var soundSpiderVoice:Sound;
+      
+      [Embed(source="../sfx/sounds/spider_defeat.mp3")]
+      public static var SoundSpiderDefeat:Class;
+      public static var soundSpideDefeat:Sound;
+      
+      [Embed(source="../sfx/sounds/thunder.mp3")]
+      public static var SoundThunder:Class;
+      public static var soundThunder:Sound;
+      
+      [Embed(source="../sfx/sounds/electricity_mid.mp3")]
+      public static var SoundElectricityMid:Class;
+      public static var soundElectricityMid:Sound;
+      
+      [Embed(source="../sfx/sounds/electricity_end.mp3")] // Shortage?
+      public static var SoundElectricityEnd:Class;
+      public static var soundElectricityEnd:Sound;
+      
+      [Embed(source="../sfx/sounds/helper_bubble.mp3")]
+      public static var SoundHelperBubble:Class;
+      public static var soundHelperBubble:Sound;
+      
+      [Embed(source="../sfx/sounds/arrow.mp3")]
+      public static var SoundArrow:Class;
+      public static var soundArrow:Sound;
+      
+      [Embed(source="../sfx/sounds/cast.mp3")]
+      public static var SoundCast:Class;
+      public static var soundCast:Sound;
+      
+	  // Music definitions
+      [Embed(source="../sfx/music/outside_rain.mp3")]
+      public static var MusicOutsideRain:Class;
+      public static var musicOutsideRain:Sound;
+      
+      [Embed(source="../sfx/music/outside_trees.mp3")]
+      public static var MusicOutsideTrees:Class;
+      public static var musicOutsideTrees:Sound;
+      
+      [Embed(source="../sfx/music/outside_trees_night.mp3")]
+      public static var MusicOutsideTreesNight:Class;
+      public static var musicOutsideTreesNight:Sound;
+      
+      [Embed(source="../sfx/music/outside_mountain.mp3")]
+      public static var MusicOutsideMountain:Class;
+      public static var musicOutsideMountain:Sound;
+      
+      [Embed(source="../sfx/music/outside_desert.mp3")]
+      public static var MusicOutsideDesert:Class;
+      public static var musicOutsideDesert:Sound;
+      
+      [Embed(source="../sfx/music/inside_cave.mp3")]
+      public static var MusicInsideCave:Class;
+      public static var musicInsideCave:Sound;
+      
+      [Embed(source="../sfx/music/outside_sea.mp3")]
+      public static var MusicOutsideSea:Class;
+      public static var musicOutsideSea:Sound;
+      
+      [Embed(source="../sfx/music/outside_sea_night.mp3")]
+      public static var MusicOutsideSeaNight:Class;
+      public static var musicOutsideSeaNight:Sound;
+      
+      [Embed(source="../sfx/music/rain.mp3")]
+      public static var MusicRain:Class;
+      public static var musicRain:Sound;
+      
+      [Embed(source="../sfx/music/butterflies_complete.mp3")]
+      public static var MusicButterfliesComplete:Class;
+      public static var musicButterfliesComplete:Sound;
+      
+      [Embed(source="../sfx/music/victory.mp3")]
+      public static var MusicLevelComplete:Class;
+      public static var musicVictory:Sound;
+      
+      [Embed(source="../sfx/music/game_over.mp3")]
+      public static var MusicGameOver:Class;
+      public static var musicGameOver:Sound;
+      
+      [Embed(source="../sfx/music/radio_station.mp3")]
+      public static var MusicRadioStation:Class;
+      public static var musicRadioStation:Sound;
+      
+      [Embed(source="../sfx/music/bandits.mp3")]
+      public static var MusicBandits:Class;
+      public static var musicBandits:Sound;
+      
+      [Embed(source="../sfx/music/woods.mp3")]
+      public static var MusicWoods:Class;
+      public static var musicWoods:Sound;
+      
+      [Embed(source="../sfx/music/hive.mp3")]
+      public static var MusicHive:Class;
+      public static var musicHive:Sound;
+      
+      [Embed(source="../sfx/music/mid_boss.mp3")]
+      public static var MusicMidBoss:Class;
+      public static var musicMidBoss:Sound;
+      
+      [Embed(source="../sfx/music/paws_base.mp3")]
+      public static var MusicPawsBase:Class;
+      public static var musicPawsBase:Sound;
+      
+      [Embed(source="../sfx/music/arcade.mp3")]
+      public static var MusicArcade:Class;
+      public static var musicArcade:Sound;
+      
+      [Embed(source="../sfx/music/cat_talk.mp3")]
+      public static var MusicCatTalk:Class;
+      public static var musicCatTalk:Sound;
+      
+      [Embed(source="../sfx/music/cat_danger.mp3")]
+      public static var MusicCatDanger:Class;
+      public static var musicCatDanger:Sound;
+      
+      [Embed(source="../sfx/music/arcade_start.mp3")]
+      public static var MusicArcadeStart:Class;
+      public static var musicArcadeStart:Sound;
+      
+      [Embed(source="../sfx/music/arcade_game_over.mp3")]
+      public static var MusicArcadeGameOver:Class;
+      public static var musicArcadeGameOver:Sound;
+      
+      [Embed(source="../sfx/music/canyon.mp3")]
+      public static var MusicCanyon:Class;
+      public static var musicCanyon:Sound;
+      
+      [Embed(source="../sfx/music/fortress.mp3")]
+      public static var MusicFortress:Class;
+      public static var musicFortress:Sound;
+      
+      [Embed(source="../sfx/music/boss.mp3")]
+      public static var MusicBoss:Class;
+      public static var musicBoss:Sound;
+      
+      [Embed(source="../sfx/music/beach.mp3")]
+      public static var MusicBeach:Class;
+      public static var musicBeach:Sound;
+      
+      [Embed(source="../sfx/music/cave.mp3")]
+      public static var MusicCave:Class;
+      public static var musicCave:Sound;
+      
+      [Embed(source="../sfx/music/portobello.mp3")]
+      public static var MusicPortobello:Class;
+      public static var musicPortobello:Sound;
+      
+      [Embed(source="../sfx/music/inside_tavern.mp3")]
+      public static var MusicInsideTavern:Class;
+      public static var musicInsideTavern:Sound;
+      
+      [Embed(source="../sfx/music/fishing.mp3")]
+      public static var MusicFishing:Class;
+      public static var musicFishing:Sound;
+      
+      [Embed(source="../sfx/music/fishing_fight.mp3")] // Ah yes, Fish is the game's hardest boss!
+      public static var MusicFishingFight:Class;
+      public static var musicFishingFight:Sound;
+      
+      [Embed(source="../sfx/music/butterflies.mp3")]
+      public static var MusicButterflies:Class;
+      public static var musicButterflies:Sound;
+      
+      [Embed(source="../sfx/music/ocean.mp3")]
+      public static var MusicOcean:Class;
+      public static var musicOcean:Sound;
+      
+      [Embed(source="../sfx/music/map.mp3")]
+      public static var MusicMap:Class;
+      public static var musicMap:Sound;
+      
+      [Embed(source="../sfx/music/outside_iceberg.mp3")]
+      public static var MusicOutsideIceberg:Class;
+      public static var musicOutsideIceberg:Sound;
+      
+      [Embed(source="../sfx/music/intro.mp3")]
+      public static var MusicIntro:Class;
+      public static var musicIntro:Sound;
+      
+      [Embed(source="../sfx/music/splash.mp3")]
+      public static var MusicSplash:Class;
+      public static var musicSplash:Sound;
       
       protected static var MUSIC_VOLUME:Number = 0.25;
       
@@ -637,7 +1224,7 @@ package
          super();
       }
       
-      public static function InitSounds() : void
+      public static function InitSounds() : void // Get ready for a long list of sounds!
       {
          var i:int = 0;
          soundCatBrake = new SoundCatBrake();
@@ -1007,7 +1594,7 @@ package
          PlayMusic(LastMusicName,-1,_force);
       }
       
-      public static function PlayLevelMusic() : void
+      public static function PlayLevelMusic() : void // best function ever
       {
       }
       
@@ -1059,7 +1646,7 @@ package
             musicChannel.soundTransform = _musicTransform;
          }
          LastMusicName = musicName;
-         switch(musicName)
+         switch(musicName) // What the heck...
          {
             case "outside_rain":
                musicChannel = musicOutsideRain.play(_time,10000);
@@ -1389,7 +1976,7 @@ package
          var total_attempts:int = 0;
          if(Utils.SoundOn)
          {
-            switch(soundName)
+            switch(soundName) // what the heck...
             {
                case "logo":
                   if(sounds[0] <= 0)

@@ -9,17 +9,43 @@
         "default-size": {
             "width": 1334,
             "height": 750
-        }
+        },
+		"library-path": [
+			"extensions/androidx.appcompat.ane",
+			"extensions/androidx.browser.ane",
+			"extensions/androidx.constraintlayout.ane",
+			"extensions/androidx.core.ane",
+			"extensions/androidx.room.ane",
+			"extensions/androidx.vectordrawable.ane",
+			"extensions/androidx.work.ane",
+			"extensions/com.distriqt.Adverts.ane",
+			"extensions/com.distriqt.Application.ane",
+			"extensions/com.distriqt.Core.ane",
+			"extensions/com.distriqt.GameServices.ane",
+			"extensions/com.distriqt.InAppBilling.ane",
+			"extensions/com.distriqt.playservices.Ads.ane",
+			"extensions/com.distriqt.playservices.AdsIdentifier.ane",
+			"extensions/com.distriqt.playservices.AppSet.ane",
+			"extensions/com.distriqt.playservices.Auth.ane",
+			"extensions/com.distriqt.playservices.Base.ane",
+			"extensions/com.distriqt.playservices.Drive.ane",
+			"extensions/com.distriqt.playservices.Games.ane",
+			"extensions/com.google.code.gson.ane",
+			"extensions/com.jetbrains.kotlin.ane"
+		]
     },
     "mainClass": "src_no_sound_system_1_2_NEW_ADS/Main",
     "application": "src_no_sound_system_1_2_NEW_ADS/application.xml",
     "airOptions": {
+		"extdir": [
+			"extensions"
+		],
         "windows": {
             "target": "bundle",
             "output": "bin/CatGamePaws_android",
             "signingOptions": {
                 "storetype": "pkcs12",
-                "keystore": "You have to specify your own certificate. This can help: https://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7f74.html"
+                "keystore": "cert.p12"
             }
         },
         "ios": {
@@ -32,76 +58,6 @@
                 "keystore": "cert.p12",
                 "provisioning-profile": "provision.mobileprovision"
             }
-        },
-        "files": [
-            {
-                "file": "AppIconsForPublish/Icon.png",
-                "path": "AppIconsForPublish/Icon.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon@2x.png",
-                "path": "AppIconsForPublish/Icon@2x.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon@2x-Large.png",
-                "path": "AppIconsForPublish/Icon@2x-Large.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-167.png",
-                "path": "AppIconsForPublish/Icon-167.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Ipad-76.png",
-                "path": "AppIconsForPublish/Icon-Ipad-76.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Ipad-152.png",
-                "path": "AppIconsForPublish/Icon-Ipad-152.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Iphone-60.png",
-                "path": "AppIconsForPublish/Icon-Iphone-60.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Iphone-87.png",
-                "path": "AppIconsForPublish/Icon-Iphone-87.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Iphone-120.png",
-                "path": "AppIconsForPublish/Icon-Iphone-120.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Iphone-180.png",
-                "path": "AppIconsForPublish/Icon-Iphone-180.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Large.png",
-                "path": "AppIconsForPublish/Icon-Large.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Small.png",
-                "path": "AppIconsForPublish/Icon-Small.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Small@2x.png",
-                "path": "AppIconsForPublish/Icon-Small@2x.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Small-40.png",
-                "path": "AppIconsForPublish/Icon-Small-40.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Small-50.png",
-                "path": "AppIconsForPublish/Icon-Small-50.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Small-50@2x.png",
-                "path": "AppIconsForPublish/Icon-Small-50@2x.png"
-            },
-            {
-                "file": "AppIconsForPublish/Icon-Small-80.png",
-                "path": "AppIconsForPublish/Icon-Small-80.png"
-            }
-        ]
+        }
     }
 }

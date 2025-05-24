@@ -708,7 +708,7 @@ package entities.enemies
          sprite.gfxHandle().gfxHandleClip().gotoAndPlay(1);
          counter1 = counter2 = 0;
          xVel = yVel = 0;
-         if(this.rope = null)
+         if(this.rope == null)
          {
             xPos = this.rope.xPos;
          }

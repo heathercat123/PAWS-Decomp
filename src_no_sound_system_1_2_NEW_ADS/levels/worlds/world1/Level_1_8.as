@@ -19,17 +19,23 @@ package levels.worlds.world1
    public class Level_1_8 extends Level
    {
       
-      public static const Map_1_8_1:Class = Level_1_8_Map_1_8_1;
+	  [Embed(source="../../../../maps/world_1/1_8_1.xml", mimeType="application/octet-stream")]
+      public static const Map_1_8_1:Class;
+
+	  [Embed(source="../../../../maps/world_1/1_8_2.xml", mimeType="application/octet-stream")]
+      public static const Map_1_8_2:Class;
       
-      public static const Map_1_8_2:Class = Level_1_8_Map_1_8_2;
+	  [Embed(source="../../../../maps/world_1/1_8_3.xml", mimeType="application/octet-stream")]
+      public static const Map_1_8_3:Class;
       
-      public static const Map_1_8_3:Class = Level_1_8_Map_1_8_3;
+	  [Embed(source="../../../../maps/world_1/1_8_4.xml", mimeType="application/octet-stream")]
+      public static const Map_1_8_4:Class;
+
+	  [Embed(source="../../../../maps/world_1/1_8_5.xml", mimeType="application/octet-stream")]
+      public static const Map_1_8_5:Class;
       
-      public static const Map_1_8_4:Class = Level_1_8_Map_1_8_4;
-      
-      public static const Map_1_8_5:Class = Level_1_8_Map_1_8_5;
-      
-      public static const Map_1_8_6:Class = Level_1_8_Map_1_8_6;
+	  [Embed(source="../../../../maps/world_1/1_8_6.xml", mimeType="application/octet-stream")]
+      public static const Map_1_8_6:Class;
       
       public var CUTSCENE_FLAG_1:Boolean;
       

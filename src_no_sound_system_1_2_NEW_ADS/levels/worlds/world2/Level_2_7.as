@@ -11,7 +11,7 @@ package levels.worlds.world2
    import levels.backgrounds.BackgroundsManager;
    import levels.cameras.*;
    import levels.cameras.behaviours.*;
-   import levels.cameras.world_1.*;
+   import levels.cameras.world_1.*; // Unused, doesn't exist, causes compiler warning
    import levels.collisions.*;
    import levels.cutscenes.*;
    import levels.cutscenes.world1.*;
@@ -20,15 +20,20 @@ package levels.worlds.world2
    public class Level_2_7 extends Level
    {
       
-      public static const Map_2_7_1:Class = Level_2_7_Map_2_7_1;
+      [Embed(source="../../../../maps/world_2/2_7_1.xml", mimeType="application/octet-stream")]
+      public static const Map_2_7_1:Class;
       
-      public static const Map_2_7_2:Class = Level_2_7_Map_2_7_2;
+      [Embed(source="../../../../maps/world_2/2_7_2.xml", mimeType="application/octet-stream")]
+      public static const Map_2_7_2:Class;
       
-      public static const Map_2_7_3:Class = Level_2_7_Map_2_7_3;
+      [Embed(source="../../../../maps/world_2/2_7_3.xml", mimeType="application/octet-stream")]
+      public static const Map_2_7_3:Class;
       
-      public static const Map_2_7_4:Class = Level_2_7_Map_2_7_4;
+      [Embed(source="../../../../maps/world_2/2_7_4.xml", mimeType="application/octet-stream")]
+      public static const Map_2_7_4:Class;
       
-      public static const Map_2_7_5:Class = Level_2_7_Map_2_7_5;
+      [Embed(source="../../../../maps/world_2/2_7_5.xml", mimeType="application/octet-stream")]
+      public static const Map_2_7_5:Class;
       
       public var CUTSCENE_FLAG_1:Boolean;
       

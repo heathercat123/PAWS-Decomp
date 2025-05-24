@@ -11,7 +11,7 @@ package levels.worlds.world2
    import levels.backgrounds.BackgroundsManager;
    import levels.cameras.*;
    import levels.cameras.behaviours.*;
-   import levels.cameras.world_1.*;
+   import levels.cameras.world_1.*; // Unused, doesn't exist, causes compiler warning
    import levels.collisions.*;
    import levels.cutscenes.*;
    import levels.cutscenes.world1.*;
@@ -21,21 +21,29 @@ package levels.worlds.world2
    public class Level_2_8 extends Level
    {
       
-      public static const Map_2_8_1:Class = Level_2_8_Map_2_8_1;
+      [Embed(source="../../../../maps/world_2/2_8_1.xml", mimeType="application/octet-stream")]
+      public static const Map_2_8_1:Class;
       
-      public static const Map_2_8_2:Class = Level_2_8_Map_2_8_2;
+      [Embed(source="../../../../maps/world_2/2_8_2.xml", mimeType="application/octet-stream")]
+      public static const Map_2_8_2:Class;
       
-      public static const Map_2_8_3:Class = Level_2_8_Map_2_8_3;
+      [Embed(source="../../../../maps/world_2/2_8_3.xml", mimeType="application/octet-stream")]
+      public static const Map_2_8_3:Class;
       
-      public static const Map_2_8_4:Class = Level_2_8_Map_2_8_4;
+      [Embed(source="../../../../maps/world_2/2_8_4.xml", mimeType="application/octet-stream")]
+      public static const Map_2_8_4:Class;
       
-      public static const Map_2_8_5:Class = Level_2_8_Map_2_8_5;
+      [Embed(source="../../../../maps/world_2/2_8_5.xml", mimeType="application/octet-stream")]
+      public static const Map_2_8_5:Class;
       
-      public static const Map_2_8_6:Class = Level_2_8_Map_2_8_6;
+      [Embed(source="../../../../maps/world_2/2_8_6.xml", mimeType="application/octet-stream")]
+      public static const Map_2_8_6:Class;
       
-      public static const Map_2_8_7:Class = Level_2_8_Map_2_8_7;
+      [Embed(source="../../../../maps/world_2/2_8_7.xml", mimeType="application/octet-stream")]
+      public static const Map_2_8_7:Class;
       
-      public static const Map_2_8_8:Class = Level_2_8_Map_2_8_8;
+      [Embed(source="../../../../maps/world_2/2_8_8.xml", mimeType="application/octet-stream")]
+      public static const Map_2_8_8:Class;
       
       public var CUTSCENE_FLAG_1:Boolean;
       

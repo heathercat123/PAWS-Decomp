@@ -548,7 +548,7 @@ package interfaces.panels.shop
          {
             if(this.itemButtons[i] != null)
             {
-               if(_inventory_index == int(Button(this.itemButtons[i]).index))
+               if(_inventory_index == int(Button(this.itemButtons[i])))
                {
                   array_index = i;
                }
@@ -565,7 +565,7 @@ package interfaces.panels.shop
          {
             if(this.itemButtons[i] != null)
             {
-               if(_inventory_index == int(Button(this.itemButtons[i]).index))
+               if(_inventory_index == int(Button(this.itemButtons[i])))
                {
                   array_index = i;
                }

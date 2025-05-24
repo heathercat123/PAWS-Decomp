@@ -9,19 +9,26 @@ package
       
       public static var dictionary:Dictionary;
       
-      public static const StringXML:Class = StringsManager_StringXML;
+	  [Embed(source="../strings/english.xml", mimeType="application/octet-stream")]
+      public static const StringXML:Class;
       
-      public static const StringXML_it:Class = StringsManager_StringXML_it;
+	  [Embed(source="../strings/italian.xml", mimeType="application/octet-stream")]
+      public static const StringXML_it:Class;
       
-      public static const StringXML_de:Class = StringsManager_StringXML_de;
+	  [Embed(source="../strings/deutsch.xml", mimeType="application/octet-stream")]
+      public static const StringXML_de:Class;
       
-      public static const StringXML_es:Class = StringsManager_StringXML_es;
+	  [Embed(source="../strings/spanish.xml", mimeType="application/octet-stream")]
+      public static const StringXML_es:Class;
       
-      public static const StringXML_fr:Class = StringsManager_StringXML_fr;
+	  [Embed(source="../strings/french.xml", mimeType="application/octet-stream")]
+      public static const StringXML_fr:Class;
       
-      public static const StringXML_pt:Class = StringsManager_StringXML_pt;
+	  [Embed(source="../strings/portuguese.xml", mimeType="application/octet-stream")]
+      public static const StringXML_pt:Class;
       
-      public static const StringXML_ru:Class = StringsManager_StringXML_ru;
+	  [Embed(source="../strings/russian.xml", mimeType="application/octet-stream")]
+      public static const StringXML_ru:Class;
       
       public function StringsManager()
       {

@@ -12,7 +12,7 @@ package levels.worlds.world1
       
       protected var delay__:int = 0;
       
-      public function TestLevel()
+      public function TestLevel() // Nice sct1 remnant! It's kind of a shame how the level itself has been removed in PAWS...
       {
          super();
          super.init();

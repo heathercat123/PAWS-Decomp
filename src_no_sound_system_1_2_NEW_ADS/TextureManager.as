@@ -33,57 +33,83 @@ package
       
       public static var map1TextureAtlas:TextureAtlas;
       
-      private static const SpriteSheet:Class = TextureManager_SpriteSheet;
+	  [Embed(source="../gfx/textures/entities.png")]
+      private static const SpriteSheet:Class;
       
-      public static const SpriteSheetXML:Class = TextureManager_SpriteSheetXML;
+	  [Embed(source="../gfx/textures/entities.xml", mimeType="application/octet-stream")]
+      public static const SpriteSheetXML:Class;
       
-      private static const HudSpriteSheet:Class = TextureManager_HudSpriteSheet;
+	  [Embed(source="../gfx/textures/hud_texture.png")]
+      private static const HudSpriteSheet:Class;
       
-      public static const HudSpriteSheetXML:Class = TextureManager_HudSpriteSheetXML;
+	  [Embed(source="../gfx/textures/hud_texture.xml", mimeType="application/octet-stream")]
+      public static const HudSpriteSheetXML:Class;
       
-      private static const FishingSpriteSheet:Class = TextureManager_FishingSpriteSheet;
+	  [Embed(source="../gfx/textures/fishing.png")]
+      private static const FishingSpriteSheet:Class;
       
-      public static const FishingSpriteSheetXML:Class = TextureManager_FishingSpriteSheetXML;
+	  [Embed(source="../gfx/textures/fishing.xml", mimeType="application/octet-stream")]
+      public static const FishingSpriteSheetXML:Class;
       
-      private static const MinigamesSpriteSheet:Class = TextureManager_MinigamesSpriteSheet;
+	  [Embed(source="../gfx/textures/minigames.png")]
+      private static const MinigamesSpriteSheet:Class;
       
-      public static const MinigamesSpriteSheetXML:Class = TextureManager_MinigamesSpriteSheetXML;
+	  [Embed(source="../gfx/textures/minigames.xml", mimeType="application/octet-stream")]
+      public static const MinigamesSpriteSheetXML:Class;
       
-      private static const Gacha1SpriteSheet:Class = TextureManager_Gacha1SpriteSheet;
+	  [Embed(source="../gfx/textures/gacha1_texture.png")]
+      private static const Gacha1SpriteSheet:Class;
       
-      public static const Gacha1SpriteSheetXML:Class = TextureManager_Gacha1SpriteSheetXML;
+	  [Embed(source="../gfx/textures/gacha1_texture.xml", mimeType="application/octet-stream")]
+      public static const Gacha1SpriteSheetXML:Class;
       
-      private static const Gacha2SpriteSheet:Class = TextureManager_Gacha2SpriteSheet;
+	  [Embed(source="../gfx/textures/gacha2_texture.png")]
+      private static const Gacha2SpriteSheet:Class;
       
-      public static const Gacha2SpriteSheetXML:Class = TextureManager_Gacha2SpriteSheetXML;
+	  [Embed(source="../gfx/textures/gacha2_texture.xml", mimeType="application/octet-stream")]
+      public static const Gacha2SpriteSheetXML:Class;
       
-      private static const Gacha3SpriteSheet:Class = TextureManager_Gacha3SpriteSheet;
+	  [Embed(source="../gfx/textures/gacha3_texture.png")]
+      private static const Gacha3SpriteSheet:Class;
       
-      public static const Gacha3SpriteSheetXML:Class = TextureManager_Gacha3SpriteSheetXML;
+	  [Embed(source="../gfx/textures/gacha3_texture.xml", mimeType="application/octet-stream")]
+      public static const Gacha3SpriteSheetXML:Class ;
       
-      private static const Gacha4SpriteSheet:Class = TextureManager_Gacha4SpriteSheet;
+	  [Embed(source="../gfx/textures/gacha4_texture.png")]
+      private static const Gacha4SpriteSheet:Class;
       
-      public static const Gacha4SpriteSheetXML:Class = TextureManager_Gacha4SpriteSheetXML;
+	  [Embed(source="../gfx/textures/gacha4_texture.xml", mimeType="application/octet-stream")]
+      public static const Gacha4SpriteSheetXML:Class;
       
-      private static const Gacha5SpriteSheet:Class = TextureManager_Gacha5SpriteSheet;
+	  [Embed(source="../gfx/textures/gacha5_texture.png")]
+      private static const Gacha5SpriteSheet:Class;
       
-      public static const Gacha5SpriteSheetXML:Class = TextureManager_Gacha5SpriteSheetXML;
+	  [Embed(source="../gfx/textures/gacha5_texture.xml", mimeType="application/octet-stream")]
+      public static const Gacha5SpriteSheetXML:Class;
       
-      private static const Group1Sheet:Class = TextureManager_Group1Sheet;
+	  [Embed(source="../gfx/textures/group_1.png")]
+      private static const Group1Sheet:Class;
       
-      public static const Group1XML:Class = TextureManager_Group1XML;
+	  [Embed(source="../gfx/textures/group_1.xml", mimeType="application/octet-stream")]
+      public static const Group1XML:Class;
       
-      private static const IntroSpriteSheet:Class = TextureManager_IntroSpriteSheet;
+	  [Embed(source="../gfx/textures/intro_texture.png")]
+      private static const IntroSpriteSheet:Class;
       
-      public static const IntroSpriteSheetXML:Class = TextureManager_IntroSpriteSheetXML;
+	  [Embed(source="../gfx/textures/intro_texture.xml", mimeType="application/octet-stream")]
+      public static const IntroSpriteSheetXML:Class;
       
-      private static const Intro2SpriteSheet:Class = TextureManager_Intro2SpriteSheet;
+	  [Embed(source="../gfx/textures/intro_texture_2.png")]
+      private static const Intro2SpriteSheet:Class;
       
-      public static const Intro2SpriteSheetXML:Class = TextureManager_Intro2SpriteSheetXML;
+	  [Embed(source="../gfx/textures/intro_texture_2.xml", mimeType="application/octet-stream")]
+      public static const Intro2SpriteSheetXML:Class;
       
-      private static const Map1Sheet:Class = TextureManager_Map1Sheet;
+	  [Embed(source="../gfx/textures/map_texture.png")]
+      private static const Map1Sheet:Class;
       
-      public static const Map1XML:Class = TextureManager_Map1XML;
+	  [Embed(source="../gfx/textures/map_texture.xml", mimeType="application/octet-stream")]
+      public static const Map1XML:Class;
       
       public function TextureManager()
       {

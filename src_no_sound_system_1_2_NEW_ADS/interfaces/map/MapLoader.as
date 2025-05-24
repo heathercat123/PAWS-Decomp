@@ -6,10 +6,12 @@ package interfaces.map
    
    public class MapLoader
    {
+   
+      [Embed(source="../../../maps/world_map/world_map_1.xml", mimeType="application/octet-stream")]
+      public static const World_Map_1:Class;
       
-      public static const World_Map_1:Class = MapLoader_World_Map_1;
-      
-      public static const World_Map_2:Class = MapLoader_World_Map_2;
+      [Embed(source="../../../maps/world_map/world_map_2.xml", mimeType="application/octet-stream")]
+      public static const World_Map_2:Class;
       
       public var mapTiles:Array;
       

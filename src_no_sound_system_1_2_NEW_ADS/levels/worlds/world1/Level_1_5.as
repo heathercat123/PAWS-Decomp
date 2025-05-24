@@ -24,31 +24,44 @@ package levels.worlds.world1
    public class Level_1_5 extends Level
    {
       
-      public static const Map_1_5_1:Class = Level_1_5_Map_1_5_1;
+	  [Embed(source="../../../../maps/world_1/1_5_1.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_1:Class;
       
-      public static const Map_1_5_2:Class = Level_1_5_Map_1_5_2;
+	  [Embed(source="../../../../maps/world_1/1_5_2.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_2:Class;
+
+	  [Embed(source="../../../../maps/world_1/1_5_3.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_3:Class;
       
-      public static const Map_1_5_3:Class = Level_1_5_Map_1_5_3;
+	  [Embed(source="../../../../maps/world_1/1_5_4.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_4:Class;
       
-      public static const Map_1_5_4:Class = Level_1_5_Map_1_5_4;
+	  [Embed(source="../../../../maps/world_1/1_5_5.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_5:Class;
       
-      public static const Map_1_5_5:Class = Level_1_5_Map_1_5_5;
+	  [Embed(source="../../../../maps/world_1/1_5_6.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_6:Class;
       
-      public static const Map_1_5_6:Class = Level_1_5_Map_1_5_6;
+	  [Embed(source="../../../../maps/world_1/1_5_7.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_7:Class;
       
-      public static const Map_1_5_7:Class = Level_1_5_Map_1_5_7;
+	  [Embed(source="../../../../maps/world_1/1_5_8.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_8:Class;
       
-      public static const Map_1_5_8:Class = Level_1_5_Map_1_5_8;
+	  [Embed(source="../../../../maps/world_1/1_5_9.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_9:Class;
       
-      public static const Map_1_5_9:Class = Level_1_5_Map_1_5_9;
+	  [Embed(source="../../../../maps/world_1/1_5_10.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_10:Class;
       
-      public static const Map_1_5_10:Class = Level_1_5_Map_1_5_10;
+	  [Embed(source="../../../../maps/world_1/1_5_11.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_11:Class;
       
-      public static const Map_1_5_11:Class = Level_1_5_Map_1_5_11;
+	  [Embed(source="../../../../maps/world_1/1_5_12.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_12:Class;
       
-      public static const Map_1_5_12:Class = Level_1_5_Map_1_5_12;
-      
-      public static const Map_1_5_13:Class = Level_1_5_Map_1_5_13;
+	  [Embed(source="../../../../maps/world_1/1_5_13.xml", mimeType="application/octet-stream")]
+      public static const Map_1_5_13:Class;
       
       public var CUTSCENE_FLAG_1:Boolean;
       

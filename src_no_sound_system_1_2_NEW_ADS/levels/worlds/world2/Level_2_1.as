@@ -18,13 +18,17 @@ package levels.worlds.world2
    public class Level_2_1 extends Level
    {
       
-      public static const Map_2_1_1:Class = Level_2_1_Map_2_1_1;
+	  [Embed(source="../../../../maps/world_2/2_1_1.xml", mimeType="application/octet-stream")]
+      public static const Map_2_1_1:Class;
       
-      public static const Map_2_1_2:Class = Level_2_1_Map_2_1_2;
+	  [Embed(source="../../../../maps/world_2/2_1_2.xml", mimeType="application/octet-stream")]
+      public static const Map_2_1_2:Class;
       
-      public static const Map_2_1_3:Class = Level_2_1_Map_2_1_3;
+	  [Embed(source="../../../../maps/world_2/2_1_3.xml", mimeType="application/octet-stream")]
+      public static const Map_2_1_3:Class;
       
-      public static const Map_2_1_4:Class = Level_2_1_Map_2_1_4;
+	  [Embed(source="../../../../maps/world_2/2_1_4.xml", mimeType="application/octet-stream")]
+      public static const Map_2_1_4:Class;
       
       public var CUTSCENE_FLAG_1:Boolean;
       

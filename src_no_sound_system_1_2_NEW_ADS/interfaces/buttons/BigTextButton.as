@@ -13,9 +13,9 @@ package interfaces.buttons
       
       public var HEIGHT:int;
       
-      protected var upTexture:RenderTexture = this.createUpTexture();
+      protected var upTexture:RenderTexture;
       
-      protected var downTexture:RenderTexture = this.createDownTexture();
+      protected var downTexture:RenderTexture;
       
       protected var buy_text:GameText;
       
@@ -23,6 +23,8 @@ package interfaces.buttons
       {
          this.WIDTH = _WIDTH;
          this.HEIGHT = _HEIGHT;
+         this.upTexture = this.createUpTexture();
+         this.downTexture = this.createDownTexture();
          super(this.upTexture,"",this.downTexture);
          this.buy_text = new GameText(_text,GameText.TYPE_BIG);
          this.buy_text.pivotX = int(this.buy_text.WIDTH * 0.5);
