@@ -1,6 +1,6 @@
 # PAWS-Decomp
 
-Decompilation of the 2023 mobile game Super Cat Tales: PAWS. This is the Android version 1.0.64.
+Decompilation of the 2023 mobile game Super Cat Tales: PAWS. This is Android version 1.0.64.
 
 ## Building
 
