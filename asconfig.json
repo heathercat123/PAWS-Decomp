@@ -1,5 +1,5 @@
 {
-    "config": "airmobile",
+    "config": "air",
     "compilerOptions": {
         "source-path": [
             "src_no_sound_system_1_2_NEW_ADS"
@@ -42,21 +42,38 @@
 		],
         "windows": {
             "target": "bundle",
-            "output": "bin/CatGamePaws_android",
+            "output": "bin/CatGamePaws_windows",
             "signingOptions": {
                 "storetype": "pkcs12",
-                "keystore": "cert.p12"
+                "keystore": "newcert.p12"
+            }
+        },
+        "mac": {
+            "target": "bundle",
+            "output": "bin/CatGamePaws_mac.app",
+            "signingOptions": {
+                "storetype": "pkcs12",
+                "keystore": "newcert.p12"
             }
         },
         "ios": {
-            "output": "bin/CatGamePaws_android.ipa",
+            "output": "bin/CatGamePaws.ipa",
 			"listen": true,
             "connect": true,
             "target": "ipa-debug",
             "signingOptions": {
                 "storetype": "pkcs12",
-                "keystore": "cert.p12",
+                "keystore": "newcert.p12",
                 "provisioning-profile": "provision.mobileprovision"
+            }
+        },
+        "android": {
+			"listen": true,
+            "connect": true,
+            "output": "bin/CatGamePaws_android.apk",
+            "signingOptions": {
+                "storetype": "pkcs12",
+                "keystore": "newcert.p12"
             }
         },
 		"files": [
