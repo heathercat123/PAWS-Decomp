@@ -17,4 +17,4 @@ NOTE: These instrucions are made for VSCode ONLY. To compile from the command li
 1. Set the AIR_HOME environment variable to the path of your AIR sdk.
 1. Open the directory of the decomp in Visual Studio.
 1. Go to the **Terminal** menu and select **Run Build Task...**. Alternatively, use the Ctrl+Shift+B keyboard shortcut (or Command+Shift+B on macOS).
-1. Select one of the options and let it compile! If it complains about a certificate, read this and set asconfig.json accordingly: https://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7f74.html
+1. Select one of the options and let it compile! If it complains about a certificate, read [this](https://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7f74.html) and set asconfig.json accordingly
