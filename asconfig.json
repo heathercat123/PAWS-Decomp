@@ -58,6 +58,36 @@
                 "keystore": "cert.p12",
                 "provisioning-profile": "provision.mobileprovision"
             }
-        }
+        },
+		"files": [
+			{
+				"file": "AppIconsForPublish/36x36.png",
+				"path": "AppIconsForPublish/36x36.png"
+			},
+			{
+				"file": "AppIconsForPublish/48x48.png",
+				"path": "AppIconsForPublish/48x48.png"
+			},
+			{
+				"file": "AppIconsForPublish/72x72.png",
+				"path": "AppIconsForPublish/72x72.png"
+			},
+			{
+				"file": "AppIconsForPublish/96x96.png",
+				"path": "AppIconsForPublish/96x96.png"
+			},
+			{
+				"file": "AppIconsForPublish/144x144.png",
+				"path": "AppIconsForPublish/144x144.png"
+			},
+			{
+				"file": "AppIconsForPublish/192x192.png",
+				"path": "AppIconsForPublish/192x192.png"
+			},
+			{
+				"file": "AppIconsForPublish/512x512.png",
+				"path": "AppIconsForPublish/512x512.png"
+			}
+		]
     }
 }
